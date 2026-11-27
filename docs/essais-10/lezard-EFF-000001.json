@@ -1,0 +1,1616 @@
+{
+  "id": "EFF-000001",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Podarcis muralis",
+    "auteur": "(Laurenti, 1768)",
+    "annee": 1768,
+    "rang": "ES",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Chordata",
+      "ordre": "Squamata",
+      "famille": "Lacertidae"
+    },
+    "noms_vernaculaires": [
+      "Lézard des murailles",
+      "Common Wall Lizard"
+    ],
+    "synonymes": [
+      {
+        "nom": "Lacerta brongniardii",
+        "auteur": "Daudin, 1802",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta incerta",
+        "auteur": "Terentjev, 1923",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta lateralis",
+        "auteur": "Merrem, 1820",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta maculata",
+        "auteur": "Daudin, 1802",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta merremia",
+        "auteur": "Risso, 1827",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta muralis var. oyensis",
+        "auteur": "Blanchard, 1891",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta muralis occidentalis",
+        "auteur": "Knoepffler & Sochurek in Sochurek, 1956",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lacerta muralis",
+        "auteur": "(Laurenti, 1768)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Podarcis muralis brongniardii",
+        "auteur": "(Daudin, 1802)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Podarcis muralis merremia",
+        "auteur": "(Risso, 1827)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Podarcis muralis muralis",
+        "auteur": "(Laurenti, 1768)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Podarcis muralis occidentalis",
+        "auteur": "Knoepffler & Sochurek in Sochurek, 1956",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Podarcis muralis oyensis",
+        "auteur": "(Blanchard, 1891)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Seps muralis",
+        "auteur": "Laurenti, 1768",
+        "source": "TAXREF v18"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "77756",
+        "cd_ref": "77756",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "4KPJ3",
+        "jeu": "3LR",
+        "version": "2026-11-11"
+      },
+      "gbif": {
+        "usageKey": 2469188,
+        "statut": "ACCEPTED"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Podarcis muralis (Laurenti, 1768), rang espèce, nom retenu (CD_NOM = CD_REF = 77756) ; combinaison originale Seps muralis Laurenti, 1768 (CD_BA 77759)",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt, ligne CD_NOM 77756)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/77756",
+        "date_ou_version": "TAXREF v18 (2025)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      },
+      {
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR (API nameusage/search)",
+        "origine": "Catalogue of Life, version 2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Podarcis%20muralis",
+        "date_ou_version": "2026-11-11",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "niveau": "reference",
+        "valeur": "Podarcis muralis (Laurenti, 1768), statut accepté, identifiant 4KPJ3",
+        "etat": "documente"
+      },
+      {
+        "source": "GBIF, API species/match",
+        "origine": "GBIF Backbone Taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Podarcis%20muralis",
+        "date_ou_version": "consultation du 2026-11-27",
+        "reutilisation": {
+          "licence": "CC BY 4.0 (backbone)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "niveau": "reference",
+        "valeur": "Podarcis muralis (Laurenti, 1768), rang espèce, statut ACCEPTED, usageKey 2469188 (correspondance exacte)",
+        "etat": "documente"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "Colonne FR (France hexagonale et Corse) : code P, « Présent (indigène ou indéterminé) »",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt, ligne CD_NOM 77756)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/77756",
+        "date_ou_version": "TAXREF v18 (2025)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : rang ES, nom accepté, code FR = P (Présent, indigène ou indéterminé), code admis par la table de correspondance v18 ; décision decider.py : creer_fiche",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune source de référence lisible pour la morphologie (Atlas SHF 2012, Reptile Database, Vacher & Geniez 2010 non accessibles) : champs renseignés par compléments seulement.",
+      "prochaine_piste": "Guillaume C.-P. (2012) in Lescure & de Massary, Atlas des amphibiens et reptiles de France ; The Reptile Database ; Vacher & Geniez (2010).",
+      "champs": {
+        "longueur_museau_cloaque": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Corps (museau-cloaque) de 4,8 à 6,9 cm chez l'adulte",
+              "unite": "cm",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Corps (museau-cloaque) de 4,8 à 6,9 cm chez l'adulte",
+          "niveau": "complement"
+        },
+        "longueur_totale": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "aucun ouvrage cité pour cette phrase",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Environ 20 cm queue comprise pour un mâle, 25 cm au plus ; près de 18 cm pour une femelle ; la queue intacte fait à peu près les deux tiers de la longueur",
+              "unite": "cm",
+              "etat": "incertain"
+            }
+          ],
+          "valeur_synthese": "Environ 20 cm queue comprise pour un mâle, 25 cm au plus ; près de 18 cm pour une femelle ; la queue intacte fait à peu près les deux tiers de la longueur",
+          "niveau": "complement"
+        },
+        "dessin_et_coloration": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Coronella.free.fr, « le Lézard des murailles » (octobre 2005), cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Dos toujours plus pâle que les flancs, qui portent une large bande foncée (souvent brune ou rousse) bordée de fines lignes claires ; une petite marque noire se trouve fréquemment au-dessus de l'insertion du membre antérieur ; des écailles bleues alignées au bas des flancs, en nombre très variable, sont typiques de l'espèce",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Dos toujours plus pâle que les flancs, qui portent une large bande foncée (souvent brune ou rousse) bordée de fines lignes claires ; une petite marque noire se trouve fréquemment au-dessus de l'insertion du membre antérieur ; des écailles bleues alignées au bas des flancs, en nombre très variable, sont typiques de l'espèce",
+          "niveau": "complement"
+        },
+        "dimorphisme_sexuel": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Coronella.free.fr, « le Lézard des murailles » (octobre 2005), cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Femelles et jeunes ont surtout un patron rayé (dos uni brun ou cuivré, ligne vertébrale noire fréquente mais interrompue) ; les mâles sont nettement plus marbrés, avec une tête plus massive",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Femelles et jeunes ont surtout un patron rayé (dos uni brun ou cuivré, ligne vertébrale noire fréquente mais interrompue) ; les mâles sont nettement plus marbrés, avec une tête plus massive",
+          "niveau": "complement"
+        },
+        "polymorphisme_ventral": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipedia en anglais, article « Common wall lizard » (Podarcis muralis), texte source (action=raw)",
+              "origine": "Sacchi R. et al. (2013), Zoologischer Anzeiger 252(4) : 431-439, cité par Wikipedia",
+              "url": "https://en.wikipedia.org/w/index.php?title=Podarcis_muralis&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Six morphes de couleur de gorge et de ventre : trois unis (blanc, jaune, orange-rouge) et trois mixtes (blanc-jaune, blanc-rouge, jaune-rouge) ; la coloration ventrale est moins marquée chez les femelles",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Six morphes de couleur de gorge et de ventre : trois unis (blanc, jaune, orange-rouge) et trois mixtes (blanc-jaune, blanc-rouge, jaune-rouge) ; la coloration ventrale est moins marquée chez les femelles",
+          "niveau": "complement"
+        },
+        "especes_proches": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Berroneau M., fiche technique d'identification des lézards « gris » d'Aquitaine (Faune Aquitaine), et Coronella.free.fr (2005), cités par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Confusions possibles en France avec le Lézard catalan (Podarcis liolepis, silhouette plus fine, iris plus pâle, taches de gorge mieux délimitées), le Lézard vivipare et les Iberolacerta pyrénéens (haute altitude)",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Confusions possibles en France avec le Lézard catalan (Podarcis liolepis, silhouette plus fine, iris plus pâle, taches de gorge mieux délimitées), le Lézard vivipare et les Iberolacerta pyrénéens (haute altitude)",
+          "niveau": "complement"
+        },
+        "criteres_ecaillure": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Coronella.free.fr (2005), § identification par l'écaillure, cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Écaille massétérique en général grande et arrondie, cernée de 35 à 55 petites temporales (55 à plus de 65 chez le Lézard catalan, sans massétérique nette) ; l'internasale reste séparée de la rostrale par les supranasales, ce qui l'écarte des Iberolacerta",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Écaille massétérique en général grande et arrondie, cernée de 35 à 55 petites temporales (55 à plus de 65 chez le Lézard catalan, sans massétérique nette) ; l'internasale reste séparée de la rostrale par les supranasales, ce qui l'écarte des Iberolacerta",
+          "niveau": "complement"
+        },
+        "queue_regeneree": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Chasse-nature-Occitanie, « Les lézards » (PDF), et Quel est cet animal ? (2020), cités par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Une queue perdue par autotomie repousse plus courte, d'un gris sombre uniforme, avec un axe cartilagineux à la place des vertèbres ; elle est parfois double",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Une queue perdue par autotomie repousse plus courte, d'un gris sombre uniforme, avec un axe cartilagineux à la place des vertèbres ; elle est parfois double",
+          "niveau": "complement"
+        }
+      }
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "justification": "Présence nationale établie par TAXREF ; aire détaillée (atlas SHF, INPN) non accessible.",
+      "prochaine_piste": "Cartes INPN / OpenObs dès leur remise en ligne ; Atlas SHF 2012 ; vérifier l'absence en Corse dans une source de référence.",
+      "champs": {
+        "statut_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt, ligne CD_NOM 77756 et lignes des synonymes)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/77756",
+              "date_ou_version": "TAXREF v18 (2025)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Code P (présent, indigène ou indéterminé) dans la colonne FR (Hexagone et Corse confondus) ; aucun taxon infraspécifique retenu",
+              "territoire": "France métropolitaine, Corse comprise",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Code P (présent, indigène ou indéterminé) dans la colonne FR (Hexagone et Corse confondus) ; aucun taxon infraspécifique retenu",
+          "niveau": "reference"
+        },
+        "aire_francaise": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Coronella.free.fr, « le Lézard des murailles » (octobre 2005), cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Présent sur presque tout le territoire continental, plus rare vers le nord ; absent de Corse",
+              "territoire": "France",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Présent sur presque tout le territoire continental, plus rare vers le nord ; absent de Corse",
+          "niveau": "complement"
+        },
+        "evaluation_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF (2026). Tableaux Liste rouge reptiles et amphibiens de France hexagonale (xlsx), feuille « Espèces Reptiles terrestres »",
+              "origine": "Véron S., Massary (de) J.-C. et al. (2026), Liste rouge – Chapitre reptiles et amphibiens de France hexagonale, rapport d'évaluation (UICN Comité français, PatriNat, SHF)",
+              "url": "https://uicn.fr/wp-content/uploads/2026/10/Tableaux-Liste-rouge-reptiles-amphibiens-france-hexagonale.xlsx",
+              "date_ou_version": "septembre 2026 (troisième évaluation nationale)",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique, citation recommandée par l'éditeur)",
+                "contenu_repris": true,
+                "motif": "faits seulement, reformulés ; catégorie et codes officiels repris tels quels"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Espèce indigène évaluée dans la Liste rouge de France hexagonale 2026",
+              "territoire": "France hexagonale",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Espèce indigène évaluée dans la Liste rouge de France hexagonale 2026",
+          "niveau": "reference"
+        },
+        "aire_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipedia en anglais, article « Common wall lizard » (Podarcis muralis), texte source (action=raw)",
+              "origine": "Évaluation Liste rouge UICN (consultée par Wikipedia le 19/11/2021) et Arnold & Ovenden (2002), A field guide to the reptiles and amphibians of Britain and Europe, p. 145-147",
+              "url": "https://en.wikipedia.org/w/index.php?title=Podarcis_muralis&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Aire naturelle couvrant l'essentiel de l'Europe continentale, sauf le nord et l'extrême sud, jusqu'en Turquie",
+              "territoire": "monde",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Aire naturelle couvrant l'essentiel de l'Europe continentale, sauf le nord et l'extrême sud, jusqu'en Turquie",
+          "niveau": "complement"
+        },
+        "introductions_hors_aire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipedia en anglais, article « Common wall lizard » (Podarcis muralis), texte source (action=raw)",
+              "origine": "Évaluation Liste rouge UICN (consultée par Wikipedia le 19/11/2021)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Podarcis_muralis&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Populations introduites dans le sud de la Grande-Bretagne et en Amérique du Nord",
+              "territoire": "hors France",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Populations introduites dans le sud de la Grande-Bretagne et en Amérique du Nord",
+          "niveau": "complement"
+        }
+      }
+    },
+    "habitats": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "milieux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF (2026). Liste rouge des espèces menacées en France – Reptiles et amphibiens de France hexagonale, rapport d'évaluation (PDF, 72 p.), fiche « Podarcis muralis »",
+              "origine": "Véron S., Massary (de) J.-C. et al. (2026), Liste rouge – Chapitre reptiles et amphibiens de France hexagonale, rapport d'évaluation (UICN Comité français, PatriNat, SHF)",
+              "url": "https://uicn.fr/wp-content/uploads/2026/10/Rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale.pdf",
+              "date_ou_version": "septembre 2026 (troisième évaluation nationale)",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique, citation recommandée par l'éditeur)",
+                "contenu_repris": true,
+                "motif": "faits seulement, reformulés ; catégorie et codes officiels repris tels quels"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Espèce très plastique : milieux naturels variés (des dunes du littoral jusqu'à la montagne, y compris les rives) et milieux façonnés par l'homme (talus routiers et ferroviaires, jardins, murets et murs anciens, cimetières, décharges)",
+              "territoire": "France hexagonale",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Espèce très plastique : milieux naturels variés (des dunes du littoral jusqu'à la montagne, y compris les rives) et milieux façonnés par l'homme (talus routiers et ferroviaires, jardins, murets et murs anciens, cimetières, décharges)",
+          "niveau": "reference"
+        },
+        "altitude": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF (2026). Liste rouge des espèces menacées en France – Reptiles et amphibiens de France hexagonale, rapport d'évaluation (PDF, 72 p.), fiche « Podarcis muralis »",
+              "origine": "Véron S., Massary (de) J.-C. et al. (2026), Liste rouge – Chapitre reptiles et amphibiens de France hexagonale, rapport d'évaluation (UICN Comité français, PatriNat, SHF)",
+              "url": "https://uicn.fr/wp-content/uploads/2026/10/Rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale.pdf",
+              "date_ou_version": "septembre 2026 (troisième évaluation nationale)",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique, citation recommandée par l'éditeur)",
+                "contenu_repris": true,
+                "motif": "faits seulement, reformulés ; catégorie et codes officiels repris tels quels"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Du niveau de la mer à 2500 m (Pyrénées)",
+              "territoire": "France hexagonale",
+              "unite": "m",
+              "etat": "documente"
+            },
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Du bord de mer à plus de 2000 m",
+              "territoire": "France hexagonale",
+              "unite": "m",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Du niveau de la mer à 2500 m (Pyrénées)",
+          "niveau": "reference",
+          "ecartees": [
+            {
+              "valeur": "Du bord de mer à plus de 2000 m",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "microhabitats": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Clicnat (Picardie Nature), fiche Lézard des murailles, et Quel est cet animal ? (2020), cités par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Recherche les surfaces pierreuses sèches et ensoleillées à végétation rase, abritées du vent et riches en fissures servant de refuges ; évite les sous-bois trop ombragés",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Recherche les surfaces pierreuses sèches et ensoleillées à végétation rase, abritées du vent et riches en fissures servant de refuges ; évite les sous-bois trop ombragés",
+          "niveau": "complement"
+        }
+      }
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "justification": "Étude trophique de l'Ouest de la France (1987, HAL hal-03529428) repérée mais inaccessible (anti-robots) ; régime renseigné par complément.",
+      "prochaine_piste": "Écologie trophique d'une population de l'Ouest de la France (1987, HAL hal-03529428) ; étude 2024 (Turkish Journal of Zoology) sur les préférences alimentaires.",
+      "champs": {
+        "regime": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Bouchard J.-M. (2001), La main à la pâte, et Office national des forêts (page reptiles, 2015), cités par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Insectivore au sens large : araignées, papillons et chenilles, criquets et grillons, mouches, pucerons, coléoptères, hyménoptères, ainsi que vers de terre et petites limaces",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Insectivore au sens large : araignées, papillons et chenilles, criquets et grillons, mouches, pucerons, coléoptères, hyménoptères, ainsi que vers de terre et petites limaces",
+          "niveau": "complement"
+        },
+        "methode": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Chasse-nature-Occitanie, « Les lézards » (PDF), cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Chasse surtout à l'affût",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Chasse surtout à l'affût",
+          "niveau": "complement"
+        }
+      }
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "Thèse Le Hénanff (2011) sur la stratégie reproductrice repérée mais inaccessible ; valeurs issues de compléments, parfois divergentes.",
+      "prochaine_piste": "Le Hénanff M. (2011), thèse HAL tel-00686826 ; in den Bosch & Bout (1998) ; Atlas SHF 2012.",
+      "champs": {
+        "mode": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Ovipare",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Ovipare",
+          "niveau": "complement"
+        },
+        "periode": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Saison de reproduction d'avril à juin ; accouplements au printemps",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Saison de reproduction d'avril à juin ; accouplements au printemps",
+          "niveau": "complement"
+        },
+        "taille_ponte": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Bouchard J.-M. (2001), « Le lézard des murailles (monographie) », Fondation La main à la pâte, cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Le plus souvent 5 à 10 œufs",
+              "unite": "œufs",
+              "etat": "incertain"
+            },
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "De 3 à 11 œufs",
+              "unite": "œufs",
+              "etat": "incertain"
+            }
+          ],
+          "valeur_synthese": "Le plus souvent 5 à 10 œufs | De 3 à 11 œufs",
+          "niveau": "complement"
+        },
+        "pontes_par_an": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Jusqu'à trois pontes par saison",
+              "contexte": "plaine",
+              "etat": "documente"
+            },
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Une seule ponte par saison",
+              "contexte": "montagne et nord de l'aire",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Jusqu'à trois pontes par saison | Une seule ponte par saison",
+          "niveau": "complement"
+        },
+        "incubation": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Bouchard J.-M. (2001), « Le lézard des murailles (monographie) », Fondation La main à la pâte, cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Éclosion après 6 à 8 semaines en général",
+              "unite": "semaines",
+              "etat": "incertain"
+            },
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Environ 10 semaines en moyenne",
+              "unite": "semaines",
+              "etat": "incertain"
+            }
+          ],
+          "valeur_synthese": "Éclosion après 6 à 8 semaines en général | Environ 10 semaines en moyenne",
+          "niveau": "complement"
+        },
+        "oeufs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipedia en anglais, article « Common wall lizard » (Podarcis muralis), texte source (action=raw)",
+              "origine": "in den Bosch H. A. J. & Bout R. G. (1998), Journal of Herpetology 32(3) : 410-417, cité par Wikipedia",
+              "url": "https://en.wikipedia.org/w/index.php?title=Podarcis_muralis&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "À la ponte, environ 11 × 7 mm pour 0,29 g ; en absorbant de l'eau ils atteignent environ 16 × 10 mm et 1 g",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "À la ponte, environ 11 × 7 mm pour 0,29 g ; en absorbant de l'eau ils atteignent environ 16 × 10 mm et 1 g",
+          "niveau": "complement"
+        },
+        "site_de_ponte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (2020) et Bouchard J.-M. (2001), cités par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Œufs enfouis dans le sol ou placés sous une pierre, puis laissés sans surveillance",
+              "restriction_diffusion": "description générale seulement, aucun site localisé",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Œufs enfouis dans le sol ou placés sous une pierre, puis laissés sans surveillance",
+          "niveau": "complement"
+        },
+        "soins_parentaux": {
+          "etat": "non_renseigne",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Futura-sciences, dossier zoologie (lézards en général), cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Pas de comportement parental marqué",
+              "portee": "groupe",
+              "etat": "documente"
+            }
+          ],
+          "ecartees": [
+            {
+              "valeur": "Pas de comportement parental marqué",
+              "motif": "information générale sur le groupe, pas propre à l'espèce"
+            }
+          ]
+        }
+      }
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune donnée démographique de référence lue ; Meek (2020) et Meek (2024, Herpetological Journal) repérés, inaccessibles.",
+      "prochaine_piste": "Meek R. (2020) Herpetological Journal 30 : 20-26 ; Meek (2024) Herpetological Journal 34(3) ; Mou (1987).",
+      "champs": {
+        "maturite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Maturité sexuelle à un an (après deux hivers)",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Maturité sexuelle à un an (après deux hivers)",
+          "niveau": "complement"
+        },
+        "longevite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Vie moyenne d'environ 4 ans, 5 à 6 ans dans de bonnes conditions, 8 ans au plus",
+              "contexte": "non précisé (sauvage ou captivité)",
+              "unite": "ans",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Vie moyenne d'environ 4 ans, 5 à 6 ans dans de bonnes conditions, 8 ans au plus",
+          "niveau": "complement"
+        },
+        "survie_juvenile": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Mou Y.-P. (1987), cité dans Naulleau G. (1990), repris par Quel est cet animal ? et Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Mortalité juvénile élevée : moins d'un jeune sur dix arrive à trois ans",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Mortalité juvénile élevée : moins d'un jeune sur dix arrive à trois ans",
+          "niveau": "complement"
+        }
+      }
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "justification": "Travaux sur la communication et la territorialité repérés (OpenAlex) mais éditeurs inaccessibles.",
+      "prochaine_piste": "Articles en accès ouvert sur la socio-sexualité des morphes (Ecology and Evolution 2020, doi:10.1002/ece3.6659).",
+      "champs": {
+        "territorialite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Les mâles défendent plus activement un territoire pendant la saison de reproduction",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Les mâles défendent plus activement un territoire pendant la saison de reproduction",
+          "niveau": "complement"
+        },
+        "domaine_vital": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Une quinzaine de m² en moyenne pour un mâle, un peu moins de 10 m² pour une femelle, selon des études aux résultats variables",
+              "unite": "m²",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Une quinzaine de m² en moyenne pour un mâle, un peu moins de 10 m² pour une femelle, selon des études aux résultats variables",
+          "niveau": "complement"
+        },
+        "communication": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipedia en anglais, article « Common wall lizard » (Podarcis muralis), texte source (action=raw)",
+              "origine": "Heathcote R. J. P. et al. (2014), Behavioral Ecology and Sociobiology 68(5) : 861-870 ; MacGregor H. E. A. et al. (2017), Evolution 71(10), cités par Wikipedia",
+              "url": "https://en.wikipedia.org/w/index.php?title=Podarcis_muralis&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Signaux visuels et chimiques ; les glandes fémorales des mâles produisent une sécrétion cireuse servant au marquage",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Signaux visuels et chimiques ; les glandes fémorales des mâles produisent une sécrétion cireuse servant au marquage",
+          "niveau": "complement"
+        }
+      }
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Calendrier d'activité renseigné seulement par compléments.",
+      "prochaine_piste": "Atlas SHF 2012 ; publications sur l'activité hivernale (preprint 2023, P. muralis et P. erhardii).",
+      "champs": {
+        "rythme_journalier": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Strictement diurne et héliotherme ; la thermorégulation occupe jusqu'à 95 % de son temps, pour une température corporelle optimale de 33,8 °C",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Strictement diurne et héliotherme ; la thermorégulation occupe jusqu'à 95 % de son temps, pour une température corporelle optimale de 33,8 °C",
+          "niveau": "complement"
+        },
+        "cycle_annuel": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Actif de la fin mars à octobre ; peut sortir lors de belles journées en hiver",
+              "etat": "documente"
+            },
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "site « Le microcosme du Lomont » (hymenopterius.chez.com), cité par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Hivernage approximativement d'octobre à avril",
+              "territoire": "Franche-Comté (Lomont)",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Actif de la fin mars à octobre ; peut sortir lors de belles journées en hiver | Hivernage approximativement d'octobre à avril",
+          "niveau": "complement"
+        }
+      }
+    },
+    "interactions": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "competition": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF (2026). Liste rouge des espèces menacées en France – Reptiles et amphibiens de France hexagonale, rapport d'évaluation (PDF, 72 p.), fiche « Podarcis muralis »",
+              "origine": "Véron S., Massary (de) J.-C. et al. (2026), Liste rouge – Chapitre reptiles et amphibiens de France hexagonale, rapport d'évaluation (UICN Comité français, PatriNat, SHF)",
+              "url": "https://uicn.fr/wp-content/uploads/2026/10/Rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale.pdf",
+              "date_ou_version": "septembre 2026 (troisième évaluation nationale)",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique, citation recommandée par l'éditeur)",
+                "contenu_repris": true,
+                "motif": "faits seulement, reformulés ; catégorie et codes officiels repris tels quels"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Là où il cohabite avec le Lézard des murailles, le Lézard catalan se limite aux substrats rocheux, alors qu'il occupe presque tous les milieux en son absence",
+              "territoire": "France hexagonale (aire du Lézard catalan)",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Là où il cohabite avec le Lézard des murailles, le Lézard catalan se limite aux substrats rocheux, alors qu'il occupe presque tous les milieux en son absence",
+          "niveau": "reference"
+        },
+        "cannibalisme": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°180 (2022), note PDF diffusée sur lashf.org",
+              "origine": "Ineich I., Chenevier R., Chenevier P. & Magnouloux M. (2022). Observation filmée d'une séquence de cannibalisme chez le lézard des murailles, Podarcis muralis. Bull. Soc. Herp. Fr. 180 : 54-56. doi:10.48716/bullshf.180-6",
+              "url": "https://lashf.org/wp-content/uploads/2026/06/BSHF_NOT3_Ineich-et-al.pdf",
+              "date_ou_version": "publié le 26/08/2022",
+              "reutilisation": {
+                "licence": "Droits réservés (Société herpétologique de France), aucune licence affichée",
+                "contenu_repris": true,
+                "motif": "faits d'observation reformulés ; aucune localisation fine reprise (grain département)"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Prédation intraspécifique attestée : un mâle adulte a capturé puis avalé un juvénile (observation filmée en août 2021, Haute-Savoie) ; cinq cas antérieurs étaient connus chez l'espèce",
+              "territoire": "France (Haute-Savoie)",
+              "contexte": "sauvage, observation ponctuelle",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Prédation intraspécifique attestée : un mâle adulte a capturé puis avalé un juvénile (observation filmée en août 2021, Haute-Savoie) ; cinq cas antérieurs étaient connus chez l'espèce",
+          "niveau": "reference"
+        },
+        "predateurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Noël V., « Le Lézard des murailles, Podarcis muralis (suite) », site Tiliqua, cité par Wikipédia ; Quel est cet animal ? (2020)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Oiseaux (rapaces, notamment le Circaète Jean-le-Blanc, pies-grièches, corvidés, hérons), mammifères (hérisson, mustélidés, renard, blaireau, rats, chats) et reptiles (Lézard ocellé, vipères aspic et péliade, coronelles, pour lesquelles c'est une proie de prédilection) ; jeunes parfois pris par des mantes",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Oiseaux (rapaces, notamment le Circaète Jean-le-Blanc, pies-grièches, corvidés, hérons), mammifères (hérisson, mustélidés, renard, blaireau, rats, chats) et reptiles (Lézard ocellé, vipères aspic et péliade, coronelles, pour lesquelles c'est une proie de prédilection) ; jeunes parfois pris par des mantes",
+          "niveau": "complement"
+        },
+        "parasites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipedia en anglais, article « Common wall lizard » (Podarcis muralis), texte source (action=raw)",
+              "origine": "Calsbeek B. et al. (2010), Journal of Evolutionary Biology 23(6) : 1138-1147, cité par Wikipedia",
+              "url": "https://en.wikipedia.org/w/index.php?title=Podarcis_muralis&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Hémogrégarines fréquentes ; les morphes rouge et jaune-rouge y sont les plus sensibles, les blancs les plus résistants",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Hémogrégarines fréquentes ; les morphes rouge et jaune-rouge y sont les plus sensibles, les blancs les plus résistants",
+          "niveau": "complement"
+        }
+      }
+    },
+    "conservation": {
+      "recherche": "recherche_partielle",
+      "justification": "Protection juridique : Légifrance (contenu non servi), EUR-Lex et Conseil de l'Europe (refus du proxy) inaccessibles ; évaluation mondiale UICN inaccessible (403).",
+      "prochaine_piste": "Arrêté du 8 janvier 2021 (JORFTEXT000043113975) ; directive 92/43/CEE annexe IV ; Convention de Berne ; BDC Statuts (export PatriNat) ; évaluation UICN mondiale 2024 (doi:10.2305/IUCN.UK.2024-1.RLTS.T61550A218505859.en).",
+      "champs": {
+        "liste_rouge_france_2026": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF (2026). Tableaux Liste rouge reptiles et amphibiens de France hexagonale (xlsx), feuille « Espèces Reptiles terrestres »",
+              "origine": "Véron S., Massary (de) J.-C. et al. (2026), Liste rouge – Chapitre reptiles et amphibiens de France hexagonale, rapport d'évaluation (UICN Comité français, PatriNat, SHF)",
+              "url": "https://uicn.fr/wp-content/uploads/2026/10/Tableaux-Liste-rouge-reptiles-amphibiens-france-hexagonale.xlsx",
+              "date_ou_version": "septembre 2026 (troisième évaluation nationale)",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique, citation recommandée par l'éditeur)",
+                "contenu_repris": true,
+                "motif": "faits seulement, reformulés ; catégorie et codes officiels repris tels quels"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "LC (préoccupation mineure) ; changement de catégorie : PC (pas de changement) ; tendance : inconnue",
+              "territoire": "France hexagonale",
+              "population": "espèce entière",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "LC (préoccupation mineure) ; changement de catégorie : PC (pas de changement) ; tendance : inconnue",
+          "niveau": "reference"
+        },
+        "liste_rouge_france_2015": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN France, MNHN & SHF (2015). La Liste rouge des espèces menacées en France – Reptiles de France métropolitaine, tableau (PDF)",
+              "origine": "UICN France, MNHN & SHF (2015), Liste rouge des espèces menacées en France – Chapitre Reptiles et Amphibiens de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2015/09/Tableau_Liste_rouge_Reptiles_de_France_metropolitaine.pdf",
+              "date_ou_version": "septembre 2015",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique)",
+                "contenu_repris": true,
+                "motif": "catégories et codes officiels seulement"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "LC ; tendance « → » (stable) ; catégorie mondiale indiquée : LC",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "LC ; tendance « → » (stable) ; catégorie mondiale indiquée : LC",
+          "niveau": "reference"
+        },
+        "menaces": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF (2026). Liste rouge des espèces menacées en France – Reptiles et amphibiens de France hexagonale, rapport d'évaluation (PDF, 72 p.), fiche « Podarcis muralis »",
+              "origine": "Véron S., Massary (de) J.-C. et al. (2026), Liste rouge – Chapitre reptiles et amphibiens de France hexagonale, rapport d'évaluation (UICN Comité français, PatriNat, SHF)",
+              "url": "https://uicn.fr/wp-content/uploads/2026/10/Rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale.pdf",
+              "date_ou_version": "septembre 2026 (troisième évaluation nationale)",
+              "reutilisation": {
+                "licence": "Non précisée sur le document (publication publique, citation recommandée par l'éditeur)",
+                "contenu_repris": true,
+                "motif": "faits seulement, reformulés ; catégorie et codes officiels repris tels quels"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "valeur": "Pressions citées : produits pesticides, réfection des joints de vieux murs, captures par chats et autres animaux de compagnie ; à l'échelle nationale, l'espèce ne remplit aucun critère de menace",
+              "territoire": "France hexagonale",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Pressions citées : produits pesticides, réfection des joints de vieux murs, captures par chats et autres animaux de compagnie ; à l'échelle nationale, l'espèce ne remplit aucun critère de menace",
+          "niveau": "reference"
+        },
+        "protection_juridique": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "blog fermadour.com (2010), cité par Wikipédia ; aucun texte officiel cité",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Signalée comme protégée en France et inscrite à l'annexe IV de la directive « Habitats » (92/43/CEE)",
+              "etat": "incertain"
+            }
+          ],
+          "valeur_synthese": "Signalée comme protégée en France et inscrite à l'annexe IV de la directive « Habitats » (92/43/CEE)",
+          "niveau": "complement"
+        },
+        "sensibilite_diffusion": {
+          "etat": "documente",
+          "valeur_synthese": "Aucune règle de diffusion propre à l'espèce trouvée : règle incertaine, grain le plus protecteur retenu (departement) ; aucun croisement de sources.",
+          "affirmations": []
+        }
+      }
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune recommandation d'observation propre à l'espèce trouvée dans une source de référence ; aucun conseil n'est inventé.",
+      "prochaine_piste": "Guides de la SHF (« Un dragon dans mon jardin ? », POPReptile) ; texte de l'arrêté de protection pour les interdictions applicables.",
+      "champs": {
+        "conditions_detection": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (quelestcetanimal.com), fiche « Le lézard des murailles », 8 juillet 2020, citée par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Animal de jour, qui s'expose au soleil sur des surfaces pierreuses ; actif surtout de la fin mars à octobre, parfois visible par belle journée d'hiver",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Animal de jour, qui s'expose au soleil sur des surfaces pierreuses ; actif surtout de la fin mars à octobre, parfois visible par belle journée d'hiver",
+          "niveau": "complement"
+        },
+        "confusions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Lézard des murailles » (texte source, action=raw)",
+              "origine": "Quel est cet animal ? (2020) et Coronella.free.fr (2005), cités par Wikipédia",
+              "url": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9zard_des_murailles&action=raw",
+              "date_ou_version": "version en ligne du 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "reformulé ; attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Se reporter aux critères d'écaillure : la détermination face au Lézard catalan demande parfois un examen attentif",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Se reporter aux critères d'écaillure : la détermination face au Lézard catalan demande parfois un examen attentif",
+          "niveau": "complement"
+        }
+      }
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "point_de_reprise": [],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "longueur_museau_cloaque",
+          "dessin_et_coloration",
+          "dimorphisme_sexuel",
+          "polymorphisme_ventral",
+          "especes_proches",
+          "criteres_ecaillure",
+          "queue_regeneree"
+        ],
+        "lacunes": [
+          "longueur_totale (incertain)",
+          "Aucune source de référence lisible pour la morphologie (Atlas SHF 2012, Reptile Database, Vacher & Geniez 2010 non accessibles) : champs renseignés par compléments seulement."
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "statut_metropole",
+          "aire_francaise",
+          "evaluation_nationale",
+          "aire_mondiale",
+          "introductions_hors_aire"
+        ],
+        "lacunes": [
+          "Présence nationale établie par TAXREF ; aire détaillée (atlas SHF, INPN) non accessible."
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "milieux",
+          "altitude",
+          "microhabitats"
+        ],
+        "lacunes": []
+      },
+      "alimentation": {
+        "documentes": [
+          "regime",
+          "methode"
+        ],
+        "lacunes": [
+          "Étude trophique de l'Ouest de la France (1987, HAL hal-03529428) repérée mais inaccessible (anti-robots) ; régime renseigné par complément."
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "mode",
+          "periode",
+          "pontes_par_an",
+          "oeufs",
+          "site_de_ponte"
+        ],
+        "lacunes": [
+          "taille_ponte (incertain)",
+          "incubation (incertain)",
+          "soins_parentaux (non_renseigne)",
+          "Thèse Le Hénanff (2011) sur la stratégie reproductrice repérée mais inaccessible ; valeurs issues de compléments, parfois divergentes."
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "maturite",
+          "longevite",
+          "survie_juvenile"
+        ],
+        "lacunes": [
+          "Aucune donnée démographique de référence lue ; Meek (2020) et Meek (2024, Herpetological Journal) repérés, inaccessibles."
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "territorialite",
+          "domaine_vital",
+          "communication"
+        ],
+        "lacunes": [
+          "Travaux sur la communication et la territorialité repérés (OpenAlex) mais éditeurs inaccessibles."
+        ]
+      },
+      "activite": {
+        "documentes": [
+          "rythme_journalier",
+          "cycle_annuel"
+        ],
+        "lacunes": [
+          "Calendrier d'activité renseigné seulement par compléments."
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "competition",
+          "cannibalisme",
+          "predateurs",
+          "parasites"
+        ],
+        "lacunes": []
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_france_2026",
+          "liste_rouge_france_2015",
+          "menaces",
+          "sensibilite_diffusion"
+        ],
+        "lacunes": [
+          "protection_juridique (incertain)",
+          "Protection juridique : Légifrance (contenu non servi), EUR-Lex et Conseil de l'Europe (refus du proxy) inaccessibles ; évaluation mondiale UICN inaccessible (403)."
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "conditions_detection",
+          "confusions"
+        ],
+        "lacunes": [
+          "Aucune recommandation d'observation propre à l'espèce trouvée dans une source de référence ; aucun conseil n'est inventé."
+        ]
+      }
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "Admission voie TAXREF (code P)",
+      "sources": [
+        "TAXREF v18"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "decision": "enrichir",
+      "motif": "Passe d'enrichissement complète sur les 11 familles ; sources de référence en grande partie inaccessibles depuis l'environnement, compléments Wikipédia marqués",
+      "sources": [
+        "TAXREF v18",
+        "Catalogue of Life 2026-11-11",
+        "GBIF",
+        "Liste rouge France 2026",
+        "Liste rouge France 2015",
+        "Bull. SHF 180 (2022)",
+        "Wikipédia fr",
+        "Wikipedia en"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Lézard des murailles",
+    "sources_consultees": [
+      {
+        "source": "TAXREF (export local TAXREFv18.txt, sha256 a6963ea1…)",
+        "version": "18"
+      },
+      {
+        "source": "Catalogue of Life via ChecklistBank (jeu 3LR)",
+        "version": "2026-11-11"
+      },
+      {
+        "source": "GBIF API species/match",
+        "version": "2026-11-27"
+      },
+      {
+        "source": "Liste rouge France hexagonale – reptiles et amphibiens, rapport d'évaluation (PDF) et tableaux (xlsx), uicn.fr",
+        "version": "2026"
+      },
+      {
+        "source": "Liste rouge France métropolitaine – reptiles, tableau (PDF), uicn.fr",
+        "version": "2015"
+      },
+      {
+        "source": "Bulletin SHF 180 : 54-56 (Ineich et al.), PDF lashf.org",
+        "version": "2022"
+      },
+      {
+        "source": "Wikipédia fr « Lézard des murailles » (action=raw)",
+        "version": "2026-11-27"
+      },
+      {
+        "source": "Wikipedia en « Podarcis muralis » (action=raw)",
+        "version": "2026-11-27"
+      },
+      {
+        "source": "OpenAlex (métadonnées bibliographiques seulement, pour repérer des pistes)",
+        "version": "2026-11-27"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "Légifrance (arrêté du 8 janvier 2021)",
+        "motif": "page servie sans contenu (« Pas de contenu disponible ») ; accès direct 403"
+      },
+      {
+        "source": "EUR-Lex (directive 92/43/CEE)",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "Conseil de l'Europe (Convention de Berne)",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "HAL / theses.hal.science",
+        "motif": "protection anti-robots (Anubis) ou refus du proxy ; non contournée"
+      },
+      {
+        "source": "INPN / BDC Statuts",
+        "motif": "INPN 403 (hors ligne) ; lien d'export BDC introuvable sur patrinat.fr"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "403 ; DOI refusé par le proxy"
+      },
+      {
+        "source": "The Reptile Database",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Éditeurs scientifiques (Brill, Wiley, PLOS, Springer, BHS, Pensoft, Europe PMC, Crossref, Zenodo…)",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Wikidata, Wikipédia de",
+        "motif": "429 (limite de débit) / refus du proxy"
+      }
+    ]
+  }
+}

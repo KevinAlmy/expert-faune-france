@@ -1,0 +1,321 @@
+{
+ "fiches": [
+  {
+   "cle": "herisson",
+   "fichier": "herisson/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 11,
+   "nom": "Erinaceus europaeus",
+   "vernaculaire": "Hérisson d'Europe",
+   "champs": 81,
+   "documentes_ref": 63,
+   "documentes_compl": 13,
+   "incertains": 5,
+   "vides": 0,
+   "affirmations": 114,
+   "sites": {
+    "PatriNat / TAXREF": 19,
+    "Catalogue of Life": 1,
+    "GBIF": 66,
+    "Wikipédia": 22,
+    "Autres sites": 3,
+    "UICN": 3
+   },
+   "niveaux": {
+    "reference": 94,
+    "complement": 20
+   },
+   "sources_lues": 13,
+   "indisponibles": 10,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "pipistrelle",
+   "fichier": "pipistrelle/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 5,
+   "nom": "Pipistrellus pipistrellus",
+   "vernaculaire": "Pipistrelle commune",
+   "champs": 47,
+   "documentes_ref": 41,
+   "documentes_compl": 1,
+   "incertains": 2,
+   "vides": 3,
+   "affirmations": 49,
+   "sites": {
+    "PatriNat / TAXREF": 3,
+    "Catalogue of Life": 1,
+    "Littérature scientifique": 36,
+    "GBIF": 2,
+    "Wikipédia": 3,
+    "UICN": 4
+   },
+   "niveaux": {
+    "reference": 46,
+    "complement": 3
+   },
+   "sources_lues": 8,
+   "indisponibles": 7,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "mesange",
+   "fichier": "mesange/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 7,
+   "nom": "Parus major",
+   "vernaculaire": "Mésange charbonnière",
+   "champs": 51,
+   "documentes_ref": 6,
+   "documentes_compl": 44,
+   "incertains": 0,
+   "vides": 1,
+   "affirmations": 58,
+   "sites": {
+    "PatriNat / TAXREF": 4,
+    "Wikipédia": 45,
+    "Wikidata": 3,
+    "UICN": 3,
+    "GBIF": 1,
+    "Textes juridiques": 2
+   },
+   "niveaux": {
+    "reference": 10,
+    "complement": 48
+   },
+   "sources_lues": 7,
+   "indisponibles": 9,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "lezard",
+   "fichier": "lezard/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 11,
+   "nom": "Podarcis muralis",
+   "vernaculaire": "Lézard des murailles",
+   "champs": 45,
+   "documentes_ref": 10,
+   "documentes_compl": 30,
+   "incertains": 4,
+   "vides": 1,
+   "affirmations": 53,
+   "sites": {
+    "PatriNat / TAXREF": 3,
+    "Catalogue of Life": 1,
+    "GBIF": 1,
+    "Wikipédia": 40,
+    "UICN": 7,
+    "Autres sites": 1
+   },
+   "niveaux": {
+    "reference": 13,
+    "complement": 40
+   },
+   "sources_lues": 9,
+   "indisponibles": 9,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "salamandre",
+   "fichier": "salamandre/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 10,
+   "nom": "Salamandra salamandra",
+   "vernaculaire": "Salamandre tachetée",
+   "champs": 68,
+   "documentes_ref": 38,
+   "documentes_compl": 10,
+   "incertains": 20,
+   "vides": 0,
+   "affirmations": 82,
+   "sites": {
+    "PatriNat / TAXREF": 5,
+    "Catalogue of Life": 1,
+    "Autres sites": 10,
+    "Littérature scientifique": 33,
+    "Wikipédia": 32,
+    "UICN": 1
+   },
+   "niveaux": {
+    "reference": 50,
+    "complement": 32
+   },
+   "sources_lues": 7,
+   "indisponibles": 6,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "brochet",
+   "fichier": "brochet/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 9,
+   "nom": "Esox lucius",
+   "vernaculaire": "Brochet",
+   "champs": 65,
+   "documentes_ref": 39,
+   "documentes_compl": 15,
+   "incertains": 10,
+   "vides": 1,
+   "affirmations": 84,
+   "sites": {
+    "PatriNat / TAXREF": 4,
+    "Catalogue of Life": 1,
+    "GBIF": 1,
+    "Wikipédia": 35,
+    "Littérature scientifique": 34,
+    "UICN": 7,
+    "Textes juridiques": 2
+   },
+   "niveaux": {
+    "reference": 49,
+    "complement": 35
+   },
+   "sources_lues": 8,
+   "indisponibles": 10,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "lucane",
+   "fichier": "lucane/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 11,
+   "nom": "Lucanus cervus",
+   "vernaculaire": "Lucane cerf-volant",
+   "champs": 69,
+   "documentes_ref": 52,
+   "documentes_compl": 10,
+   "incertains": 5,
+   "vides": 2,
+   "affirmations": 115,
+   "sites": {
+    "PatriNat / TAXREF": 14,
+    "Catalogue of Life": 2,
+    "GBIF": 4,
+    "Wikipédia": 27,
+    "Littérature scientifique": 68
+   },
+   "niveaux": {
+    "reference": 88,
+    "complement": 27
+   },
+   "sources_lues": 9,
+   "indisponibles": 5,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "machaon",
+   "fichier": "machaon/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 7,
+   "nom": "Papilio machaon",
+   "vernaculaire": "Machaon",
+   "champs": 49,
+   "documentes_ref": 19,
+   "documentes_compl": 18,
+   "incertains": 6,
+   "vides": 6,
+   "affirmations": 60,
+   "sites": {
+    "PatriNat / TAXREF": 4,
+    "Catalogue of Life": 1,
+    "GBIF": 19,
+    "Wikipédia": 33,
+    "Wikidata": 1,
+    "UICN": 2
+   },
+   "niveaux": {
+    "reference": 26,
+    "complement": 34
+   },
+   "sources_lues": 7,
+   "indisponibles": 10,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "escargot",
+   "fichier": "escargot/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 9,
+   "nom": "Helix pomatia",
+   "vernaculaire": "Escargot de Bourgogne",
+   "champs": 60,
+   "documentes_ref": 24,
+   "documentes_compl": 12,
+   "incertains": 10,
+   "vides": 14,
+   "affirmations": 65,
+   "sites": {
+    "PatriNat / TAXREF": 16,
+    "Catalogue of Life": 1,
+    "GBIF": 13,
+    "Wikipédia": 26,
+    "Textes juridiques": 6,
+    "UICN": 2,
+    "Littérature scientifique": 1
+   },
+   "niveaux": {
+    "reference": 39,
+    "complement": 26
+   },
+   "sources_lues": 14,
+   "indisponibles": 9,
+   "reformulation_lancee": false
+  },
+  {
+   "cle": "ecrevisse",
+   "fichier": "ecrevisse/fiches/EFF-000001.json",
+   "etat": "fiche_partielle",
+   "duree_min": 10,
+   "nom": "Austropotamobius pallipes",
+   "vernaculaire": "Écrevisse à pattes blanches",
+   "champs": 45,
+   "documentes_ref": 25,
+   "documentes_compl": 7,
+   "incertains": 13,
+   "vides": 0,
+   "affirmations": 61,
+   "sites": {
+    "PatriNat / TAXREF": 24,
+    "Catalogue of Life": 1,
+    "Wikipédia": 24,
+    "UICN": 8,
+    "Textes juridiques": 4
+   },
+   "niveaux": {
+    "reference": 37,
+    "complement": 24
+   },
+   "sources_lues": 11,
+   "indisponibles": 9,
+   "reformulation_lancee": false
+  }
+ ],
+ "sites_pct": {
+  "Wikipédia": 38.7,
+  "Littérature scientifique": 23.2,
+  "GBIF": 14.4,
+  "PatriNat / TAXREF": 13.0,
+  "UICN": 5.0,
+  "Autres sites": 1.9,
+  "Textes juridiques": 1.9,
+  "Catalogue of Life": 1.3,
+  "Wikidata": 0.5
+ },
+ "sites_nb": {
+  "Wikipédia": 287,
+  "Littérature scientifique": 172,
+  "GBIF": 107,
+  "PatriNat / TAXREF": 96,
+  "UICN": 37,
+  "Autres sites": 14,
+  "Textes juridiques": 14,
+  "Catalogue of Life": 10,
+  "Wikidata": 4
+ },
+ "niveaux_pct": {
+  "reference": 61.0,
+  "complement": 39.0
+ },
+ "total_affirmations": 741
+}

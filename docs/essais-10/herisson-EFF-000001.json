@@ -1,0 +1,2678 @@
+{
+  "id": "EFF-000001",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Erinaceus europaeus",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "espèce",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Eulipotyphla",
+      "famille": "Erinaceidae"
+    },
+    "noms_vernaculaires": [
+      "Hérisson d'Europe",
+      "West European Hedgehog"
+    ],
+    "synonymes": [
+      {
+        "nom": "Erinaceus dissimilis",
+        "source": "TAXREF v18 (CD_NOM 60026)"
+      },
+      {
+        "nom": "Erinaceus erinaceus",
+        "auteur": "(Blumenbach, 1779)",
+        "source": "TAXREF v18 (CD_NOM 60017)"
+      },
+      {
+        "nom": "Erinaceus erinaceus europaeus",
+        "auteur": "Linnaeus, 1758",
+        "source": "TAXREF v18 (CD_NOM 60018)"
+      },
+      {
+        "nom": "Erinaceus erinaceus centralrossicus",
+        "auteur": "Ognev, 1916",
+        "source": "TAXREF v18 (CD_NOM 60025, rang sous-espèce)"
+      },
+      {
+        "nom": "Erinaceus europaeus centralrossicus",
+        "auteur": "Ognev, 1926",
+        "source": "TAXREF v18 (CD_NOM 159433, rang sous-espèce)"
+      },
+      {
+        "nom": "Erinaceus europaeus europaeus",
+        "auteur": "Linnaeus, 1758",
+        "source": "TAXREF v18 (CD_NOM 159432, rang sous-espèce)"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "60015",
+        "cd_ref": "60015",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "3B2C2",
+        "jeu": "3LR",
+        "version": "2026-11-11"
+      },
+      "gbif": {
+        "usageKey": "5219616",
+        "statut": "ACCEPTED"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Erinaceus europaeus Linnaeus, 1758, rang ES, nom retenu (CD_NOM = CD_REF = 60015)",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "date_ou_version": "v18 (fichiers du 09/01/2025)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/60015"
+      },
+      {
+        "valeur": "Erinaceus europaeus Linnaeus, 1758, statut accepté (identifiant 3B2C2)",
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR",
+        "origine": "Catalogue of Life",
+        "date_ou_version": "2026-11-11",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Erinaceus%20europaeus"
+      },
+      {
+        "valeur": "Erinaceus europaeus Linnaeus, 1758, statut ACCEPTED, correspondance exacte (usageKey 5219616)",
+        "source": "GBIF, API species/match",
+        "origine": "GBIF Backbone Taxonomy",
+        "date_ou_version": "consultée le 2026-11-27",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://api.gbif.org/v1/species/match?name=Erinaceus%20europaeus&kingdom=Animalia"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "Code P dans la colonne FR (France hexagonale et Corse) : présent, indigène ou indéterminé",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "date_ou_version": "v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/60015",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "date": "2026-11-27",
+    "motif": "decider.py : creer_fiche — TAXREF v18, code P (Présent, indigène ou indéterminé) dans la colonne FR ; espèce au rang ES, nom accepté"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "longueur_tete_corps": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "209 à 245",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "unite": "mm",
+              "contexte": "adultes, mesures citées par la synthèse",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Tête et corps : 209 à 245 mm"
+        },
+        "longueur_queue": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "24 à 32",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "unite": "mm",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Queue : 24 à 32 mm"
+        },
+        "autres_mensurations": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Oreille de 27 à 28 mm ; pied postérieur de 43 à 50 mm",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Oreille de 27 à 28 mm ; pied postérieur de 43 à 50 mm"
+          ]
+        },
+        "masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "526 à 556 g selon les mesures retenues ; quelques individus atteignent 1 à 2 kg",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "526 à 556 g ; jusqu'à 1 à 2 kg pour certains individus",
+          "ecartes": [
+            {
+              "valeur": "Continent : environ 800 g en été et jusqu'à 1,6 kg en hiver",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "variation_saisonniere_de_la_masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Sur le continent, la masse passe d'environ 800 g l'été à près de 1,6 kg avant l'hiver ; les animaux britanniques sont plus légers (environ 650 g l'été, 1 kg l'hiver)",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Page V. 2001. Le hérisson, emblème d'une nature réhabilitée. Thèse vétérinaire, École nationale vétérinaire de Nantes",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "territoire": "Europe continentale et Grande-Bretagne",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Sur le continent, la masse passe d'environ 800 g l'été à près de 1,6 kg avant l'hiver ; les animaux britanniques sont plus légers (environ 650 g l'été, 1 kg l'hiver)"
+          ]
+        },
+        "dimorphisme_sexuel": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les mâles sont un peu plus grands que les femelles, mais l'écart est faible comparé aux fortes variations de masse d'une saison à l'autre",
+              "source": "Wikipédia en anglais, article « European hedgehog » (texte source)",
+              "origine": "Harris S. & Yalden D.W. 2008. Mammals of the British Isles: Handbook, 4e éd. The Mammal Society, Southampton, p. 241-249",
+              "url": "https://en.wikipedia.org/w/index.php?title=European_hedgehog&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Les mâles sont un peu plus grands que les femelles, mais l'écart est faible comparé aux fortes variations de masse d'une saison à l'autre"
+          ]
+        },
+        "pelage_et_piquants": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Dos et flancs couverts de piquants serrés et lisses, annelés de jaune et de brun avec une extrémité claire ; face, pattes et ventre portent des poils sans piquants ; une étroite raie dépourvue de piquants partage le dessus de la tête",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Dos et flancs couverts de piquants serrés et lisses, annelés de jaune et de brun avec une extrémité claire ; face, pattes et ventre portent des poils sans piquants ; une étroite raie dépourvue de piquants partage le dessus de la tête"
+          ]
+        },
+        "nombre_de_piquants": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Jusqu'à environ 6000 piquants",
+              "source": "Wikipédia en anglais, article « European hedgehog » (texte source)",
+              "origine": "Morris P.A. 2006. The New Hedgehog Book. Whittet Books, Londres",
+              "url": "https://en.wikipedia.org/w/index.php?title=European_hedgehog&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "incertain"
+            },
+            {
+              "valeur": "5000 à 7500 piquants chez l'adulte",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Page V. 2001. Le hérisson, emblème d'une nature réhabilitée. Thèse vétérinaire, École nationale vétérinaire de Nantes",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Jusqu'à environ 6000 piquants",
+            "5000 à 7500 piquants chez l'adulte"
+          ]
+        },
+        "pieds_queue_oreilles": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Gros orteil (hallux) bien développé aux pattes arrière ; queue courte ; oreilles assez courtes",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Gros orteil (hallux) bien développé aux pattes arrière ; queue courte ; oreilles assez courtes"
+          ]
+        },
+        "formule_dentaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Incisives 3/2, canines 1/1, prémolaires 3/2, molaires 3/3 : 36 dents au total",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "36 dents (I 3/2, C 1/1, P 3/2, M 3/3)"
+        },
+        "caryotype": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "2n = 48 ; NF = 92",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "2n = 48 ; NF = 92"
+          ]
+        },
+        "variations_de_couleur": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les albinos sont assez fréquents, les individus leucistiques rares et les mélaniques très rares ; dans le sud de l'Espagne les animaux sont pâles, avec de nombreux piquants tout blancs",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Les albinos sont assez fréquents, les individus leucistiques rares et les mélaniques très rares ; dans le sud de l'Espagne les animaux sont pâles, avec de nombreux piquants tout blancs"
+          ]
+        },
+        "especes_proches_et_criteres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Se distingue du Hérisson à poitrine blanche (Erinaceus concolor) par l'absence de tache blanche sur la poitrine, et, dans le sud de l'Espagne, d'Atelerix algirus (Hérisson d'Algérie) par la raie étroite sans piquants au sommet du crâne",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Se distingue du Hérisson à poitrine blanche (Erinaceus concolor) par l'absence de tache blanche sur la poitrine, et, dans le sud de l'Espagne, d'Atelerix algirus (Hérisson d'Algérie) par la raie étroite sans piquants au sommet du crâne"
+          ]
+        },
+        "confusions_en_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Seul hérisson actuel doté d'un statut dans la colonne FR (France hexagonale et Corse) : les autres Erinaceidae de TAXREF v18 sont soit des synonymes de cette espèce, soit Erinaceus davidi, code X (éteint)",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt, SHA-256 a6963ea1…a7a7)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "v18 (fichiers du 09/01/2025)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Seul hérisson actuel doté d'un statut dans la colonne FR (France hexagonale et Corse) : les autres Erinaceidae de TAXREF v18 sont soit des synonymes de cette espèce, soit Erinaceus davidi, code X (éteint)"
+          ]
+        }
+      },
+      "prochaine_piste": "Mesures françaises propres (atlas régionaux, centres de soins) ; critères de détermination des jeunes."
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "statut_en_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Code P (présent, indigène ou indéterminé) dans la colonne FR",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt, SHA-256 a6963ea1…a7a7)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "v18 (fichiers du 09/01/2025)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Présent, indigène (TAXREF v18, code P)"
+        },
+        "aire_indigene": {
+          "etat": "corrobore",
+          "affirmations": [
+            {
+              "valeur": "Europe de l'Ouest, des îles Britanniques et de la péninsule Ibérique jusqu'à la Scandinavie et à la Russie d'Europe, y compris la Corse, la Sardaigne, la Sicile et de nombreuses petites îles",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "corrobore"
+            },
+            {
+              "valeur": "Europe de l'Ouest, des îles Britanniques et de la péninsule Ibérique jusqu'à la Scandinavie et à la Russie d'Europe, y compris la Corse, la Sardaigne, la Sicile et de nombreuses petites îles",
+              "source": "Plazi, traitement d'Erinaceus europaeus (MSW3), diffusé par l'API GBIF (jeu 4f1010bf-566b-46ca-8d26-5836ab95aa3f, taxon 231543956)",
+              "origine": "Wilson D.E. & Reeder D.M. (dir.) 2005. Order Erinaceomorpha. Mammal Species of the World, 3e éd., vol. 1. Johns Hopkins University Press, p. 212-219",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "corrobore"
+            }
+          ],
+          "valeur_synthese": "Europe de l'Ouest, des îles Britanniques et de la péninsule Ibérique jusqu'à la Scandinavie et à la Russie d'Europe, y compris la Corse, la Sardaigne, la Sicile et de nombreuses petites îles"
+        },
+        "presence_en_corse": {
+          "etat": "corrobore",
+          "affirmations": [
+            {
+              "valeur": "Présent en Corse",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "corrobore"
+            },
+            {
+              "valeur": "Présent en Corse",
+              "source": "Plazi, traitement d'Erinaceus europaeus (MSW3), diffusé par l'API GBIF (jeu 4f1010bf-566b-46ca-8d26-5836ab95aa3f, taxon 231543956)",
+              "origine": "Wilson D.E. & Reeder D.M. (dir.) 2005. Order Erinaceomorpha. Mammal Species of the World, 3e éd., vol. 1. Johns Hopkins University Press, p. 212-219",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "corrobore"
+            }
+          ],
+          "valeur_synthese": "Présent en Corse"
+        },
+        "introductions_hors_aire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Introduit en Nouvelle-Zélande",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Nouvelle-Zélande",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Introduit en Nouvelle-Zélande",
+              "source": "Plazi, traitement d'Erinaceus europaeus (MSW3), diffusé par l'API GBIF (jeu 4f1010bf-566b-46ca-8d26-5836ab95aa3f, taxon 231543956)",
+              "origine": "Wilson D.E. & Reeder D.M. (dir.) 2005. Order Erinaceomorpha. Mammal Species of the World, 3e éd., vol. 1. Johns Hopkins University Press, p. 212-219",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Nouvelle-Zélande",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Introduit récemment aux Açores",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Açores",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Nouvelle-Zélande (seconde moitié du XIXe siècle selon le HMW)",
+            "Açores (introduction récente)"
+          ]
+        },
+        "contact_avec_especes_voisines": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Cohabite avec Erinaceus roumanicus en Russie centrale, en Pologne, en Tchéquie, en Slovaquie et dans les Balkans ; aucune zone de contact en France n'est mentionnée",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Cohabite avec Erinaceus roumanicus en Russie centrale, en Pologne, en Tchéquie, en Slovaquie et dans les Balkans ; aucune zone de contact en France n'est mentionnée"
+          ]
+        },
+        "structure_genetique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les études génétiques séparent nettement les populations d'Europe en deux ensembles, est et ouest : Espagne, France et Grande-Bretagne d'un côté ; Italie, Corse, Allemagne et Suède de l'autre. Les populations corses ne se rangent donc pas avec celles du continent français",
+              "source": "Plazi, traitement d'Erinaceus europaeus (MSW3), diffusé par l'API GBIF (jeu 4f1010bf-566b-46ca-8d26-5836ab95aa3f, taxon 231543956)",
+              "origine": "Wilson D.E. & Reeder D.M. (dir.) 2005. Order Erinaceomorpha. Mammal Species of the World, 3e éd., vol. 1. Johns Hopkins University Press, p. 212-219",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Les études génétiques séparent nettement les populations d'Europe en deux ensembles, est et ouest : Espagne, France et Grande-Bretagne d'un côté ; Italie, Corse, Allemagne et Suède de l'autre. Les populations corses ne se rangent donc pas avec celles du continent français"
+          ]
+        },
+        "statut_infraspecifique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce traitée comme monotypique (aucune sous-espèce retenue)",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Espèce traitée comme monotypique (aucune sous-espèce retenue)"
+          ]
+        },
+        "hypothese_taxonomique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Hypothèse non intégrée au référentiel : les populations ibériques (E. hispanicus) pourraient former une espèce distincte ; cinq noms disponibles décrits d'Espagne, de France et du Royaume-Uni restent à évaluer",
+              "source": "Plazi, traitement d'Erinaceus europaeus (MSW3), diffusé par l'API GBIF (jeu 4f1010bf-566b-46ca-8d26-5836ab95aa3f, taxon 231543956)",
+              "origine": "Wilson D.E. & Reeder D.M. (dir.) 2005. Order Erinaceomorpha. Mammal Species of the World, 3e éd., vol. 1. Johns Hopkins University Press, p. 212-219",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Hypothèse non intégrée au référentiel : les populations ibériques (E. hispanicus) pourraient former une espèce distincte ; cinq noms disponibles décrits d'Espagne, de France et du Royaume-Uni restent à évaluer"
+          ]
+        },
+        "localite_type": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "« Europa », restreinte par O. Thomas en 1911 à Wamlingbo, île de Gotland (Suède)",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "« Europa », restreinte par O. Thomas en 1911 à Wamlingbo, île de Gotland (Suède)"
+          ]
+        }
+      },
+      "justification": "Aire et présence établies par TAXREF, le HMW et MSW3 ; atlas national et atlas régionaux (INPN, OpenObs, SFEPM) non consultables : INPN hors ligne et sites des associations bloqués par le réseau.",
+      "prochaine_piste": "Atlas des mammifères de France (SFEPM) et atlas régionaux dès qu'ils sont accessibles ; répartition corse."
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "milieux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Bois pourvus d'une strate au sol et de nourriture, prairies surtout lorsqu'elles jouxtent des feuillus, des haies ou des fourrés ; fréquent dans les parcs, jardins et terrains de golf ; recherche les lisières entre milieux ouverts et végétation plus dense",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Bois pourvus d'une strate au sol et de nourriture, prairies surtout lorsqu'elles jouxtent des feuillus, des haies ou des fourrés ; fréquent dans les parcs, jardins et terrains de golf ; recherche les lisières entre milieux ouverts et végétation plus dense"
+          ]
+        },
+        "milieux_evites_ou_pauvres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Évite en général les grands massifs de conifères, faute de couvert au sol ; populations faibles ou absentes dans les cultures où l'arrachage des haies et les pesticides ont réduit l'abri et les invertébrés",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Évite en général les grands massifs de conifères, faute de couvert au sol ; populations faibles ou absentes dans les cultures où l'arrachage des haies et les pesticides ont réduit l'abri et les invertébrés"
+          ]
+        },
+        "altitude": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Jusqu'à 2000 m dans les Alpes, sans dépasser la limite supérieure des arbres",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Alpes",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Jusqu'à 2000 m (Alpes), sous la limite des arbres"
+        },
+        "abris_et_nids": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Repos diurne sous des amas de branchages, dans des nids de feuilles, des fissures de rochers ou des terriers ; nids d'été et d'hiver surtout posés au sol, abrités par des ronces ou d'autres végétaux et faits de grandes feuilles sèches ; terriers simples d'environ 1 m, creusés par l'animal ou repris aux lapins",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "restriction_diffusion": "Description générique des types d'abri, sans aucune localisation",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Repos diurne sous des amas de branchages, dans des nids de feuilles, des fissures de rochers ou des terriers ; nids d'été et d'hiver surtout posés au sol, abrités par des ronces ou d'autres végétaux et faits de grandes feuilles sèches ; terriers simples d'environ 1 m, creusés par l'animal ou repris aux lapins"
+          ]
+        },
+        "densite_ville_campagne": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Densités rapportées : 15 à 37 individus par km² en milieu urbain contre 1 à 4 en milieu rural",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Garric A. 2017. « La France va-t-elle sauver ses hérissons ? », blog Eco(lo), Le Monde, 12/05/2017",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "unite": "individus/km²",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Densités rapportées : 15 à 37 individus par km² en milieu urbain contre 1 à 4 en milieu rural"
+          ]
+        }
+      },
+      "justification": "Synthèse mondiale (HMW) seule en référence ; pas d'étude française lue (Hubert et al. 2011 et la thèse de Hubert 2008 inaccessibles).",
+      "prochaine_piste": "Hubert P. et al. 2011, Landscape and Urban Planning 103 : 34-43 (densités ville/campagne, Reims)."
+    },
+    "alimentation": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "regime": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Omnivore à dominante d'invertébrés : coléoptères, larves, limaces, vers de terre, araignées ; consomme aussi fruits, champignons, petits vertébrés (grenouilles, serpents, lézards, oisillons, souris), œufs et cadavres",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Omnivore, surtout invertébrés"
+        },
+        "proies_particulieres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mange couramment des mille-pattes et des carabes malgré leurs défenses chimiques ; paraît délaisser les cloportes, les staphylins et certaines coccinelles",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Mange couramment des mille-pattes et des carabes malgré leurs défenses chimiques ; paraît délaisser les cloportes, les staphylins et certaines coccinelles"
+          ]
+        },
+        "aliments_fournis_par_l_homme": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Consomme aussi les restes de cuisine, la nourriture pour animaux de compagnie, le pain et le lait déposés par l'homme ; la synthèse constate cette consommation sans en évaluer les effets",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Consomme aussi les restes de cuisine, la nourriture pour animaux de compagnie, le pain et le lait déposés par l'homme ; la synthèse constate cette consommation sans en évaluer les effets"
+          ]
+        },
+        "methode_de_recherche": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Avance lentement en marquant de courtes pauses pour flairer l'air ou le sol, ou prospecte plus vite en ligne droite ; repère surtout ses proies à l'odeur, l'ouïe intervenant aussi ; déterre vite les proies cachées dans la litière, l'herbe ou le sol ; les mâles se déplacent plus vite que les femelles et tous ralentissent quand la végétation s'épaissit",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Avance lentement en marquant de courtes pauses pour flairer l'air ou le sol, ou prospecte plus vite en ligne droite ; repère surtout ses proies à l'odeur, l'ouïe intervenant aussi ; déterre vite les proies cachées dans la litière, l'herbe ou le sol ; les mâles se déplacent plus vite que les femelles et tous ralentissent quand la végétation s'épaissit"
+          ]
+        }
+      },
+      "prochaine_piste": "Études de régime en France (contenus stomacaux, fèces)."
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "systeme_d_appariement": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Supposé polygyne ; des portées à paternité multiple montrent qu'une partie des femelles s'accouplent avec plusieurs mâles",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Supposé polygyne ; des portées à paternité multiple montrent qu'une partie des femelles s'accouplent avec plusieurs mâles"
+          ]
+        },
+        "calendrier": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Accouplements de mai à mi-juillet",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Scandinavie",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Gestations de mai à octobre, avec des pics de mai à juillet puis en septembre",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Angleterre",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Scandinavie : mai à mi-juillet",
+            "Angleterre : gestations de mai à octobre (pics mai-juillet et septembre)",
+            "Le plus souvent deux périodes de reproduction par an, variables selon les régions"
+          ]
+        },
+        "calendrier_en_france": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Le rut commence à la sortie d'hibernation et se poursuit jusqu'en septembre ; deux mises bas annuelles sont possibles",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Wikipédia en français, passage sans référence",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": false,
+              "consulte_le": "2026-11-27",
+              "territoire": "non précisé (article francophone)",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Le rut commence à la sortie d'hibernation et se poursuit jusqu'en septembre ; deux mises bas annuelles sont possibles"
+          ]
+        },
+        "gestation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "31 à 35 jours ; certaines estimations vont jusqu'à 42 jours",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "unite": "jours",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "31 à 35 jours (jusqu'à 42 selon certaines estimations)",
+          "ecartes": [
+            {
+              "valeur": "34 jours (31 à 37)",
+              "source": "Wikidata, élément Q6145 (révision 2568846374)",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "taille_de_portee": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "4 à 7 petits, extrêmes 1 à 11",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "4 à 7 petits (1 à 11)"
+        },
+        "lieu_de_mise_bas": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les petits naissent dans un nid de feuilles",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "restriction_diffusion": "Aucune localisation",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Les petits naissent dans un nid de feuilles"
+          ]
+        },
+        "nouveau_ne": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Presque nus, yeux fermés, environ 70 mm, 8 à 25 g selon la taille de la portée ; piquants blanchâtres et souples dès la naissance, remplacés par des piquants de type adulte à partir de 2 à 7 jours ; aspect adulte des piquants vers 3 semaines",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Presque nus, yeux fermés, environ 70 mm, 8 à 25 g selon la taille de la portée ; piquants blanchâtres et souples dès la naissance, remplacés par des piquants de type adulte à partir de 2 à 7 jours ; aspect adulte des piquants vers 3 semaines"
+          ]
+        },
+        "soins_et_sevrage": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les jeunes suivent leur mère à partir de 4 semaines et sont sevrés entre 4 et 6 semaines ; le mâle ne participe pas à l'élevage",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Les jeunes suivent leur mère à partir de 4 semaines et sont sevrés entre 4 et 6 semaines ; le mâle ne participe pas à l'élevage"
+          ]
+        },
+        "maturite_sexuelle": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "9 à 12 mois",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Les femelles ne se reproduisent pas avant leur deuxième année",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "9 à 12 mois",
+            "Suède : femelles reproductrices à partir de la deuxième année"
+          ]
+        },
+        "secondes_portees": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Une reproduction tardive suit généralement la perte ou l'avortement d'une première portée ; les jeunes des portées tardives grandissent plus vite",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Une reproduction tardive suit généralement la perte ou l'avortement d'une première portée ; les jeunes des portées tardives grandissent plus vite"
+          ]
+        }
+      },
+      "justification": "Calendrier documenté pour la Scandinavie et l'Angleterre seulement ; pas de source de référence lue pour la France.",
+      "prochaine_piste": "Travaux de Saboureau (cycles reproducteurs, France, 1981-1993), non accessibles pendant cette passe."
+    },
+    "developpement": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "croissance": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Taille maximale atteinte vers 2 à 3 ans ; pas de différence de croissance entre les sexes",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Taille maximale atteinte vers 2 à 3 ans ; pas de différence de croissance entre les sexes"
+          ]
+        },
+        "dispersion_des_jeunes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Phase de dispersion dans les premiers mois ; le jeune fixe son futur domaine avant ou peu après son premier hiver",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Phase de dispersion dans les premiers mois ; le jeune fixe son futur domaine avant ou peu après son premier hiver"
+          ]
+        },
+        "longevite_maximale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Environ 6 à 8 ans",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "contexte": "nature",
+              "etat": "documente"
+            },
+            {
+              "valeur": "10 ans",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "contexte": "captivité",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Nature : environ 6 à 8 ans",
+            "Captivité : 10 ans"
+          ],
+          "ecartes": [
+            {
+              "valeur": "11,7 ans",
+              "source": "Wikidata, élément Q6145 (révision 2568846374)",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "esperance_de_vie_moyenne": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Environ 3 ans en moyenne",
+              "source": "Wikipédia en anglais, article « European hedgehog » (texte source)",
+              "origine": "Wikipédia en anglais, passage sans référence",
+              "url": "https://en.wikipedia.org/w/index.php?title=European_hedgehog&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": false,
+              "consulte_le": "2026-11-27",
+              "contexte": "nature",
+              "etat": "incertain"
+            },
+            {
+              "valeur": "2 à 3 ans en moyenne",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Pages web lespassionsdyves.fr et mere-nature.com (consultées en 2015 via archives)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": false,
+              "consulte_le": "2026-11-27",
+              "contexte": "nature",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Environ 3 ans en moyenne",
+            "2 à 3 ans en moyenne"
+          ]
+        },
+        "mortalite_juvenile": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Forte : environ un quart des jeunes meurent pendant la dispersion et plus des trois quarts avant un an",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Wikipédia en français, passage sans référence",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": false,
+              "consulte_le": "2026-11-27",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Forte : environ un quart des jeunes meurent pendant la dispersion et plus des trois quarts avant un an"
+          ]
+        }
+      },
+      "prochaine_piste": "Données de survie et d'âge en population sauvage française."
+    },
+    "comportements": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "sociabilite_et_territorialite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Solitaire, hors période de reproduction et relation mère-jeunes ; ordinairement non territorial mais peu tolérant envers ses congénères : les individus s'évitent et utilisent les mêmes lieux à des moments différents ; deux adultes de même sexe s'approchent rarement à moins de 20 m ; défense probable de territoires de 1,8 à 2,5 ha à l'approche de l'hibernation ; combats parfois intenses entre mâles au printemps",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Solitaire, hors période de reproduction et relation mère-jeunes ; ordinairement non territorial mais peu tolérant envers ses congénères : les individus s'évitent et utilisent les mêmes lieux à des moments différents ; deux adultes de même sexe s'approchent rarement à moins de 20 m ; défense probable de territoires de 1,8 à 2,5 ha à l'approche de l'hibernation ; combats parfois intenses entre mâles au printemps"
+          ]
+        },
+        "domaine_vital": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mâles adultes 32 ha (16 à 42) ; femelles 10 ha (6 à 12) ; subadultes 12 ha (10 à 15)",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Angleterre",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Mâles adultes 47 ha (25 à 68) ; femelles 20 ha (8 à 30)",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Angleterre : mâles 32 ha, femelles 10 ha, subadultes 12 ha",
+            "Suède : mâles 47 ha, femelles 20 ha",
+            "Domaines largement chevauchants, souvent conservés plusieurs années"
+          ]
+        },
+        "deplacements_nocturnes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Distance minimale moyenne parcourue par nuit : 868 à 1785 m pour les mâles adultes, 570 à 1006 m pour les femelles, 1188 m pour les subadultes ; certains mâles font jusqu'à 3 km ; zone d'alimentation principale parfois à 200 à 300 m du gîte de jour",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Distance minimale moyenne parcourue par nuit : 868 à 1785 m pour les mâles adultes, 570 à 1006 m pour les femelles, 1188 m pour les subadultes ; certains mâles font jusqu'à 3 km ; zone d'alimentation principale parfois à 200 à 300 m du gîte de jour"
+          ]
+        },
+        "vitesse_de_deplacement": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Marche lente et sinueuse ; mâles en moyenne à 3 à 7 m par minute, avec de brèves accélérations de 50 à 120 m par minute",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "unite": "m/min",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Marche lente et sinueuse ; mâles en moyenne à 3 à 7 m par minute, avec de brèves accélérations de 50 à 120 m par minute"
+          ]
+        },
+        "locomotion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Vit en surface sans creuser ni grimper de façon importante, bien qu'il grimpe et nage bien ; ses piquants amortissent les chutes ; peut être incapable de ressortir d'un bassin aux parois abruptes",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Vit en surface sans creuser ni grimper de façon importante, bien qu'il grimpe et nage bien ; ses piquants amortissent les chutes ; peut être incapable de ressortir d'un bassin aux parois abruptes"
+          ]
+        },
+        "auto_onction": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "S'enduit les piquants d'une salive mousseuse ; fonction inconnue (attraction des partenaires, défense, sollicitation de la mère sont évoquées) ; plus fréquent chez les jeunes indépendants de l'année et chez les mâles, avec un maximum estival chez les adultes",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "S'enduit les piquants d'une salive mousseuse ; fonction inconnue (attraction des partenaires, défense, sollicitation de la mère sont évoquées) ; plus fréquent chez les jeunes indépendants de l'année et chez les mâles, avec un maximum estival chez les adultes"
+          ]
+        },
+        "defense": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Se roule en boule pour couvrir de piquants le ventre, la face et les membres",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Se roule en boule pour couvrir de piquants le ventre, la face et les membres"
+          ]
+        },
+        "audition": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Perçoit des ultrasons jusqu'à 85 kHz ; une communication ultrasonore reste possible mais n'a pas été observée",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Rasmussen S.L., Macdonald D.W., Hansen R.N.R., Thomsen H.M. et al. 2026. Hearing and anatomy of the ear of the European hedgehog Erinaceus europaeus. Biology Letters 22 : 20250535",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Perçoit des ultrasons jusqu'à 85 kHz ; une communication ultrasonore reste possible mais n'a pas été observée"
+          ]
+        },
+        "vocalisations": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Émet des grognements et des reniflements",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "BBC News, 11/03/2026, « Secret of hedgehog hearing discovered at far beyond human range »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Émet des grognements et des reniflements"
+          ]
+        }
+      },
+      "prochaine_piste": "Berthoud 1978 (déplacements, Suisse) : seule la première page a été lue sur Persée ; PDF protégé."
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "rythme_journalier": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Principalement nocturne, la plupart des individus restant actifs toute la nuit ; une activité en milieu de journée signale souvent un animal malade, mais des individus sains sortent parfois de jour, surtout en automne ; en été certaines femelles allaitantes sont presque aussi actives le jour que la nuit",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Principalement nocturne, la plupart des individus restant actifs toute la nuit ; une activité en milieu de journée signale souvent un animal malade, mais des individus sains sortent parfois de jour, surtout en automne ; en été certaines femelles allaitantes sont presque aussi actives le jour que la nuit"
+          ]
+        },
+        "hibernation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "D'environ octobre à début avril dans les régions froides de l'aire ; 2 à 3 réveils par hiver avec changement de nid ; épisodes de torpeur de 5 à 27 jours (9 en moyenne)",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "régions froides de l'aire",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "D'environ octobre à début avril dans les régions froides de l'aire ; 2 à 3 réveils par hiver avec changement de nid ; épisodes de torpeur de 5 à 27 jours (9 en moyenne)"
+          ]
+        },
+        "usage_des_nids_d_hiver": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Certains nids sont réparés et réutilisés, d'autres abandonnés ; un nid peut rester vide jusqu'à quatre mois puis être réoccupé, ce qui suggère l'existence de nids de réserve",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Certains nids sont réparés et réutilisés, d'autres abandonnés ; un nid peut rester vide jusqu'à quatre mois puis être réoccupé, ce qui suggère l'existence de nids de réserve"
+          ]
+        },
+        "hibernation_seuils_et_temperature": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Hiberne quand la température descend sous 10 °C, en gros d'octobre à avril ; la température corporelle peut tomber d'environ 35,4 °C à 4 °C",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Agence régionale de la biodiversité Nouvelle-Aquitaine, page « Le Hérisson d'Europe » (consultée par Wikipédia le 20/11/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "territoire": "Nouvelle-Aquitaine",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Hiberne quand la température descend sous 10 °C, en gros d'octobre à avril ; la température corporelle peut tomber d'environ 35,4 °C à 4 °C"
+          ]
+        }
+      },
+      "justification": "Hibernation documentée pour les régions froides ; calendrier français seulement par un complément régional (Nouvelle-Aquitaine).",
+      "prochaine_piste": "Saboureau 1993 et Berthoud 1982 (activité, HAL), bloqués par une protection anti-robots."
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "predateurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le Hibou grand-duc (Bubo bubo) compte parmi les rares rapaces qui le capturent régulièrement ; il dépouille le dos épineux avant de consommer la proie",
+              "source": "Wikipédia en anglais, article « European hedgehog » (texte source)",
+              "origine": "König C., Weick F. & Becking J.-H. 2009. Owls of the World. Yale University Press",
+              "url": "https://en.wikipedia.org/w/index.php?title=European_hedgehog&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Le Hibou grand-duc (Bubo bubo) compte parmi les rares rapaces qui le capturent régulièrement ; il dépouille le dos épineux avant de consommer la proie"
+          ]
+        },
+        "predateurs_cites_sans_reference": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Blaireau européen, Hibou grand-duc, Chouette hulotte, Renard roux, Sanglier, Buse variable, chien et Fouine",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Wikipédia en français, passage sans référence",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": false,
+              "consulte_le": "2026-11-27",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Blaireau européen, Hibou grand-duc, Chouette hulotte, Renard roux, Sanglier, Buse variable, chien et Fouine"
+          ]
+        },
+        "ectoparasites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Tiques Ixodes hexagonus, Ixodes ricinus et Rhipicephalus sanguineus très fréquentes ; puce Archaeopsylla erinacei la plus courante ; acariens dont Caparinia tripilis et Demodex erinacei ; myiases dues à Lucilia ou Calliphora vicina",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Couton G. 2019. Ectoparasites des hérissons d'Europe admis au centre de soins de la faune sauvage de l'ENVT en 2018. Thèse d'exercice vétérinaire, ENVT, p. 21-51",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "territoire": "France (Toulouse, centre de soins)",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Tiques Ixodes hexagonus, Ixodes ricinus et Rhipicephalus sanguineus très fréquentes ; puce Archaeopsylla erinacei la plus courante ; acariens dont Caparinia tripilis et Demodex erinacei ; myiases dues à Lucilia ou Calliphora vicina"
+          ]
+        },
+        "endoparasites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Porte des vers intestinaux et pulmonaires",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Keymer I.F., Gibson E.A. & Reynolds D.J. 1991. Zoonoses and other findings in hedgehogs (Erinaceus europaeus). Veterinary Record 128 : 245-249",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Porte des vers intestinaux et pulmonaires"
+          ]
+        }
+      },
+      "justification": "Prédateurs et parasites seulement par des compléments ; aucune source de référence lue sur ces thèmes.",
+      "prochaine_piste": "Thèses vétérinaires françaises (DUMAS, OATAO) et Bulletin de l'Académie vétérinaire 2024 (ectoparasites en France)."
+    },
+    "conservation": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "liste_rouge_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure), tendance inconnue",
+              "source": "UICN France : Liste rouge des mammifères de France métropolitaine (PDF, tableau des mammifères terrestres)",
+              "origine": "UICN Comité français, MNHN, SFEPM & ONCFS 2017. La Liste rouge des espèces menacées en France, chapitre Mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Conditions de réutilisation non indiquées dans le document",
+                "contenu_repris": true,
+                "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits) ; aucun texte"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure), tendance inconnue",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "UICN Comité français, MNHN, SFEPM & ONCFS 2017. La Liste rouge des espèces menacées en France, chapitre Mammifères de France métropolitaine",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "LC, préoccupation mineure (2017) ; tendance inconnue"
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "NT (quasi menacé), critère A2ac",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "UICN, Liste rouge mondiale : Gazzard A. & Rasmussen S.L. 2024, Erinaceus europaeus, e.T29650A213411773",
+              "consulte_le": "2026-11-27",
+              "territoire": "Monde",
+              "contexte": "évaluation de 2024",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC",
+              "source": "UICN France : Liste rouge des mammifères de France métropolitaine (PDF, tableau des mammifères terrestres)",
+              "origine": "UICN Comité français, MNHN, SFEPM & ONCFS 2017. La Liste rouge des espèces menacées en France, chapitre Mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Conditions de réutilisation non indiquées dans le document",
+                "contenu_repris": true,
+                "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits) ; aucun texte"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Monde",
+              "contexte": "catégorie mondiale en vigueur lors de la publication de 2017",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "2024 : NT, quasi menacé (critère A2ac)",
+            "Avant 2024 : LC"
+          ],
+          "ecartes": [
+            {
+              "valeur": "NT (quasi menacé)",
+              "source": "Wikidata, élément Q6145 (révision 2568846374)",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "listes_rouges_regionales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "GEPMA 2014. La Liste rouge des Mammifères menacés en Alsace. GEPMA, ODONAT",
+              "consulte_le": "2026-11-27",
+              "territoire": "Alsace",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Observatoire aquitain de la faune sauvage 2020. La Liste rouge des Mammifères continentaux non volants d'Aquitaine",
+              "consulte_le": "2026-11-27",
+              "territoire": "Aquitaine",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Birot-Colomb X., Bulliffon F., Métais R. & Girard-Claudon J. 2024. Liste rouge des vertébrés terrestres d'Auvergne-Rhône-Alpes. LPO AuRA",
+              "consulte_le": "2026-11-27",
+              "territoire": "Auvergne-Rhône-Alpes",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Lerat D. 2014. Élaboration d'une liste rouge des Mammifères hors Chiroptères de Bourgogne. Société d'Histoire naturelle d'Autun",
+              "consulte_le": "2026-11-27",
+              "territoire": "Bourgogne",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Anonyme 2015. Liste rouge régionale et responsabilité biologique régionale, Mammifères de Bretagne",
+              "consulte_le": "2026-11-27",
+              "territoire": "Bretagne",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Thevenin J.P. 2013. Liste rouge des mammifères de la région Centre",
+              "consulte_le": "2026-11-27",
+              "territoire": "Centre",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Rideau C. 2022. Liste rouge des mammifères de Normandie. Groupe Mammalogique Normand",
+              "consulte_le": "2026-11-27",
+              "territoire": "Normandie",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Marchadour B. et al. 2020. Liste rouge des mammifères continentaux des Pays de la Loire. LPO Pays de la Loire",
+              "consulte_le": "2026-11-27",
+              "territoire": "Pays de la Loire",
+              "etat": "documente"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Brugel E. & Gailledrat M. 2018. Liste rouge des mammifères du Poitou-Charentes",
+              "consulte_le": "2026-11-27",
+              "territoire": "Poitou-Charentes",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "LC dans les 9 listes régionales recensées par la BDC v18 : Alsace, Aquitaine, Auvergne-Rhône-Alpes, Bourgogne, Bretagne, Centre, Normandie, Pays de la Loire, Poitou-Charentes"
+          ]
+        },
+        "protection_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce protégée : inscrite à l'article 2 du texte ministériel commun daté du 23 avril 2007 (code BDC NM2)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Arrêté interministériel du 23 avril 2007 fixant la liste des mammifères terrestres protégés sur l'ensemble du territoire et les modalités de leur protection, modifié par l'arrêté du 1er mars 2019",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Protégé en France métropolitaine : arrêté du 23 avril 2007, article 2",
+          "ecartes": [
+            {
+              "valeur": "Espèce protégée par l'arrêté du 23 avril 2007",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "conventions_internationales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Convention de Berne : annexe III (code IBE3)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Convention relative à la conservation de la vie sauvage et du milieu naturel de l'Europe (Convention de Berne), 19 septembre 1979",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Convention de Berne, annexe III"
+        },
+        "sensibilite_de_diffusion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Aucune règle de sensibilité pour CD_REF 60015 dans le référentiel v18 (aucune ligne pour ce taxon)",
+              "source": "Référentiel de sensibilité SINP v18, export PatriNat (SENSIBILITE.zip, RefSensibilite_18.csv)",
+              "origine": "Référentiel national de sensibilité des données du SINP, v18 (MNHN, PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip",
+              "date_ou_version": "v18",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "constat d'absence d'entrée ; aucun contenu repris"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Aucune règle SINP recensée ; précaution générale maintenue pour nids et gîtes"
+        },
+        "menaces": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La famine et les collisions routières figurent parmi les principales causes de mort ; arrachage des haies et pesticides réduisent abri et proies dans les cultures",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "La famine et les collisions routières figurent parmi les principales causes de mort ; arrachage des haies et pesticides réduisent abri et proies dans les cultures"
+          ]
+        },
+        "mortalite_routiere": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Au moins 230 000 à 350 000 individus tués chaque année par les véhicules",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Belgique",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Environ 1 à 6 individus tués par kilomètre de route et par an",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Europe",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Au moins 230 000 à 350 000 individus tués chaque année par les véhicules",
+            "Environ 1 à 6 individus tués par kilomètre de route et par an"
+          ]
+        },
+        "mortalite_routiere_en_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Estimation de 1 à 3 millions d'individus tués par an sur les routes, environ 1,8 million en moyenne",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Garric A. 2017. « La France va-t-elle sauver ses hérissons ? », blog Eco(lo), Le Monde, 12/05/2017",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Estimation de 1 à 3 millions d'individus tués par an sur les routes, environ 1,8 million en moyenne"
+          ]
+        },
+        "effet_des_routes_sur_les_densites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Densités inférieures d'environ 30 % dans les zones traversées par des routes par rapport à des zones comparables qui n'en ont pas",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Huijser M.P. & Bergers P.J.M. 2000. The effect of roads and traffic on hedgehog (Erinaceus europaeus) populations. Biological Conservation 95 : 111-116",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Densités inférieures d'environ 30 % dans les zones traversées par des routes par rapport à des zones comparables qui n'en ont pas"
+          ]
+        },
+        "tendances": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Baisses de 15 à 22 %",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Baisse de 26 %",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Suisse",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Baisse de 30 %",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Pays-Bas",
+              "etat": "documente"
+            },
+            {
+              "valeur": "Tendance inconnue (code « ? »)",
+              "source": "UICN France : Liste rouge des mammifères de France métropolitaine (PDF, tableau des mammifères terrestres)",
+              "origine": "UICN Comité français, MNHN, SFEPM & ONCFS 2017. La Liste rouge des espèces menacées en France, chapitre Mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Conditions de réutilisation non indiquées dans le document",
+                "contenu_repris": true,
+                "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits) ; aucun texte"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède : -15 à -22 %",
+            "Suisse : -26 %",
+            "Pays-Bas : -30 %",
+            "France métropolitaine : tendance inconnue (2017)"
+          ]
+        }
+      },
+      "prochaine_piste": "Texte de l'arrêté du 23 avril 2007 sur Légifrance (inaccessible) ; fiche UICN mondiale 2024 (inaccessible) ; listes rouges régionales manquantes dans la BDC."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "conditions_de_detection": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce surtout nocturne qui reste en général active toute la nuit ; un individu actif en plein jour est souvent malade, sauf en automne et chez certaines femelles allaitantes en été",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Espèce surtout nocturne qui reste en général active toute la nuit ; un individu actif en plein jour est souvent malade, sauf en automne et chez certaines femelles allaitantes en été"
+          ]
+        },
+        "indices_sonores": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Bruyant en s'alimentant : mastication sonore, grognements, reniflements, grattage du sol et de la litière",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "LPO, fiche technique Refuge « Le hérisson, mieux le connaître » (référence incomplète)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Bruyant en s'alimentant : mastication sonore, grognements, reniflements, grattage du sol et de la litière"
+          ]
+        },
+        "risques_et_precautions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Risque de noyade dans les bassins de jardin aux bords abrupts, dont il peut ne pas pouvoir sortir",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Risque de noyade dans les bassins de jardin aux bords abrupts, dont il peut ne pas pouvoir sortir"
+          ]
+        },
+        "alimentation_artificielle": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le pain et le lait lui sont mortels ; un accès libre aux croquettes ou pâtées peut entraîner obésité ou carences",
+              "source": "Wikipédia en français, article « Erinaceus europaeus » (texte source)",
+              "origine": "Agence régionale de la biodiversité Nouvelle-Aquitaine, page « Le Hérisson d'Europe » (consultée par Wikipédia le 20/11/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "niveau": "complement",
+              "reference_citee": true,
+              "consulte_le": "2026-11-27",
+              "territoire": "Nouvelle-Aquitaine",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Le pain et le lait lui sont mortels ; un accès libre aux croquettes ou pâtées peut entraîner obésité ou carences"
+          ]
+        },
+        "periodes_sensibles": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Hibernation d'octobre à début avril dans les régions froides, avec des nids d'hiver réutilisés ; mise bas dans des nids de feuilles, le jeune restant dépendant jusqu'au sevrage à 4 à 6 semaines",
+              "source": "Plazi, traitement d'Erinaceus europaeus (HMW vol. 8), diffusé par l'API GBIF (jeu 1b718368-bbae-48fa-898f-8bad8de61e7a, taxon 195866896)",
+              "origine": "Mittermeier R.A. & Wilson D.E. (dir.) 2018. Erinaceidae. Handbook of the Mammals of the World, vol. 8 : Insectivores, Sloths and Colugos. Lynx Edicions, Barcelone, p. 288-330",
+              "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50",
+              "date_ou_version": "2018 (jeu Plazi publié le 31/07/2018)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (jeu Plazi sur GBIF)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "restriction_diffusion": "Aucune localisation ; aucune recommandation d'observation pendant la reproduction ou l'hibernation",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Hibernation d'octobre à début avril dans les régions froides, avec des nids d'hiver réutilisés ; mise bas dans des nids de feuilles, le jeune restant dépendant jusqu'au sevrage à 4 à 6 semaines"
+          ]
+        },
+        "statut_juridique_et_manipulation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce protégée (article 2) : capturer, transporter ou détenir un individu relève des interdictions du texte ; le contenu exact des interdictions n'a pas pu être lu sur Légifrance",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "reutilisation": {
+                "licence": "Non indiquée sur la page de téléchargement PatriNat (constat du 27/11/2026)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code de statut, intitulé court du texte, territoire) ; aucune partie substantielle de la base"
+              },
+              "origine": "Arrêté interministériel du 23 avril 2007 fixant la liste des mammifères terrestres protégés sur l'ensemble du territoire et les modalités de leur protection, modifié par l'arrêté du 1er mars 2019",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": [
+            "Espèce protégée (article 2) : capturer, transporter ou détenir un individu relève des interdictions du texte ; le contenu exact des interdictions n'a pas pu être lu sur Légifrance"
+          ]
+        }
+      },
+      "justification": "Peu de précautions documentées par des sources de référence ; conseils pratiques seulement dans des compléments.",
+      "prochaine_piste": "Fiches de la SFEPM et des centres de soins ; protocoles de suivi (tunnels à empreintes, pièges photographiques)."
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "longueur_tete_corps",
+          "longueur_queue",
+          "autres_mensurations",
+          "masse",
+          "variation_saisonniere_de_la_masse",
+          "dimorphisme_sexuel",
+          "pelage_et_piquants",
+          "pieds_queue_oreilles",
+          "formule_dentaire",
+          "caryotype",
+          "variations_de_couleur",
+          "especes_proches_et_criteres",
+          "confusions_en_france"
+        ],
+        "lacunes": [
+          "nombre_de_piquants"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "statut_en_metropole",
+          "aire_indigene",
+          "presence_en_corse",
+          "introductions_hors_aire",
+          "contact_avec_especes_voisines",
+          "structure_genetique",
+          "statut_infraspecifique",
+          "hypothese_taxonomique",
+          "localite_type"
+        ],
+        "lacunes": [
+          "répartition fine en métropole (atlas inaccessibles)"
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "milieux",
+          "milieux_evites_ou_pauvres",
+          "altitude",
+          "abris_et_nids",
+          "densite_ville_campagne"
+        ],
+        "lacunes": []
+      },
+      "alimentation": {
+        "documentes": [
+          "regime",
+          "proies_particulieres",
+          "aliments_fournis_par_l_homme",
+          "methode_de_recherche"
+        ],
+        "lacunes": []
+      },
+      "reproduction": {
+        "documentes": [
+          "systeme_d_appariement",
+          "calendrier",
+          "gestation",
+          "taille_de_portee",
+          "lieu_de_mise_bas",
+          "nouveau_ne",
+          "soins_et_sevrage",
+          "maturite_sexuelle",
+          "secondes_portees"
+        ],
+        "lacunes": [
+          "calendrier_en_france",
+          "calendrier_en_france (aucune source de référence)"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "croissance",
+          "dispersion_des_jeunes",
+          "longevite_maximale"
+        ],
+        "lacunes": [
+          "esperance_de_vie_moyenne",
+          "mortalite_juvenile"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "sociabilite_et_territorialite",
+          "domaine_vital",
+          "deplacements_nocturnes",
+          "vitesse_de_deplacement",
+          "locomotion",
+          "auto_onction",
+          "defense",
+          "audition",
+          "vocalisations"
+        ],
+        "lacunes": []
+      },
+      "activite": {
+        "documentes": [
+          "rythme_journalier",
+          "hibernation",
+          "usage_des_nids_d_hiver",
+          "hibernation_seuils_et_temperature"
+        ],
+        "lacunes": []
+      },
+      "interactions": {
+        "documentes": [
+          "predateurs",
+          "ectoparasites",
+          "endoparasites"
+        ],
+        "lacunes": [
+          "predateurs_cites_sans_reference",
+          "prédateurs et parasites : aucune source de référence"
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_nationale",
+          "liste_rouge_mondiale",
+          "listes_rouges_regionales",
+          "protection_nationale",
+          "conventions_internationales",
+          "sensibilite_de_diffusion",
+          "menaces",
+          "mortalite_routiere",
+          "mortalite_routiere_en_france",
+          "effet_des_routes_sur_les_densites",
+          "tendances"
+        ],
+        "lacunes": [
+          "texte de l'arrêté de protection non lu (Légifrance inaccessible)"
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "conditions_de_detection",
+          "indices_sonores",
+          "risques_et_precautions",
+          "alimentation_artificielle",
+          "periodes_sensibles",
+          "statut_juridique_et_manipulation"
+        ],
+        "lacunes": []
+      }
+    },
+    "point_de_reprise": [
+      "Légifrance : relire l'arrêté du 23 avril 2007 (art. 2) dès qu'il est accessible",
+      "IUCN Red List : lire l'évaluation mondiale 2024 (Gazzard & Rasmussen)",
+      "INPN, OpenObs et atlas SFEPM : répartition en métropole, dès leur remise en ligne",
+      "HAL (Berthoud 1980 et 1982, Saboureau 1993) : bloqués par une protection anti-robots, à ne pas contourner",
+      "Persée : PDF de Berthoud 1978 protégé ; lire le texte intégral par un accès autorisé"
+    ]
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "Admission par la voie TAXREF (code P, colonne FR, v18)",
+      "sources": [
+        "TAXREF v18",
+        "Catalogue of Life 2026-11-11",
+        "GBIF Backbone"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "decision": "enrichir",
+      "motif": "Nom « Hérisson d'Europe » rattaché sans ambiguïté à CD_REF 60015, fiche EFF-000001 existante : enrichissement complet des 11 familles",
+      "sources": [
+        "TAXREF v18",
+        "HMW vol. 8 (Plazi/GBIF)",
+        "MSW3 (Plazi/GBIF)",
+        "Liste rouge France 2017",
+        "BDC Statuts v18",
+        "Référentiel sensibilité SINP v18",
+        "Wikidata Q6145",
+        "Wikipédia fr et en"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "cadrage v0.6",
+    "requete": "Hérisson d'Europe",
+    "sources_consultees": [
+      {
+        "source": "TAXREF v18 (export local)",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank, 3LR), passe précédente",
+        "version": "2026-11-11"
+      },
+      {
+        "source": "GBIF Backbone (API), passe précédente",
+        "version": "consultée le 2026-11-27"
+      },
+      {
+        "source": "Plazi : traitement HMW vol. 8, Erinaceidae, via l'API GBIF (CC0)",
+        "version": "2018",
+        "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50"
+      },
+      {
+        "source": "Plazi : traitement MSW3, Erinaceomorpha, via l'API GBIF (CC0)",
+        "version": "2005",
+        "url": "https://api.gbif.org/v1/species/5219616/descriptions?limit=50"
+      },
+      {
+        "source": "UICN France : Liste rouge des mammifères de France métropolitaine (PDF)",
+        "version": "2017",
+        "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf"
+      },
+      {
+        "source": "BDC Statuts, export PatriNat",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip"
+      },
+      {
+        "source": "Référentiel de sensibilité SINP, export PatriNat",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip"
+      },
+      {
+        "source": "Wikidata Q6145",
+        "version": "révision 2568846374",
+        "url": "https://www.wikidata.org/wiki/Special:EntityData/Q6145.json"
+      },
+      {
+        "source": "Wikipédia fr, « Erinaceus europaeus » (texte source)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://fr.wikipedia.org/w/index.php?title=Erinaceus_europaeus&action=raw"
+      },
+      {
+        "source": "Wikipédia en, « European hedgehog » (texte source)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://en.wikipedia.org/w/index.php?title=European_hedgehog&action=raw"
+      },
+      {
+        "source": "Persée, Berthoud 1978 (La Terre et la Vie 32 : 73-82), première page seulement",
+        "version": "1978",
+        "url": "https://www.persee.fr/doc/revec_0040-3865_1978_num_32_1_4995"
+      },
+      {
+        "source": "OpenAlex (recherche bibliographique, aucune valeur tirée)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.openalex.org/works?search=Erinaceus%20europaeus"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "Légifrance (arrêté du 23 avril 2007)",
+        "motif": "HTTP 403 : texte officiel non lu ; protection reprise de la BDC Statuts v18"
+      },
+      {
+        "source": "IUCN Red List (fiche 29650)",
+        "motif": "HTTP 403 ; catégorie mondiale reprise de la BDC v18"
+      },
+      {
+        "source": "INPN, OpenObs",
+        "motif": "Hors ligne (incident signalé par PatriNat) ; INPN répond 403"
+      },
+      {
+        "source": "HAL (Berthoud 1980 et 1982, Saboureau 1993, hal-04938020)",
+        "motif": "Protection anti-robots (Anubis) : non contournée"
+      },
+      {
+        "source": "Persée, PDF intégraux",
+        "motif": "Protection anti-robots (altcha) : non contournée ; seule la première page HTML a été lue"
+      },
+      {
+        "source": "Europe PMC, PubMed Central, MDPI, Wiley, Springer, Royal Society, bioRxiv, DUMAS, OATAO, theses.fr",
+        "motif": "Connexion refusée par le proxy réseau de l'environnement"
+      },
+      {
+        "source": "EUR-Lex, Conseil de l'Europe (Convention de Berne)",
+        "motif": "Connexion refusée par le proxy ; annexe reprise de la BDC v18"
+      },
+      {
+        "source": "Animal Diversity Web, LPO, SFEPM, ARB Nouvelle-Aquitaine, Plazi (treatment.plazi.org)",
+        "motif": "Connexion refusée par le proxy"
+      },
+      {
+        "source": "AnAge, PanTHERIA, EltonTraits (figshare, esapubs)",
+        "motif": "Connexion refusée par le proxy"
+      },
+      {
+        "source": "Wikidata API (wbsearchentities), Wikipédia de",
+        "motif": "Limite de débit (HTTP 429) ou connexion refusée ; l'élément Q6145 a été lu par Special:EntityData"
+      }
+    ]
+  }
+}

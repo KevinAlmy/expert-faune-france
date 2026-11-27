@@ -1,0 +1,1723 @@
+{
+  "id": "EFF-000001",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Parus major",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "ES",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Chordata",
+      "classe": "Aves",
+      "ordre": "Passeriformes",
+      "famille": "Paridae"
+    },
+    "noms_vernaculaires": [
+      "Mésange charbonnière"
+    ],
+    "synonymes": [
+      {
+        "nom": "Parus corsus",
+        "auteur": "Kleinschmidt, 1903",
+        "source": "TAXREF v18, CD_NOM 961324"
+      },
+      {
+        "nom": "Parus major corsus",
+        "auteur": "Kleinschmidt, 1903",
+        "source": "TAXREF v18, CD_NOM 3767 (rang SSES rattaché au CD_REF 3764)"
+      },
+      {
+        "nom": "Parus major major",
+        "auteur": "Linnaeus, 1758",
+        "source": "TAXREF v18, CD_NOM 3766 (rang SSES rattaché au CD_REF 3764)"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "3764",
+        "cd_ref": "3764",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "75SVV",
+        "jeu": "3LR",
+        "version": "2026-11-11",
+        "statut": "accepted",
+        "source_du_jeu": "ITIS (TSN 561864)"
+      },
+      "gbif": {
+        "usageKey": 9705453,
+        "dorsale": "GBIF Backbone",
+        "correspondance": "EXACT"
+      },
+      "uicn": {
+        "taxon_id": "22735990"
+      },
+      "wikidata": {
+        "id": "Q25485"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Parus major Linnaeus, 1758 : nom accepté au rang espèce (CD_NOM = CD_REF = 3764), famille des Paridae",
+        "source": "TAXREF v18, export officiel (MNHN/PatriNat), TAXREFv18.txt",
+        "origine": "TAXREF v18 CD_REF 3764",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/3764",
+        "date_ou_version": "TAXREF v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "Code P dans la colonne FR (France hexagonale et Corse) : présent, indigène ou indéterminé",
+        "source": "TAXREF v18, export officiel (MNHN/PatriNat), TAXREFv18.txt",
+        "origine": "TAXREF v18",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/3764",
+        "date_ou_version": "TAXREF v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : code P (Présent (indigène ou indéterminé)) en colonne FR ; espèce au rang ES, nom accepté",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Guides de terrain et LPO/oiseaux.net inaccessibles (proxy) ; valeurs issues de Wikidata et de l'article Wikipédia (ouvrages cités). Critères face aux espèces proches non documentés.",
+      "prochaine_piste": "Comparaison avec la Mésange bleue, la Mésange noire et la Mésange de Bonelli/huppée dans un guide (Svensson 2023) ou la fiche LPO, si l'accès est rétabli.",
+      "champs": {
+        "longueur_totale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mesure 12,5–15 cm du bout du bec à celui de la queue, ce qui en fait la plus grande mésange d'Europe",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "cm",
+              "contexte": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Mesure 12,5–15 cm du bout du bec à celui de la queue, ce qui en fait la plus grande mésange d'Europe"
+        },
+        "envergure": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Entre 23 et 26 cm d'une pointe d'aile à l'autre",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "cm",
+              "contexte": "plage d'un guide de terrain"
+            },
+            {
+              "valeur": "0,23 m",
+              "source": "Wikidata, élément Q25485 (Parus major)",
+              "origine": "Alerstam T. et al. (2007). Flight speeds among bird species: allometric and phylogenetic effects. PLoS Biology",
+              "url": "https://www.wikidata.org/wiki/Q25485",
+              "date_ou_version": "Wikidata, révision 2568917458",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "m",
+              "contexte": "valeur unique utilisée dans une étude comparative du vol"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Entre 23 et 26 cm d'une pointe d'aile à l'autre",
+            "0,23 m"
+          ]
+        },
+        "masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Poids compris entre 12 et 22 g",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "g",
+              "contexte": "plage d'un guide de terrain, adultes"
+            },
+            {
+              "valeur": "18,5 g",
+              "source": "Wikidata, élément Q25485 (Parus major)",
+              "origine": "Lislevand T., Figuerola J., Székely T. (2007). Avian body sizes in relation to fecundity, mating system, display behavior, and resource sharing. Ecology",
+              "url": "https://www.wikidata.org/wiki/Q25485",
+              "date_ou_version": "Wikidata, révision 2568917458",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "g",
+              "contexte": "masse adulte (jeu de données comparatif)"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Poids compris entre 12 et 22 g",
+            "18,5 g"
+          ]
+        },
+        "masse_a_l_eclosion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "1,68 g",
+              "source": "Wikidata, élément Q25485 (Parus major)",
+              "origine": "Lislevand T., Figuerola J., Székely T. (2007). Avian body sizes in relation to fecundity, mating system, display behavior, and resource sharing. Ecology",
+              "url": "https://www.wikidata.org/wiki/Q25485",
+              "date_ou_version": "Wikidata, révision 2568917458",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "g",
+              "stade_ou_saison": "poussin à l'éclosion"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "1,68 g"
+        },
+        "plumage_adulte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Tête coiffée de noir avec la gorge également noire et de grandes joues blanches ; manteau vert olive ; dessous jaune parcouru au centre par une bande noire (la « cravate ») qui descend de la poitrine au ventre ; bec noir, pattes d'un gris bleuté",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 14",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Tête coiffée de noir avec la gorge également noire et de grandes joues blanches ; manteau vert olive ; dessous jaune parcouru au centre par une bande noire (la « cravate ») qui descend de la poitrine au ventre ; bec noir, pattes d'un gris bleuté"
+        },
+        "dimorphisme_sexuel": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Faible ; il tient surtout à la cravate, large chez le mâle, plus étroite voire interrompue chez la femelle, dont le jaune est aussi plus terne",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Svensson L. et al. (2023). Le guide ornitho. Delachaux et Niestlé, p. 354",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Faible ; il tient surtout à la cravate, large chez le mâle, plus étroite voire interrompue chez la femelle, dont le jaune est aussi plus terne"
+        },
+        "juvenile": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Teintes globalement plus délavées que l'adulte, joues teintées de jaune et non blanches, liseré noir sous les joues incomplet",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 14",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "juvénile"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Teintes globalement plus délavées que l'adulte, joues teintées de jaune et non blanches, liseré noir sous les joues incomplet"
+        }
+      }
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "justification": "Présence métropolitaine établie par TAXREF ; atlas national (oiseaux-de-france.org), EBBA2 et INPN inaccessibles. Aire et sous-espèces tirées de l'article Wikipédia (ouvrages cités).",
+      "prochaine_piste": "Atlas des oiseaux de France métropolitaine (Issa & Muller 2015) ou oiseaux-de-france.org pour la répartition et les effectifs nicheurs ; EBBA2 pour le contexte européen.",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Présente, indigène ou de statut indéterminé, en France hexagonale et en Corse (code P)",
+              "source": "TAXREF v18, export officiel (MNHN/PatriNat), TAXREFv18.txt",
+              "origine": "TAXREF v18",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/3764",
+              "date_ou_version": "TAXREF v18",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Présente, indigène ou de statut indéterminé, en France hexagonale et en Corse (code P)"
+        },
+        "aire_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Toute l'Europe hormis l'Islande, le nord-ouest du Maghreb et l'essentiel du continent asiatique",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 21",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "monde"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Toute l'Europe hormis l'Islande, le nord-ouest du Maghreb et l'essentiel du continent asiatique"
+        },
+        "sous_especes_en_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Selon AviList 2025 : P. m. newtoni dans le nord-ouest du pays, P. m. major sur le reste du continent européen, P. m. corsus en Corse. TAXREF v18 ne retient pas ces sous-espèces (P. m. corsus et P. m. major y sont rattachés à l'espèce) : découpage documenté comme hypothèse, le référentiel français prime",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "AviList Core Team (2025). AviList: The Global Avian Checklist, v2025. doi:10.2173/avilist.v2025",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Selon AviList 2025 : P. m. newtoni dans le nord-ouest du pays, P. m. major sur le reste du continent européen, P. m. corsus en Corse. TAXREF v18 ne retient pas ces sous-espèces (P. m. corsus et P. m. major y sont rattachés à l'espèce) : découpage documenté comme hypothèse, le référentiel français prime"
+        },
+        "statut_de_residence": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce surtout sédentaire ; les populations méditerranéennes et britanniques le sont particulièrement, les déplacements partiels touchant surtout l'Europe centrale",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 21",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Espèce surtout sédentaire ; les populations méditerranéennes et britanniques le sont particulièrement, les déplacements partiels touchant surtout l'Europe centrale"
+        }
+      }
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "justification": "TAXREF (milieu) lu ; synthèses françaises inaccessibles ; milieux, altitudes et domaine vital tirés de l'article Wikipédia (ouvrages cités, souvent hors de France).",
+      "prochaine_piste": "Altitudes maximales de nidification en France (Alpes, Pyrénées, Corse) dans l'atlas national ou les atlas régionaux.",
+      "champs": {
+        "milieu_taxref": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce terrestre (code habitat 3 de TAXREF)",
+              "source": "TAXREF v18, export officiel (MNHN/PatriNat), TAXREFv18.txt",
+              "origine": "TAXREF v18",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/3764",
+              "date_ou_version": "TAXREF v18",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Espèce terrestre (code habitat 3 de TAXREF)"
+        },
+        "milieux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Occupe presque tous les milieux pourvus d'arbres : forêts feuillues, résineuses et mélangées, taïga, ainsi que vergers, haies, jardins et parcs ; elle recherche plutôt les feuillus, se fait rare dans les peuplements serrés de résineux et vit souvent près des habitations",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 16",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Occupe presque tous les milieux pourvus d'arbres : forêts feuillues, résineuses et mélangées, taïga, ainsi que vergers, haies, jardins et parcs ; elle recherche plutôt les feuillus, se fait rare dans les peuplements serrés de résineux et vit souvent près des habitations"
+        },
+        "altitude": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Niche jusque vers 1950 m",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "m",
+              "territoire": "Suisse"
+            },
+            {
+              "valeur": "Observée jusqu'à 4420 m",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "m",
+              "territoire": "Chine (Sichuan)"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Niche jusque vers 1950 m",
+            "Observée jusqu'à 4420 m"
+          ]
+        },
+        "supports_de_nid": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Cavité d'arbre ou de mur, nichoir ; parfois des abris artificiels inattendus (boîtes aux lettres, parpaings, machines)",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Stichmann-Marny U. & Stichmann W. (1997). Guide Vigot de la faune et de la flore",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "restriction_diffusion": "description générale seulement ; aucune localisation de nid"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Cavité d'arbre ou de mur, nichoir ; parfois des abris artificiels inattendus (boîtes aux lettres, parpaings, machines)"
+        },
+        "domaine_vital": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Un secteur de 3 à 4 ha sert au repos et à la nidification, les déplacements couvrant 30 à 40 ha ; le territoire de reproduction proprement dit peut se réduire à environ 0,5 ha",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 16-17",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "ha",
+              "territoire": "Europe centrale"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Un secteur de 3 à 4 ha sert au repos et à la nidification, les déplacements couvrant 30 à 40 ha ; le territoire de reproduction proprement dit peut se réduire à environ 0,5 ha"
+        }
+      }
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "justification": "Synthèses de référence (Birds of the World, sous abonnement : exclue) non lues directement ; valeurs tirées de l'article Wikipédia, qui cite Gosler et al. 2020 et Géroudet 1963.",
+      "prochaine_piste": "Études de régime en France (HAL, revues ornithologiques françaises) dès que l'accès est disponible.",
+      "champs": {
+        "regime_periode_de_reproduction": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Au printemps et en été, se nourrit surtout d'invertébrés (insectes et leurs larves, araignées, opilions, mille-pattes, petits escargots, cloportes…), complétés de quelques fruits et graines (hêtre, noisetier)",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Schifferli L. (1985). Oiseaux de notre pays. Éditions Silva, p. 202 ; Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "printemps et été"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Au printemps et en été, se nourrit surtout d'invertébrés (insectes et leurs larves, araignées, opilions, mille-pattes, petits escargots, cloportes…), complétés de quelques fruits et graines (hêtre, noisetier)"
+        },
+        "regime_hors_reproduction": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le reste de l'année, consomme surtout des graines, avec des baies, des bourgeons, du nectar, du pollen, de la sève au printemps, et une petite part d'œufs d'insectes et d'araignées ; exploite les mangeoires (tournesol, arachides)",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "automne et hiver"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Le reste de l'année, consomme surtout des graines, avec des baies, des bourgeons, du nectar, du pollen, de la sève au printemps, et une petite part d'œufs d'insectes et d'araignées ; exploite les mangeoires (tournesol, arachides)"
+        },
+        "alimentation_des_poussins": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Chenilles de lépidoptères et araignées en forêt caducifoliée ; en forêt de résineux, plutôt des larves de tenthrèdes et des chenilles processionnaires",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "poussins au nid"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Chenilles de lépidoptères et araignées en forêt caducifoliée ; en forêt de résineux, plutôt des larves de tenthrèdes et des chenilles processionnaires"
+        },
+        "methodes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Prospecte toutes les strates des arbres en délaissant souvent la cime, et parfois le sol ; peut se servir d'une aiguille de pin pour extraire des larves ; ne fait pas de réserves mais pille celles des mésanges nonnette et noire",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 15",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Prospecte toutes les strates des arbres en délaissant souvent la cime, et parfois le sol ; peut se servir d'une aiguille de pin pour extraire des larves ; ne fait pas de réserves mais pille celles des mésanges nonnette et noire"
+        },
+        "predation_occasionnelle_de_vertebres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Capture parfois des vertébrés : petits passereaux, et chauves-souris en hibernation dont elle consomme le cerveau",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Estók P., Zsebők S., Siemers B. M. (2010). Great tits search for, capture, kill and eat hibernating bats. Biology Letters 6(1): 59-62",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Hongrie (chauves-souris)"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Capture parfois des vertébrés : petits passereaux, et chauves-souris en hibernation dont elle consomme le cerveau"
+        }
+      }
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "Calendrier de ponte propre à la France non trouvé ; valeurs générales (aire mondiale ou Europe centrale) tirées de l'article Wikipédia (ouvrages cités). Lieux de nid décrits sans localisation (règle 5).",
+      "prochaine_piste": "Dates de ponte en France (programme national de suivi des nichoirs, CRBPO ; études de Montpellier/Corse sur HAL).",
+      "champs": {
+        "systeme_d_appariement": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "En général monogame ; une bigamie simultanée paraît régulière dans les meilleurs habitats",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Björklund M. & Westman B. (1986). Animal Behaviour 34(5): 1436-1440",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "En général monogame ; une bigamie simultanée paraît régulière dans les meilleurs habitats"
+        },
+        "formation_des_couples": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les sites sont prospectés dès l'automne ; les couples sont formés au plus tard en février ; le mâle guide la femelle vers une cavité, en tapote le bord et lui apporte de la nourriture",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 17",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe centrale"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Les sites sont prospectés dès l'automne ; les couples sont formés au plus tard en février ; le mâle guide la femelle vers une cavité, en tapote le bord et lui apporte de la nourriture"
+        },
+        "construction_du_nid": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Bâti par la seule femelle en 5 à 12 jours, avec mousse, brindilles, herbes, laine, poils et crins",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342 ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 18",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "jours"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Bâti par la seule femelle en 5 à 12 jours, avec mousse, brindilles, herbes, laine, poils et crins"
+        },
+        "periode_de_ponte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "De janvier à septembre selon les régions de l'aire",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "aire mondiale"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "De janvier à septembre selon les régions de l'aire"
+        },
+        "nombre_de_couvees": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le plus souvent deux par an ; la seconde est rarement dans la même cavité, mais proche",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 20",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Le plus souvent deux par an ; la seconde est rarement dans la même cavité, mais proche"
+        },
+        "taille_de_ponte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "5 à 12 œufs, pondus à raison d'un par jour",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 18",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "œufs"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "5 à 12 œufs, pondus à raison d'un par jour"
+        },
+        "incubation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "12 à 15 jours, assurée par la femelle ; les éclosions s'étalent sur 2 à 4 jours",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 18",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "jours"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "12 à 15 jours, assurée par la femelle ; les éclosions s'étalent sur 2 à 4 jours"
+        },
+        "sejour_au_nid": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les jeunes quittent le nid 16 à 22 jours après l'éclosion",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "jours"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Les jeunes quittent le nid 16 à 22 jours après l'éclosion"
+        },
+        "soins_parentaux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le mâle ravitaille la femelle pendant qu'elle couve et participe jusqu'à l'envol ; la famille reste groupée une à deux semaines non loin du nid",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 18-20",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Le mâle ravitaille la femelle pendant qu'elle couve et participe jusqu'à l'envol ; la famille reste groupée une à deux semaines non loin du nid"
+        }
+      }
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Liste de longévité EURING/CRBPO inaccessible ; valeurs de Wikipédia (ouvrages cités).",
+      "prochaine_piste": "Record de longévité par baguage (liste EURING, CRBPO).",
+      "champs": {
+        "dispersion_natale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Chassés des territoires à l'automne, les jeunes s'installent généralement avant l'hiver à 200–4500 m de leur lieu de naissance",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 20",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "m",
+              "territoire": "Europe centrale"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Chassés des territoires à l'automne, les jeunes s'installent généralement avant l'hiver à 200–4500 m de leur lieu de naissance"
+        },
+        "longevite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Peut vivre une quinzaine d'années",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "maximum, sauvage"
+            },
+            {
+              "valeur": "Durée de vie habituelle de 2 à 3 ans",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "espérance de vie, sauvage"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Peut vivre une quinzaine d'années",
+            "Durée de vie habituelle de 2 à 3 ans"
+          ]
+        },
+        "mortalite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Environ 87 % des oiseaux disparaissent avant un an ; chez les adultes, la mortalité annuelle avoisine 49 %",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 16",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "sauvage"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Environ 87 % des oiseaux disparaissent avant un an ; chez les adultes, la mortalité annuelle avoisine 49 %"
+        }
+      }
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "justification": "Sources de référence françaises inaccessibles ; valeurs de Wikipédia (ouvrages cités). xeno-canto inaccessible (proxy).",
+      "prochaine_piste": "Description des cris et chants à partir d'enregistrements xeno-canto (licence par enregistrement).",
+      "champs": {
+        "sociabilite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Vit en petites bandes hors de la saison de nidification, participe moins que d'autres mésanges aux rondes mixtes, et passe la nuit seule dans une cavité ou dans le feuillage en été",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "British Trust for Ornithology (2010). Great Tit (page web) ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 17 ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 21",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Vit en petites bandes hors de la saison de nidification, participe moins que d'autres mésanges aux rondes mixtes, et passe la nuit seule dans une cavité ou dans le feuillage en été"
+        },
+        "territorialite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Attachée d'une année à l'autre au même secteur ; la défense, faible en été, se renforce à partir de septembre",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 17 ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 20",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Attachée d'une année à l'autre au même secteur ; la défense, faible en été, se renforce à partir de septembre"
+        },
+        "vocalisations": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Répertoire plus riche que celui des autres mésanges : motifs aigus de deux à quatre notes au rythme net, répétés en série ; chaque mâle en possède habituellement 2 à 6 variantes de tempos distincts",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Metzmacher M. (1991). Oiseaux de l'Ardenne et de l'Eifel : leurs chants, leurs cris ; Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 15",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Répertoire plus riche que celui des autres mésanges : motifs aigus de deux à quatre notes au rythme net, répétés en série ; chaque mâle en possède habituellement 2 à 6 variantes de tempos distincts"
+        },
+        "apprentissage_social": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Dès les années 1920 en Angleterre, des mésanges ont appris à percer l'opercule des bouteilles de lait livrées devant les maisons, comportement qui s'est diffusé rapidement",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Fisher J. & Hinde R. (1949). The opening of milk bottles by birds. British Birds 42: 347-357",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Angleterre"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Dès les années 1920 en Angleterre, des mésanges ont appris à percer l'opercule des bouteilles de lait livrées devant les maisons, comportement qui s'est diffusé rapidement"
+        }
+      }
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Rythme journalier non documenté ; migration et mue d'après Géroudet 1963 via Wikipédia.",
+      "prochaine_piste": "Phénologie des mouvements en France (données de migration, CRBPO).",
+      "champs": {
+        "periode_de_chant": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Chante surtout de février à juin ; presque silencieuse en juillet, août et novembre",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 16",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Chante surtout de février à juin ; presque silencieuse en juillet, août et novembre"
+        },
+        "migration": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mouvements irruptifs certaines années à l'automne, surtout depuis l'Europe centrale (Baltique–Alpes), le fait surtout de jeunes souvent mêlés à des mésanges bleues et noires ; retour plus discret de février à avril ; probablement lié à des pics de densité",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 21",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe centrale"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Mouvements irruptifs certaines années à l'automne, surtout depuis l'Europe centrale (Baltique–Alpes), le fait surtout de jeunes souvent mêlés à des mésanges bleues et noires ; retour plus discret de février à avril ; probablement lié à des pics de densité"
+        },
+        "mue": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mue partielle de fin juin à fin août",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 14",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Mue partielle de fin juin à fin août"
+        }
+      }
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "justification": "Valeurs issues de Wikipédia citant des publications originales (non relues directement : DOI et revues hors d'accès).",
+      "prochaine_piste": "Relire les publications originales citées (Götmark 2002, 2005 ; Dunn 1977 ; Lawson et al. 2012, en accès libre sur PLoS ONE).",
+      "champs": {
+        "predateurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Épervier d'Europe, qui prélève surtout les jeunes des secondes nichées ; pillage des nids par le Pic épeiche (selon le modèle de nichoir), le Geai des chênes et la Belette, qui peut aussi tuer les adultes ; Chat domestique",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Götmark F. & Andersson M. (2005). Oecologia 142: 177-183 ; Götmark F. (2002). Oecologia 130: 25-32 ; Skwarska J. et al. (2009). Ornis Fennica 86: 109-112 ; Dunn E. (1977). J. Anim. Ecol. 46: 633 ; Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Épervier d'Europe, qui prélève surtout les jeunes des secondes nichées ; pillage des nids par le Pic épeiche (selon le modèle de nichoir), le Geai des chênes et la Belette, qui peut aussi tuer les adultes ; Chat domestique"
+        },
+        "parasites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Pou Rostrinirmus hudeci décrit en 1981 sur des oiseaux d'Europe centrale ; puce Ceratophyllus gallinae très fréquente dans les nids",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Balát F. (1981). Folia Parasitologica 28: 161-168 ; Rothschild M. & Clay T. (1953). Fleas, Flukes and Cuckoos. Collins",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Pou Rostrinirmus hudeci décrit en 1981 sur des oiseaux d'Europe centrale ; puce Ceratophyllus gallinae très fréquente dans les nids"
+        },
+        "maladies": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Forme émergente de variole aviaire (Avipoxvirus) qui frappe la Mésange charbonnière plus que les autres mésanges depuis 2005 environ ; lésions surtout à la tête, mortalité notable",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Lawson B. et al. (2012). Emergence of a novel avian pox disease in British tit species. PLoS ONE 7(11): e40176",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Royaume-Uni"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Forme émergente de variole aviaire (Avipoxvirus) qui frappe la Mésange charbonnière plus que les autres mésanges depuis 2005 environ ; lésions surtout à la tête, mortalité notable"
+        },
+        "competiteurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Concurrence avec le Moineau domestique pour les nichoirs",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Gosler A., Clement P., Christie D. (2020). Great Tit (Parus major), Handbook of the Birds of the World Alive / Birds of the World, Cornell Lab of Ornithology",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Concurrence avec le Moineau domestique pour les nichoirs"
+        },
+        "role_ecologique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Réduit les dégâts de chenilles dans les vergers de pommiers et figure parmi les prédateurs de la processionnaire du pin",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Mols C. & Visser M. (2002). J. Appl. Ecol. 39: 888-899 ; Barbaro L. & Battisti A. (2011). Biological Control 56: 107-114",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Réduit les dégâts de chenilles dans les vergers de pommiers et figure parmi les prédateurs de la processionnaire du pin"
+        }
+      }
+    },
+    "conservation": {
+      "recherche": "recherche_partielle",
+      "justification": "Liste rouge France 2016, Liste rouge mondiale (via GBIF) et arrêté de protection lus. Directive Oiseaux et Convention de Berne : EUR-Lex et Conseil de l'Europe refusés (proxy). Tendances STOC et BirdLife inaccessibles.",
+      "prochaine_piste": "Tendance STOC (Vigie-Nature), annexes de la Convention de Berne et de la directive 2009/147/CE, BDC Statuts (export PatriNat).",
+      "champs": {
+        "liste_rouge_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (Préoccupation mineure)",
+              "source": "UICN France, MNHN, LPO, SEOF & ONCFS (2016). La Liste rouge des espèces menacées en France – Chapitre Oiseaux de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, LPO, SEOF & ONCFS (2016), évaluation des nicheurs",
+              "url": "https://uicn.fr/wp-content/uploads/2016/09/Liste-rouge-Oiseaux-de-France-metropolitaine.pdf",
+              "date_ou_version": "2016",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "conditions de réutilisation non indiquées dans le document lu",
+                "contenu_repris": true,
+                "motif": "seuls des faits sont repris (catégories officielles et leur signification)"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "population": "nicheuse"
+            },
+            {
+              "valeur": "NAb : non applicable (présence occasionnelle ou marginale)",
+              "source": "UICN France, MNHN, LPO, SEOF & ONCFS (2016). La Liste rouge des espèces menacées en France – Chapitre Oiseaux de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, LPO, SEOF & ONCFS (2016), évaluation des hivernants établie en 2011",
+              "url": "https://uicn.fr/wp-content/uploads/2016/09/Liste-rouge-Oiseaux-de-France-metropolitaine.pdf",
+              "date_ou_version": "2011",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "conditions de réutilisation non indiquées dans le document lu",
+                "contenu_repris": true,
+                "motif": "seuls des faits sont repris (catégories officielles et leur signification)"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "population": "hivernante"
+            },
+            {
+              "valeur": "NAd : non applicable (présence régulière de passage mais données insuffisantes pour établir une présence significative)",
+              "source": "UICN France, MNHN, LPO, SEOF & ONCFS (2016). La Liste rouge des espèces menacées en France – Chapitre Oiseaux de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, LPO, SEOF & ONCFS (2016), évaluation des oiseaux de passage établie en 2011",
+              "url": "https://uicn.fr/wp-content/uploads/2016/09/Liste-rouge-Oiseaux-de-France-metropolitaine.pdf",
+              "date_ou_version": "2011",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "conditions de réutilisation non indiquées dans le document lu",
+                "contenu_repris": true,
+                "motif": "seuls des faits sont repris (catégories officielles et leur signification)"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "population": "de passage"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": [
+            "LC (Préoccupation mineure)",
+            "NAb : non applicable (présence occasionnelle ou marginale)",
+            "NAd : non applicable (présence régulière de passage mais données insuffisantes pour établir une présence significative)"
+          ]
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (Least Concern, préoccupation mineure), taxon UICN 22735990",
+              "source": "GBIF, jeu « The IUCN Red List of Threatened Species » (copie GBIF), espèce 176655193",
+              "origine": "UICN, Liste rouge mondiale (évaluation BirdLife International)",
+              "url": "https://api.gbif.org/v1/species/9705453/iucnRedListCategory",
+              "date_ou_version": "jeu GBIF publié le 2026-07-28",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "monde"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "LC (Least Concern, préoccupation mineure), taxon UICN 22735990"
+        },
+        "protection_juridique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce inscrite à l'article 3 (famille des Paridés) : partout en métropole et à toute période, la loi prohibe le fait de détruire ou d'enlever œufs et nids, de tuer, mutiler, capturer ou prélever les oiseaux dans la nature, ou de les déranger volontairement lorsque cela compromet leur cycle biologique ; la dégradation de leurs sites de reproduction et de repos est aussi prohibée là où l'espèce vit",
+              "source": "Légifrance, Arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l'ensemble du territoire et les modalités de leur protection (version en vigueur au 27/11/2026)",
+              "origine": "Arrêté du 29 octobre 2009, article 3 (modifié en dernier lieu par l'arrêté du 3 septembre 2026)",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021384277",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab), annoncée par le site",
+                "contenu_repris": true,
+                "motif": "texte officiel ; contenu résumé avec d'autres mots"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Espèce inscrite à l'article 3 (famille des Paridés) : partout en métropole et à toute période, la loi prohibe le fait de détruire ou d'enlever œufs et nids, de tuer, mutiler, capturer ou prélever les oiseaux dans la nature, ou de les déranger volontairement lorsque cela compromet leur cycle biologique ; la dégradation de leurs sites de reproduction et de repos est aussi prohibée là où l'espèce vit"
+        },
+        "sensibilite_de_diffusion": {
+          "etat": "non_renseigne",
+          "affirmations": [],
+          "valeur_synthese": null
+        }
+      }
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune source de conseils d'observation propre à l'espèce n'a pu être lue (LPO inaccessible). Seules des précautions déduites du texte de protection sont reprises.",
+      "prochaine_piste": "Recommandations LPO sur le nourrissage hivernal et les nichoirs ; confusions possibles dans un guide.",
+      "champs": {
+        "detection": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Se repère surtout à son chant, très fréquent de février à juin, et à sa venue régulière aux mangeoires en hiver",
+              "source": "Wikipédia (fr), article « Mésange charbonnière », wikitexte (action=raw)",
+              "origine": "Géroudet P. (1963). Les Passereaux II. Des mésanges aux fauvettes. Delachaux & Niestlé, p. 16 ; Svensson L., Zetterström D. et al. (2015). Le guide ornitho. Delachaux et Niestlé, p. 342",
+              "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw",
+              "date_ou_version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; partage à l'identique si une part substantielle de la base en dérive"
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Se repère surtout à son chant, très fréquent de février à juin, et à sa venue régulière aux mangeoires en hiver"
+        },
+        "precautions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le dérangement volontaire, notamment pendant la reproduction et l'élevage des jeunes, est interdit lorsqu'il compromet le cycle biologique : s'abstenir d'approcher ou d'ouvrir les cavités et nichoirs occupés",
+              "source": "Légifrance, Arrêté du 29 octobre 2009 fixant la liste des oiseaux protégés sur l'ensemble du territoire et les modalités de leur protection (version en vigueur au 27/11/2026)",
+              "origine": "Arrêté du 29 octobre 2009, article 3",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021384277",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab), annoncée par le site",
+                "contenu_repris": true,
+                "motif": "texte officiel ; contenu résumé avec d'autres mots"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Le dérangement volontaire, notamment pendant la reproduction et l'élevage des jeunes, est interdit lorsqu'il compromet le cycle biologique : s'abstenir d'approcher ou d'ouvrir les cavités et nichoirs occupés"
+        }
+      }
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "longueur_totale",
+          "envergure",
+          "masse",
+          "masse_a_l_eclosion",
+          "plumage_adulte",
+          "dimorphisme_sexuel",
+          "juvenile"
+        ],
+        "lacunes": [
+          "espèces proches et critères distinctifs",
+          "limites de détermination"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole",
+          "aire_mondiale",
+          "sous_especes_en_france",
+          "statut_de_residence"
+        ],
+        "lacunes": [
+          "répartition fine et effectifs nicheurs en France",
+          "statut en Corse détaillé"
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "milieu_taxref",
+          "milieux",
+          "altitude",
+          "supports_de_nid",
+          "domaine_vital"
+        ],
+        "lacunes": [
+          "altitudes en France",
+          "microhabitats"
+        ]
+      },
+      "alimentation": {
+        "documentes": [
+          "regime_periode_de_reproduction",
+          "regime_hors_reproduction",
+          "alimentation_des_poussins",
+          "methodes",
+          "predation_occasionnelle_de_vertebres"
+        ],
+        "lacunes": [
+          "études de régime en France"
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "systeme_d_appariement",
+          "formation_des_couples",
+          "construction_du_nid",
+          "periode_de_ponte",
+          "nombre_de_couvees",
+          "taille_de_ponte",
+          "incubation",
+          "sejour_au_nid",
+          "soins_parentaux"
+        ],
+        "lacunes": [
+          "calendrier de ponte en France",
+          "maturité sexuelle"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "dispersion_natale",
+          "longevite",
+          "mortalite"
+        ],
+        "lacunes": [
+          "record de longévité par baguage",
+          "données captives"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "sociabilite",
+          "territorialite",
+          "vocalisations",
+          "apprentissage_social"
+        ],
+        "lacunes": [
+          "description des cris d'alarme et de contact"
+        ]
+      },
+      "activite": {
+        "documentes": [
+          "periode_de_chant",
+          "migration",
+          "mue"
+        ],
+        "lacunes": [
+          "rythme journalier",
+          "mouvements en France"
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "predateurs",
+          "parasites",
+          "maladies",
+          "competiteurs",
+          "role_ecologique"
+        ],
+        "lacunes": [
+          "relecture des publications originales"
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_france",
+          "liste_rouge_mondiale",
+          "protection_juridique"
+        ],
+        "lacunes": [
+          "tendance nationale (STOC)",
+          "Convention de Berne",
+          "directive Oiseaux",
+          "menaces documentées en France",
+          "règle de sensibilité de diffusion"
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "detection",
+          "precautions"
+        ],
+        "lacunes": [
+          "conseils d'observation documentés par une source spécialisée",
+          "confusions"
+        ]
+      }
+    },
+    "point_de_reprise": [
+      "Reprendre les sources refusées par le proxy dès qu'elles sont accessibles : STOC, EBBA2, atlas national, EUR-Lex, Convention de Berne, EURING, xeno-canto",
+      "Remplacer les valeurs « complément » par des sources de référence"
+    ]
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "TAXREF v18, code FR = P ; aucune fiche ni candidature existante (index vide)",
+      "sources": [
+        "TAXREF v18"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "cadrage v0.6",
+    "requete": "Mésange charbonnière",
+    "sources_consultees": [
+      {
+        "source": "TAXREF v18 (export local, SHA-256 vérifiée)",
+        "version": "v18, fichiers du 2025-01-09",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life via ChecklistBank (jeu 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR/taxon/75SVV"
+      },
+      {
+        "source": "GBIF : correspondance de nom et catégorie UICN (jeu The IUCN Red List of Threatened Species)",
+        "version": "API v1, jeu UICN publié le 2026-07-28",
+        "url": "https://api.gbif.org/v1/species/9705453/iucnRedListCategory"
+      },
+      {
+        "source": "Légifrance (lu par l'agent de lecture web) : arrêté du 29 octobre 2009",
+        "version": "en vigueur au 27/11/2026",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021384277"
+      },
+      {
+        "source": "UICN France : page Liste rouge et PDF Oiseaux de France métropolitaine",
+        "version": "2016 (nicheurs) ; 2011 (hivernants et de passage)",
+        "url": "https://uicn.fr/wp-content/uploads/2016/09/Liste-rouge-Oiseaux-de-France-metropolitaine.pdf"
+      },
+      {
+        "source": "Wikidata, Q25485",
+        "version": "révision 2568917458 (2026-11-13)",
+        "url": "https://www.wikidata.org/wiki/Q25485"
+      },
+      {
+        "source": "Wikipédia (fr), Mésange charbonnière (wikitexte)",
+        "version": "révision en ligne au 2026-11-27 (identifiant de révision non obtenu : limite de débit de l'API)",
+        "url": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sange_charbonni%C3%A8re&action=raw"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "INPN / OpenObs / BDC Statuts (sites)",
+        "motif": "HTTP 403 ; hors ligne fin novembre 2026 selon sources.md"
+      },
+      {
+        "source": "Service web TAXREF",
+        "motif": "protection anti-robots, non contournée ; export local utilisé"
+      },
+      {
+        "source": "EUR-Lex (directive 2009/147/CE)",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Conseil de l'Europe (annexes de la Convention de Berne)",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org) et BirdLife Datazone",
+        "motif": "HTTP 403 ou connexion refusée ; catégorie lue via la copie GBIF"
+      },
+      {
+        "source": "Vigie-Nature (STOC), EBBA2, oiseaux-de-france.org, LPO, oiseaux.net, EURING",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "xeno-canto, Animal Diversity Web, EOL, HAL, Crossref, Europe PMC, Zenodo/figshare (AVONET, EltonTraits)",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Wikipédia (en), Great tit",
+        "motif": "limite de débit de Wikimedia atteinte (requête refusée)"
+      },
+      {
+        "source": "Birds of the World (Cornell)",
+        "motif": "sous abonnement : exclu par la méthode ; cité seulement comme origine via Wikipédia"
+      }
+    ]
+  }
+}

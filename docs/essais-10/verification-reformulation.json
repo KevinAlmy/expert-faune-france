@@ -1,0 +1,76 @@
+{
+ "brochet/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 35,
+  "reprises": []
+ },
+ "ecrevisse/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 24,
+  "reprises": []
+ },
+ "escargot/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 26,
+  "reprises": []
+ },
+ "herisson/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 20,
+  "reprises": []
+ },
+ "lezard/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 40,
+  "reprises": []
+ },
+ "lucane/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 27,
+  "reprises": [
+   {
+    "url": "https://fr.wikipedia.org/w/index.php?title=Lucanus_cervus&action=raw",
+    "chemin": "/familles/reproduction/champs/ponte/affirmations[1]",
+    "valeur": "Œufs pondus dans la terre au pied d'un arbre mort ou malade (chêne, hêtre, pommier).",
+    "reprise": "dans la terre au pied d"
+   },
+   {
+    "url": "https://fr.wikipedia.org/w/index.php?title=Lucanus_cervus&action=raw",
+    "chemin": "/familles/developpement/champs/nymphose/affirmations[0]",
+    "valeur": "La larve s'enterre et se construit une loge où elle se nymphose ; l'adulte formé à l'automne n'émerge qu'au début de l'été suivant.",
+    "reprise": "qu au debut de l ete suivant"
+   },
+   {
+    "url": "https://fr.wikipedia.org/w/index.php?title=Lucanus_cervus&action=raw",
+    "chemin": "/familles/comportements/champs/defense/affirmations[0]",
+    "valeur": "La femelle peut pincer jusqu'au sang.",
+    "reprise": "la femelle peut pincer jusqu au sang"
+   }
+  ]
+ },
+ "lucane/EFF-000002.json": {
+  "pages": 0,
+  "affirmations_controlees": 0,
+  "reprises": []
+ },
+ "machaon/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 33,
+  "reprises": []
+ },
+ "mesange/EFF-000001.json": {
+  "pages": 1,
+  "affirmations_controlees": 45,
+  "reprises": []
+ },
+ "pipistrelle/EFF-000001.json": {
+  "pages": 1,
+  "affirmations_controlees": 3,
+  "reprises": []
+ },
+ "salamandre/EFF-000001.json": {
+  "pages": 2,
+  "affirmations_controlees": 32,
+  "reprises": []
+ }
+}

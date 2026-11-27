@@ -1,0 +1,2134 @@
+{
+  "id": "EFF-000001",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Salamandra salamandra",
+    "auteur": "(Linnaeus, 1758)",
+    "annee": 1758,
+    "rang": "ES",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Chordata",
+      "classe": "Amphibia",
+      "ordre": "Urodela",
+      "famille": "Salamandridae"
+    },
+    "noms_vernaculaires": [
+      "Salamandre tachetée"
+    ],
+    "synonymes": [
+      {
+        "nom": "Lacerta salamandra",
+        "auteur": "Linnaeus, 1758",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Salamandra maculata",
+        "auteur": "Schrank, 1786",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Salamandra maculosa",
+        "auteur": "Laurenti, 1768",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Salamandra vulgaris",
+        "auteur": "Cloquet in Lerrault, 1827",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Triton corthyphorus",
+        "auteur": "Wagler, 1820",
+        "source": "TAXREF v18"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "92",
+        "cd_ref": "92",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "6XB2G",
+        "jeu": "3LR",
+        "version": "2026-11-11",
+        "statut": "accepted"
+      },
+      "gbif": {
+        "usageKey": 2431776,
+        "statut": "ACCEPTED"
+      }
+    },
+    "preuves": [
+      {
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/92",
+        "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "valeur": "Salamandra salamandra (Linnaeus, 1758), CD_NOM = CD_REF = 92, rang ES"
+      },
+      {
+        "valeur": "Salamandra salamandra (Linnaeus, 1758), nom accepté (identifiant 6XB2G)",
+        "source": "Catalogue of Life via ChecklistBank, API (jeu 3LR)",
+        "origine": "Catalogue of Life",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Salamandra%20salamandra",
+        "date_ou_version": "Catalogue of Life 2026-11-11",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/92",
+        "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "valeur": "FR = P : Présent (indigène ou indéterminé)",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : espèce au rang ES, nom accepté, code P (Présent, indigène ou indéterminé) dans la colonne FR ; décision creer_fiche rendue par decider.py",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "patron_de_coloration_sous_especes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — article téléchargé depuis lashf.org (texte intégral lu)",
+              "origine": "Gippner S., Hernandez A., Ambu J., Dubut V., Pottier G., Trochet A., Crochet P.-A., Vences M. & Dufresnes C. (2026). Quelles salamandres tachetées trouve-t-on dans le sud-ouest de la France ? Bull. Soc. Herp. Fr. 188 : 1-15. doi:10.48716/bullshf.188-4",
+              "url": "https://lashf.org/ressources/quelles-salamandres-tachetees-trouve-t-on-dans-le-sud-ouest-de-la-france-gippner-et-al-2026/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Robe classiquement décrite comme majoritairement jaune chez S. s. fastuosa, alors que S. s. terrestris est surtout noire avec deux rangées de taches jaunes sur le dos.",
+              "etat": "documente",
+              "territoire": "sud-ouest de la France"
+            }
+          ],
+          "valeur_synthese": "Robe classiquement décrite comme majoritairement jaune chez S. s. fastuosa, alors que S. s. terrestris est surtout noire avec deux rangées de taches jaunes sur le dos."
+        },
+        "limites_de_determination": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — article téléchargé depuis lashf.org (texte intégral lu)",
+              "origine": "Gippner S., Hernandez A., Ambu J., Dubut V., Pottier G., Trochet A., Crochet P.-A., Vences M. & Dufresnes C. (2026). Quelles salamandres tachetées trouve-t-on dans le sud-ouest de la France ? Bull. Soc. Herp. Fr. 188 : 1-15. doi:10.48716/bullshf.188-4",
+              "url": "https://lashf.org/ressources/quelles-salamandres-tachetees-trouve-t-on-dans-le-sud-ouest-de-la-france-gippner-et-al-2026/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Le dessin coloré varie beaucoup d'un individu à l'autre : il ne permet pas à lui seul d'attribuer un animal à une sous-espèce de façon fiable.",
+              "etat": "documente",
+              "territoire": "sud-ouest de la France"
+            }
+          ],
+          "valeur_synthese": "Le dessin coloré varie beaucoup d'un individu à l'autre : il ne permet pas à lui seul d'attribuer un animal à une sous-espèce de façon fiable."
+        },
+        "polymorphisme_de_coloration": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Beukema W., Nicieza A.G., Lourenço A. & Velo-Antón G. (2016). Colour polymorphism in Salamandra salamandra, revealed by a lack of genetic and environmental differentiation between distinct phenotypes. J. Zool. Syst. Evol. Res. 54 : 127-136",
+              "url": "https://doi.org/10.1111/jzs.12119",
+              "date_ou_version": "2016",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Sur 1147 animaux de 27 populations, six classes de robes coexistent au sein d'un même taxon génétique ; la sous-espèce alfredschmidti, définie sur la couleur, a été mise en synonymie de bernardezi.",
+              "etat": "documente",
+              "territoire": "nord de l'Espagne",
+              "taille_echantillon": 1147
+            }
+          ],
+          "valeur_synthese": "Sur 1147 animaux de 27 populations, six classes de robes coexistent au sein d'un même taxon génétique ; la sous-espèce alfredschmidti, définie sur la couleur, a été mise en synonymie de bernardezi."
+        },
+        "dimorphisme_sexuel": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Labus N., Cvijanović M. & Vukov T. (2013). Sexual size and shape dimorphism in Salamandra salamandra from the central Balkans. Archives of Biological Sciences 65 : 969-975",
+              "url": "https://doi.org/10.2298/abs1303969l",
+              "date_ou_version": "2013",
+              "reutilisation": {
+                "licence": "CC BY (selon OpenAlex)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Femelles plus grandes, à tête, glande parotoïde et espace entre pattes plus développés ; mâles à queue, membres et pieds proportionnellement plus longs. L'ampleur varie selon la localité.",
+              "etat": "documente",
+              "territoire": "Balkans centraux",
+              "stade_ou_saison": "adultes"
+            }
+          ],
+          "valeur_synthese": "Femelles plus grandes, à tête, glande parotoïde et espace entre pattes plus développés ; mâles à queue, membres et pieds proportionnellement plus longs. L'ampleur varie selon la localité."
+        },
+        "longueur_totale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "Griffiths R. (1996). Newts and Salamanders of Europe. Academic Press, Londres",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "15 à 25 cm de longueur totale",
+              "etat": "documente",
+              "unite": "cm",
+              "stade_ou_saison": "adultes"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "15 à 25 cm de longueur totale"
+        },
+        "masse": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "environ 40 g pour un adulte, davantage chez une femelle gestante bien nourrie",
+              "etat": "incertain",
+              "unite": "g",
+              "stade_ou_saison": "adultes"
+            },
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "Wikipédia (en), sans référence citée pour cette valeur",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "autour de 40 g",
+              "etat": "incertain",
+              "unite": "g",
+              "stade_ou_saison": "adultes"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "environ 40 g pour un adulte, davantage chez une femelle gestante bien nourrie",
+            "autour de 40 g"
+          ]
+        },
+        "critere_de_sexage": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Hors reproduction, sexes difficiles à séparer ; en été le cloaque du mâle est renflé et montre une fente longitudinale, celui de la femelle reste plat.",
+              "etat": "incertain",
+              "stade_ou_saison": "adultes, été"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Hors reproduction, sexes difficiles à séparer ; en été le cloaque du mâle est renflé et montre une fente longitudinale, celui de la femelle reste plat."
+        },
+        "larve_critere_distinctif": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Larve reconnaissable à une tache claire à la naissance de chaque patte, absente chez les larves de tritons.",
+              "etat": "incertain",
+              "stade_ou_saison": "larve"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Larve reconnaissable à une tache claire à la naissance de chaque patte, absente chez les larves de tritons."
+        }
+      },
+      "prochaine_piste": "Atlas des amphibiens et reptiles de France (Lescure & de Massary 2012) ; jeu AmphiBIO (figshare refusé par le proxy) ; Speybroeck et al. 2016.",
+      "justification": "Dimensions et masse seulement en complément (Wikipédia) ; aucune synthèse française de référence lisible (AmphibiaWeb protégé par anti-robot, INPN hors ligne)."
+    },
+    "repartition": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/92",
+              "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Code P (présent, indigène ou indéterminé) dans la colonne FR (France hexagonale et Corse)",
+              "etat": "documente",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "valeur_synthese": "Code P (présent, indigène ou indéterminé) dans la colonne FR (France hexagonale et Corse)"
+        },
+        "sous_especes_au_referentiel": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/92",
+              "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Quatre sous-espèces acceptées portent le code P en France : S. s. fastuosa (Schreiber, 1912), S. s. hispanica (Wolterstorff, 1937), S. s. salamandra (Linnaeus, 1758) et S. s. terrestris (Lacepède, 1788).",
+              "etat": "documente",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "valeur_synthese": "Quatre sous-espèces acceptées portent le code P en France : S. s. fastuosa (Schreiber, 1912), S. s. hispanica (Wolterstorff, 1937), S. s. salamandra (Linnaeus, 1758) et S. s. terrestris (Lacepède, 1788)."
+        },
+        "statut_de_s_s_hispanica_en_france": {
+          "etat": "contradictoire",
+          "affirmations": [
+            {
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/92",
+              "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "présente (code P en France)",
+              "etat": "documente",
+              "territoire": "France"
+            },
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — article téléchargé depuis lashf.org (texte intégral lu)",
+              "origine": "Gippner S., Hernandez A., Ambu J., Dubut V., Pottier G., Trochet A., Crochet P.-A., Vences M. & Dufresnes C. (2026). Quelles salamandres tachetées trouve-t-on dans le sud-ouest de la France ? Bull. Soc. Herp. Fr. 188 : 1-15. doi:10.48716/bullshf.188-4",
+              "url": "https://lashf.org/ressources/quelles-salamandres-tachetees-trouve-t-on-dans-le-sud-ouest-de-la-france-gippner-et-al-2026/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "absente de France sous forme pure ; seules des traces génétiques de cette lignée y sont relevées",
+              "etat": "documente",
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": null
+        },
+        "aire_de_s_s_fastuosa": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — article téléchargé depuis lashf.org (texte intégral lu)",
+              "origine": "Gippner S., Hernandez A., Ambu J., Dubut V., Pottier G., Trochet A., Crochet P.-A., Vences M. & Dufresnes C. (2026). Quelles salamandres tachetées trouve-t-on dans le sud-ouest de la France ? Bull. Soc. Herp. Fr. 188 : 1-15. doi:10.48716/bullshf.188-4",
+              "url": "https://lashf.org/ressources/quelles-salamandres-tachetees-trouve-t-on-dans-le-sud-ouest-de-la-france-gippner-et-al-2026/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Groupe génétique occupant le centre et l'ouest des Pyrénées ; une zone de transition avec terrestris, avec introgression, existe dans les Pyrénées centrales.",
+              "etat": "documente",
+              "territoire": "Pyrénées françaises"
+            }
+          ],
+          "valeur_synthese": "Groupe génétique occupant le centre et l'ouest des Pyrénées ; une zone de transition avec terrestris, avec introgression, existe dans les Pyrénées centrales."
+        },
+        "aire_de_s_s_terrestris": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — article téléchargé depuis lashf.org (texte intégral lu)",
+              "origine": "Gippner S., Hernandez A., Ambu J., Dubut V., Pottier G., Trochet A., Crochet P.-A., Vences M. & Dufresnes C. (2026). Quelles salamandres tachetées trouve-t-on dans le sud-ouest de la France ? Bull. Soc. Herp. Fr. 188 : 1-15. doi:10.48716/bullshf.188-4",
+              "url": "https://lashf.org/ressources/quelles-salamandres-tachetees-trouve-t-on-dans-le-sud-ouest-de-la-france-gippner-et-al-2026/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Groupe génétique couvrant le versant oriental du massif pyrénéen puis tout le reste du pays.",
+              "etat": "documente",
+              "territoire": "France hexagonale"
+            }
+          ],
+          "valeur_synthese": "Groupe génétique couvrant le versant oriental du massif pyrénéen puis tout le reste du pays."
+        },
+        "corse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Fiche Salamandra salamandra de l'INPN (inpn.mnhn.fr/espece/cd_nom/92)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Absente de Corse, où vit une espèce distincte, Salamandra corsica.",
+              "etat": "documente",
+              "territoire": "Corse"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Absente de Corse, où vit une espèce distincte, Salamandra corsica."
+        },
+        "aire_mondiale_et_histoire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Steinfartz S., Veith M. & Tautz D. (2000). Mitochondrial sequence analysis of Salamandra taxa suggests old splits of major lineages and postglacial recolonizations of Central Europe. Molecular Ecology 9 : 397-410",
+              "url": "https://doi.org/10.1046/j.1365-294x.2000.00870.x",
+              "date_ou_version": "2000",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Répandue de l'Espagne à la Grèce ; seule espèce du genre à avoir recolonisé l'Europe centrale après la dernière glaciation, à partir d'au moins deux refuges (probablement ibérique et balkanique).",
+              "etat": "documente",
+              "territoire": "Europe"
+            }
+          ],
+          "valeur_synthese": "Répandue de l'Espagne à la Grèce ; seule espèce du genre à avoir recolonisé l'Europe centrale après la dernière glaciation, à partir d'au moins deux refuges (probablement ibérique et balkanique)."
+        },
+        "lacune_littoral_mediterraneen": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Grande lacune de répartition sur la frange côtière entre Bouches-du-Rhône et Aude.",
+              "etat": "incertain",
+              "territoire": "littoral méditerranéen français"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Grande lacune de répartition sur la frange côtière entre Bouches-du-Rhône et Aude."
+        },
+        "bouches_du_rhone": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Coquis A. & Oms H. (2022). État des connaissances de l'unique population de Salamandre tachetée des Bouches-du-Rhône. Faune-PACA Publication 115",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Une seule population connue dans le département, documentée en 2022 (localisation précise non reprise).",
+              "etat": "documente",
+              "territoire": "Bouches-du-Rhône"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Une seule population connue dans le département, documentée en 2022 (localisation précise non reprise)."
+        }
+      },
+      "prochaine_piste": "Atlas SHF/MNHN, données OpenObs à la réouverture de l'INPN ; texte intégral de Coquis & Oms 2022."
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "habitat_larvaire_cours_d_eau": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Manenti R., Ficetola G.F. & De Bernardi F. (2009). Water, stream morphology and landscape: complex habitat determinants for the fire salamander Salamandra salamandra. Amphibia-Reptilia 30 : 7-15",
+              "url": "https://doi.org/10.1163/156853809787392766",
+              "date_ou_version": "2009",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Larves liées à des ruisseaux peu profonds et hétérogènes, pauvres en périphyton, riches en macroinvertébrés d'eaux oligotrophes et entourés de bois ; la morphologie du ruisseau pèse le plus.",
+              "etat": "documente",
+              "territoire": "Italie du Nord-Ouest",
+              "taille_echantillon": 132
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Baumgartner N., Waringer A. & Waringer J.A. (1999). Hydraulic microdistribution patterns of larval fire salamanders (Salamandra salamandra salamandra) in the Weidlingbach near Vienna, Austria. Freshwater Biology 41 : 31-41",
+              "url": "https://doi.org/10.1046/j.1365-2427.1999.00378.x",
+              "date_ou_version": "1999",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Densités larvaires maximales dans les petits affluents de tête (ordres 1 et 2) au courant moyen inférieur à 20 cm/s ; les jeunes larves recherchent les zones calmes puis gagnent des courants modérés (4 à 15 cm/s) en grandissant.",
+              "etat": "documente",
+              "territoire": "Autriche (près de Vienne)"
+            }
+          ],
+          "valeur_synthese": [
+            "Larves liées à des ruisseaux peu profonds et hétérogènes, pauvres en périphyton, riches en macroinvertébrés d'eaux oligotrophes et entourés de bois ; la morphologie du ruisseau pèse le plus.",
+            "Densités larvaires maximales dans les petits affluents de tête (ordres 1 et 2) au courant moyen inférieur à 20 cm/s ; les jeunes larves recherchent les zones calmes puis gagnent des courants modérés (4 à 15 cm/s) en grandissant."
+          ]
+        },
+        "habitat_larvaire_souterrain": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Manenti R., Ficetola G.F., Bianchi B. & De Bernardi F. (2009). Habitat features and distribution of Salamandra salamandra in underground springs. Acta Herpetologica 4 : 143-151",
+              "url": "https://doi.org/10.13128/acta_herpetol-3416",
+              "date_ou_version": "2009",
+              "reutilisation": {
+                "licence": "CC BY (selon OpenAlex)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Larves trouvées dans 13 sources souterraines sur 22 (galeries drainantes), surtout les plus accessibles et à macrobenthos riche ; la métamorphose y est possible mais plus lente.",
+              "etat": "documente",
+              "territoire": "Italie du Nord-Ouest",
+              "taille_echantillon": 22
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Manenti R., Ficetola G.F., Marieni A. & De Bernardi F. (2011). Caves as breeding sites for Salamandra salamandra: habitat selection, larval development and conservation issues. North-Western Journal of Zoology",
+              "url": "https://openalex.org/W2184613759",
+              "date_ou_version": "2011",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Reproduction relevée dans 18 % de 61 grottes naturelles, dans des points d'eau jusqu'à 50 m de l'entrée, surtout dans les cavités d'accès facile.",
+              "etat": "documente",
+              "territoire": "Italie du Nord",
+              "taille_echantillon": 61
+            }
+          ],
+          "valeur_synthese": [
+            "Larves trouvées dans 13 sources souterraines sur 22 (galeries drainantes), surtout les plus accessibles et à macrobenthos riche ; la métamorphose y est possible mais plus lente.",
+            "Reproduction relevée dans 18 % de 61 grottes naturelles, dans des points d'eau jusqu'à 50 m de l'entrée, surtout dans les cavités d'accès facile."
+          ]
+        },
+        "abris_terrestres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Rebelo R. & Leclair M.H. (2003). Site tenacity in the terrestrial salamandrid Salamandra salamandra. Journal of Herpetology 37 : 440-445",
+              "url": "https://doi.org/10.1670/0022-1511(2003)037[0440:stitts]2.0.co;2",
+              "date_ou_version": "2003",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Dans un verger abandonné, les adultes sédentaires occupent surtout les galeries des vieux murs de pierre sèche de terrasses agricoles.",
+              "etat": "documente",
+              "territoire": "Portugal (Sintra-Cascais)"
+            }
+          ],
+          "valeur_synthese": "Dans un verger abandonné, les adultes sédentaires occupent surtout les galeries des vieux murs de pierre sèche de terrasses agricoles."
+        },
+        "densite_locale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Rebelo R. & Leclair M.H. (2003). Site tenacity in the terrestrial salamandrid Salamandra salamandra. Journal of Herpetology 37 : 440-445",
+              "url": "https://doi.org/10.1670/0022-1511(2003)037[0440:stitts]2.0.co;2",
+              "date_ou_version": "2003",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "environ 400 individus par hectare",
+              "etat": "documente",
+              "unite": "individus/ha",
+              "territoire": "Portugal (Sintra-Cascais)"
+            }
+          ],
+          "valeur_synthese": "environ 400 individus par hectare"
+        },
+        "altitude": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "Wikipédia (en), sans référence citée pour cette valeur",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "le plus souvent entre 250 et 1000 m, plus haut dans les Balkans et en Espagne",
+              "etat": "incertain",
+              "unite": "m",
+              "territoire": "Europe"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "le plus souvent entre 250 et 1000 m, plus haut dans les Balkans et en Espagne"
+        }
+      },
+      "prochaine_piste": "Atlas régionaux français (Bourgogne-Nature 2012, Bretagne, Île-de-France) ; Duguet & Melki 2003.",
+      "justification": "Études de référence surtout hors de France (Italie, Autriche, Portugal) ; aucune synthèse française ouverte."
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "regime_adulte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "Sydlowski R. — Salamandra salamandra, Animal Diversity Web (Université du Michigan)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Invertébrés variés (insectes, araignées, mille-pattes, lombrics, limaces) ; à l'occasion tritons et jeunes grenouilles.",
+              "etat": "documente",
+              "stade_ou_saison": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Invertébrés variés (insectes, araignées, mille-pattes, lombrics, limaces) ; à l'occasion tritons et jeunes grenouilles."
+        },
+        "regime_larvaire": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Surtout larves d'insectes aquatiques (plécoptères, éphémères, chironomes, simulies, trichoptères) et petits crustacés comme les gammares.",
+              "etat": "incertain",
+              "stade_ou_saison": "larve"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Surtout larves d'insectes aquatiques (plécoptères, éphémères, chironomes, simulies, trichoptères) et petits crustacés comme les gammares."
+        },
+        "mode_de_chasse": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Repérage des proies surtout au mouvement quand la lumière suffit, à l'odeur la nuit.",
+              "etat": "incertain",
+              "stade_ou_saison": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Repérage des proies surtout au mouvement quand la lumière suffit, à l'odeur la nuit."
+        }
+      },
+      "prochaine_piste": "Études de régime alimentaire (contenus stomacaux) ; AmphiBIO ; synthèse Velo-Antón & Buckley 2015 (digital.csic.es refusé par le proxy).",
+      "justification": "Aucune source de référence lue : champs renseignés seulement par des compléments."
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "mode_de_reproduction": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Buckley D., Alcobendas M., García-París M. & Wake M.H. (2007). Heterochrony, cannibalism, and the evolution of viviparity in Salamandra salamandra. Evolution & Development 9 : 105-115",
+              "url": "https://doi.org/10.1111/j.1525-142x.2006.00141.x",
+              "date_ou_version": "2007",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Deux modes dans l'espèce : le plus courant, où la femelle met au monde de nombreuses petites larves aquatiques, et un mode dérivé, local, où elle donne quelques grands juvéniles déjà métamorphosés nourris dans l'utérus, avec cannibalisme intra-utérin.",
+              "etat": "documente",
+              "territoire": "aire de l'espèce (populations vivipares dans le nord de l'Espagne)"
+            }
+          ],
+          "valeur_synthese": "Deux modes dans l'espèce : le plus courant, où la femelle met au monde de nombreuses petites larves aquatiques, et un mode dérivé, local, où elle donne quelques grands juvéniles déjà métamorphosés nourris dans l'utérus, avec cannibalisme intra-utérin."
+        },
+        "fecondation_et_mise_bas": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Caspers B.A., Krause E.T., Hendrix R., Kopp M., Rupp O., Rosentreter K. et al. (2014). The more the better – polyandry and genetic similarity are positively linked to reproductive success in a natural population of terrestrial salamanders. Molecular Ecology 23 : 239-250",
+              "url": "https://doi.org/10.1111/mec.12577",
+              "date_ou_version": "2013-2014",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Accouplement, fécondation et dépôt des larves sont séparés dans le temps ; la femelle garde le sperme plusieurs mois et les larves naissent dans l'ordre de leur fécondation.",
+              "etat": "documente",
+              "territoire": "Allemagne",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Accouplement, fécondation et dépôt des larves sont séparés dans le temps ; la femelle garde le sperme plusieurs mois et les larves naissent dans l'ordre de leur fécondation."
+        },
+        "paternite_multiple": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Steinfartz S., Stemshorn K.C., Küsters D. & Tautz D. (2005). Patterns of multiple paternity within and between annual reproduction cycles of the fire salamander under natural conditions. Journal of Zoology 268 : 1-8",
+              "url": "https://doi.org/10.1111/j.1469-7998.2005.00001.x",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Plus de la moitié des femelles ont des portées issues de deux ou trois pères ; les mâles n'y contribuent pas à parts égales.",
+              "etat": "documente",
+              "territoire": "Allemagne",
+              "population": "population étudiée par Steinfartz et al. (2000-2001)",
+              "contexte": "sauvage",
+              "taille_echantillon": 21
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Caspers B.A., Krause E.T., Hendrix R., Kopp M., Rupp O., Rosentreter K. et al. (2014). The more the better – polyandry and genetic similarity are positively linked to reproductive success in a natural population of terrestrial salamanders. Molecular Ecology 23 : 239-250",
+              "url": "https://doi.org/10.1111/mec.12577",
+              "date_ou_version": "2013-2014",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Plus d'un tiers des femelles sont polyandres, jusqu'à quatre pères ; le mâle dominant engendre en moyenne 70 % des larves ; plus de pères, plus de descendants.",
+              "etat": "documente",
+              "territoire": "Allemagne",
+              "population": "population étudiée par Caspers et al.",
+              "contexte": "sauvage",
+              "taille_echantillon": 24
+            }
+          ],
+          "valeur_synthese": [
+            "Plus de la moitié des femelles ont des portées issues de deux ou trois pères ; les mâles n'y contribuent pas à parts égales.",
+            "Plus d'un tiers des femelles sont polyandres, jusqu'à quatre pères ; le mâle dominant engendre en moyenne 70 % des larves ; plus de pères, plus de descendants."
+          ]
+        },
+        "stockage_du_sperme": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Steinfartz S., Stemshorn K.C., Küsters D. & Tautz D. (2005). Patterns of multiple paternity within and between annual reproduction cycles of the fire salamander under natural conditions. Journal of Zoology 268 : 1-8",
+              "url": "https://doi.org/10.1111/j.1469-7998.2005.00001.x",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Conservation prolongée du sperme connue en captivité.",
+              "etat": "documente",
+              "contexte": "captivité"
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Steinfartz S., Stemshorn K.C., Küsters D. & Tautz D. (2005). Patterns of multiple paternity within and between annual reproduction cycles of the fire salamander under natural conditions. Journal of Zoology 268 : 1-8",
+              "url": "https://doi.org/10.1111/j.1469-7998.2005.00001.x",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Aucune réutilisation de sperme stocké d'une année sur l'autre détectée chez six femelles suivies.",
+              "etat": "documente",
+              "contexte": "sauvage",
+              "territoire": "Allemagne",
+              "taille_echantillon": 6
+            }
+          ],
+          "valeur_synthese": [
+            "Conservation prolongée du sperme connue en captivité.",
+            "Aucune réutilisation de sperme stocké d'une année sur l'autre détectée chez six femelles suivies."
+          ]
+        },
+        "taille_de_portee": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "jusqu'à 70 larves, une trentaine en moyenne",
+              "etat": "incertain",
+              "unite": "larves"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "jusqu'à 70 larves, une trentaine en moyenne"
+        },
+        "calendrier": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Accouplements d'avril à septembre, culminant en juillet ; mises bas possibles dès la mi-février.",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Accouplements d'avril à septembre, culminant en juillet ; mises bas possibles dès la mi-février."
+        },
+        "maturite_sexuelle": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "2 à 4 ans",
+              "etat": "incertain",
+              "unite": "ans"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "2 à 4 ans"
+        }
+      },
+      "prochaine_piste": "Atlas régionaux français pour la phénologie ; Thiesmeier 2004 (monographie).",
+      "justification": "Calendrier, taille de portée et maturité sans source de référence ; calendrier français non documenté."
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "taille_des_larves_a_la_naissance": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Speybroeck J. et al., Guide Delachaux des amphibiens et reptiles de France et d'Europe ; Sirugue D. & Varanguin N. (coord.) 2012, Les amphibiens de Bourgogne, Bourgogne-Nature hors-série 11",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "25 à 35 mm",
+              "etat": "documente",
+              "unite": "mm",
+              "stade_ou_saison": "larve à la naissance"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "25 à 35 mm"
+        },
+        "duree_et_plasticite_du_developpement_larvaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Alcobendas M., Buckley D. & Tejedo M. (2004). Variability in survival, growth and metamorphosis in the larval fire salamander: effects of larval birth size, sibship and environment. Herpetologica 60 : 232-245",
+              "url": "https://doi.org/10.1655/03-55",
+              "date_ou_version": "2004",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Plus la larve naît grande, plus son développement est court et plus elle se métamorphose grande ; croissance, durée et taille à la métamorphose varient avec la température et la nourriture.",
+              "etat": "documente",
+              "contexte": "expérience en conditions contrôlées"
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Manenti R., Ficetola G.F., Bianchi B. & De Bernardi F. (2009). Habitat features and distribution of Salamandra salamandra in underground springs. Acta Herpetologica 4 : 143-151",
+              "url": "https://doi.org/10.13128/acta_herpetol-3416",
+              "date_ou_version": "2009",
+              "reutilisation": {
+                "licence": "CC BY (selon OpenAlex)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Développement plus long dans les sources souterraines que dans les ruisseaux voisins à l'air libre.",
+              "etat": "documente",
+              "territoire": "Italie du Nord-Ouest",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": [
+            "Plus la larve naît grande, plus son développement est court et plus elle se métamorphose grande ; croissance, durée et taille à la métamorphose varient avec la température et la nourriture.",
+            "Développement plus long dans les sources souterraines que dans les ruisseaux voisins à l'air libre."
+          ]
+        },
+        "taille_a_la_metamorphose": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Manenti R., Ficetola G.F., Marieni A. & De Bernardi F. (2011). Caves as breeding sites for Salamandra salamandra: habitat selection, larval development and conservation issues. North-Western Journal of Zoology",
+              "url": "https://openalex.org/W2184613759",
+              "date_ou_version": "2011",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Les larves qui se métamorphosent en grotte atteignent une taille supérieure à celles élevées en extérieur.",
+              "etat": "documente",
+              "territoire": "Italie du Nord",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Les larves qui se métamorphosent en grotte atteignent une taille supérieure à celles élevées en extérieur."
+        },
+        "phenologie_larvaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Baumgartner N., Waringer A. & Waringer J.A. (1999). Hydraulic microdistribution patterns of larval fire salamanders (Salamandra salamandra salamandra) in the Weidlingbach near Vienna, Austria. Freshwater Biology 41 : 31-41",
+              "url": "https://doi.org/10.1046/j.1365-2427.1999.00378.x",
+              "date_ou_version": "1999",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Sur une saison suivie : jeunes larves fin avril, larves à taille finale dès mi-mai, début des métamorphoses fin juin, départ des juvéniles fin août à début septembre.",
+              "etat": "documente",
+              "territoire": "Autriche (près de Vienne)",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Sur une saison suivie : jeunes larves fin avril, larves à taille finale dès mi-mai, début des métamorphoses fin juin, départ des juvéniles fin août à début septembre."
+        },
+        "croissance": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Alcobendas M. & Castanet J. (2000). Bone growth plasticity among populations of Salamandra salamandra: interactions between internal and external factors. Herpetologica 56",
+              "url": "https://openalex.org/W2437082090",
+              "date_ou_version": "2000",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Croissance osseuse non linéaire dans la plupart de 14 populations ibériques ; linéaire sur au moins huit ans à Ronda ; croissance mensuelle plus faible, donc taille réduite, dans les populations vivipares du nord.",
+              "etat": "documente",
+              "territoire": "péninsule Ibérique",
+              "taille_echantillon": 14
+            }
+          ],
+          "valeur_synthese": "Croissance osseuse non linéaire dans la plupart de 14 populations ibériques ; linéaire sur au moins huit ans à Ronda ; croissance mensuelle plus faible, donc taille réduite, dans les populations vivipares du nord."
+        },
+        "survie_adulte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Schmidt B.R., Schaub M. & Steinfartz S. (2007). Apparent survival of the salamander Salamandra salamandra is low because of high migratory activity. Frontiers in Zoology 4 : 19",
+              "url": "https://doi.org/10.1186/1742-9994-4-19",
+              "date_ou_version": "2007",
+              "reutilisation": {
+                "licence": "CC BY (selon OpenAlex)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Survie mensuelle supérieure à 90 % mais survie locale annuelle proche de 40 %, l'émigration (probabilité estimée à 49 %) expliquant une grande part des pertes.",
+              "etat": "documente",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Survie mensuelle supérieure à 90 % mais survie locale annuelle proche de 40 %, l'émigration (probabilité estimée à 49 %) expliquant une grande part des pertes."
+        },
+        "dynamique_de_population": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Schmidt B.R., Feldmann R. & Schaub M. (2005). Demographic processes underlying population growth and decline in Salamandra salamandra. Conservation Biology 19 : 1149-1156",
+              "url": "https://doi.org/10.1111/j.1523-1739.2005.00164.x",
+              "date_ou_version": "2005",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Suivi de deux populations sur 20 ans : l'une stable, l'autre éteinte localement par baisse de la survie des adultes, le recrutement restant constant ; la croissance démographique dépend surtout de la survie adulte.",
+              "etat": "documente",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Suivi de deux populations sur 20 ans : l'une stable, l'autre éteinte localement par baisse de la survie des adultes, le recrutement restant constant ; la croissance démographique dépend surtout de la survie adulte."
+        },
+        "longevite_en_captivite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Böhme W. (1979). Zum Höchstalter des Feuersalamanders. Salamandra 15 : 176-179",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "50 ans (individu conservé de 1863 à 1913 au musée de Göttingen)",
+              "etat": "documente",
+              "unite": "ans",
+              "contexte": "captivité"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "50 ans (individu conservé de 1863 à 1913 au musée de Göttingen)"
+        },
+        "longevite_en_nature": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "plus de 30 ans",
+              "etat": "incertain",
+              "unite": "ans",
+              "contexte": "sauvage"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "plus de 30 ans"
+        }
+      },
+      "prochaine_piste": "Études squelettochronologiques françaises ; AmphiBIO.",
+      "justification": "Longévité en nature non étayée par une référence."
+    },
+    "comportements": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "fidelite_au_site_et_domaine_vital": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Schulte U., Küsters D. & Steinfartz S. (2007). A PIT tag based analysis of annual movement patterns of adult fire salamanders in a Middle European habitat. Amphibia-Reptilia 28 : 531-536",
+              "url": "https://doi.org/10.1163/156853807782152543",
+              "date_ou_version": "2007",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Domaine vital moyen de 494 ± 282 m² sur une année (4 individus) et de 1295 ± 853 m² sur deux ans (3 individus) ; retour plus fréquent des mâles (78 %) que des femelles (43 %) ; les distances parcourues augmentent au fil de la saison.",
+              "etat": "documente",
+              "territoire": "Allemagne de l'Ouest",
+              "contexte": "sauvage",
+              "taille_echantillon": 88
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Rebelo R. & Leclair M.H. (2003). Site tenacity in the terrestrial salamandrid Salamandra salamandra. Journal of Herpetology 37 : 440-445",
+              "url": "https://doi.org/10.1670/0022-1511(2003)037[0440:stitts]2.0.co;2",
+              "date_ou_version": "2003",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Fidélité au site expliquée par l'âge chez les deux sexes ; certains animaux restent au même endroit pendant les six ans de suivi.",
+              "etat": "documente",
+              "territoire": "Portugal (Sintra-Cascais)",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": [
+            "Domaine vital moyen de 494 ± 282 m² sur une année (4 individus) et de 1295 ± 853 m² sur deux ans (3 individus) ; retour plus fréquent des mâles (78 %) que des femelles (43 %) ; les distances parcourues augmentent au fil de la saison.",
+            "Fidélité au site expliquée par l'âge chez les deux sexes ; certains animaux restent au même endroit pendant les six ans de suivi."
+          ]
+        },
+        "mobilite_et_emigration": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Schmidt B.R., Schaub M. & Steinfartz S. (2007). Apparent survival of the salamander Salamandra salamandra is low because of high migratory activity. Frontiers in Zoology 4 : 19",
+              "url": "https://doi.org/10.1186/1742-9994-4-19",
+              "date_ou_version": "2007",
+              "reutilisation": {
+                "licence": "CC BY (selon OpenAlex)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Mouvements plus importants qu'on ne le pensait chez cette salamandre terrestre : près d'un adulte sur deux quitte la zone suivie.",
+              "etat": "documente",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Mouvements plus importants qu'on ne le pensait chez cette salamandre terrestre : près d'un adulte sur deux quitte la zone suivie."
+        },
+        "escalade": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — note téléchargée depuis lashf.org (texte intégral lu)",
+              "origine": "Csutoros A. & Csutoros P. (2026). Comportements arboricoles inattendus chez la Salamandre tachetée Salamandra salamandra en Ille-et-Vilaine (France). Bull. Soc. Herp. Fr. 188 : 1-4. doi:10.48716/bullshf.188-8",
+              "url": "https://lashf.org/ressources/comportements-arboricoles-inattendus-chez-la-salamandre-tachetee-salamandra-salamandra-en-ille-et-vilaine-france/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Deux adultes observés sur des troncs de chêne pédonculé, à 60 cm puis jusqu'à 170 cm du sol, une nuit pluvieuse de novembre 2025.",
+              "etat": "documente",
+              "territoire": "Ille-et-Vilaine",
+              "contexte": "sauvage",
+              "stade_ou_saison": "adultes, novembre"
+            }
+          ],
+          "valeur_synthese": "Deux adultes observés sur des troncs de chêne pédonculé, à 60 cm puis jusqu'à 170 cm du sol, une nuit pluvieuse de novembre 2025."
+        },
+        "comportement_larvaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Krause E.T., Steinfartz S. & Caspers B.A. (2011). Poor nutritional conditions during the early larval stage reduce risk-taking activities of fire salamander larvae. Ethology 117 : 416-421",
+              "url": "https://doi.org/10.1111/j.1439-0310.2011.01886.x",
+              "date_ou_version": "2011",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Les larves mal nourries au départ se cachent davantage face au risque, sans être moins actives.",
+              "etat": "documente",
+              "contexte": "expérience en élevage"
+            }
+          ],
+          "valeur_synthese": "Les larves mal nourries au départ se cachent davantage face au risque, sans être moins actives."
+        },
+        "emissions_sonores": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Sans sac vocal ; de faibles sons (grognements, piaulements) sont signalés, peut-être simple effet mécanique lors d'une frayeur.",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Sans sac vocal ; de faibles sons (grognements, piaulements) sont signalés, peut-être simple effet mécanique lors d'une frayeur."
+        }
+      },
+      "prochaine_piste": "Communication chimique (phéromones) ; texte intégral de Schulte et al. 2007."
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "activite_journaliere": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "Tanner V.M. & Wood S.L. (1958). The Great Basin Naturalist 18",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Active le soir et la nuit, aussi de jour par temps de pluie.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Active le soir et la nuit, aussi de jour par temps de pluie."
+        },
+        "conditions_d_activite_observees": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — note téléchargée depuis lashf.org (texte intégral lu)",
+              "origine": "Csutoros A. & Csutoros P. (2026). Comportements arboricoles inattendus chez la Salamandre tachetée Salamandra salamandra en Ille-et-Vilaine (France). Bull. Soc. Herp. Fr. 188 : 1-4. doi:10.48716/bullshf.188-8",
+              "url": "https://lashf.org/ressources/comportements-arboricoles-inattendus-chez-la-salamandre-tachetee-salamandra-salamandra-en-ille-et-vilaine-france/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Nombreux individus en déplacement une nuit pluvieuse de mi-novembre, air à environ 12 °C.",
+              "etat": "documente",
+              "territoire": "Ille-et-Vilaine",
+              "stade_ou_saison": "novembre 2025"
+            }
+          ],
+          "valeur_synthese": "Nombreux individus en déplacement une nuit pluvieuse de mi-novembre, air à environ 12 °C."
+        },
+        "hivernage": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Gagne ses abris d'hiver, surtout souterrains, aux premières gelées (fin octobre à début novembre) ; sorties possibles par redoux.",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Gagne ses abris d'hiver, surtout souterrains, aux premières gelées (fin octobre à début novembre) ; sorties possibles par redoux."
+        }
+      },
+      "prochaine_piste": "Atlas régionaux français ; publications de phénologie en France.",
+      "justification": "Hivernage et rythme journalier seulement en complément."
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "pathogene_batrachochytrium_salamandrivorans": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Martel A., Spitzen-van der Sluijs A., Blooi M., Bert W. et al. (2013). Batrachochytrium salamandrivorans sp. nov. causes lethal chytridiomycosis in amphibians. PNAS 110 : 15325-15329",
+              "url": "https://doi.org/10.1073/pnas.1307356110",
+              "date_ou_version": "2013",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Champignon chytride décrit en 2013 à partir d'une population en effondrement ; il provoque des lésions cutanées érosives et une mort rapide chez les salamandres infectées expérimentalement.",
+              "etat": "documente",
+              "territoire": "Pays-Bas"
+            }
+          ],
+          "valeur_synthese": "Champignon chytride décrit en 2013 à partir d'une population en effondrement ; il provoque des lésions cutanées érosives et une mort rapide chez les salamandres infectées expérimentalement."
+        },
+        "pathogene_batrachochytrium_dendrobatidis": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Bosch J. & Martínez-Solano I. (2006). Chytrid fungus infection related to unusual mortalities of Salamandra salamandra and Bufo bufo in the Peñalara Natural Park, Spain. Oryx 40 : 84-89",
+              "url": "https://doi.org/10.1017/s0030605306000093",
+              "date_ou_version": "2006",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Sporanges de chytride trouvés sur la peau de jeunes métamorphosés ; nette baisse des larves entre 1999 et 2003.",
+              "etat": "documente",
+              "territoire": "Espagne (parc naturel de Peñalara)"
+            }
+          ],
+          "valeur_synthese": "Sporanges de chytride trouvés sur la peau de jeunes métamorphosés ; nette baisse des larves entre 1999 et 2003."
+        },
+        "secretions_cutanees": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Habermehl G. & Preusser H.-J. (1969). Hemmung des Wachstums von Pilzen und Bakterien durch das Hautdrüsensekret von Salamandra maculosa. Zeitschrift für Naturforschung B 24 : 1599-1601",
+              "url": "https://doi.org/10.1515/znb-1969-1220",
+              "date_ou_version": "1969",
+              "reutilisation": {
+                "licence": "CC BY-NC-ND (selon OpenAlex)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "La sécrétion des glandes cutanées freine la croissance de bactéries (Gram+ et Gram−) et de levures ; son caractère alcalin empêcherait la germination des spores fongiques, sans effet fongicide spécifique.",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "La sécrétion des glandes cutanées freine la croissance de bactéries (Gram+ et Gram−) et de levures ; son caractère alcalin empêcherait la germination des spores fongiques, sans effet fongicide spécifique."
+        },
+        "composition_des_alcaloides": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "Mebs D. & Pogoda W. (2005). Variability of alkaloids in the skin secretion of the European fire salamander (Salamandra salamandra terrestris). Toxicon 45 : 603-606",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Samandarine souvent dominante, proportions variables entre individus et indépendantes du sexe.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Samandarine souvent dominante, proportions variables entre individus et indépendantes du sexe."
+        },
+        "predateurs": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Adulte peu prédaté ; larves et juvéniles consommés notamment par des carabes, des larves de libellules (Cordulegaster), des poissons (truites, chabot) et la musaraigne aquatique.",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Adulte peu prédaté ; larves et juvéniles consommés notamment par des carabes, des larves de libellules (Cordulegaster), des poissons (truites, chabot) et la musaraigne aquatique."
+        },
+        "parasites": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Acanthocéphale Pomphorhynchus laevis trouvé dans le foie de larves (Taunus, Allemagne) ; nématodes intestinaux ponctuels.",
+              "etat": "incertain",
+              "territoire": "Allemagne"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Acanthocéphale Pomphorhynchus laevis trouvé dans le foie de larves (Taunus, Allemagne) ; nématodes intestinaux ponctuels."
+        }
+      },
+      "prochaine_piste": "Plan de surveillance Bsal en France (OFB, SHF) ; Veith & Erpelding 1995 ; Lötters et al. 2020.",
+      "justification": "Prédateurs et parasites seulement en complément ; statut de Bsal en France non documenté par une source lue."
+    },
+    "conservation": {
+      "recherche": "acces_indisponible",
+      "champs": {
+        "liste_rouge_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN Comité français, OFB, MNHN & SHF — Liste rouge des reptiles et amphibiens de France hexagonale : tableau des espèces (xlsx) et rapport (PDF)",
+              "origine": "UICN Comité français, OFB, MNHN & SHF (2026). La Liste rouge des espèces menacées en France – Chapitre Reptiles et amphibiens de France hexagonale",
+              "url": "https://uicn.fr/tableaux-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "Évaluation 2026 (3e évaluation)",
+              "reutilisation": {
+                "licence": "Conditions de réutilisation non indiquées",
+                "contenu_repris": true,
+                "motif": "seuls la catégorie officielle, les codes et la référence sont repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "LC (Préoccupation mineure) ; tendance des populations : en diminution ; code de changement PC (pas de changement de catégorie)",
+              "etat": "documente",
+              "territoire": "France hexagonale"
+            }
+          ],
+          "valeur_synthese": "LC (Préoccupation mineure) ; tendance des populations : en diminution ; code de changement PC (pas de changement de catégorie)"
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "IUCN SSC Amphibian Specialist Group (2023). Salamandra salamandra. The IUCN Red List of Threatened Species 2023 : e.T59467A219148292",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "VU A3ce (Vulnérable) depuis l'évaluation de 2023",
+              "etat": "documente",
+              "territoire": "monde"
+            },
+            {
+              "source": "Wikipédia en anglais, article « Fire salamander » (texte source)",
+              "origine": "IUCN SSC Amphibian Specialist Group (2023). Salamandra salamandra. The IUCN Red List of Threatened Species 2023 : e.T59467A219148292",
+              "url": "https://en.wikipedia.org/w/index.php?title=Fire_salamander&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "VU A3ce (Vulnérable) depuis l'évaluation de 2023",
+              "etat": "documente",
+              "territoire": "monde"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "VU A3ce (Vulnérable) depuis l'évaluation de 2023",
+            "VU A3ce (Vulnérable) depuis l'évaluation de 2023"
+          ]
+        },
+        "protection_nationale": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Protégée en France, comme l'ensemble des amphibiens (texte et article non précisés par la page).",
+              "etat": "incertain",
+              "territoire": "France"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Protégée en France, comme l'ensemble des amphibiens (texte et article non précisés par la page)."
+        },
+        "convention_de_berne": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Espèce listée en annexe III — Convention de Berne (texte de la convention non consulté).",
+              "etat": "incertain",
+              "territoire": "Europe"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Espèce listée en annexe III — Convention de Berne (texte de la convention non consulté)."
+        },
+        "menace_maladies_emergentes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Martel A., Spitzen-van der Sluijs A., Blooi M., Bert W. et al. (2013). Batrachochytrium salamandrivorans sp. nov. causes lethal chytridiomycosis in amphibians. PNAS 110 : 15325-15329",
+              "url": "https://doi.org/10.1073/pnas.1307356110",
+              "date_ou_version": "2013",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Batrachochytrium salamandrivorans, chytride très pathogène, a mené une population néerlandaise au bord de l'extinction.",
+              "etat": "documente",
+              "territoire": "Pays-Bas"
+            },
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Bosch J. & Martínez-Solano I. (2006). Chytrid fungus infection related to unusual mortalities of Salamandra salamandra and Bufo bufo in the Peñalara Natural Park, Spain. Oryx 40 : 84-89",
+              "url": "https://doi.org/10.1017/s0030605306000093",
+              "date_ou_version": "2006",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Chytridiomycose (B. dendrobatidis) associée à des mortalités et à un déclin larvaire.",
+              "etat": "documente",
+              "territoire": "Espagne (parc naturel de Peñalara)"
+            }
+          ],
+          "valeur_synthese": [
+            "Batrachochytrium salamandrivorans, chytride très pathogène, a mené une population néerlandaise au bord de l'extinction.",
+            "Chytridiomycose (B. dendrobatidis) associée à des mortalités et à un déclin larvaire."
+          ]
+        },
+        "declin_aux_pays_bas": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Spitzen-van der Sluijs A., Spikmans F., Bosman W. et al. (2013). Rapid enigmatic decline drives the fire salamander (Salamandra salamandra) to the edge of extinction in the Netherlands. Amphibia-Reptilia 34 : 233-239",
+              "url": "https://doi.org/10.1163/15685381-00002891",
+              "date_ou_version": "2013",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Effondrement de 96 % des effectifs depuis 2010 dans les trois petites populations du pays, sans cause identifiée lors de la publication (cause attribuée ensuite à Bsal par Martel et al. 2013).",
+              "etat": "documente",
+              "territoire": "Pays-Bas"
+            }
+          ],
+          "valeur_synthese": "Effondrement de 96 % des effectifs depuis 2010 dans les trois petites populations du pays, sans cause identifiée lors de la publication (cause attribuée ensuite à Bsal par Martel et al. 2013)."
+        },
+        "menace_captage_des_sources": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Résumé de l'article, lu via l'API OpenAlex (texte intégral non consulté)",
+              "origine": "Manenti R., Ficetola G.F., Marieni A. & De Bernardi F. (2011). Caves as breeding sites for Salamandra salamandra: habitat selection, larval development and conservation issues. North-Western Journal of Zoology",
+              "url": "https://openalex.org/W2184613759",
+              "date_ou_version": "2011",
+              "reutilisation": {
+                "licence": "Droits de l'éditeur (résumé seul lu)",
+                "contenu_repris": true,
+                "motif": "faits reformulés à partir du résumé"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Les captages d'eau fréquents ferment l'accès aux cavités de reproduction.",
+              "etat": "documente",
+              "territoire": "Italie du Nord"
+            }
+          ],
+          "valeur_synthese": "Les captages d'eau fréquents ferment l'accès aux cavités de reproduction."
+        },
+        "menaces_locales": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Mortalité routière, chute dans des regards ou fosses sans issue, disparition des haies, enrésinement et suppression des petits points d'eau forestiers.",
+              "etat": "incertain",
+              "territoire": "France et Europe de l'Ouest"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Mortalité routière, chute dans des regards ou fosses sans issue, disparition des haies, enrésinement et suppression des petits points d'eau forestiers."
+        },
+        "sensibilite_de_diffusion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Décision automatique du skill (decider.py, localisation)",
+              "origine": "Règle « grain le plus protecteur » du cadrage v0.6 §13.3 ; aucune règle de producteur consultable (INPN hors ligne)",
+              "url": "https://inpn.mnhn.fr/espece/cd_nom/92",
+              "date_ou_version": "2026-11-27",
+              "reutilisation": {
+                "licence": "Sans objet",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Règle de diffusion non consultable : grain masqué par défaut ; aucune localité fine reprise dans la fiche.",
+              "etat": "documente"
+            }
+          ],
+          "valeur_synthese": "Règle de diffusion non consultable : grain masqué par défaut ; aucune localité fine reprise dans la fiche."
+        }
+      },
+      "prochaine_piste": "Relire l'arrêté du 8 janvier 2021 (article applicable) et la BDC Statuts dès qu'ils sont accessibles ; fiche UICN 2023.",
+      "justification": "Légifrance (arrêté du 8 janvier 2021), site de l'UICN mondiale, BDC Statuts (INPN) et EUR-Lex refusés ou hors ligne : protection juridique et évaluation mondiale non vérifiées à la source."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "precaution_sanitaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Natagora, cité par Le Soir (25/11/2024), « Les salamandres décimées par un dangereux champignon »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "Nettoyer et sécher ses chaussures entre deux sorties en forêt, la boue pouvant transporter le champignon Bsal.",
+              "etat": "documente",
+              "territoire": "Wallonie (Belgique)"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Nettoyer et sécher ses chaussures entre deux sorties en forêt, la boue pouvant transporter le champignon Bsal."
+        },
+        "limiter_le_derangement": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — note téléchargée depuis lashf.org (texte intégral lu)",
+              "origine": "Csutoros A. & Csutoros P. (2026). Comportements arboricoles inattendus chez la Salamandre tachetée Salamandra salamandra en Ille-et-Vilaine (France). Bull. Soc. Herp. Fr. 188 : 1-4. doi:10.48716/bullshf.188-8",
+              "url": "https://lashf.org/ressources/comportements-arboricoles-inattendus-chez-la-salamandre-tachetee-salamandra-salamandra-en-ille-et-vilaine-france/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "Lors de l'observation d'un individu en escalade, les observateurs ont interrompu le suivi pour ne pas le déranger.",
+              "etat": "documente",
+              "territoire": "Ille-et-Vilaine"
+            }
+          ],
+          "valeur_synthese": "Lors de l'observation d'un individu en escalade, les observateurs ont interrompu le suivi pour ne pas le déranger."
+        },
+        "conditions_de_detection": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Rencontres facilitées vers +10 °C avec une humidité de l'air de 75 à 90 % et sans vent ; mode de vie caché, d'où des populations longtemps inaperçues.",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Rencontres facilitées vers +10 °C avec une humidité de l'air de 75 à 90 % et sans vent ; mode de vie caché, d'où des populations longtemps inaperçues."
+        },
+        "confusions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Bulletin de la Société herpétologique de France n°188 — article téléchargé depuis lashf.org (texte intégral lu)",
+              "origine": "Gippner S., Hernandez A., Ambu J., Dubut V., Pottier G., Trochet A., Crochet P.-A., Vences M. & Dufresnes C. (2026). Quelles salamandres tachetées trouve-t-on dans le sud-ouest de la France ? Bull. Soc. Herp. Fr. 188 : 1-15. doi:10.48716/bullshf.188-4",
+              "url": "https://lashf.org/ressources/quelles-salamandres-tachetees-trouve-t-on-dans-le-sud-ouest-de-la-france-gippner-et-al-2026/",
+              "date_ou_version": "2026",
+              "reutilisation": {
+                "licence": "Droits réservés (aucune licence indiquée)",
+                "contenu_repris": true,
+                "motif": "faits reformulés, aucun texte repris"
+              },
+              "consulte_le": "2026-11-27",
+              "valeur": "L'attribution à une sous-espèce d'après la robe est peu fiable.",
+              "etat": "documente",
+              "territoire": "sud-ouest de la France"
+            },
+            {
+              "source": "Wikipédia en français, article « Salamandra salamandra » (texte source)",
+              "origine": "Fiche Salamandra salamandra de l'INPN (inpn.mnhn.fr/espece/cd_nom/92)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Salamandra_salamandra&action=raw",
+              "date_ou_version": "Version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "valeur": "En Corse, toute salamandre tachetée relève de Salamandra corsica.",
+              "etat": "documente",
+              "territoire": "Corse"
+            }
+          ],
+          "valeur_synthese": "L'attribution à une sous-espèce d'après la robe est peu fiable."
+        }
+      },
+      "prochaine_piste": "Protocole POPAmphibien (SHF) ; recommandations sanitaires Bsal de la SHF.",
+      "justification": "Peu de recommandations propres à l'espèce et au territoire français."
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "point_de_reprise": [],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "patron_de_coloration_sous_especes (documente)",
+          "limites_de_determination (documente)",
+          "polymorphisme_de_coloration (documente)",
+          "dimorphisme_sexuel (documente)",
+          "longueur_totale (documente)"
+        ],
+        "lacunes": [
+          "masse (incertain)",
+          "critere_de_sexage (incertain)",
+          "larve_critere_distinctif (incertain)",
+          "Dimensions et masse seulement en complément (Wikipédia) ; aucune synthèse française de référence lisible (AmphibiaWeb protégé par anti-robot, INPN hors ligne)."
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole (documente)",
+          "sous_especes_au_referentiel (documente)",
+          "aire_de_s_s_fastuosa (documente)",
+          "aire_de_s_s_terrestris (documente)",
+          "corse (documente)",
+          "aire_mondiale_et_histoire (documente)",
+          "bouches_du_rhone (documente)"
+        ],
+        "lacunes": [
+          "statut_de_s_s_hispanica_en_france (contradictoire)",
+          "lacune_littoral_mediterraneen (incertain)"
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "habitat_larvaire_cours_d_eau (documente)",
+          "habitat_larvaire_souterrain (documente)",
+          "abris_terrestres (documente)",
+          "densite_locale (documente)"
+        ],
+        "lacunes": [
+          "altitude (incertain)",
+          "Études de référence surtout hors de France (Italie, Autriche, Portugal) ; aucune synthèse française ouverte."
+        ]
+      },
+      "alimentation": {
+        "documentes": [
+          "regime_adulte (documente)"
+        ],
+        "lacunes": [
+          "regime_larvaire (incertain)",
+          "mode_de_chasse (incertain)",
+          "Aucune source de référence lue : champs renseignés seulement par des compléments."
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "mode_de_reproduction (documente)",
+          "fecondation_et_mise_bas (documente)",
+          "paternite_multiple (documente)",
+          "stockage_du_sperme (documente)"
+        ],
+        "lacunes": [
+          "taille_de_portee (incertain)",
+          "calendrier (incertain)",
+          "maturite_sexuelle (incertain)",
+          "Calendrier, taille de portée et maturité sans source de référence ; calendrier français non documenté."
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "taille_des_larves_a_la_naissance (documente)",
+          "duree_et_plasticite_du_developpement_larvaire (documente)",
+          "taille_a_la_metamorphose (documente)",
+          "phenologie_larvaire (documente)",
+          "croissance (documente)",
+          "survie_adulte (documente)",
+          "dynamique_de_population (documente)",
+          "longevite_en_captivite (documente)"
+        ],
+        "lacunes": [
+          "longevite_en_nature (incertain)",
+          "Longévité en nature non étayée par une référence."
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "fidelite_au_site_et_domaine_vital (documente)",
+          "mobilite_et_emigration (documente)",
+          "escalade (documente)",
+          "comportement_larvaire (documente)"
+        ],
+        "lacunes": [
+          "emissions_sonores (incertain)"
+        ]
+      },
+      "activite": {
+        "documentes": [
+          "activite_journaliere (documente)",
+          "conditions_d_activite_observees (documente)"
+        ],
+        "lacunes": [
+          "hivernage (incertain)",
+          "Hivernage et rythme journalier seulement en complément."
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "pathogene_batrachochytrium_salamandrivorans (documente)",
+          "pathogene_batrachochytrium_dendrobatidis (documente)",
+          "secretions_cutanees (documente)",
+          "composition_des_alcaloides (documente)"
+        ],
+        "lacunes": [
+          "predateurs (incertain)",
+          "parasites (incertain)",
+          "Prédateurs et parasites seulement en complément ; statut de Bsal en France non documenté par une source lue."
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_france (documente)",
+          "liste_rouge_mondiale (documente)",
+          "menace_maladies_emergentes (documente)",
+          "declin_aux_pays_bas (documente)",
+          "menace_captage_des_sources (documente)",
+          "sensibilite_de_diffusion (documente)"
+        ],
+        "lacunes": [
+          "protection_nationale (incertain)",
+          "convention_de_berne (incertain)",
+          "menaces_locales (incertain)",
+          "Légifrance (arrêté du 8 janvier 2021), site de l'UICN mondiale, BDC Statuts (INPN) et EUR-Lex refusés ou hors ligne : protection juridique et évaluation mondiale non vérifiées à la source."
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "precaution_sanitaire (documente)",
+          "limiter_le_derangement (documente)",
+          "confusions (documente)"
+        ],
+        "lacunes": [
+          "conditions_de_detection (incertain)",
+          "Peu de recommandations propres à l'espèce et au territoire français."
+        ]
+      }
+    }
+  },
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Salamandre tachetée (reprise de la passe interrompue, enrichissement complet)",
+    "sources_consultees": [
+      {
+        "source": "TAXREF",
+        "version": "18 (export local, SHA-256 a6963ea1…)"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank)",
+        "version": "2026-11-11 (passe précédente)"
+      },
+      {
+        "source": "GBIF Backbone (species/match)",
+        "version": "passe précédente"
+      },
+      {
+        "source": "UICN Comité français — Liste rouge reptiles et amphibiens de France hexagonale (tableau xlsx + rapport PDF)",
+        "version": "2026"
+      },
+      {
+        "source": "Bulletin de la Société herpétologique de France n°188 (Gippner et al. 2026 ; Csutoros & Csutoros 2026)",
+        "version": "2026"
+      },
+      {
+        "source": "OpenAlex (résumés de 18 articles scientifiques)",
+        "version": "API consultée le 2026-11-27"
+      },
+      {
+        "source": "Wikipédia fr « Salamandra salamandra » et en « Fire salamander » (texte source)",
+        "version": "2026-11-27"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "Légifrance (arrêté du 8 janvier 2021)",
+        "motif": "HTTP 403 (protection anti-robots)"
+      },
+      {
+        "source": "Copies DREAL et FAOLEX de l'arrêté, EUR-Lex, HAL, figshare (AmphiBIO), Crossref, Europe PMC, digital.csic.es, zenodo",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "AmphibiaWeb",
+        "motif": "vérification anti-robots (Cloudflare) non contournée"
+      },
+      {
+        "source": "INPN, OpenObs, BDC Statuts",
+        "motif": "INPN hors ligne (HTTP 403), incident signalé fin novembre 2026"
+      },
+      {
+        "source": "Wikidata",
+        "motif": "HTTP 429 (limite de débit)"
+      }
+    ]
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "TAXREF v18 code P ; aucun nom, synonyme ni CD_REF déjà présent dans fiches/index.json (base vide)",
+      "sources": [
+        "TAXREF v18"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "decision": "enrichir",
+      "motif": "Reprise de la passe interrompue (point de reprise : 11 familles) ; identité revérifiée dans TAXREF v18 (CD_REF 92, code FR P) ; aucun doublon",
+      "sources": [
+        "TAXREF v18",
+        "Liste rouge France 2026",
+        "Bull. SHF 188",
+        "OpenAlex",
+        "Wikipédia"
+      ]
+    }
+  ]
+}
