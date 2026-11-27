@@ -292,6 +292,45 @@ def _champ_complement(complements: list[dict], refusees: list[dict]) -> dict:
     }
 
 
+LICENCES_LIBRES = {"cc0", "pd", "cc-by", "cc-by-sa"}
+LICENCES_NC = {"cc-by-nc", "cc-by-nc-sa"}
+TAILLE_MIN_PHOTO = 640
+
+
+def decider_photo(photo: dict, profil: dict | None = None) -> dict:
+    """Une photo n'est retenue que si sa licence permet de l'afficher, de la redimensionner
+    et de la recadrer, si son auteur est connu (crédit obligatoire) et si elle est assez grande."""
+    profil = profil or {}
+    licence = (photo.get("licence") or "inconnue").lower()
+    cote = max(photo.get("largeur") or 0, photo.get("hauteur") or 0)
+    if "nd" in licence.split("-"):
+        return {"admise": False, "motif": "licence sans modification (ND) : recadrage et redimensionnement interdits"}
+    if licence in LICENCES_NC:
+        if profil.get("usage_commercial"):
+            return {"admise": False, "motif": "licence non commerciale incompatible avec l'usage déclaré"}
+    elif licence not in LICENCES_LIBRES:
+        return {"admise": False, "motif": f"licence « {licence} » non réutilisable ou inconnue"}
+    if licence not in {"cc0", "pd"} and not photo.get("auteur"):
+        return {"admise": False, "motif": "auteur inconnu : le crédit exigé par la licence est impossible"}
+    if cote and cote < TAILLE_MIN_PHOTO:
+        return {"admise": False, "motif": f"image trop petite ({cote} px, minimum {TAILLE_MIN_PHOTO})"}
+    if not photo.get("identite_verifiee"):
+        return {"admise": False, "motif": "rattachement de la photo à l'espèce non vérifié"}
+    restriction = "usage non commercial seulement" if licence in LICENCES_NC else None
+    return {"admise": True, "motif": "licence réutilisable, auteur connu, espèce vérifiée", **({"restriction": restriction} if restriction else {})}
+
+
+def decider_photos(photos: list[dict], profil: dict | None = None) -> dict:
+    """Garde l'ordre de priorité des sources ; la première photo admise est la photo principale."""
+    resultats = [{**p, **decider_photo(p, profil)} for p in photos]
+    admises = [r for r in resultats if r["admise"]]
+    return {
+        "principale": admises[0].get("id") if admises else None,
+        "admises": [r.get("id") for r in admises],
+        "refusees": [{"id": r.get("id"), "motif": r["motif"]} for r in resultats if not r["admise"]],
+    }
+
+
 def decider_localisation(localisation: dict) -> dict:
     """Section 13.3 : grain le plus protecteur ; jamais de reconstitution."""
     grains = localisation.get("grains_autorises", [])
@@ -309,6 +348,8 @@ def decider(dossier: dict) -> dict:
         sortie["admission"] = decider_admission(dossier)
     if "champs" in dossier:
         sortie["champs"] = {nom: decider_champ(c, dossier.get("profil")) for nom, c in dossier["champs"].items()}
+    if "photos" in dossier:
+        sortie["photos"] = decider_photos(dossier["photos"], dossier.get("profil"))
     if "localisation" in dossier:
         sortie["localisation"] = decider_localisation(dossier["localisation"])
     return sortie

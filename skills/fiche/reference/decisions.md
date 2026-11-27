@@ -72,6 +72,19 @@ Source des significations : `statuts_note.csv` et `TAXREFv18.pdf`, dans l'archiv
 | Champ renseigné seulement par des compléments citant leur ouvrage | `documente`, marqué `niveau: complement` ; jamais `corrobore` ; remplacé dès qu'une référence le renseigne |
 | Complément sans référence citée, ou compléments divergents dans un même contexte | `incertain`, marqué `niveau: complement` |
 
+## Photos
+
+| Situation | Décision |
+|---|---|
+| Licence CC0, domaine public, CC BY, CC BY-SA | Admise si l'auteur est connu (sauf CC0 et domaine public) |
+| Licence CC BY-NC ou CC BY-NC-SA | Refusée si le profil déclare un usage commercial ; sinon admise avec la restriction « usage non commercial » |
+| Licence ND (pas de modification), droits réservés, licence inconnue, GFDL seule | Refusée : recadrer ou redimensionner serait interdit, ou la réutilisation n'est pas autorisée |
+| Auteur inconnu | Refusée : le crédit exigé par la licence est impossible |
+| Plus grand côté inférieur à 640 px | Refusée |
+| Rattachement à l'espèce non vérifié (nom scientifique de l'élément Wikidata ou du taxon iNaturalist différent du nom retenu) | Refusée |
+| Plusieurs photos admises | Ordre de priorité des sources ; la première est la photo principale |
+| Aucune photo admise | Pas une erreur : la fiche le dit et la recherche est reprise à la prochaine exécution |
+
 ## Localisation
 
 | Situation | Décision |

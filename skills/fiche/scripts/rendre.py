@@ -127,6 +127,11 @@ h2{font-size:28px;line-height:1.1;letter-spacing:-.01em;margin:0 0 6px}
 .appel{font-size:13px;font-weight:600;color:var(--doc);text-decoration:none;margin-left:2px}
 .biblio{padding-left:28px;margin:0;columns:2 22em;column-gap:40px}
 .biblio li{break-inside:avoid;margin-bottom:12px;overflow-wrap:anywhere}
+.photos{display:grid;gap:16px;grid-template-columns:minmax(0,2fr) minmax(0,1fr);align-items:start}
+@media(max-width:600px){.photos{grid-template-columns:minmax(0,1fr)}}
+.photo{margin:0}
+.photo img,.photo .cadre{display:block;width:100%;height:auto;background-repeat:no-repeat;background-color:var(--soft)}
+.photo figcaption{font-size:13px;color:var(--mute);margin-top:6px;overflow-wrap:anywhere}
 footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px}
 """
 
@@ -170,6 +175,31 @@ def affirmation(a: dict) -> str:
         f'<div>Origine : {e(a.get("origine"))}{(" · " + contexte) if contexte else ""}</div>'
         f'<div>Licence : {e(licence)} · consulté le {e(a.get("consulte_le"))}</div>'
         f'{("<div>Diffusion : " + e(a["restriction_diffusion"]) + "</div>") if a.get("restriction_diffusion") else ""}</div>'
+    )
+
+
+def figure_photo(p: dict) -> str:
+    """Photo avec son crédit ; le recadrage éventuel est appliqué par CSS, sans modifier le fichier."""
+    url = p.get("url_image") or ""
+    if not url.startswith("https://"):
+        return ""
+    r = p.get("recadrage")
+    if r and p.get("largeur") and p.get("hauteur"):
+        w, h = max(r["largeur"], 0.01), max(r["hauteur"], 0.01)
+        px = 0 if w >= 1 else r["x"] / (1 - w) * 100
+        py = 0 if h >= 1 else r["y"] / (1 - h) * 100
+        ratio = (w * p["largeur"]) / (h * p["hauteur"])
+        image = (
+            f'<div class="cadre" role="img" aria-label="{e(p.get("controle_visuel") or p.get("titre"))}" '
+            f'style="aspect-ratio:{ratio:.4f};background-image:url(&quot;{e(url)}&quot;);'
+            f'background-size:{100 / w:.2f}% {100 / h:.2f}%;background-position:{px:.2f}% {py:.2f}%"></div>'
+        )
+    else:
+        image = f'<img src="{e(url)}" alt="{e(p.get("controle_visuel") or p.get("titre"))}" loading="lazy">'
+    return (
+        f'<figure class="photo {e(p.get("role"))}">{image}'
+        f'<figcaption>{lien(p.get("credit"), p.get("url_page"))}'
+        f'{(" · " + lien("licence", p["licence_url"])) if p.get("licence_url") else ""}</figcaption></figure>'
     )
 
 
@@ -329,6 +359,9 @@ def rendre_fiche(d: dict) -> str:
     couv = d.get("couverture", {})
     reprise = "".join(f"<li>{e(p)}</li>" for p in couv.get("point_de_reprise", []))
     vern = ", ".join(ident.get("noms_vernaculaires", []))
+    ordre = {"paysage": 0, "portrait": 1}
+    photos = "".join(figure_photo(p) for p in sorted(d.get("photos", []), key=lambda p: ordre.get(p.get("role"), 2)))
+    bloc_photos = f'<section class="band" style="padding-bottom:0"><div class="wrap photos">{photos}</div></section>' if photos else ""
     corps = (
         '<header class="band head"><div class="wrap"><div>'
         f'<h1>{e(ident["nom_retenu"])} <span class="auteur">{e(ident.get("auteur"))}{(", " + e(ident.get("annee"))) if ident.get("annee") else ""}</span></h1>'
@@ -340,7 +373,8 @@ def rendre_fiche(d: dict) -> str:
         f'<div><span>Protection nationale</span><b>{e(ETATS_CHAMP.get(prot, prot))}</b></div>'
         f'<div><span>État de la fiche</span><b>{e(ETATS_ENTREE.get(d["etat"], d["etat"]))} · {e(d["id"])}</b></div>'
         "</div></div></header>"
-        '<section class="band"><div class="wrap">'
+        + bloc_photos
+        + '<section class="band"><div class="wrap">'
         f"<h2>{docs} champs documentés sur {total}" + (f", dont {compl} par des sources de complément" if compl else "") + "</h2>"
         f'<p class="lead">Chaque case est un champ de la fiche. Passe du {e(couv.get("date"))} '
         f'{"terminée" if couv.get("passe_terminee") else "à reprendre : les manques sont listés plus bas et seront repris à la prochaine exécution"}.</p>'

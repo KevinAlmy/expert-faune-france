@@ -1,0 +1,56 @@
+{
+  "description": "Photos : licences libres retenues, ND, droits réservés et auteur inconnu refusés ; la première admise est principale",
+  "dossier": {
+    "photos": [
+      {
+        "id": "nd",
+        "licence": "cc-by-nd",
+        "auteur": "A. Auteur",
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      },
+      {
+        "id": "arr",
+        "licence": "arr",
+        "auteur": "A. Auteur",
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      },
+      {
+        "id": "sans-auteur",
+        "licence": "cc-by",
+        "auteur": null,
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      },
+      {
+        "id": "ok-sa",
+        "licence": "cc-by-sa",
+        "auteur": "A. Auteur",
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      },
+      {
+        "id": "ok-cc0",
+        "licence": "cc0",
+        "auteur": null,
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      }
+    ]
+  },
+  "attendu": {
+    "photos": {
+      "principale": "ok-sa",
+      "admises": [
+        "ok-sa",
+        "ok-cc0"
+      ]
+    }
+  }
+}

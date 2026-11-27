@@ -231,6 +231,13 @@
     },
     "execution": {
       "$ref": "rapport-execution.schema.json"
+    },
+    "photos": {
+      "description": "Deux photos sous licence réutilisable : une en paysage, une en portrait (cadrage du skill, étape Photos).",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/photo"
+      }
     }
   },
   "$defs": {
@@ -319,6 +326,131 @@
               }
             }
           }
+        }
+      }
+    },
+    "photo": {
+      "type": "object",
+      "required": [
+        "role",
+        "source",
+        "url_page",
+        "url_image",
+        "licence",
+        "licence_libelle",
+        "credit",
+        "verification",
+        "consulte_le"
+      ],
+      "properties": {
+        "role": {
+          "enum": [
+            "paysage",
+            "portrait"
+          ]
+        },
+        "source": {
+          "type": "string"
+        },
+        "url_page": {
+          "type": "string"
+        },
+        "url_image": {
+          "type": "string"
+        },
+        "titre": {
+          "type": "string"
+        },
+        "auteur": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "licence": {
+          "enum": [
+            "cc0",
+            "pd",
+            "cc-by",
+            "cc-by-sa",
+            "cc-by-nc",
+            "cc-by-nc-sa"
+          ]
+        },
+        "licence_libelle": {
+          "type": "string"
+        },
+        "licence_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "largeur": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "hauteur": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "orientation": {
+          "enum": [
+            "paysage",
+            "portrait",
+            "carre",
+            "inconnue"
+          ]
+        },
+        "qualite": {
+          "type": "string"
+        },
+        "credit": {
+          "type": "string",
+          "description": "Texte de crédit à afficher avec la photo (exigé par la licence)."
+        },
+        "verification": {
+          "type": "string",
+          "description": "Comment le rattachement à l'espèce est garanti."
+        },
+        "controle_visuel": {
+          "type": "string",
+          "description": "Ce que montre la photo, vérifié en la regardant."
+        },
+        "recadrage": {
+          "type": "object",
+          "description": "Zone à découper (fractions 0-1 de la largeur et de la hauteur) quand le rôle n'est pas l'orientation d'origine.",
+          "required": [
+            "x",
+            "y",
+            "largeur",
+            "hauteur"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "largeur": {
+              "type": "number"
+            },
+            "hauteur": {
+              "type": "number"
+            }
+          }
+        },
+        "restriction": {
+          "type": "string"
+        },
+        "consulte_le": {
+          "type": "string",
+          "format": "date"
         }
       }
     }

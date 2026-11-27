@@ -12,6 +12,7 @@ Première version (V1 du cadrage v0.6).
 - Section « Sources » numérotée en fin de page HTML ; appels [n] sur chaque champ ; fonction `references()` réutilisable.
 - Essai sur 10 espèces de groupes différents (`docs/essais-10/`) : 82 % des champs documentés, dont 28 % par des compléments ; rapport et vérifications indépendantes.
 - Le contrôle de reformulation porte sur le texte complet et brut de la page, jamais sur un résumé (reprises manquées lors de l'essai).
+- Photos : deux photos par espèce (paysage et portrait) sous licence réutilisable, avec crédit prêt à afficher ; sources classées par qualité (photos primées de Wikimedia Commons, puis observations iNaturalist les plus appréciées) ; rattachement à l'espèce vérifié ; contrôle visuel obligatoire ; recadrage indiqué quand aucune photo de la bonne orientation ne convient (`scripts/photos.py`, règles et cas de test 25 à 27).
 - Page HTML lisible de chaque fiche ou candidature (`scripts/rendre.py`), valeurs échappées, liens limités au web.
 - Exemples réels produits par le skill de bout en bout : fiche Grenouille rousse (`docs/exemples/grenouille-rousse-EFF-000001.json`) et candidature Grenouille des bois, absente de France (`docs/exemples/grenouille-des-bois-EFF-000002.json`), avec leurs pages HTML.
 - Correction : l'origine d'une preuve TAXREF n'est plus écrasée par l'origine biogéographique (relevé par le premier essai).

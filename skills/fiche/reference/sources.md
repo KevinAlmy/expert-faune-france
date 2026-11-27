@@ -47,7 +47,25 @@ Reformuler protège contre le droit d'auteur, **pas** contre le droit des bases 
 
 Exclus : contenus payants ou derrière un compte (Birds of the World…), réseaux sociaux, sites qui interdisent la collecte automatisée. Les licences ci-dessus sont à revérifier au premier usage de chaque site ; une licence incompatible avec le profil du projet écarte le contenu (référence conservée).
 
-## Fiches d'accès (V1)
+## Photos
+
+But : deux belles photos par espèce, une en paysage et une en portrait (`scripts/photos.py`, étape 4 bis de `SKILL.md`).
+
+| Source | Pourquoi | Licence | Identification de l'espèce |
+|---|---|---|---|
+| Wikimedia Commons : *Featured pictures*, *Valued images*, *Quality images* de la catégorie de l'espèce | Photos primées ou validées par des jurys (qualité technique, valeur d'illustration) | Par fichier : CC0, domaine public, CC BY, CC BY-SA le plus souvent | Catégorie Commons reliée à l'élément Wikidata vérifié par le nom scientifique |
+| Wikidata, image principale (P18) | Image choisie pour représenter l'espèce | Celle du fichier Commons | Élément Wikidata vérifié par le nom scientifique |
+| iNaturalist, observations « qualité recherche » classées par favoris | Grand choix, photos récentes, souvent en milieu naturel | Par photo ; seules CC0, CC BY, CC BY-SA (et NC sans usage commercial) sont demandées | Espèce validée par plusieurs observateurs |
+
+Le contrôle visuel est obligatoire : les photos les plus appréciées ne sont pas toujours des portraits de l'animal (animal tenu en main, proie, cadrage lointain).
+
+**Banques d'images (Unsplash, Pexels, Pixabay)** : non utilisées en V1.
+- Les photos y sont souvent très belles et utilisables commercialement sans crédit obligatoire. Elles sont sous les licences propres à chaque site, pas sous Creative Commons. Ces licences interdisent notamment de constituer une collection qui concurrencerait le service.
+- Mais l'espèce n'y est pas identifiée : les mots-clés disent « grenouille » ou « lézard », sans validation. Le risque d'une mauvaise espèce sur la fiche est élevé.
+- Leur API demande une clé personnelle, et Unsplash impose d'afficher les images depuis ses serveurs.
+- Elles pourront être ajoutées en dernier recours, avec le contrôle visuel et une mention « identification non vérifiée ».
+
+
 
 État constaté lors de la construction du skill (27/11/2026). À revérifier à chaque usage.
 

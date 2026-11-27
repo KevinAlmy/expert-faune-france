@@ -80,6 +80,13 @@ Suis [reference/enrichissement.md](reference/enrichissement.md) : parcours **tou
 
 Écris la fiche au fur et à mesure : une passe interrompue garde ses acquis et note un `point_de_reprise`.
 
+## Étape 4 bis — Photos (une paysage, une portrait)
+
+1. `python3 "${CLAUDE_SKILL_DIR}/scripts/photos.py" --nom "<nom retenu>" --max 4 --profil profil-projet.json --telecharger fiches/photos/candidates --prefixe <id>` (sans `--profil` si le fichier n'existe pas). Le script ne propose que des photos dont la licence permet l'affichage et le recadrage, dont l'auteur est connu et dont le rattachement à l'espèce est vérifié (élément Wikidata ou observation iNaturalist validée), classées par qualité : photos primées de Commons d'abord, puis photos iNaturalist les plus appréciées.
+2. **Regarde chaque image téléchargée** (outil de lecture d'image). Retiens la plus belle de chaque orientation qui respecte tous ces critères : l'animal est le sujet principal, net, entier ou presque, vivant, dans un milieu naturel ; ni main, ni personne, ni scène de prédation, ni animal mort, ni spécimen de collection, ni dessin, ni filigrane ; aucun nid, terrier ou gîte reconnaissable pour une espèce sensible. Décris en une phrase ce que montre la photo (`controle_visuel`).
+3. Pas de bon portrait (ou de bon paysage) : prends la plus belle photo admise de grand format et indique la zone à découper dans `recadrage` (fractions de l'image), en gardant l'animal entier. Ajoute « recadrée » au crédit : les licences CC exigent de signaler la modification.
+4. Écris les deux photos dans `photos` (`role` : `paysage`, `portrait`), avec le crédit tel que le script le donne. Supprime le dossier `fiches/photos/candidates`. Aucune photo admise : écris-le dans `couverture.point_de_reprise`.
+
 ## Étape 5 — Vérifier et rendre
 
 1. Valide : `python3 "${CLAUDE_SKILL_DIR}/scripts/valider.py" fiches/<id>.json`. Corrige jusqu'à `✔`.
