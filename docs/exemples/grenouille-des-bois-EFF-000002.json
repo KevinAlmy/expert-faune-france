@@ -1,0 +1,57 @@
+{
+  "id": "EFF-000002",
+  "etat": "candidate",
+  "taxon": {
+    "nom": "Lithobates sylvaticus",
+    "auteur": "(LeConte, 1825)",
+    "identite": "etablie",
+    "nom_accepte_col": "Boreorana sylvatica (LeConte, 1825)",
+    "noms_vernaculaires": [{"nom": "Wood Frog", "langue": "eng", "source": "GBIF Backbone, noms vernaculaires du taxon 2427072"}],
+    "synonymes_col": ["Lithobates sylvaticus (LeConte, 1825)", "Rana sylvatica LeConte, 1825", "Rana silvatica LeConte, 1825", "Rana sylvatica sylvatica LeConte, 1825", "Rana temporaria sylvatica LeConte, 1825", "Rana temporaria silvatica LeConte, 1825", "Rana pennsylvanica Harlan, 1825", "Rana pensylvanica Harlan, 1826", "Rana cantabrigensis Baird, 1854", "Rana cantabridgensis cantabridgensis Baird, 1854", "Rana sylvatica cantabrigensis Baird, 1854", "Rana temporaria cantabrigensis Baird, 1854", "Rana cantabridgensis latiremis Cope, 1886", "Rana sylvatica latiremis Cope, 1886", "Rana cantabrigensis evittata Cope, 1889", "Rana sylvatica cherokiana Witschi, 1954", "Rana maslini Porter, 1969"],
+    "identifiants_externes": {
+      "col": "V57HH",
+      "col_version": "2026-11-11",
+      "col_synonyme_lithobates": "3VHQZ",
+      "col_source": "ITIS (ChecklistBank 2144), version 2026-11-23",
+      "gbif": 2427072,
+      "taxref": null
+    },
+    "divergence_nomenclaturale": "Genre Boreorana Dubois, Ohler & Pyron, 2021 retenu par le Catalogue of Life ; Lithobates retenu par le GBIF Backbone. Aucun référentiel français ne tranche (taxon absent de TAXREF v18) : les deux combinaisons sont conservées comme hypothèses, nom de la requête conservé comme libellé."
+  },
+  "motif": "Identité établie par le Catalogue of Life (2026-11-11). Présence sauvage en France métropolitaine (Corse comprise) non démontrée : taxon absent de TAXREF v18 (ni sous Lithobates sylvaticus, Rana sylvatica, Boreorana sylvatica, ni sous les synonymes testés) ; distribution COL limitée à l'Amérique du Nord ; 0 occurrence GBIF pour le pays FR. Un catalogue mondial ne prouve pas la présence (décisions, Admission).",
+  "preuve_manquante": "presence_sauvage_metropole",
+  "hypotheses": [
+    {"hypothese": "Espèce néarctique sans population sauvage en France métropolitaine", "statut": "compatible avec toutes les sources consultées, non établie comme fait par une source française de présence"},
+    {"hypothese": "Individus isolés (échappés, importés) non documentés", "statut": "aucune preuve trouvée ; même documentés, des individus non établis relèveraient d'un code M (exclusion) et non d'une admission"}
+  ],
+  "sources_consultees": [
+    "TAXREF v18, export officiel local (TAXREF_v18_2025.zip, SHA-256 a6963ea1…97a7 vérifié), recherche par nom, synonymes et genre Lithobates : 0 taxon",
+    "Catalogue of Life via ChecklistBank, jeu 3LR version 2026-11-11 (CC BY 4.0) : taxon V57HH, distribution North America",
+    "GBIF API v1, species/match (taxon 2427072) et occurrence/search country=FR : 0 enregistrement (consulté le 2026-11-27)",
+    "GBIF API v1, occurrence/search continent=EUROPE : 3 enregistrements (Allemagne, NABU|naturgucker, CC BY 4.0), hors territoire, non remontés à l'origine",
+    "Recherche web générale (2026-11-27) : aucun résultat sur la présence en France ; pages de résultats non ouvertes, donc non retenues comme sources"
+  ],
+  "reexamen": {
+    "declencheurs": [
+      "nouvel export TAXREF (v19 ou suivant) contenant le taxon ou un synonyme",
+      "nouvelle version du Catalogue of Life",
+      "occurrence GBIF ou OpenObs en France métropolitaine, à remonter à son origine",
+      "publication ou atlas documentant une observation en France métropolitaine",
+      "accès automatisé autorisé à l'INPN / OpenObs"
+    ]
+  },
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "expert-faune-france:fiche (cadrage v0.6)",
+    "requete": "Lithobates sylvaticus",
+    "sources_consultees": [
+      {"source": "TAXREF (export local)", "version": "18", "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"},
+      {"source": "Catalogue of Life (ChecklistBank, 3LR)", "version": "2026-11-11", "url": "https://api.checklistbank.org/dataset/3LR/taxon/V57HH/info"},
+      {"source": "GBIF API (Backbone et occurrences)", "version": "consulté le 2026-11-27", "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2427072&country=FR"}
+    ],
+    "indisponibilites": [
+      {"source": "INPN / OpenObs", "motif": "accès automatisé refusé (protection anti-robots, sources.md) : non contourné, non consulté"},
+      {"source": "TAXREF service web", "motif": "accès automatisé refusé : export local utilisé à la place"}
+    ]
+  }
+}

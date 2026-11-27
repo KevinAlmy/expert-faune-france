@@ -69,7 +69,7 @@ a{color:inherit;text-underline-offset:2px}
 .head .wrap{display:grid;gap:24px}
 @media(min-width:900px){.head .wrap{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:end}}
 h1{font-size:clamp(34px,5vw,52px);line-height:1.05;letter-spacing:-.02em;margin:0;font-style:italic;font-weight:700}
-.auteur{font-style:normal;font-weight:400;font-size:.5em;letter-spacing:0}
+.auteur{white-space:nowrap;font-style:normal;font-weight:400;font-size:.5em;letter-spacing:0}
 .vern{font-size:20px;margin:8px 0 0}
 .classif{color:color-mix(in srgb,var(--bandink) 78%,transparent);margin:12px 0 0;font-size:15px}
 .etiquette{border:1px solid color-mix(in srgb,var(--bandink) 40%,transparent);padding:16px 18px;display:grid;gap:10px;font-size:15px}
@@ -132,7 +132,10 @@ def lien(texte, url) -> str:
     return e(texte)
 
 
-MOTS = {"etablie": "Établie", "indigene": "Indigène", "introduite": "Introduite", "indeterminee": "Indéterminée"}
+MOTS = {
+    "presence_sauvage_metropole": "Présence sauvage en métropole",
+    "code_non_documente": "Code TAXREF non documenté",
+    "etablie": "Établie", "indigene": "Indigène", "introduite": "Introduite", "indeterminee": "Indéterminée"}
 
 
 def libelle(cle: str) -> str:
@@ -307,7 +310,7 @@ def rendre_candidature(d: dict) -> str:
         "</div></div></header>"
         f'<section class="band"><div class="wrap cols"><div><h2>Motif</h2><p>{e(d["motif"])}</p></div>'
         f"<div><h2>Réexamen automatique si</h2><ul>{decl}</ul></div></div></section>"
-        f'<section class="band" style="padding-top:0"><div class="wrap"><h2>Sources consultées</h2><ul>{consultees}</ul></div></section>'
+        f'<section class="band" style="padding-top:0"><div class="wrap"><h2>Recherches faites</h2><ul>{consultees}</ul></div></section>'
         + sources(d)
         + pied(d)
     )

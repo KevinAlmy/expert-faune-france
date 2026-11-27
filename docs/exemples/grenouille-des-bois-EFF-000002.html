@@ -1,0 +1,69 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="claude:viewport-fit-sides" content="cover"><title>Lithobates sylvaticus · candidature</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet"><style>
+/* VOICE everyday: a naturalist's field plate, calm and exact
+   IDEA a museum specimen label + field-guide plate, one row per family
+   PICTURE coverage plate: one square per field, coloured by its state
+   COLOUR white ground, pond-green #17614a field, ochre #c98a12 for gaps, rust for contradictions
+   TYPE Archivo (display and text), italic only for the scientific name
+   LAYOUT green band with name and key statuses; plate full width; families in two columns from 900px */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0e1512);--ink:light-dark(#13201a,#e6efe9);--mute:light-dark(#4f5f57,#a3b5ab);--band:light-dark(#17614a,#123d31);--bandink:#f4fbf7;--doc:light-dark(#17614a,#4fbf92);--cor:light-dark(#0b3d2e,#9be3c3);--inc:light-dark(#c98a12,#e8b74a);--con:light-dark(#b23a1e,#f07a5a);--line:light-dark(#d5e0da,#2a3a32);--soft:light-dark(#eef5f1,#16211c)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Archivo,system-ui,sans-serif;overflow-x:clip}
+a{color:inherit;text-underline-offset:2px}
+.band{padding-block:clamp(24px,4vw,56px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto}
+.head{background:var(--band);color:var(--bandink);margin-top:calc(-1*env(safe-area-inset-top,0px));padding-top:calc(env(safe-area-inset-top,0px) + clamp(24px,4vw,56px))}
+.head .wrap{display:grid;gap:24px}
+@media(min-width:900px){.head .wrap{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:end}}
+h1{font-size:clamp(34px,5vw,52px);line-height:1.05;letter-spacing:-.02em;margin:0;font-style:italic;font-weight:700}
+.auteur{white-space:nowrap;font-style:normal;font-weight:400;font-size:.5em;letter-spacing:0}
+.vern{font-size:20px;margin:8px 0 0}
+.classif{color:color-mix(in srgb,var(--bandink) 78%,transparent);margin:12px 0 0;font-size:15px}
+.etiquette{border:1px solid color-mix(in srgb,var(--bandink) 40%,transparent);padding:16px 18px;display:grid;gap:10px;font-size:15px}
+.etiquette div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid color-mix(in srgb,var(--bandink) 20%,transparent);padding-bottom:8px}
+.etiquette div:last-child{border:0;padding:0}
+.etiquette b{font-weight:600;text-align:right}
+h2{font-size:28px;line-height:1.1;letter-spacing:-.01em;margin:0 0 6px}
+.lead{color:var(--mute);margin:0 0 20px;max-width:70ch}
+.chiffres{display:grid;grid-template-columns:repeat(auto-fit,minmax(9em,1fr));gap:12px;margin-bottom:24px}
+.chiffres div{border-top:3px solid var(--doc);padding-top:8px}
+.chiffres strong{display:block;font-size:34px;line-height:1.1;font-variant-numeric:tabular-nums}
+.chiffres span{color:var(--mute);font-size:14px}
+.planche{display:grid;gap:2px;border-top:1px solid var(--line)}
+.ligne{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.ligne a{text-decoration:none;font-weight:600}
+.cases{display:flex;flex-wrap:wrap;gap:4px}
+.c{width:22px;height:22px;border:2px solid var(--doc)}
+.c.documente{background:var(--doc)}
+.c.corrobore{background:var(--cor);border-color:var(--cor)}
+.c.incertain{border-color:var(--inc);background:repeating-linear-gradient(45deg,var(--inc) 0 3px,transparent 3px 7px)}
+.c.contradictoire{background:var(--con);border-color:var(--con)}
+.c.non_renseigne{border-color:var(--inc);border-style:dashed;background:transparent}
+.rech{font-size:14px;color:var(--mute);white-space:nowrap}
+.legende{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:14px;color:var(--mute)}
+.legende span{display:inline-flex;align-items:center;gap:8px}
+.legende .c{width:16px;height:16px}
+@media(max-width:600px){.ligne{grid-template-columns:minmax(0,1fr) auto}.cases{grid-column:1/-1;order:3}}
+.familles{display:grid;gap:20px}
+@media(min-width:900px){.familles{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.fam{background:var(--soft);padding:20px;scroll-margin-top:16px}
+.fam h3{font-size:21px;margin:0 0 4px}
+.fam .just{color:var(--mute);font-size:14px;margin:0 0 12px}
+.champ{border-top:1px solid var(--line);padding:10px 0}
+.champ h4{margin:0;font-size:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.pastille{font-size:13px;font-weight:600;padding:1px 8px;border:1px solid currentColor;white-space:nowrap}
+.p-documente,.p-corrobore{color:var(--doc)}
+.p-incertain,.p-non_renseigne{color:var(--inc)}
+.p-contradictoire{color:var(--con)}
+.champ ul{margin:6px 0 0;padding-left:20px}
+.champ details{margin-top:6px;font-size:14px;color:var(--mute)}
+.champ summary{cursor:pointer}
+.aff{margin:8px 0 0;padding-left:12px;border-left:2px solid var(--line);overflow-wrap:anywhere}
+.piste{font-size:14px;margin:10px 0 0}
+.cols{display:grid;gap:28px}
+@media(min-width:900px){.cols{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.cols ol,.cols ul{padding-left:20px;margin:0}
+.cols li{margin-bottom:8px;overflow-wrap:anywhere}
+.sm{font-size:14px;color:var(--mute)}
+footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+</style></head><body><header class="band head"><div class="wrap"><div><h1>Lithobates sylvaticus <span class="auteur">(LeConte, 1825)</span></h1><p class="vern">Candidature : pas de fiche pour l'instant</p></div><div class="etiquette"><div><span>Preuve manquante</span><b>Présence sauvage en métropole</b></div><div><span>Identité</span><b>Établie</b></div><div><span>Identifiant</span><b>EFF-000002</b></div></div></div></header><section class="band"><div class="wrap cols"><div><h2>Motif</h2><p>Identité établie par le Catalogue of Life (2026-11-11). Présence sauvage en France métropolitaine (Corse comprise) non démontrée : taxon absent de TAXREF v18 (ni sous Lithobates sylvaticus, Rana sylvatica, Boreorana sylvatica, ni sous les synonymes testés) ; distribution COL limitée à l&#x27;Amérique du Nord ; 0 occurrence GBIF pour le pays FR. Un catalogue mondial ne prouve pas la présence (décisions, Admission).</p></div><div><h2>Réexamen automatique si</h2><ul><li>nouvel export TAXREF (v19 ou suivant) contenant le taxon ou un synonyme</li><li>nouvelle version du Catalogue of Life</li><li>occurrence GBIF ou OpenObs en France métropolitaine, à remonter à son origine</li><li>publication ou atlas documentant une observation en France métropolitaine</li><li>accès automatisé autorisé à l&#x27;INPN / OpenObs</li></ul></div></div></section><section class="band" style="padding-top:0"><div class="wrap"><h2>Recherches faites</h2><ul><li>TAXREF v18, export officiel local (TAXREF_v18_2025.zip, SHA-256 a6963ea1…97a7 vérifié), recherche par nom, synonymes et genre Lithobates : 0 taxon</li><li>Catalogue of Life via ChecklistBank, jeu 3LR version 2026-11-11 (CC BY 4.0) : taxon V57HH, distribution North America</li><li>GBIF API v1, species/match (taxon 2427072) et occurrence/search country=FR : 0 enregistrement (consulté le 2026-11-27)</li><li>GBIF API v1, occurrence/search continent=EUROPE : 3 enregistrements (Allemagne, NABU|naturgucker, CC BY 4.0), hors territoire, non remontés à l&#x27;origine</li><li>Recherche web générale (2026-11-27) : aucun résultat sur la présence en France ; pages de résultats non ouvertes, donc non retenues comme sources</li></ul></div></section><section class="band" id="sources"><div class="wrap cols"><div><h2>Sources lues</h2><ol><li><a href="https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip">TAXREF (export local)</a> <span class=sm>(18)</span></li><li><a href="https://api.checklistbank.org/dataset/3LR/taxon/V57HH/info">Catalogue of Life (ChecklistBank, 3LR)</a> <span class=sm>(2026-11-11)</span></li><li><a href="https://api.gbif.org/v1/occurrence/search?taxonKey=2427072&amp;country=FR">GBIF API (Backbone et occurrences)</a> <span class=sm>(consulté le 2026-11-27)</span></li></ol></div><div><h2>Sources non lues</h2><p class=lead>Déclarées telles quelles : rien n'y est attribué.</p><ul><li>INPN / OpenObs <span class=sm>: accès automatisé refusé (protection anti-robots, sources.md) : non contourné, non consulté</span></li><li>TAXREF service web <span class=sm>: accès automatisé refusé : export local utilisé à la place</span></li></ul></div></div></section><footer class="band"><div class="wrap">Fiche EFF-000002 · produite le 2026-11-27 par expert-faune-france:fiche (cadrage v0.6) · requête « Lithobates sylvaticus ». Cette page montre le JSON tel quel : chaque valeur garde sa source, sa licence et son état.</div></footer></body></html>
