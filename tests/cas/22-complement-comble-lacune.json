@@ -1,0 +1,31 @@
+{
+  "description": "Aucune référence : un complément qui cite son ouvrage renseigne le champ, sans jamais le corroborer",
+  "dossier": {
+    "champs": {
+      "taille_ponte": {
+        "affirmations": [
+          {
+            "valeur": "700 à 4500 œufs",
+            "niveau": "complement",
+            "source": "Wikipédia FR",
+            "origine": "Arnold & Ovenden 2010"
+          },
+          {
+            "valeur": "700 à 4500 œufs",
+            "niveau": "complement",
+            "source": "Wikipédia EN",
+            "origine": "Laugen et al. 2003"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "taille_ponte": {
+        "etat": "documente",
+        "niveau": "complement"
+      }
+    }
+  }
+}

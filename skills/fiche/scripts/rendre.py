@@ -91,6 +91,8 @@ h2{font-size:28px;line-height:1.1;letter-spacing:-.01em;margin:0 0 6px}
 .c.corrobore{background:var(--cor);border-color:var(--cor)}
 .c.incertain{border-color:var(--inc);background:repeating-linear-gradient(45deg,var(--inc) 0 3px,transparent 3px 7px)}
 .c.contradictoire{background:var(--con);border-color:var(--con)}
+.c.complement{background:var(--soft);border-color:var(--doc);box-shadow:inset 0 0 0 3px var(--bg),inset 0 0 0 11px var(--doc)}
+.c.incertain.complement{box-shadow:none;border-color:var(--inc);background:repeating-linear-gradient(45deg,var(--inc) 0 3px,transparent 3px 7px)}
 .c.non_renseigne{border-color:var(--inc);border-style:dashed;background:transparent}
 .rech{font-size:14px;color:var(--mute);white-space:nowrap}
 .legende{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:14px;color:var(--mute)}
@@ -108,6 +110,7 @@ h2{font-size:28px;line-height:1.1;letter-spacing:-.01em;margin:0 0 6px}
 .p-documente,.p-corrobore{color:var(--doc)}
 .p-incertain,.p-non_renseigne{color:var(--inc)}
 .p-contradictoire{color:var(--con)}
+.p-complement{color:var(--mute);border-style:dashed}
 .champ ul{margin:6px 0 0;padding-left:20px}
 .champ details{margin-top:6px;font-size:14px;color:var(--mute)}
 .champ summary{cursor:pointer}
@@ -167,15 +170,20 @@ def affirmation(a: dict) -> str:
 def champ(nom: str, c: dict) -> str:
     etat = c.get("etat", "non_renseigne")
     affs = c.get("affirmations") or []
+    complement = '<span class="pastille p-complement">Complément</span>' if c.get("niveau") == "complement" else ""
+    ecartes = "".join(
+        f'<div class="aff">Écarté : {e(x.get("valeur"))} ({e(x.get("source"))}) : {e(x.get("motif"))}</div>' for x in c.get("ecartes", [])
+    )
     preuves = (
         f"<details><summary>{len(affs)} source{'s' if len(affs) > 1 else ''}</summary>"
         + "".join(affirmation(a) for a in affs)
+        + ecartes
         + "</details>"
         if affs
         else ""
     )
     return (
-        f'<div class="champ"><h4>{e(libelle(nom))}<span class="pastille p-{e(etat)}">{e(ETATS_CHAMP.get(etat, etat))}</span></h4>'
+        f'<div class="champ"><h4>{e(libelle(nom))}<span>{complement} <span class="pastille p-{e(etat)}">{e(ETATS_CHAMP.get(etat, etat))}</span></span></h4>'
         f"{liste_valeurs(c.get('valeur_synthese'))}{preuves}</div>"
     )
 
@@ -232,17 +240,18 @@ def rendre_fiche(d: dict) -> str:
         lr_court += f" · {lr_affs[0]['contexte']}"
     prot = conservation.get("protection_nationale", {}).get("etat", "non_renseigne")
 
-    lignes, total, docs, lacunes = [], 0, 0, 0
+    lignes, total, docs, lacunes, compl = [], 0, 0, 0, 0
     for cle, nom in FAMILLES.items():
         fam = d["familles"].get(cle, {"recherche": "non_recherche", "champs": {}})
         cases = "".join(
-            f'<span class="c {e(c.get("etat"))}" title="{e(libelle(n))} : {e(ETATS_CHAMP.get(c.get("etat"), c.get("etat")))}"></span>'
+            f'<span class="c {e(c.get("etat"))}{" complement" if c.get("niveau") == "complement" else ""}" title="{e(libelle(n))} : {e(ETATS_CHAMP.get(c.get("etat"), c.get("etat")))}"></span>'
             for n, c in fam["champs"].items()
         ) or '<span class="sm">aucun champ</span>'
         for c in fam["champs"].values():
             total += 1
             docs += c.get("etat") in ("documente", "corrobore")
             lacunes += c.get("etat") == "non_renseigne"
+            compl += c.get("niveau") == "complement" and c.get("etat") in ("documente", "corrobore")
         lignes.append(
             f'<div class="ligne"><a href="#{e(cle)}">{e(nom)}</a><div class="cases">{cases}</div>'
             f'<span class="rech">{e(ETATS_RECHERCHE.get(fam["recherche"], fam["recherche"]))}</span></div>'
@@ -276,7 +285,7 @@ def rendre_fiche(d: dict) -> str:
         f'<div><span>État de la fiche</span><b>{e(ETATS_ENTREE.get(d["etat"], d["etat"]))} · {e(d["id"])}</b></div>'
         "</div></div></header>"
         '<section class="band"><div class="wrap">'
-        f"<h2>{docs} champs documentés sur {total}</h2>"
+        f"<h2>{docs} champs documentés sur {total}" + (f", dont {compl} par des sources de complément" if compl else "") + "</h2>"
         f'<p class="lead">Chaque case est un champ de la fiche. Passe du {e(couv.get("date"))} '
         f'{"terminée" if couv.get("passe_terminee") else "à reprendre : les manques sont listés plus bas et seront repris à la prochaine exécution"}.</p>'
         f'<div class="chiffres"><div><strong>{docs}</strong><span>champs documentés</span></div>'
@@ -286,6 +295,7 @@ def rendre_fiche(d: dict) -> str:
         f'<div class="planche">{"".join(lignes)}</div>'
         '<div class="legende">'
         + "".join(f'<span><i class="c {k}"></i>{v}</span>' for k, v in ETATS_CHAMP.items())
+        + '<span><i class="c documente complement"></i>Documenté par un complément (Wikipédia…)</span>'
         + "</div></div></section>"
         f'<section class="band" style="padding-top:0"><div class="wrap familles">{"".join(familles)}</div></section>'
         + (f'<section class="band" style="padding-top:0"><div class="wrap"><h2>Reprise prévue</h2><ul>{reprise}</ul></div></section>' if reprise else "")

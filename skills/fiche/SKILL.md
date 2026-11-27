@@ -74,6 +74,8 @@ Suis [reference/enrichissement.md](reference/enrichissement.md) : parcours **tou
 - l'état du champ par `decider.py` (contexte distinct ≠ contradiction ; deux copies = une origine ; licence et portée de groupe filtrées) ;
 - l'état de recherche de la famille : `recherche_effectuee`, `recherche_partielle`, `recherche_sans_resultat`, `acces_indisponible` ou `non_applicable` (avec justification).
 
+**Compléter les champs restés vides.** Quand les sources de référence sont épuisées ou inaccessibles, cherche chaque champ vide dans les sources de complément (Wikipédia en français puis en anglais, autres sites listés dans [reference/sources.md](reference/sources.md)) : lis le texte source de la page (`action=raw`) pour voir l'ouvrage cité derrière chaque valeur. Marque l'affirmation `niveau: "complement"`, mets l'ouvrage cité en `origine` et `reference_citee: false` s'il n'y en a pas. Reformule les faits, ne recopie jamais de texte. Un complément ne remplace jamais une source de référence.
+
 Écris la fiche au fur et à mesure : une passe interrompue garde ses acquis et note un `point_de_reprise`.
 
 ## Étape 5 — Vérifier et rendre

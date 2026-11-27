@@ -1,0 +1,26 @@
+{
+  "description": "Complément sans référence citée : incertain",
+  "dossier": {
+    "champs": {
+      "duree_larvaire": {
+        "affirmations": [
+          {
+            "valeur": "2 à 3 mois",
+            "niveau": "complement",
+            "source": "Wikipédia FR",
+            "origine": "Wikipédia FR",
+            "reference_citee": false
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "duree_larvaire": {
+        "etat": "incertain",
+        "niveau": "complement"
+      }
+    }
+  }
+}

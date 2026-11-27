@@ -211,6 +211,16 @@ def decider_champ(champ: dict, profil: dict | None = None) -> dict:
         else:
             retenues.append(a)
 
+    # Sources de complément (encyclopédies collaboratives, sites de vulgarisation) :
+    # elles ne servent qu'à combler un champ qu'aucune source de référence ne renseigne.
+    references = [a for a in retenues if a.get("niveau", "reference") == "reference"]
+    complements = [a for a in retenues if a.get("niveau") == "complement"]
+    if references:
+        retenues = references
+        refusees += [{**a, "refus": "complément non utilisé : une source de référence renseigne ce champ"} for a in complements]
+    elif complements:
+        return _champ_complement(complements, refusees)
+
     if not retenues:
         return {
             "etat": "non_renseigne",
@@ -249,6 +259,35 @@ def decider_champ(champ: dict, profil: dict | None = None) -> dict:
         "etat": etat,
         "valeurs": valeurs,
         "origines_independantes": min(par_contexte),
+        "references_conservees": refusees,
+    }
+
+
+def _champ_complement(complements: list[dict], refusees: list[dict]) -> dict:
+    """Champ renseigné uniquement par des compléments : jamais corroboré. Dans chaque contexte,
+    les compléments qui citent un ouvrage priment ; le champ est incertain si un contexte n'a
+    aucune valeur référencée ou si les valeurs référencées divergent."""
+    contextes: dict[tuple, list[dict]] = {}
+    for a in complements:
+        cle = (a.get("territoire"), a.get("periode"), a.get("population"), a.get("contexte"))
+        contextes.setdefault(cle, []).append(a)
+    valeurs, etat = [], "documente"
+    for cle, groupe in contextes.items():
+        cites = [a for a in groupe if a.get("reference_citee", True)]
+        if cites:
+            refusees += [{**a, "refus": "complément sans référence, écarté au profit d'un complément référencé"} for a in groupe if a not in cites]
+            groupe = cites
+        else:
+            etat = "incertain"
+        distinctes = {json.dumps(a["valeur"], sort_keys=True) for a in groupe}
+        if len(distinctes) > 1:
+            etat = "incertain"
+        valeurs.append({"contexte": cle, "valeurs": [a["valeur"] for a in groupe], "origines": sorted(_origines(groupe))})
+    return {
+        "etat": etat,
+        "niveau": "complement",
+        "valeurs": valeurs,
+        "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne",
         "references_conservees": refusees,
     }
 

@@ -68,6 +68,9 @@ Source des significations : `statuts_note.csv` et `TAXREFv18.pdf`, dans l'archiv
 | Licence incompatible (par exemple NC dans un usage commercial) ou droits incertains | Contenu non repris ; référence et lien conservés ; motif |
 | Correction d'un champ existant | Appliquée si la nouvelle preuve est plus compétente ; sinon `contradictoire` |
 | Source indisponible | Dernière version connue conservée ; « consultation indisponible » daté ; rien n'est effacé |
+| Champ renseigné par une source de référence et par un complément | La référence seule ; le complément est écarté (motif enregistré), même s'il diverge |
+| Champ renseigné seulement par des compléments citant leur ouvrage | `documente`, marqué `niveau: complement` ; jamais `corrobore` ; remplacé dès qu'une référence le renseigne |
+| Complément sans référence citée, ou compléments divergents dans un même contexte | `incertain`, marqué `niveau: complement` |
 
 ## Localisation
 

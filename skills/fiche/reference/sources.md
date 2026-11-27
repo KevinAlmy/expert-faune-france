@@ -13,6 +13,17 @@ Cadrage v0.6, section 8. Un skill n'a pas d'accès réseau propre : il consulte 
 | Biologie, comportement, milieux | Publication scientifique, atlas, synthèse spécialisée aux références vérifiées | Stade, population, saison, unités |
 | Restriction de diffusion d'une localisation | Règle du producteur et règle territoriale | Une règle régionale ne vaut pas partout |
 
+## Sources de complément
+
+Quand les sources de référence ne renseignent pas un champ (accès refusé, lacune), le skill consulte ensuite des sources de complément, **pour ce champ seulement** :
+
+| Source | Accès | Licence | Usage |
+|---|---|---|---|
+| Wikipédia (français, puis anglais et langues de l'aire) | `https://fr.wikipedia.org/w/index.php?title=<Titre>&action=raw` (texte source avec ses références) | CC BY-SA 4.0 | Faits reformulés, jamais de texte recopié ; l'origine est l'ouvrage cité par la page, la source est la page avec sa date de consultation |
+| AmphibiaWeb, sites de sociétés savantes, fiches pédagogiques d'organismes publics | Sites des éditeurs | Selon le site | Idem ; une page protégée par une vérification anti-robots n'est pas contournée |
+
+Règles : chaque affirmation porte `niveau: "complement"` et `reference_citee` (vrai si la page cite un ouvrage pour cette valeur). Un complément ne remplace jamais une source de référence, ne rend jamais un champ `corrobore`, et une valeur sans référence citée reste `incertain` (voir `decisions.md`). Les compléments sont affichés comme tels dans la fiche et la page HTML.
+
 ## Fiches d'accès (V1)
 
 État constaté lors de la construction du skill (27/11/2026). À revérifier à chaque usage.
@@ -24,7 +35,7 @@ Cadrage v0.6, section 8. Un skill n'a pas d'accès réseau propre : il consulte 
 | Catalogue of Life via ChecklistBank | `https://api.checklistbank.org/` (jeu `3LR`) | CC BY 4.0 | Accessible ; version 2026-11-11 constatée |
 | GBIF (occurrences, noms) | `https://api.gbif.org/v1/` | Par enregistrement : CC0, CC BY, CC BY-NC | Accessible ; licence à lire sur chaque enregistrement |
 | GBIF, copie de TAXREF (jeu `0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6`) | API GBIF | CC BY 4.0 | Ancienne (03/2025), **sans statut de présence** : identité seulement |
-| INPN, OpenObs, BDC Statuts | Sites et exports PatriNat | Selon la ressource | Accès automatisé refusé lors de la construction ; BDC disponible en export sur la page PatriNat (licence à vérifier avant usage) |
+| INPN, OpenObs, BDC Statuts | Sites et exports PatriNat | Selon la ressource | Hors ligne fin novembre 2026 (incident de sécurité signalé par le mainteneur) ; BDC disponible en export sur la page PatriNat (licence à vérifier avant usage) |
 | Listes rouges (UICN France, régionales, mondiale) | Sites des évaluateurs | À vérifier par ressource | Non vérifié : conditions de réutilisation à contrôler avant reprise |
 | iNaturalist | Directement ou via GBIF | Observations et médias sous licences distinctes | Non vérifié directement ; via GBIF, dédupliquer par identifiant d'origine |
 | Atlas de la biodiversité communale (ABC) | Rapports et jeux des producteurs | Selon le producteur | Piste documentaire : une fiche de projet ne prouve rien sur une espèce |

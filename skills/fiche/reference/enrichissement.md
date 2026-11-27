@@ -26,7 +26,7 @@ L'identité, la traçabilité et la couverture sont portées par `identite`, cha
 
 1. Identité résolue, admission vérifiée, fiche minimale écrite.
 2. Pour chaque famille : déterminer les champs pertinents pour le groupe (une famille sans objet porte `non_applicable` et une justification) ; chercher avec le nom retenu, les synonymes et les termes spécialisés, en français et dans d'autres langues si utile.
-3. Synthèses compétentes d'abord, puis publications originales et ressources spécialisées pour les lacunes ; données locales et occurrences quand la question le justifie.
+3. Synthèses compétentes d'abord, puis publications originales et ressources spécialisées pour les lacunes ; données locales et occurrences quand la question le justifie. **Ensuite seulement**, pour chaque champ resté vide, les sources de complément (Wikipédia et autres, voir `sources.md`) : affirmations marquées `niveau: "complement"`, origine = ouvrage cité par la page.
 4. Une affirmation distincte par valeur : source, origine, unité, plage, contexte (territoire, période, population, stade, sauvage ou captivité). Les variations géographiques et biologiques sont conservées.
 5. État de chaque champ par `decider.py` ; restrictions de diffusion appliquées ; publication au fil de l'eau.
 6. Rendre : synthèse lisible, données structurées, références par champ, bilan de couverture ; pour chaque lacune, les recherches faites, leur résultat et la prochaine piste.

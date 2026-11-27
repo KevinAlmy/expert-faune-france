@@ -173,17 +173,8 @@
   "familles": {
     "reconnaissance": {
       "recherche": "recherche_partielle",
-      "justification": "Aucune source morphologique accessible : AmphibiaWeb, INPN, Wikipédia et les bases bibliographiques (HAL, Crossref, OpenAlex, Europe PMC) sont refusés par le proxy réseau de cette exécution ; l'Atlas Lescure & Massary (2012) n'est pas en ligne. Seule une mention de confusion a été trouvée.",
+      "justification": "Lors de la première passe, aucune source morphologique n'était accessible (INPN hors ligne, autres sites refusés par le réseau). Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
-        "morphologie": {
-          "etat": "non_renseigne"
-        },
-        "dimensions_masse": {
-          "etat": "non_renseigne"
-        },
-        "dimorphisme_sexuel": {
-          "etat": "non_renseigne"
-        },
         "confusions": {
           "etat": "documente",
           "affirmations": [
@@ -207,13 +198,236 @@
           "valeur_synthese": [
             "France hexagonale — évaluation 2026, compte rendu de Rana arvalis : La Grenouille des champs (Rana arvalis) pourrait être sous-détectée, notamment à cause d'une confusion possible avec la Grenouille rousse."
           ]
+        },
+        "aspect_general": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Tache sombre en chevron sur la nuque, tache sombre derrière l'œil ; pas de bande dorsale claire en général (ou très faible)",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Kuzmin S. L. 1999. Rana temporaria. AmphibiaWeb",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Tache sombre en chevron sur la nuque, tache sombre derrière l'œil ; pas de bande dorsale claire en général (ou très faible)"
+          ],
+          "niveau": "complement"
+        },
+        "pattes_posterieures": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Pattes postérieures courtes : rabattue vers l'avant, le talon dépasse rarement le bout du museau",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Arnold N. & Ovenden D. 2010. Le guide herpéto. Delachaux & Niestlé",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Pattes postérieures courtes : rabattue vers l'avant, le talon dépasse rarement le bout du museau"
+          ],
+          "niveau": "complement"
+        },
+        "coloration": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Dessus jaune-rouge à brun-noir, souvent taché de sombre ; flancs mouchetés ou marbrés ; ventre gris-blanchâtre chez le mâle, tacheté ou voilé de rouge chez la femelle",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "valeur_synthese": [
+            "Dessus jaune-rouge à brun-noir, souvent taché de sombre ; flancs mouchetés ou marbrés ; ventre gris-blanchâtre chez le mâle, tacheté ou voilé de rouge chez la femelle"
+          ],
+          "niveau": "complement"
+        },
+        "dimensions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "50 à 65 mm",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "plaine",
+              "contexte": "adultes"
+            },
+            {
+              "valeur": "mâle 70 à 80 mm, femelle 75 à 85 mm ; 100 mm au maximum",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "haute altitude",
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "plaine : 50 à 65 mm",
+            "haute altitude : mâle 70 à 80 mm, femelle 75 à 85 mm ; 100 mm au maximum"
+          ],
+          "niveau": "complement"
+        },
+        "masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "22,7 g en moyenne",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "BBC Nature Wildfacts, fiche « Common frog, grass frog » (archive 2002)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "adultes : 22,7 g en moyenne"
+          ],
+          "niveau": "complement"
+        },
+        "dimorphisme_taille": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La femelle est plus grosse que le mâle",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "La femelle est plus grosse que le mâle"
+          ],
+          "niveau": "complement"
+        },
+        "callosites_nuptiales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le mâle porte des callosités nuptiales sur le premier doigt de la patte avant, qui lui servent à saisir la femelle",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Sterry P. 1997. Complete British Wildlife Photoguide. HarperCollins",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Le mâle porte des callosités nuptiales sur le premier doigt de la patte avant, qui lui servent à saisir la femelle"
+          ],
+          "niveau": "complement"
+        },
+        "coloration_nuptiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "En période de reproduction : gorge du mâle souvent blanche, teinte générale gris clair ; femelle plus brune, voire rouge",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Kuzmin S. L. 1999. Rana temporaria. AmphibiaWeb",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "période de reproduction"
+            }
+          ],
+          "valeur_synthese": [
+            "période de reproduction : En période de reproduction : gorge du mâle souvent blanche, teinte générale gris clair ; femelle plus brune, voire rouge"
+          ],
+          "niveau": "complement"
         }
       },
       "prochaine_piste": "Grosselet & Guyétant 2012 (Atlas des Amphibiens et Reptiles de France, p. 140-141) ; compte AmphibiaWeb ; guides de détermination SHF ; critères vs Rana dalmatina, R. arvalis, R. pyrenaica."
     },
     "repartition": {
       "recherche": "recherche_partielle",
-      "justification": "Présence et grandes zones documentées ; la répartition fine (atlas, OpenObs, INPN) est inaccessible (403 / proxy).",
+      "justification": "Présence et grandes zones documentées ; la répartition fine (atlas, OpenObs, INPN) est inaccessible (403 / proxy). Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "presence_metropole": {
           "etat": "documente",
@@ -284,7 +498,34 @@
           ]
         },
         "corse": {
-          "etat": "non_renseigne"
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Aucune occurrence en Corse dans le GBIF (0 dans l'emprise de l'île, pour 108 486 occurrences en France) : absence de signalement, ce n'est pas une preuve d'absence",
+              "source": "GBIF, API occurrence/search (taxon 2426805, emprise 8,5-9,65° E / 41,3-43,05° N)",
+              "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2426805&country=FR",
+              "origine": "GBIF (agrégation des jeux publiés)",
+              "date_ou_version": "consulté le 2026-11-27",
+              "reutilisation": {
+                "licence": "par enregistrement (CC0, CC BY, CC BY-NC)",
+                "contenu_repris": false,
+                "motif": "seul un comptage est rapporté"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Corse"
+            }
+          ],
+          "valeur_synthese": [
+            "Corse : Aucune occurrence en Corse dans le GBIF (0 dans l'emprise de l'île, pour 108 486 occurrences en France) : absence de signalement, ce n'est pas une preuve d'absence"
+          ],
+          "ecartes": [
+            {
+              "valeur": "Espèce absente de Corse (lacune de répartition)",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
         }
       },
       "prochaine_piste": "Présence en Corse : la colonne FR de TAXREF regroupe hexagone et Corse, et ne permet pas de conclure ; vérifier la colonne de présence corse de TAXREF (statuts_note / TAXREFv18.pdf) et l'atlas national. Cartes à la maille 10 km de l'INPN dès que l'accès sera rétabli."
@@ -395,27 +636,187 @@
       "prochaine_piste": "Atlas national et atlas régionaux (Aquitaine, Normandie) pour les habitats terrestres et l'hivernage en France."
     },
     "alimentation": {
-      "recherche": "acces_indisponible",
-      "justification": "Aucune source accessible ne traite le régime alimentaire (AmphibiaWeb et bases bibliographiques refusés par le proxy).",
+      "recherche": "recherche_partielle",
+      "justification": "Aucune source accessible ne traite le régime alimentaire (AmphibiaWeb et bases bibliographiques refusés par le proxy). Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "regime_adulte": {
-          "etat": "non_renseigne"
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Arthropodes (petits insectes, crustacés, arachnides), mollusques (limaces), vers de terre, larves d'amphibiens",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "contexte": "adultes"
+            },
+            {
+              "valeur": "Régime plus varié que celui du Lézard vivipare dans deux populations où les deux espèces cohabitent",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Pilorge T. 1982. Amphibia-Reptilia 3(1) : 27-31",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Puy-de-Dôme",
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "adultes : Arthropodes (petits insectes, crustacés, arachnides), mollusques (limaces), vers de terre, larves d'amphibiens",
+            "Puy-de-Dôme : Régime plus varié que celui du Lézard vivipare dans deux populations où les deux espèces cohabitent"
+          ],
+          "niveau": "complement"
         },
         "regime_larvaire": {
-          "etat": "non_renseigne"
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Algues et plantes plus grandes, broutées par des têtards regroupés en bancs",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Terhivuo J. 1988. Annales Zoologici Fennici 25(2) : 165-175",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "têtards"
+            }
+          ],
+          "valeur_synthese": [
+            "têtards : Algues et plantes plus grandes, broutées par des têtards regroupés en bancs"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "Algues, détritus, protozoaires, pollen",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
         }
       },
       "prochaine_piste": "Atlas national ; littérature (HAL, Europe PMC) sur le régime des adultes et des têtards."
     },
     "reproduction": {
       "recherche": "recherche_partielle",
-      "justification": "Sites de reproduction documentés (voir habitats) ; calendrier, taille de ponte et comportement en France non trouvés dans les sources accessibles. Les comportements reproducteurs suédois sont rapportés comme contexte.",
+      "justification": "Sites de reproduction documentés (voir habitats) ; calendrier, taille de ponte et comportement en France non trouvés dans les sources accessibles. Les comportements reproducteurs suédois sont rapportés comme contexte. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "calendrier_reproduction": {
-          "etat": "non_renseigne"
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Migration et pontes de janvier-février à avril selon l'altitude et la végétation ; beaucoup plus tard en montagne",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "France"
+            },
+            {
+              "valeur": "Début des pontes avancé de 27 jours entre 1984 et 2007 (suivi de 23 ans des sites de ponte)",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Neveu A. 2009. Acta Oecologica 35 : 671-678",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Bretagne"
+            },
+            {
+              "valeur": "Pontes entre fin février et fin juin, le plus souvent en avril sur l'essentiel de l'aire",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Kuzmin S. L. 1999. Rana temporaria. AmphibiaWeb",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "aire de répartition"
+            }
+          ],
+          "valeur_synthese": [
+            "France : Migration et pontes de janvier-février à avril selon l'altitude et la végétation ; beaucoup plus tard en montagne",
+            "Bretagne : Début des pontes avancé de 27 jours entre 1984 et 2007 (suivi de 23 ans des sites de ponte)",
+            "aire de répartition : Pontes entre fin février et fin juin, le plus souvent en avril sur l'essentiel de l'aire"
+          ],
+          "niveau": "complement"
         },
         "taille_ponte": {
-          "etat": "non_renseigne"
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "700 à 4 500 œufs par femelle, en amas gélatineux",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Arnold N. & Ovenden D. 2010. Le guide herpéto. Delachaux & Niestlé",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "700 à 4 500 œufs par femelle, en amas gélatineux"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "De quelques centaines à 5 000 œufs",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
         },
         "migration_prenuptiale": {
           "etat": "documente",
@@ -461,13 +862,63 @@
           "valeur_synthese": [
             "Suède septentrionale (hors territoire, contexte de comparaison) : les femelles quittent le site après la ponte ; les mâles restent tant que des femelles réceptives sont présentes, ou plus longtemps (Elmberg 1990)"
           ]
+        },
+        "duree_amplexus": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Moins de 24 heures",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Savage R. M. 1934. Proceedings of the Zoological Society of London 104(1)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Moins de 24 heures"
+          ],
+          "niveau": "complement"
+        },
+        "sex_ratio_sites": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Environ deux fois plus de mâles que de femelles sur les sites de reproduction",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "valeur_synthese": [
+            "Environ deux fois plus de mâles que de femelles sur les sites de reproduction"
+          ],
+          "niveau": "complement"
         }
       },
       "prochaine_piste": "Calendriers de ponte par région et par altitude (atlas régionaux, suivis POPAmphibien) ; nombre d'œufs par ponte."
     },
     "developpement": {
       "recherche": "recherche_partielle",
-      "justification": "Seule la durée de trois générations utilisée par l'évaluation Liste rouge est documentée ; développement larvaire, maturité et longévité non trouvés dans les sources accessibles.",
+      "justification": "Seule la durée de trois générations utilisée par l'évaluation Liste rouge est documentée ; développement larvaire, maturité et longévité non trouvés dans les sources accessibles. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "duree_trois_generations": {
           "etat": "documente",
@@ -495,13 +946,113 @@
           ]
         },
         "duree_developpement_larvaire": {
-          "etat": "non_renseigne"
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Éclosion en 2 à 3 semaines ; la plupart des têtards sont métamorphosés en juin-juillet",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Terhivuo J. 1988. Annales Zoologici Fennici 25(2) : 165-175",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Finlande"
+            },
+            {
+              "valeur": "Éclosion en 1 à 3 semaines selon la température ; 2 à 3 mois de vie larvaire jusqu'à la métamorphose",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "non précisé"
+            }
+          ],
+          "valeur_synthese": [
+            "Finlande : Éclosion en 2 à 3 semaines ; la plupart des têtards sont métamorphosés en juin-juillet",
+            "non précisé : Éclosion en 1 à 3 semaines selon la température ; 2 à 3 mois de vie larvaire jusqu'à la métamorphose"
+          ],
+          "niveau": "complement"
         },
         "maturite": {
-          "etat": "non_renseigne"
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Maturité sexuelle après trois ans",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Laugen A. T. et al. 2003. Journal of Evolutionary Biology 16(5) : 996-1005",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Maturité sexuelle après trois ans"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "Vers 2-3 ans, plus tard en montagne",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
         },
         "longevite": {
-          "etat": "non_renseigne"
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "6 à 8 ans",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Laugen A. T. et al. 2003. Journal of Evolutionary Biology 16(5) : 996-1005",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": [
+            "sauvage : 6 à 8 ans"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "6 à 10 ans",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
         }
       },
       "prochaine_piste": "Études de squelettochronologie (Alpes, Pyrénées) ; distinguer données sauvages et captives."
@@ -559,7 +1110,7 @@
     },
     "activite": {
       "recherche": "recherche_partielle",
-      "justification": "Hivernage documenté uniquement en Suède ; cycle annuel en France non trouvé dans les sources accessibles.",
+      "justification": "Hivernage documenté uniquement en Suède ; cycle annuel en France non trouvé dans les sources accessibles. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "hivernage": {
           "etat": "documente",
@@ -584,14 +1135,63 @@
           ]
         },
         "cycle_annuel_france": {
-          "etat": "non_renseigne"
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Active de jour comme de nuit (cachée par fortes chaleurs) ; environ quatre mois d'hibernation ; au printemps site de ponte, en été site d'alimentation, puis site d'hibernation",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": [
+            "France : Active de jour comme de nuit (cachée par fortes chaleurs) ; environ quatre mois d'hibernation ; au printemps site de ponte, en été site d'alimentation, puis site d'hibernation"
+          ],
+          "niveau": "complement"
+        },
+        "sortie_hibernation_alpes": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Sortie d'hibernation jusqu'au début de juin dans les Alpes",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Wikipédia en anglais, article « Common frog »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Alpes"
+            }
+          ],
+          "valeur_synthese": [
+            "Alpes : Sortie d'hibernation jusqu'au début de juin dans les Alpes"
+          ],
+          "niveau": "complement"
         }
       },
       "prochaine_piste": "Phénologie selon l'altitude en France (atlas, suivis)."
     },
     "interactions": {
       "recherche": "recherche_partielle",
-      "justification": "Seules les interactions citées comme menaces par la Liste rouge 2026 sont documentées ; prédateurs, parasites et rôle écologique non trouvés dans les sources accessibles.",
+      "justification": "Seules les interactions citées comme menaces par la Liste rouge 2026 sont documentées ; prédateurs, parasites et rôle écologique non trouvés dans les sources accessibles. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "especes_introduites_defavorables": {
           "etat": "documente",
@@ -640,7 +1240,48 @@
           ]
         },
         "predateurs": {
-          "etat": "non_renseigne"
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Têtards : poissons, dytiques, larves de libellules, oiseaux",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Scottish Natural Heritage, fiche « Common frog » (archive 2010)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "têtards"
+            },
+            {
+              "valeur": "Adultes : cigognes, rapaces, corvidés, goélands, canards, sternes, hérons, martre, hermine, belette, putois, blaireau, loutre, serpents",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Scottish Natural Heritage, fiche « Common frog » (archive 2010)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "têtards : Têtards : poissons, dytiques, larves de libellules, oiseaux",
+            "adultes : Adultes : cigognes, rapaces, corvidés, goélands, canards, sternes, hérons, martre, hermine, belette, putois, blaireau, loutre, serpents"
+          ],
+          "niveau": "complement"
         }
       },
       "prochaine_piste": "Littérature sur les Ranavirus et la chytridiomycose en France ; prédateurs des pontes et des têtards."
@@ -1301,14 +1942,55 @@
       "prochaine_piste": "Lire l'article 4 de l'arrêté du 8 janvier 2021 et les arrêtés de prélèvement de Bourgogne-Franche-Comté ; retrouver la date et l'évaluateur des listes rouges européenne et mondiale ; noter que la Directive Habitats nomme « Rana temporaria » une entité qui, dans le rapportage français, couvre aussi Rana pyrenaica."
     },
     "observation_respectueuse": {
-      "recherche": "recherche_sans_resultat",
-      "justification": "Aucune source accessible ne donne de conseils d'observation propres à l'espèce. Les collisions routières et les prélèvements sont des menaces documentées (voir conservation) ; aucune recommandation n'est déduite. Règle appliquée : aucune localité, aucun site de ponte ni d'hivernage n'est mentionné.",
+      "recherche": "recherche_partielle",
+      "justification": "Aucune source accessible ne donne de conseils d'observation propres à l'espèce. Les collisions routières et les prélèvements sont des menaces documentées (voir conservation) ; aucune recommandation n'est déduite. Règle appliquée : aucune localité, aucun site de ponte ni d'hivernage n'est mentionné. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
       "champs": {
         "precautions": {
           "etat": "non_renseigne"
         },
         "indices_presence": {
-          "etat": "non_renseigne"
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Pontes en amas qui flottent en surface (celles des grenouilles agiles, des grenouilles vertes et des rainettes sont immergées)",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "période de ponte"
+            },
+            {
+              "valeur": "Chant : ronronnement sourd émis en chœur par les mâles, surtout la nuit, peu audible de loin",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "période de reproduction"
+            }
+          ],
+          "valeur_synthese": [
+            "période de ponte : Pontes en amas qui flottent en surface (celles des grenouilles agiles, des grenouilles vertes et des rainettes sont immergées)",
+            "période de reproduction : Chant : ronronnement sourd émis en chœur par les mâles, surtout la nuit, peu audible de loin"
+          ],
+          "niveau": "complement"
         }
       },
       "prochaine_piste": "Protocoles nationaux (POPAmphibien, SHF) : conditions de détection et précautions, notamment contre la dispersion des pathogènes."
@@ -1318,34 +2000,37 @@
     "date": "2026-11-27",
     "passe_terminee": false,
     "point_de_reprise": [
-      "reconnaissance : morphologie, dimensions et critères (Atlas 2012, AmphibiaWeb)",
-      "alimentation : toute la famille",
-      "reproduction : calendrier par région et altitude, taille de ponte",
-      "developpement : larve, maturité, longévité",
-      "repartition : présence en Corse à vérifier dans les colonnes territoriales de TAXREF ; cartes à la maille",
-      "conservation : texte de l'article 4 de l'arrêté de 2021 (Légifrance), dates des listes rouges européenne et mondiale",
-      "observation_respectueuse : protocoles nationaux"
+      "reproduction : calendrier par région et altitude en France à étayer par un atlas régional ou une publication (seule la Bretagne est référencée)",
+      "developpement : durée larvaire en France (les valeurs référencées viennent de Finlande)",
+      "alimentation : régime détaillé de l'adulte à rattacher à une étude (Pilorge 1982 à lire)",
+      "conservation : texte de l'article 4 de l'arrêté de 2021 (Légifrance)",
+      "observation_respectueuse : précautions et protocoles nationaux",
+      "remplacer chaque complément par une source de référence dès que l'INPN et les atlas sont de nouveau accessibles"
     ],
     "familles": {
       "reconnaissance": {
         "documentes": [
-          "confusions"
+          "confusions",
+          "aspect_general",
+          "pattes_posterieures",
+          "dimensions",
+          "masse",
+          "dimorphisme_taille",
+          "callosites_nuptiales",
+          "coloration_nuptiale"
         ],
         "lacunes": [
-          "morphologie",
-          "dimensions_masse",
-          "dimorphisme_sexuel"
+          "coloration"
         ]
       },
       "repartition": {
         "documentes": [
           "presence_metropole",
           "regions_biogeographiques",
-          "etagement_altitudinal"
-        ],
-        "lacunes": [
+          "etagement_altitudinal",
           "corse"
-        ]
+        ],
+        "lacunes": []
       },
       "habitats": {
         "documentes": [
@@ -1356,30 +2041,33 @@
         "lacunes": []
       },
       "alimentation": {
-        "documentes": [],
-        "lacunes": [
-          "regime_adulte",
+        "documentes": [
           "regime_larvaire"
+        ],
+        "lacunes": [
+          "regime_adulte"
         ]
       },
       "reproduction": {
         "documentes": [
+          "taille_ponte",
           "migration_prenuptiale",
-          "sejour_sur_site"
+          "sejour_sur_site",
+          "duree_amplexus"
         ],
         "lacunes": [
           "calendrier_reproduction",
-          "taille_ponte"
+          "sex_ratio_sites"
         ]
       },
       "developpement": {
         "documentes": [
-          "duree_trois_generations"
-        ],
-        "lacunes": [
-          "duree_developpement_larvaire",
+          "duree_trois_generations",
           "maturite",
           "longevite"
+        ],
+        "lacunes": [
+          "duree_developpement_larvaire"
         ]
       },
       "comportements": {
@@ -1394,17 +2082,17 @@
           "hivernage"
         ],
         "lacunes": [
-          "cycle_annuel_france"
+          "cycle_annuel_france",
+          "sortie_hibernation_alpes"
         ]
       },
       "interactions": {
         "documentes": [
           "especes_introduites_defavorables",
-          "pathogenes"
-        ],
-        "lacunes": [
+          "pathogenes",
           "predateurs"
-        ]
+        ],
+        "lacunes": []
       },
       "conservation": {
         "documentes": [
@@ -1488,24 +2176,35 @@
         "source": "Rapportage DHFF art. 17, 2019-2024 (PatriNat)",
         "version": "données du 10/02/2026",
         "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip"
+      },
+      {
+        "source": "Wikipédia en français, « Grenouille rousse » (source de complément)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse"
+      },
+      {
+        "source": "Wikipédia en anglais, « Common frog » (source de complément)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://en.wikipedia.org/wiki/Common_frog"
+      },
+      {
+        "source": "GBIF, occurrences dans l'emprise de la Corse",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2426805"
       }
     ],
     "indisponibilites": [
       {
         "source": "INPN (inpn.mnhn.fr)",
-        "motif": "HTTP 403, accès automatisé refusé"
+        "motif": "hors ligne (incident de sécurité signalé par le mainteneur), HTTP 403"
       },
       {
         "source": "OpenObs",
-        "motif": "HTTP 403"
+        "motif": "hors ligne (incident de sécurité signalé par le mainteneur), HTTP 403"
       },
       {
         "source": "Liste rouge mondiale UICN (iucnredlist.org)",
         "motif": "HTTP 403"
-      },
-      {
-        "source": "AmphibiaWeb",
-        "motif": "hôte refusé par le proxy réseau de l'exécution"
       },
       {
         "source": "Légifrance, EUR-Lex",
@@ -1522,6 +2221,10 @@
       {
         "source": "Atlas des Amphibiens et Reptiles de France (Lescure & Massary 2012)",
         "motif": "ouvrage imprimé, non disponible en ligne ; cité par la Liste rouge 2026 mais non lu"
+      },
+      {
+        "source": "AmphibiaWeb",
+        "motif": "page protégée par une vérification anti-robots ; non contournée"
       }
     ]
   }
