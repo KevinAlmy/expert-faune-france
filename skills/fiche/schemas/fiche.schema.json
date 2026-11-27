@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KevinAlmy/expert-faune-france/schemas/fiche.schema.json",
+  "title": "Fiche espèce (cadrage §6, §7, §12)",
+  "type": "object",
+  "required": ["id", "etat", "identite", "presence", "admission", "familles", "couverture", "execution"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EFF-[0-9A-Za-z-]+$",
+      "description": "Identifiant interne stable, jamais réutilisé, indépendant des noms et des identifiants externes."
+    },
+    "etat": { "$ref": "etats.schema.json#/$defs/etat_entree" },
+    "identite": {
+      "type": "object",
+      "required": ["nom_retenu", "preuves"],
+      "properties": {
+        "nom_retenu": { "type": "string" },
+        "auteur": { "type": "string" },
+        "annee": { "type": "integer" },
+        "rang": { "type": "string" },
+        "classification": { "type": "object" },
+        "noms_vernaculaires": { "type": "array", "items": { "type": "string" } },
+        "synonymes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["nom", "source"],
+            "properties": {
+              "nom": { "type": "string" },
+              "auteur": { "type": "string" },
+              "source": { "type": "string" }
+            }
+          }
+        },
+        "identifiants_externes": {
+          "type": "object",
+          "properties": {
+            "taxref": {
+              "type": "object",
+              "required": ["cd_ref", "version"],
+              "properties": { "cd_nom": { "type": "string" }, "cd_ref": { "type": "string" }, "version": { "type": "string" } }
+            },
+            "catalogue_of_life": { "type": "object" },
+            "gbif": { "type": "object" }
+          }
+        },
+        "preuves": { "type": "array", "minItems": 1, "items": { "$ref": "affirmation.schema.json" } }
+      }
+    },
+    "presence": {
+      "type": "object",
+      "required": ["qualification", "preuves"],
+      "properties": {
+        "territoire": { "const": "France métropolitaine, Corse comprise" },
+        "qualification": { "$ref": "etats.schema.json#/$defs/qualification_presence" },
+        "origine": { "$ref": "etats.schema.json#/$defs/origine_presence" },
+        "envahissant": { "type": "boolean" },
+        "code_source": {
+          "type": "object",
+          "properties": { "referentiel": { "type": "string" }, "colonne": { "type": "string" }, "code": { "type": "string" }, "signification": { "type": "string" } }
+        },
+        "preuves": { "type": "array", "minItems": 1, "items": { "$ref": "affirmation.schema.json" } }
+      }
+    },
+    "admission": {
+      "type": "object",
+      "required": ["voie", "motif", "date"],
+      "properties": {
+        "voie": { "enum": ["taxref", "hors_taxref", "scission"] },
+        "motif": { "type": "string" },
+        "date": { "type": "string", "format": "date" },
+        "rapprochement_taxref_prevu": { "type": "boolean" }
+      }
+    },
+    "familles": {
+      "description": "Les 13 familles du §12.2. Chaque famille porte son état de recherche et ses champs.",
+      "type": "object",
+      "required": [
+        "reconnaissance", "repartition", "habitats", "alimentation", "reproduction", "developpement",
+        "comportements", "activite", "interactions", "conservation", "observation_respectueuse"
+      ],
+      "additionalProperties": { "$ref": "#/$defs/famille" }
+    },
+    "couverture": { "$ref": "#/$defs/couverture" },
+    "historique": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "decision", "motif"],
+        "properties": { "date": { "type": "string" }, "decision": { "type": "string" }, "motif": { "type": "string" }, "sources": { "type": "array" } }
+      }
+    },
+    "execution": { "$ref": "rapport-execution.schema.json" }
+  },
+  "$defs": {
+    "famille": {
+      "type": "object",
+      "required": ["recherche", "champs"],
+      "properties": {
+        "recherche": { "$ref": "etats.schema.json#/$defs/etat_recherche" },
+        "justification": { "type": "string", "description": "Obligatoire si non applicable, partielle ou sans résultat." },
+        "champs": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["etat"],
+            "properties": {
+              "etat": { "$ref": "etats.schema.json#/$defs/etat_champ" },
+              "valeur_synthese": {},
+              "affirmations": { "type": "array", "items": { "$ref": "affirmation.schema.json" } }
+            }
+          }
+        },
+        "prochaine_piste": { "type": "string" }
+      }
+    },
+    "couverture": {
+      "type": "object",
+      "required": ["date", "familles"],
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "passe_terminee": { "type": "boolean" },
+        "point_de_reprise": { "type": "array", "items": { "type": "string" } },
+        "familles": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "documentes": { "type": "array", "items": { "type": "string" } },
+              "lacunes": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

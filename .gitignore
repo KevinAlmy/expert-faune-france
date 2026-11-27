@@ -1,0 +1,7 @@
+# Données locales (export TAXREF, non versionné)
+data/
+# Fiches produites lors des essais
+fiches/
+__pycache__/
+.pytest_cache/
+*.pyc

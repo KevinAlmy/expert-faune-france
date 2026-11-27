@@ -1,0 +1,15 @@
+{
+  "_commentaire": "Profil d'un projet qui exploite le catalogue (cadrage §2 et §15). Il ne modifie jamais le contenu du catalogue : il dit seulement ce que le projet en exploite. Copiez ce fichier dans votre projet et adaptez-le.",
+  "nom_projet": "mon-projet",
+  "version": "1",
+  "groupes_exploites": ["Oiseaux", "Mammifères", "Reptiles", "Amphibiens", "Poissons", "Insectes"],
+  "qualifications_exploitees": ["etablie", "occasionnelle", "historique"],
+  "usage_commercial": false,
+  "regles_diffusion": {
+    "grain_localisation_maximal": "maille_10km"
+  },
+  "textes_affichage": {
+    "non_renseigne": "Information non disponible",
+    "contradictoire": "Information en cours de vérification"
+  }
+}

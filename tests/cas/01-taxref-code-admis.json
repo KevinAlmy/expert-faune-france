@@ -1,0 +1,30 @@
+{
+  "description": "Espèce présente dans TAXREF avec un code admis",
+  "dossier": {
+    "identite": {
+      "preuves": [
+        {
+          "type": "taxref",
+          "origine": "TAXREF v18 CD_REF 351"
+        }
+      ]
+    },
+    "presence": {
+      "taxref": {
+        "version": "18",
+        "code": "P",
+        "signification": "Présent (indigène ou indéterminé)",
+        "decision": "fiche",
+        "qualification": "etablie",
+        "origine": "indigene"
+      }
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "creer_fiche",
+      "voie": "taxref",
+      "qualification": "etablie"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "description": "Scission : observation impossible à départager",
+  "dossier": {
+    "noms": {
+      "situation": "scission",
+      "scission": {
+        "concept_historique": "EFF-A",
+        "referentiel": "TAXREF v19",
+        "resultants": [
+          {
+            "taxon": "A1",
+            "identite": {
+              "preuves": [
+                {
+                  "type": "taxref",
+                  "origine": "T19-A1"
+                }
+              ]
+            },
+            "presence": {
+              "taxref": {
+                "version": "18",
+                "code": "P",
+                "signification": "Présent (indigène ou indéterminé)",
+                "decision": "fiche",
+                "qualification": "etablie",
+                "origine": "indigene"
+              }
+            }
+          },
+          {
+            "taxon": "A2",
+            "identite": {
+              "preuves": [
+                {
+                  "type": "taxref",
+                  "origine": "T19-A2"
+                }
+              ]
+            },
+            "presence": {
+              "taxref": {
+                "version": "18",
+                "code": "P",
+                "signification": "Présent (indigène ou indéterminé)",
+                "decision": "fiche",
+                "qualification": "etablie",
+                "origine": "indigene"
+              }
+            }
+          }
+        ],
+        "donnees_historiques": [
+          {
+            "id": "OBS-1900-01",
+            "departageable": false
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "scission",
+      "donnees_historiques": [
+        {
+          "id": "OBS-1900-01",
+          "attribution": "EFF-A"
+        }
+      ]
+    }
+  }
+}

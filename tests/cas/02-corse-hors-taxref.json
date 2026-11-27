@@ -1,0 +1,37 @@
+{
+  "description": "Espèce décrite en Corse, absente de TAXREF ; la description originale établit identité et présence",
+  "dossier": {
+    "identite": {
+      "preuves": [
+        {
+          "type": "description_originale",
+          "origine": "Auteur 2026, Zootaxa"
+        }
+      ]
+    },
+    "presence": {
+      "preuves": [
+        {
+          "type": "description_originale_specimen_metropole",
+          "origine": "Auteur 2026, Zootaxa"
+        }
+      ],
+      "qualification": "etablie"
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "creer_fiche",
+      "voie": "hors_taxref",
+      "rapprochement_taxref_prevu": true,
+      "preuves": {
+        "identite": [
+          "Auteur 2026, Zootaxa"
+        ],
+        "presence": [
+          "Auteur 2026, Zootaxa"
+        ]
+      }
+    }
+  }
+}

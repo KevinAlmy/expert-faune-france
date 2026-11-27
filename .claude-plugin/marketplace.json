@@ -1,0 +1,15 @@
+{
+  "name": "faune-france",
+  "description": "Marketplace du skill Expert faune de France",
+  "owner": {
+    "name": "KevinAlmy",
+    "url": "https://github.com/KevinAlmy"
+  },
+  "plugins": [
+    {
+      "name": "expert-faune-france",
+      "source": "./",
+      "description": "Fiches sourcées sur la faune sauvage de France métropolitaine"
+    }
+  ]
+}

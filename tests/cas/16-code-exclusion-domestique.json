@@ -1,0 +1,26 @@
+{
+  "description": "Code M (introduit non établi, domestique) : exclusion motivée",
+  "dossier": {
+    "identite": {
+      "preuves": [
+        {
+          "type": "taxref",
+          "origine": "TAXREF v18"
+        }
+      ]
+    },
+    "presence": {
+      "taxref": {
+        "version": "18",
+        "code": "M",
+        "decision": "exclusion",
+        "motif": "introduit non établi (code M)"
+      }
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "exclusion"
+    }
+  }
+}

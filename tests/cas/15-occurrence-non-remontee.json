@@ -1,0 +1,26 @@
+{
+  "description": "Occurrence d'agrégateur non remontée à son origine : pas une preuve",
+  "dossier": {
+    "identite": {
+      "preuves": [
+        {
+          "type": "catalogue_of_life",
+          "origine": "COL"
+        }
+      ]
+    },
+    "presence": {
+      "preuves": [
+        {
+          "type": "occurrence_non_remontee",
+          "origine": "GBIF 123"
+        }
+      ]
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "candidature"
+    }
+  }
+}

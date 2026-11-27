@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KevinAlmy/expert-faune-france/schemas/affirmation.schema.json",
+  "title": "Affirmation sourcée (trace d'une information publiée, cadrage §12.3)",
+  "type": "object",
+  "required": ["valeur", "source", "origine", "date_ou_version", "etat", "reutilisation", "consulte_le"],
+  "properties": {
+    "valeur": { "description": "Valeur, plage ou texte court. Jamais une valeur inventée." },
+    "unite": { "type": "string" },
+    "territoire": { "type": "string", "description": "Territoire auquel la valeur s'applique." },
+    "population": { "type": "string" },
+    "stade_ou_saison": { "type": "string" },
+    "contexte": { "type": "string", "description": "Par exemple : sauvage, captivité." },
+    "taille_echantillon": { "type": "integer", "minimum": 0 },
+    "portee": { "enum": ["espece", "groupe"], "default": "espece" },
+    "source": { "type": "string", "description": "Ce qui a été consulté (titre, portail, URL)." },
+    "origine": { "type": "string", "description": "Origine de la preuve : l'étude ou le jeu d'origine. Deux copies = une origine." },
+    "url": { "type": "string" },
+    "date_ou_version": { "type": "string", "description": "Date de l'étude ou de l'évaluation, ou version du référentiel." },
+    "etat": { "$ref": "etats.schema.json#/$defs/etat_champ" },
+    "reutilisation": {
+      "type": "object",
+      "required": ["licence"],
+      "properties": {
+        "licence": { "type": "string" },
+        "contenu_repris": { "type": "boolean", "description": "Faux : seuls la référence et le lien sont conservés." },
+        "motif": { "type": "string" }
+      }
+    },
+    "restriction_diffusion": { "type": "string" },
+    "consulte_le": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": false
+}

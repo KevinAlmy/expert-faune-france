@@ -1,0 +1,23 @@
+{
+  "description": "Nom vernaculaire partagé par plusieurs espèces : aucun rattachement",
+  "dossier": {
+    "noms": {
+      "situation": "vernaculaire_partage",
+      "hypotheses": [
+        {
+          "cd_ref": "1"
+        },
+        {
+          "cd_ref": "2"
+        }
+      ]
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "abstention",
+      "action": "aucun_rattachement",
+      "reexamen": true
+    }
+  }
+}

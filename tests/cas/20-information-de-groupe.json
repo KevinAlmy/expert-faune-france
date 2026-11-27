@@ -1,0 +1,23 @@
+{
+  "description": "Information générale sur le groupe : champ spécifique non renseigné",
+  "dossier": {
+    "champs": {
+      "regime": {
+        "affirmations": [
+          {
+            "valeur": "insectivore",
+            "portee": "groupe",
+            "origine": "Synthèse famille"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "regime": {
+        "etat": "non_renseigne"
+      }
+    }
+  }
+}

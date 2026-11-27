@@ -1,0 +1,28 @@
+{
+  "description": "Calendriers de reproduction différents selon les régions : valeurs conservées, pas de moyenne",
+  "dossier": {
+    "champs": {
+      "periode_reproduction": {
+        "affirmations": [
+          {
+            "valeur": "février-mars",
+            "territoire": "plaine",
+            "origine": "Atlas A"
+          },
+          {
+            "valeur": "mai-juin",
+            "territoire": "montagne",
+            "origine": "Étude B"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "periode_reproduction": {
+        "etat": "documente"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Localisation sensible : grain le plus protecteur",
+  "dossier": {
+    "localisation": {
+      "grains_autorises": [
+        "maille_10km",
+        "commune"
+      ],
+      "source_restriction": "SINP régional"
+    }
+  },
+  "attendu": {
+    "localisation": {
+      "grain": "maille_10km",
+      "croisement_interdit": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KevinAlmy/expert-faune-france/schemas/candidature.schema.json",
+  "title": "Candidature : espèce non encore admise (cadrage §7.2)",
+  "type": "object",
+  "required": ["id", "etat", "taxon", "motif", "preuve_manquante", "sources_consultees", "reexamen", "execution"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^EFF-[0-9A-Za-z-]+$" },
+    "etat": { "const": "candidate" },
+    "taxon": {
+      "type": "object",
+      "required": ["nom"],
+      "properties": {
+        "nom": { "type": "string" },
+        "auteur": { "type": "string" },
+        "identifiants_externes": { "type": "object" },
+        "identite": { "enum": ["etablie", "ambigue", "non_etablie"] }
+      }
+    },
+    "motif": { "type": "string" },
+    "preuve_manquante": { "enum": ["identite", "presence_sauvage_metropole", "code_non_documente", "attribution"] },
+    "hypotheses": { "type": "array", "items": { "type": "object" } },
+    "sources_consultees": { "type": "array", "items": { "type": "string" } },
+    "reexamen": {
+      "type": "object",
+      "required": ["declencheurs"],
+      "properties": { "declencheurs": { "type": "array", "items": { "type": "string" } } }
+    },
+    "execution": { "$ref": "rapport-execution.schema.json" }
+  }
+}

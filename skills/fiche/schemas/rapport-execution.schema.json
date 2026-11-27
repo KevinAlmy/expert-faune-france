@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KevinAlmy/expert-faune-france/schemas/rapport-execution.schema.json",
+  "title": "Rapport d'exécution : ce qui a réellement été consulté (cadrage §12.4, §14.1)",
+  "type": "object",
+  "required": ["date", "version_skill", "sources_consultees", "indisponibilites"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "version_skill": { "type": "string" },
+    "requete": { "type": "string" },
+    "sources_consultees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source"],
+        "properties": { "source": { "type": "string" }, "version": { "type": "string" }, "url": { "type": "string" } }
+      }
+    },
+    "indisponibilites": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "motif"],
+        "properties": { "source": { "type": "string" }, "motif": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Invertébré peu documenté : fiche minimale, champs non renseignés",
+  "dossier": {
+    "identite": {
+      "preuves": [
+        {
+          "type": "taxref",
+          "origine": "TAXREF v18"
+        }
+      ]
+    },
+    "presence": {
+      "taxref": {
+        "version": "18",
+        "code": "P",
+        "signification": "Présent (indigène ou indéterminé)",
+        "decision": "fiche",
+        "qualification": "etablie",
+        "origine": "indigene"
+      }
+    },
+    "champs": {
+      "alimentation": {
+        "affirmations": [],
+        "recherche": "recherche_sans_resultat"
+      }
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "creer_fiche"
+    },
+    "champs": {
+      "alimentation": {
+        "etat": "non_renseigne",
+        "recherche": "recherche_sans_resultat"
+      }
+    }
+  }
+}

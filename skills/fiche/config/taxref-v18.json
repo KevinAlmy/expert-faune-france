@@ -1,0 +1,51 @@
+{
+  "version": "18",
+  "export": {
+    "fichier": "TAXREF_v18_2025.zip",
+    "fichier_taxons": "TAXREFv18.txt",
+    "date_fichiers": "2025-01-09",
+    "source": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+    "page": "https://www.patrinat.fr/fr/page-temporaire-de-telechargement-des-referentiels-de-donnees-lies-linpn-7353",
+    "sha256": "a6963ea1a3baec3220f0bf76b43eaa9b49d0c0eecd5ab72294b760adf78897a7",
+    "taille_octets": 60582042,
+    "licence": "Licence Ouverte 2.0 (Etalab)",
+    "producteur": "Muséum national d'Histoire naturelle (MNHN), PatriNat",
+    "telecharge_le": "2026-11-27"
+  },
+  "documentation": {
+    "notice_codes": "statuts_note.csv (dans l'archive)",
+    "documentation": "TAXREFv18.pdf (dans l'archive)",
+    "colonne_territoriale": "FR",
+    "definition_colonne": "Statut biogéographique en France hexagonale et Corse (TAXREFv18.pdf, description des champs)"
+  },
+  "filtre_especes": {
+    "regne": "Animalia",
+    "rang": "ES",
+    "nom_accepte": "CD_NOM == CD_REF"
+  },
+  "codes": {
+    "P": { "signification": "Présent (indigène ou indéterminé)", "decision": "fiche", "qualification": "etablie", "origine": "indigene" },
+    "E": { "signification": "Endémique", "decision": "fiche", "qualification": "etablie", "origine": "indigene" },
+    "S": { "signification": "Subendémique", "decision": "fiche", "qualification": "etablie", "origine": "indigene" },
+    "C": { "signification": "Cryptogène", "decision": "fiche", "qualification": "etablie", "origine": "indeterminee" },
+    "I": { "signification": "Introduit", "decision": "fiche", "qualification": "etablie", "origine": "introduite" },
+    "J": { "signification": "Introduit envahissant", "decision": "fiche", "qualification": "etablie", "origine": "introduite", "envahissant": true },
+    "B": { "signification": "Occasionnel", "decision": "fiche", "qualification": "occasionnelle" },
+    "W": { "signification": "Disparu", "decision": "fiche", "qualification": "historique" },
+    "Y": { "signification": "Introduit éteint", "decision": "fiche", "qualification": "historique", "origine": "introduite" },
+    "Z": { "signification": "Endémique éteint", "decision": "fiche", "qualification": "historique", "origine": "indigene" },
+    "D": { "signification": "Douteux", "decision": "candidature", "motif": "présence douteuse selon TAXREF (code D)" },
+    "G": { "signification": "ADNe uniquement", "decision": "candidature", "motif": "détection par ADN environnemental seulement, non confirmée morphologiquement (code G)" },
+    "M": { "signification": "Introduit non établi", "decision": "exclusion", "motif": "introduit non établi, domestique ou échappé : hors faune sauvage établie (code M)" },
+    "Q": { "signification": "Mentionné par erreur", "decision": "exclusion", "motif": "mentionné par erreur sur le territoire (code Q)" },
+    "A": { "signification": "Absent", "decision": "exclusion", "motif": "absent du territoire selon TAXREF (code A)" },
+    "X": { "signification": "Eteint", "decision": "exclusion", "motif": "taxon globalement éteint, sans présence métropolitaine attestée par ce code (code X)" },
+    "": { "signification": "Aucun statut pour le territoire", "decision": "exclusion", "motif": "aucun statut biogéographique pour la France hexagonale et la Corse" }
+  },
+  "comptage_v18": {
+    "especes_animales_acceptees": 136236,
+    "fiches": 64657,
+    "candidatures": 710,
+    "detail_par_code": { "P": 59012, "E": 2895, "S": 767, "C": 116, "I": 1371, "J": 118, "B": 252, "W": 74, "Y": 43, "Z": 9, "D": 710, "G": 0, "M": 278, "Q": 383, "A": 16667, "X": 64, "": 53477 }
+  }
+}

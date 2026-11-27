@@ -1,0 +1,28 @@
+{
+  "description": "Catalogue mondial seul : identité établie, présence non démontrée",
+  "dossier": {
+    "identite": {
+      "preuves": [
+        {
+          "type": "catalogue_of_life",
+          "origine": "COL 2026-11-11"
+        }
+      ]
+    },
+    "presence": {
+      "preuves": [
+        {
+          "type": "catalogue_mondial",
+          "origine": "COL 2026-11-11"
+        }
+      ]
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "candidature",
+      "preuve_manquante": "presence_sauvage_metropole",
+      "reexamen": true
+    }
+  }
+}

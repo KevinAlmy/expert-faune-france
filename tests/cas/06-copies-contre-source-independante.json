@@ -1,0 +1,34 @@
+{
+  "description": "Deux sites reprennent la même étude, une source indépendante la contredit",
+  "dossier": {
+    "champs": {
+      "taille_ponte": {
+        "affirmations": [
+          {
+            "valeur": "1000-2000 œufs",
+            "source": "site-1",
+            "origine": "Étude X 1998"
+          },
+          {
+            "valeur": "1000-2000 œufs",
+            "source": "site-2",
+            "origine": "Étude X 1998"
+          },
+          {
+            "valeur": "500-1500 œufs",
+            "source": "Étude Y 2015",
+            "origine": "Étude Y 2015"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "taille_ponte": {
+        "etat": "contradictoire",
+        "valeur_synthese": null
+      }
+    }
+  }
+}
