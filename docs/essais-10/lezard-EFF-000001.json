@@ -1612,5 +1612,45 @@
         "motif": "429 (limite de débit) / refus du proxy"
       }
     ]
-  }
+  },
+  "photos": [
+    {
+      "role": "paysage",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AMauereidechse_IMG_1520.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mauereidechse_IMG_1520.jpg/1280px-Mauereidechse_IMG_1520.jpg",
+      "titre": "Mauereidechse IMG 1520.jpg",
+      "auteur": "Fischer.H",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 4229,
+      "hauteur": 3060,
+      "orientation": "paysage",
+      "qualite": "Quality image de Commons (qualité technique validée)",
+      "credit": "Photo : Fischer.H, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Podarcis muralis », reliée à l'élément Wikidata Q186615 dont le nom scientifique (P225) est « Podarcis muralis »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte de profil sur la mousse et les pierres, tête nette"
+    },
+    {
+      "role": "portrait",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AEidechse_IMG_2990.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Eidechse_IMG_2990.jpg/1280px-Eidechse_IMG_2990.jpg",
+      "titre": "Eidechse IMG 2990.jpg",
+      "auteur": "Fischer.H",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 1461,
+      "hauteur": 1640,
+      "orientation": "portrait",
+      "qualite": "Quality image de Commons (qualité technique validée)",
+      "credit": "Photo : Fischer.H, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Podarcis muralis », reliée à l'élément Wikidata Q186615 dont le nom scientifique (P225) est « Podarcis muralis »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte au soleil sur une roche, au bord d'une fissure"
+    }
+  ]
 }

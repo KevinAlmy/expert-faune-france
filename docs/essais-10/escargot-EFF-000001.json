@@ -1,1813 +1,1853 @@
 {
- "id": "EFF-000001",
- "etat": "fiche_partielle",
- "identite": {
-  "nom_retenu": "Helix pomatia",
-  "auteur": "Linnaeus",
-  "annee": 1758,
-  "rang": "espèce",
-  "classification": {
-   "regne": "Animalia",
-   "phylum": "Mollusca",
-   "classe": "Gastropoda",
-   "ordre": "Stylommatophora",
-   "famille": "Helicidae",
-   "genre": "Helix"
+  "id": "EFF-000001",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Helix pomatia",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "espèce",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Mollusca",
+      "classe": "Gastropoda",
+      "ordre": "Stylommatophora",
+      "famille": "Helicidae",
+      "genre": "Helix"
+    },
+    "noms_vernaculaires": [
+      "Escargot de Bourgogne",
+      "Roman snail"
+    ],
+    "synonymes": [
+      {
+        "nom": "Helix banatica",
+        "auteur": "M. von Kimakowicz, 1890",
+        "source": "TAXREF v18 (CD_NOM 413840)"
+      },
+      {
+        "nom": "Helix brenaeensis",
+        "auteur": "Blume, 1920",
+        "source": "TAXREF v18 (CD_NOM 413842)"
+      },
+      {
+        "nom": "Helix burmeisteri",
+        "auteur": "Blume, 1920",
+        "source": "TAXREF v18 (CD_NOM 413841)"
+      },
+      {
+        "nom": "Helix claudiensis",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413843)"
+      },
+      {
+        "nom": "Helix costelata",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413845)"
+      },
+      {
+        "nom": "Helix cristinae",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413844)"
+      },
+      {
+        "nom": "Helix dobrudschae",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413846)"
+      },
+      {
+        "nom": "Helix elsae",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413847)"
+      },
+      {
+        "nom": "Helix fasciata",
+        "auteur": "Porro, 1838",
+        "source": "TAXREF v18 (CD_NOM 413848)"
+      },
+      {
+        "nom": "Helix gigantea",
+        "auteur": "Porro, 1838",
+        "source": "TAXREF v18 (CD_NOM 413849)"
+      },
+      {
+        "nom": "Helix gratiosa",
+        "auteur": "Gredler, 1892",
+        "source": "TAXREF v18 (CD_NOM 413850)"
+      },
+      {
+        "nom": "Helix kapellae",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413851)"
+      },
+      {
+        "nom": "Helix lagarinae",
+        "auteur": "Adami, 1885",
+        "source": "TAXREF v18 (CD_NOM 413852)"
+      },
+      {
+        "nom": "Helix magna",
+        "auteur": "Stabile, 1845",
+        "source": "TAXREF v18 (CD_NOM 413853)"
+      },
+      {
+        "nom": "Helix parva",
+        "auteur": "Porro, 1838",
+        "source": "TAXREF v18 (CD_NOM 413854)"
+      },
+      {
+        "nom": "Helix pedemontana",
+        "auteur": "Kobelt, 1907",
+        "source": "TAXREF v18 (CD_NOM 413855)"
+      },
+      {
+        "nom": "Helix piceata",
+        "auteur": "Gredler, 1878",
+        "source": "TAXREF v18 (CD_NOM 413856)"
+      },
+      {
+        "nom": "Helix sabulosa",
+        "auteur": "Hazay, 1881",
+        "source": "TAXREF v18 (CD_NOM 413857)"
+      },
+      {
+        "nom": "Helix serbica",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413858)"
+      },
+      {
+        "nom": "Helix transsylvanica",
+        "auteur": "Kobelt, 1906",
+        "source": "TAXREF v18 (CD_NOM 413859)"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "64260",
+        "cd_ref": "64260",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "6LLM4",
+        "jeu": "3LR",
+        "version": "2026-11-11"
+      },
+      "gbif": {
+        "usageKey": "2294287",
+        "statut": "ACCEPTED"
+      },
+      "wikidata": {
+        "id": "Q245314",
+        "revision": "2569019884"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Helix pomatia Linnaeus, 1758 : rang ES, nom retenu (CD_NOM = CD_REF = 64260), famille des Helicidae ; nom vernaculaire officiel « Escargot de Bourgogne »",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
+        "date_ou_version": "v18 (fichiers du 09/01/2025)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      },
+      {
+        "valeur": "Helix pomatia Linnaeus, 1758 : statut accepté, rang espèce (identifiant 6LLM4)",
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR",
+        "origine": "Catalogue of Life",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Helix%20pomatia",
+        "date_ou_version": "2026-11-11",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      },
+      {
+        "valeur": "Helix pomatia Linnaeus, 1758 : statut ACCEPTED, correspondance exacte, confiance 100 (usageKey 2294287) ; « Roman snail » parmi les noms anglais",
+        "source": "GBIF, API species/match",
+        "origine": "GBIF Backbone Taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Helix%20pomatia&kingdom=Animalia",
+        "date_ou_version": "consultée le 2026-11-27",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      },
+      {
+        "valeur": "Description originale : espèce établie par Linné en 1758 dans la 10e édition du Systema Naturae",
+        "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
+        "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
+        "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+        "date_ou_version": "1758",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC0 1.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      }
+    ]
   },
-  "noms_vernaculaires": [
-   "Escargot de Bourgogne",
-   "Roman snail"
-  ],
-  "synonymes": [
-   {
-    "nom": "Helix banatica",
-    "auteur": "M. von Kimakowicz, 1890",
-    "source": "TAXREF v18 (CD_NOM 413840)"
-   },
-   {
-    "nom": "Helix brenaeensis",
-    "auteur": "Blume, 1920",
-    "source": "TAXREF v18 (CD_NOM 413842)"
-   },
-   {
-    "nom": "Helix burmeisteri",
-    "auteur": "Blume, 1920",
-    "source": "TAXREF v18 (CD_NOM 413841)"
-   },
-   {
-    "nom": "Helix claudiensis",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413843)"
-   },
-   {
-    "nom": "Helix costelata",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413845)"
-   },
-   {
-    "nom": "Helix cristinae",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413844)"
-   },
-   {
-    "nom": "Helix dobrudschae",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413846)"
-   },
-   {
-    "nom": "Helix elsae",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413847)"
-   },
-   {
-    "nom": "Helix fasciata",
-    "auteur": "Porro, 1838",
-    "source": "TAXREF v18 (CD_NOM 413848)"
-   },
-   {
-    "nom": "Helix gigantea",
-    "auteur": "Porro, 1838",
-    "source": "TAXREF v18 (CD_NOM 413849)"
-   },
-   {
-    "nom": "Helix gratiosa",
-    "auteur": "Gredler, 1892",
-    "source": "TAXREF v18 (CD_NOM 413850)"
-   },
-   {
-    "nom": "Helix kapellae",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413851)"
-   },
-   {
-    "nom": "Helix lagarinae",
-    "auteur": "Adami, 1885",
-    "source": "TAXREF v18 (CD_NOM 413852)"
-   },
-   {
-    "nom": "Helix magna",
-    "auteur": "Stabile, 1845",
-    "source": "TAXREF v18 (CD_NOM 413853)"
-   },
-   {
-    "nom": "Helix parva",
-    "auteur": "Porro, 1838",
-    "source": "TAXREF v18 (CD_NOM 413854)"
-   },
-   {
-    "nom": "Helix pedemontana",
-    "auteur": "Kobelt, 1907",
-    "source": "TAXREF v18 (CD_NOM 413855)"
-   },
-   {
-    "nom": "Helix piceata",
-    "auteur": "Gredler, 1878",
-    "source": "TAXREF v18 (CD_NOM 413856)"
-   },
-   {
-    "nom": "Helix sabulosa",
-    "auteur": "Hazay, 1881",
-    "source": "TAXREF v18 (CD_NOM 413857)"
-   },
-   {
-    "nom": "Helix serbica",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413858)"
-   },
-   {
-    "nom": "Helix transsylvanica",
-    "auteur": "Kobelt, 1906",
-    "source": "TAXREF v18 (CD_NOM 413859)"
-   }
-  ],
-  "identifiants_externes": {
-   "taxref": {
-    "cd_nom": "64260",
-    "cd_ref": "64260",
-    "version": "18"
-   },
-   "catalogue_of_life": {
-    "id": "6LLM4",
-    "jeu": "3LR",
-    "version": "2026-11-11"
-   },
-   "gbif": {
-    "usageKey": "2294287",
-    "statut": "ACCEPTED"
-   },
-   "wikidata": {
-    "id": "Q245314",
-    "revision": "2569019884"
-   }
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indeterminee",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "C",
+      "signification": "Cryptogène"
+    },
+    "preuves": [
+      {
+        "valeur": "Colonne FR (France hexagonale et Corse) : code C, cryptogène — présence établie, origine (indigène ou introduite) non tranchée",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
+        "date_ou_version": "v18 (fichiers du 09/01/2025)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
   },
-  "preuves": [
-   {
-    "valeur": "Helix pomatia Linnaeus, 1758 : rang ES, nom retenu (CD_NOM = CD_REF = 64260), famille des Helicidae ; nom vernaculaire officiel « Escargot de Bourgogne »",
-    "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
-    "origine": "TAXREF v18 (MNHN, PatriNat)",
-    "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
-    "date_ou_version": "v18 (fichiers du 09/01/2025)",
-    "etat": "documente",
-    "reutilisation": {
-     "licence": "Licence Ouverte 2.0 (Etalab)",
-     "contenu_repris": true
-    },
-    "consulte_le": "2026-11-27"
-   },
-   {
-    "valeur": "Helix pomatia Linnaeus, 1758 : statut accepté, rang espèce (identifiant 6LLM4)",
-    "source": "Catalogue of Life via ChecklistBank, jeu 3LR",
-    "origine": "Catalogue of Life",
-    "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Helix%20pomatia",
-    "date_ou_version": "2026-11-11",
-    "etat": "documente",
-    "reutilisation": {
-     "licence": "CC BY 4.0",
-     "contenu_repris": true
-    },
-    "consulte_le": "2026-11-27"
-   },
-   {
-    "valeur": "Helix pomatia Linnaeus, 1758 : statut ACCEPTED, correspondance exacte, confiance 100 (usageKey 2294287) ; « Roman snail » parmi les noms anglais",
-    "source": "GBIF, API species/match",
-    "origine": "GBIF Backbone Taxonomy",
-    "url": "https://api.gbif.org/v1/species/match?name=Helix%20pomatia&kingdom=Animalia",
-    "date_ou_version": "consultée le 2026-11-27",
-    "etat": "documente",
-    "reutilisation": {
-     "licence": "CC BY 4.0",
-     "contenu_repris": true
-    },
-    "consulte_le": "2026-11-27"
-   },
-   {
-    "valeur": "Description originale : espèce établie par Linné en 1758 dans la 10e édition du Systema Naturae",
-    "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
-    "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
-    "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-    "date_ou_version": "1758",
-    "etat": "documente",
-    "reutilisation": {
-     "licence": "CC0 1.0",
-     "contenu_repris": true
-    },
-    "consulte_le": "2026-11-27"
-   }
-  ]
- },
- "presence": {
-  "territoire": "France métropolitaine, Corse comprise",
-  "qualification": "etablie",
-  "origine": "indeterminee",
-  "code_source": {
-   "referentiel": "TAXREF v18",
-   "colonne": "FR",
-   "code": "C",
-   "signification": "Cryptogène"
+  "admission": {
+    "voie": "taxref",
+    "motif": "decider.py : creer_fiche — TAXREF v18, espèce au rang ES, nom accepté, code C (Cryptogène) dans la colonne FR, admis par la table de correspondance v18 (présence établie, origine indéterminée)",
+    "date": "2026-11-27"
   },
-  "preuves": [
-   {
-    "valeur": "Colonne FR (France hexagonale et Corse) : code C, cryptogène — présence établie, origine (indigène ou introduite) non tranchée",
-    "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
-    "origine": "TAXREF v18 (MNHN, PatriNat)",
-    "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
-    "date_ou_version": "v18 (fichiers du 09/01/2025)",
-    "etat": "documente",
-    "reutilisation": {
-     "licence": "Licence Ouverte 2.0 (Etalab)",
-     "contenu_repris": true
-    },
-    "consulte_le": "2026-11-27",
-    "territoire": "France hexagonale et Corse"
-   }
-  ]
- },
- "admission": {
-  "voie": "taxref",
-  "motif": "decider.py : creer_fiche — TAXREF v18, espèce au rang ES, nom accepté, code C (Cryptogène) dans la colonne FR, admis par la table de correspondance v18 (présence établie, origine indéterminée)",
-  "date": "2026-11-27"
- },
- "familles": {
-  "reconnaissance": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "dimensions_coquille": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": {
-        "largeur": "30–50",
-        "hauteur": "30–45"
-       },
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "mm",
-       "stade_ou_saison": "adulte"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Coquille adulte large de 30 à 50 mm et haute de 30 à 45 mm (complément, d'après AnimalBase 2009)"
-    },
-    "masse": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Adulte : de 25 à 45 g",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false,
-       "unite": "g",
-       "stade_ou_saison": "adulte"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "25 à 45 g chez l'adulte, valeur sans référence citée : incertaine"
-    },
-    "aspect_coquille": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Coquille globuleuse de teinte brune",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      },
-      {
-       "valeur": "Teinte allant du blanc au brun clair, parfois marquée d'une bande brune peu nette ; bord de l'ouverture (péristome) blanc",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Coquille globuleuse, blanchâtre à brun clair ; descriptions divergentes et non référencées : incertain"
-    },
-    "description_originale": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Diagnose latine de Linné : coquille ombiliquée, presque ovale, obtuse, sans couleur marquée ; ouverture arrondie en croissant",
-       "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
-       "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
-       "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-       "date_ou_version": "1758",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC0 1.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27"
-      }
-     ],
-     "valeur_synthese": "Diagnose de 1758 (coquille ombiliquée, subovale, ouverture en croissant arrondi)"
-    },
-    "taille_minimale_reglementaire": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Le texte retient un seuil de 3 cm de diamètre de coquille pour encadrer le ramassage (voir Conservation)",
-       "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
-       "date_ou_version": "version en vigueur au 27/11/2026",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (etalab-2.0)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Seuil réglementaire de 3 cm de diamètre de coquille (ce n'est pas un critère biologique de maturité)"
-    },
-    "especes_proches_et_criteres": {
-     "etat": "non_renseigne"
-    },
-    "limites_de_determination": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Seules les dimensions (complément citant AnimalBase) et la diagnose originale sont documentées ; AnimalBase, la littérature malacologique et les clés de détermination n'étaient pas accessibles (proxy).",
-   "prochaine_piste": "AnimalBase (fiche 812) ; Welter-Schultes 2012, European non-marine molluscs ; Kerney, Cameron & Jungbluth 1983 ; Korábek et al. 2015 (distinction d'avec Helix thessalica) ; confusions avec Helix lucorum et Cornu aspersum."
-  },
-  "repartition": {
-   "recherche": "recherche_effectuee",
-   "champs": {
-    "statut_en_metropole": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Présence établie en France hexagonale et Corse, d'origine cryptogène (code C) : le référentiel ne tranche pas entre indigénat et introduction",
-       "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
-       "origine": "TAXREF v18 (MNHN, PatriNat)",
-       "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
-       "date_ou_version": "v18 (fichiers du 09/01/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (Etalab)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France hexagonale et Corse"
-      }
-     ],
-     "valeur_synthese": "Établie ; origine cryptogène selon TAXREF v18"
-    },
-    "localite_type": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Linné situe l'espèce dans les bois d'Angleterre et de France (« Angliae, Galliae nemoribus »)",
-       "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
-       "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
-       "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-       "date_ou_version": "1758",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC0 1.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Angleterre, France"
-      }
-     ],
-     "valeur_synthese": "Bois d'Angleterre et de France (description originale, 1758)"
-    },
-    "aire_indigene": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Aire d'origine : Europe",
-       "source": "DAISIE, Inventory of alien invasive species in Europe, descripteurs diffusés par l'API GBIF",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Europe"
-      }
-     ],
-     "valeur_synthese": "Europe (DAISIE) ; limites précises non lues dans une source de référence"
-    },
-    "aire_indigene_detail": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Selon les travaux de phylogéographie, l'aire naturelle s'étendrait vers l'ouest jusqu'à l'est de la France ; elle serait bornée au nord vers le centre de l'Allemagne et le sud de la Pologne, au sud vers le Pô et l'Apennin ligure en Italie, la Croatie, la Bosnie, la Serbie centrale et le nord de la Bulgarie",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Korábek, O., Petrusek, A. & Juřičková, L. 2018. Glacial refugia and postglacial spread of an iconic large European land snail, Helix pomatia. Biological Journal of the Linnean Society 123(1) : 218-234 ; Korábek, Juřičková & Petrusek 2022, Diversity 14 : 24 — cités par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Limite occidentale de l'aire naturelle placée dans l'est de la France (complément citant Korábek et al. 2018, 2022)"
-    },
-    "introductions_hors_aire": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Danemark : introduite, établie, commune (vecteur intentionnel)",
-       "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Danemark"
-      },
-      {
-       "valeur": "Lettonie : introduite, établie, commune ; première mention 1700 ; venue d'Allemagne, échappée d'élevages",
-       "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Lettonie"
-      },
-      {
-       "valeur": "Suède : introduite (statut jugé douteux), établie ; date indiquée 1600",
-       "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Suède"
-      },
-      {
-       "valeur": "Norvège : introduite (statut jugé douteux), établie",
-       "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Norvège"
-      },
-      {
-       "valeur": "Estonie : introduite (statut jugé douteux), état de population inconnu",
-       "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Estonie"
-      }
-     ],
-     "valeur_synthese": "Introduite et établie au Danemark et en Lettonie ; statut douteux en Suède, Norvège et Estonie (DAISIE) ; la mention nord-américaine (complément) est écartée car une référence renseigne ce champ"
-    },
-    "presence_en_corse": {
-     "etat": "non_renseigne"
-    }
-   },
-   "prochaine_piste": "Atlas des mollusques continentaux de France (INPN, hors ligne) pour la répartition départementale ; présence en Corse non documentée ; Korábek et al. 2018 à lire directement."
-  },
-  "habitats": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "milieu_general": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Espèce terrestre (code d'habitat 3)",
-       "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
-       "origine": "TAXREF v18 (MNHN, PatriNat)",
-       "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
-       "date_ou_version": "v18 (fichiers du 09/01/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (Etalab)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27"
-      }
-     ],
-     "valeur_synthese": "Terrestre"
-    },
-    "milieux": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": [
-        "Bois feuillus caducifoliés (EUNIS G1)",
-        "Milieux construits, industriels et autres milieux artificiels (EUNIS J)"
-       ],
-       "source": "DAISIE, Inventory of alien invasive species in Europe, descripteurs diffusés par l'API GBIF",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27"
-      },
-      {
-       "valeur": "Bois (mention de 1758)",
-       "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
-       "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
-       "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-       "date_ou_version": "1758",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC0 1.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Angleterre, France"
-      }
-     ],
-     "valeur_synthese": "Bois de feuillus et milieux anthropisés (DAISIE, typologie EUNIS) ; bois dans la description originale"
-    },
-    "milieux_europe_centrale": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "En Europe centrale : forêts, fourrés et divers milieux liés à l'homme",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "territoire": "Europe centrale"
-      },
-      {
-       "valeur": "Dans le sud de l'Angleterre : friches herbeuses ou buissonnantes peu perturbées, rarement les jardins",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "territoire": "Angleterre"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Forêts, fourrés et milieux anthropisés en Europe centrale ; friches peu perturbées dans le sud de l'Angleterre (complément citant AnimalBase)"
-    },
-    "altitude": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Jusqu'à 2100 m dans les Alpes, en général sous 2000 m",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "m",
-       "territoire": "Alpes"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Jusqu'à 2100 m dans les Alpes, le plus souvent au-dessous de 2000 m (complément)"
-    },
-    "substrat": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Surtout sur sols calcaires ; ailleurs, la présence relèverait probablement d'une introduction ; un sol meuble lui est nécessaire pour s'enfouir en hiver",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Préférence pour les sols calcaires et meubles, sans référence citée : incertain"
-    },
-    "conditions_microclimatiques": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Recherche une humidité élevée et des températures modérées",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Humidité élevée, températures modérées (non référencé : incertain)"
-    }
-   },
-   "justification": "Milieux documentés par DAISIE et TAXREF ; détail (altitude, substrat, microhabitats en France) seulement par compléments ; atlas et synthèses français inaccessibles.",
-   "prochaine_piste": "Habitats en France : atlas régionaux de mollusques, listes rouges régionales (Grand Est 2023, Hauts-de-France 2024) ; habitats_note TAXREF ; Korábek et al. 2018."
-  },
-  "alimentation": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "regime": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Phytophage (groupe écofonctionnel)",
-       "source": "DAISIE, Inventory of alien invasive species in Europe, descripteurs diffusés par l'API GBIF",
-       "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
-       "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
-       "date_ou_version": "version du 12/06/2020",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27"
-      }
-     ],
-     "valeur_synthese": "Phytophage (DAISIE)"
-    },
-    "preferences": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Chez des juvéniles étudiés en Allemagne, préférence pour l'ortie dioïque (Urtica dioica) et pour la litière végétale, plutôt qu'un régime d'herbivore généraliste",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Tluste, C. & Birkhofer, K. 2023. The Roman snail is not a generalist herbivore, but shows food preferences for Urtica dioica and plant litter. Journal of Natural History 57(13-16) : 758-770 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "territoire": "Allemagne",
-       "stade_ou_saison": "juvénile"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Préférence pour l'ortie et la litière chez des juvéniles en Allemagne (complément citant Tluste & Birkhofer 2023)"
-    },
-    "besoins_mineraux": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Régime de base par DAISIE ; préférences par complément ; article de Tluste & Birkhofer (abonnement) non lu directement.",
-   "prochaine_piste": "Tluste & Birkhofer 2023 (texte intégral) ; études de régime en milieu naturel en France."
-  },
-  "reproduction": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "periode_de_ponte": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Ponte en juin et juillet",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Juin-juillet d'après AnimalBase (complément) ; territoire non précisé"
-    },
-    "periode_reglementaire_de_protection": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Entre le 1er avril et le 30 juin, toute collecte est interdite, même pour les coquilles atteignant 3 cm",
-       "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
-       "date_ou_version": "version en vigueur au 27/11/2026",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (etalab-2.0)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Interdiction réglementaire du 1er avril au 30 juin (période retenue par le texte ; sa justification biologique n'est pas énoncée dans l'arrêté)"
-    },
-    "taille_de_ponte": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "40 à 65 œufs par ponte",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "œufs"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "40 à 65 œufs (complément citant AnimalBase)"
-    },
-    "taille_des_oeufs": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "5,5 à 6,5 mm",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "mm"
-      },
-      {
-       "valeur": "8,6 × 7,2 mm",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Heller, J. 2001. Life history strategies. In Barker, G. M. (éd.), The biology of terrestrial molluscs. CABI, p. 1-146 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "mm"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Deux valeurs référencées divergentes (5,5-6,5 mm ; 8,6 × 7,2 mm) : incertain"
-    },
-    "site_de_ponte": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Les œufs sont enfouis dans une cavité que l'animal creuse dans une terre meuble d'humidité moyenne",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Ponte enfouie dans le sol (description générale, sans localisation ; non référencée : incertain)"
-    },
-    "accouplement": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Calendrier et taille de ponte seulement par compléments ; aucune donnée française de référence lue.",
-   "prochaine_piste": "Roumyantseva & Dedkov 2006 (Ruthenica 15) ; Heller 2001 ; Cadart 1955 ; données françaises (INRAE, héliciculture) ; article des Annals of Animal Science 2021 (inaccessible)."
-  },
-  "developpement": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "incubation": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Éclosion trois à quatre semaines après la ponte",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "semaines"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "3 à 4 semaines (complément citant AnimalBase)"
-    },
-    "maturite_sexuelle": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Atteinte entre 2 et 5 ans",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "ans"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "2 à 5 ans (complément citant AnimalBase)"
-    },
-    "longevite_sauvage": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Peut vivre jusqu'à 20 ans, mais la dessiccation estivale et le gel hivernal en tuent beaucoup plus tôt ; des individus de dix ans seraient assez fréquents ; maximum connu 35 ans",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "unite": "ans",
-       "contexte": "sauvage"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Jusqu'à 20 ans (maximum 35) d'après AnimalBase (complément)"
-    },
-    "longevite_captivite": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Jusqu'à 10 ans en captivité",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false,
-       "unite": "ans",
-       "contexte": "captivité"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "10 ans en captivité, sans référence : incertain (et peu cohérent avec le maximum sauvage cité par AnimalBase)"
-    },
-    "mortalite_apres_ponte": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Les adultes maigrissent nettement en pondant et près d'un tiers mourraient ensuite",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Mortalité post-ponte d'environ un tiers, non référencée : incertain"
-    }
-   },
-   "justification": "Toutes les valeurs proviennent de compléments ; AnimalBase et les études démographiques n'ont pas pu être lues.",
-   "prochaine_piste": "AnimalBase ; études de démographie et de croissance (Pologne, Tchéquie) ; distinguer données sauvages et d'élevage."
-  },
-  "comportements": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "cannibalisme_juvenile": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Par conditions climatiques défavorables, les jeunes peuvent dévorer leurs frères et sœurs",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true,
-       "stade_ou_saison": "juvénile"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Cannibalisme possible entre jeunes d'une même ponte par mauvaises conditions (complément)"
-    },
-    "dispersion": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Très faible capacité de dispersion, déplacements de 3,5 à 6 m",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false,
-       "unite": "m"
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Déplacements de quelques mètres, non référencé : incertain"
-    },
-    "sociabilite": {
-     "etat": "non_renseigne"
-    },
-    "communication": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Peu de données comportementales hors compléments.",
-   "prochaine_piste": "Études de marquage-recapture et de domaine vital ; Folia Malacologica 2016 (notes sur l'activité, inaccessible)."
-  },
-  "activite": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "hivernation_estivation": {
-     "etat": "incertain",
-     "affirmations": [
-      {
-       "valeur": "Lors de l'estivation ou de l'hibernation, ferme l'ouverture de la coquille par un épiphragme calcaire, aptitude rare parmi les escargots",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      },
-      {
-       "valeur": "Actif du printemps aux premiers froids, puis s'enfouit (jusqu'à 30 cm) et obture sa coquille pour passer l'hiver",
-       "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
-       "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "incertain",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": false
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Hibernation enfouie avec épiphragme calcaire ; valeurs non référencées : incertain"
-    },
-    "activite_journaliere": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Cycle annuel seulement par compléments non référencés.",
-   "prochaine_piste": "Folia Malacologica 2016 ; Jeppesen 1976/1977 (rythmes d'activité) ; études sur la photopériode (Reproduction, Fertility and Development 1990, inaccessible)."
-  },
-  "interactions": {
-   "recherche": "recherche_sans_resultat",
-   "champs": {
-    "predateurs": {
-     "etat": "non_renseigne"
-    },
-    "parasites": {
-     "etat": "non_renseigne"
-    },
-    "role_ecologique": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Aucune source de référence accessible ; Wikipédia (fr, en) ne documente ni prédateurs ni parasites. Article de Web Ecology 2020 sur les marques d'attaque des coquilles refusé par le proxy.",
-   "prochaine_piste": "Web Ecology 20 : 87 (2020) ; Journal of Conchology 2019 (nématodes encapsulés) ; littérature sur les prédateurs (carabes, oiseaux, mammifères)."
-  },
-  "conservation": {
-   "recherche": "recherche_effectuee",
-   "champs": {
-    "liste_rouge_nationale": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "UICN France : tableaux de la Liste rouge des mollusques continentaux de France métropolitaine (PDF)",
-       "origine": "UICN Comité français, OFB & MNHN 2021. La Liste rouge des espèces menacées en France – Chapitre Mollusques continentaux de France métropolitaine",
-       "url": "https://uicn.fr/wp-content/uploads/2022/02/tableaux-liste-rouge-mollusques-continentaux-de-france-metropolitaine.pdf",
-       "date_ou_version": "juillet 2021",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Conditions de réutilisation non indiquées dans le document",
-        "contenu_repris": true,
-        "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits)"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      },
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "UICN Comité français, OFB & MNHN 2021. La Liste rouge des espèces menacées en France – Chapitre Mollusques continentaux de France métropolitaine",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "LC, préoccupation mineure (2021)"
-    },
-    "tendance_nationale": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Tendance des populations : inconnue (symbole « ? » du tableau)",
-       "source": "UICN France : tableaux de la Liste rouge des mollusques continentaux de France métropolitaine (PDF)",
-       "origine": "UICN Comité français, OFB & MNHN 2021. La Liste rouge des espèces menacées en France – Chapitre Mollusques continentaux de France métropolitaine",
-       "url": "https://uicn.fr/wp-content/uploads/2022/02/tableaux-liste-rouge-mollusques-continentaux-de-france-metropolitaine.pdf",
-       "date_ou_version": "juillet 2021",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Conditions de réutilisation non indiquées dans le document",
-        "contenu_repris": true,
-        "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits)"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Inconnue (évaluation 2021)"
-    },
-    "liste_rouge_mondiale": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "UICN, Liste rouge mondiale (évaluation non datée dans l'export BDC)",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Monde"
-      }
-     ],
-     "valeur_synthese": "LC (Liste rouge mondiale, via BDC)"
-    },
-    "listes_rouges_regionales": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Thomas, A. 2012. Liste rouge des mollusques de la région Centre",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Centre-Val de Loire"
-      },
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Anonyme 2025. Liste rouge des mollusques terrestres et dulçaquicoles d'Occitanie. Nature Occitanie, Caracol",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Occitanie"
-      },
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Cucherat, X. et al. 2024. Liste rouge des Mollusques continentaux des Hauts-de-France",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Hauts-de-France"
-      },
-      {
-       "valeur": "LC (préoccupation mineure)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Bichain, J.-M. & Umbrecht, K. 2023. Liste rouge des Mollusques continentaux de la région Grand Est. ODONAT Grand Est",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "Grand Est"
-      }
-     ],
-     "valeur_synthese": "LC dans les quatre régions évaluées : Centre-Val de Loire (2012), Grand Est (2023), Hauts-de-France (2024), Occitanie (2025)"
-    },
-    "reglementation_du_ramassage": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Article 1 : le préfet de chaque département peut, par arrêté permanent ou temporaire, interdire ou soumettre à autorisation le ramassage et la cession (gratuite ou payante) des animaux vivants ; quelle que soit la décision locale, ramassage et cession sont proscrits toute l'année si la coquille mesure moins de 3 cm de diamètre, et, au-delà de cette taille, entre le 1er avril et le 30 juin",
-       "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
-       "date_ou_version": "version en vigueur au 27/11/2026",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (etalab-2.0)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Arrêté du 24 avril 1979, article 1 : interdiction nationale toute l'année sous 3 cm de diamètre et du 1er avril au 30 juin au-delà ; le préfet peut aller plus loin"
-    },
-    "texte_reglementaire_applicable": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Arrêté du 24 avril 1979, article 1",
-       "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
-       "date_ou_version": "version en vigueur au 27/11/2026",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (etalab-2.0)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      },
-      {
-       "valeur": "Arrêté du 24 avril 1979, article 1",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Arrêté du 24 avril 1979, article 1 (BDC Statuts et Légifrance reprennent le même texte : une seule origine)"
-    },
-    "convention_de_berne": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Annexe III",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Convention relative à la conservation de la vie sauvage et du milieu naturel de l'Europe (Berne, 19 septembre 1979)",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Annexe III (espèce protégée dont l'exploitation est réglementée)"
-    },
-    "directive_habitats": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Annexe V",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Directive 92/43/CEE du Conseil du 21 mai 1992, modifiée",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Annexe V (prélèvement dans la nature pouvant faire l'objet de mesures de gestion)"
-    },
-    "protection_nationale_stricte": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Aucune inscription sur une liste de protection stricte nationale dans BDC Statuts v18 ; seule figure la réglementation du ramassage de 1979",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "BDC Statuts v18 (MNHN, PatriNat)",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Pas de protection stricte nationale : l'espèce relève seulement d'une réglementation du ramassage"
-    },
-    "autres_reglementations": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "La Réunion : introduction interdite (arrêté du 28 juin 2021, annexe 1, formes sauvages uniquement)",
-       "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
-       "origine": "Arrêté du 28 juin 2021 relatif à la prévention de l'introduction et de la propagation des espèces animales exotiques envahissantes sur le territoire de La Réunion",
-       "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
-       "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "La Réunion (hors champ métropolitain)"
-      }
-     ],
-     "valeur_synthese": "À La Réunion, l'espèce est traitée en exotique envahissante potentielle : introduction interdite (2021)"
-    },
-    "sensibilite_de_diffusion": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Absente du référentiel de sensibilité SINP v18 : aucune règle de floutage des localisations",
-       "source": "Référentiel de sensibilité SINP v18, export PatriNat (SENSIBILITE.zip, RefSensibilite_18.csv)",
-       "origine": "Référentiel de sensibilité SINP v18 (MNHN, PatriNat)",
-       "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip",
-       "date_ou_version": "v18 (fichier du 08/08/2025)",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
-        "contenu_repris": true,
-        "motif": "constat d'absence seulement"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Pas d'espèce sensible au sens du SINP ; grain de localisation non restreint par cette règle"
-    },
-    "exploitation_et_respect_de_la_reglementation": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Travail commandé et payé par le ministère chargé de l'environnement pour préparer une révision de l'arrêté ; l'espèce est privilégiée en raison des menaces qui pèsent sur elle et parce que l'héliciculture ne maîtrise pas son élevage ; les enquêtes de terrain révèlent un non-respect de la réglementation",
-       "source": "Persée : Fortier A. 1999, Économie rurale n°252 (première page seulement lisible en texte)",
-       "origine": "Fortier, A. 1999. De l'efficacité sociale d'une réglementation. Le cas du ramassage de l'Helix pomatia. Économie rurale 252 : 28-34. DOI 10.3406/ecoru.1999.5097",
-       "url": "https://www.persee.fr/doc/ecoru_0013-0559_1999_num_252_1_5097",
-       "date_ou_version": "1999",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Conditions d'utilisation Persée non vérifiées pendant cette exécution",
-        "contenu_repris": true,
-        "motif": "seuls des faits sont repris, aucun texte"
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France"
-      }
-     ],
-     "valeur_synthese": "Ramassage sauvage seul (élevage non maîtrisé) et règle de 1979 mal respectée selon les enquêtes de Fortier (1999)"
-    },
-    "menaces": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Destruction continue des habitats et drainage ; la collecte commerciale serait en général une menace moindre ; en Angleterre, agriculture intensive",
-       "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
-       "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
-       "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
-       "date_ou_version": "version consultée le 2026-11-27",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "CC BY-SA 4.0",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "niveau": "complement",
-       "reference_citee": true
-      }
-     ],
-     "niveau": "complement",
-     "valeur_synthese": "Destruction des habitats et drainage (complément citant AnimalBase)"
-    },
-    "erreurs_signalees": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Le texte en vigueur est daté du 24 avril 1979 (et non du 24 février) et l'interdiction permanente vise les coquilles de moins de 3 cm, pas celles de plus de 3 cm",
-       "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
-       "date_ou_version": "version en vigueur au 27/11/2026",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (etalab-2.0)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Wikipédia en français donne une date erronée (24 février 1979) et inverse la règle de taille : la version de Légifrance prévaut"
-    }
-   },
-   "prochaine_piste": "Évaluation mondiale UICN (Walther 2025, iucnredlist.org refusé) ; tendance française ; arrêtés préfectoraux départementaux ; Fortier 1999 en texte intégral."
-  },
-  "observation_respectueuse": {
-   "recherche": "recherche_partielle",
-   "champs": {
-    "cadre_legal_de_la_manipulation": {
-     "etat": "documente",
-     "affirmations": [
-      {
-       "valeur": "Prélever ou céder un individu vivant est interdit toute l'année si sa coquille fait moins de 3 cm et, quelle que soit la taille, entre le 1er avril et le 30 juin ; des arrêtés préfectoraux peuvent ajouter des restrictions",
-       "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
-       "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
-       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
-       "date_ou_version": "version en vigueur au 27/11/2026",
-       "etat": "documente",
-       "reutilisation": {
-        "licence": "Licence Ouverte 2.0 (etalab-2.0)",
-        "contenu_repris": true
-       },
-       "consulte_le": "2026-11-27",
-       "territoire": "France métropolitaine"
-      }
-     ],
-     "valeur_synthese": "Observer sur place sans prélever ; tout ramassage est encadré par l'arrêté de 1979 et les arrêtés préfectoraux"
-    },
-    "indices_de_presence": {
-     "etat": "non_renseigne"
-    },
-    "conditions_de_detection": {
-     "etat": "non_renseigne"
-    },
-    "confusions": {
-     "etat": "non_renseigne"
-    }
-   },
-   "justification": "Aucune source de référence accessible sur les indices, la détectabilité ou les précautions propres à l'espèce ; seul le cadre réglementaire est documenté.",
-   "prochaine_piste": "Guides de terrain (Welter-Schultes 2012) ; protocoles d'inventaire de mollusques (atlas régionaux)."
-  }
- },
- "couverture": {
-  "date": "2026-11-27",
-  "passe_terminee": true,
   "familles": {
-   "reconnaissance": {
-    "documentes": [
-     "dimensions_coquille",
-     "description_originale",
-     "taille_minimale_reglementaire"
-    ],
-    "lacunes": [
-     "masse",
-     "aspect_coquille",
-     "especes_proches_et_criteres",
-     "limites_de_determination"
-    ]
-   },
-   "repartition": {
-    "documentes": [
-     "statut_en_metropole",
-     "localite_type",
-     "aire_indigene",
-     "aire_indigene_detail",
-     "introductions_hors_aire"
-    ],
-    "lacunes": [
-     "presence_en_corse"
-    ]
-   },
-   "habitats": {
-    "documentes": [
-     "milieu_general",
-     "milieux",
-     "milieux_europe_centrale",
-     "altitude"
-    ],
-    "lacunes": [
-     "substrat",
-     "conditions_microclimatiques"
-    ]
-   },
-   "alimentation": {
-    "documentes": [
-     "regime",
-     "preferences"
-    ],
-    "lacunes": [
-     "besoins_mineraux"
-    ]
-   },
-   "reproduction": {
-    "documentes": [
-     "periode_de_ponte",
-     "periode_reglementaire_de_protection",
-     "taille_de_ponte"
-    ],
-    "lacunes": [
-     "taille_des_oeufs",
-     "site_de_ponte",
-     "accouplement"
-    ]
-   },
-   "developpement": {
-    "documentes": [
-     "incubation",
-     "maturite_sexuelle",
-     "longevite_sauvage"
-    ],
-    "lacunes": [
-     "longevite_captivite",
-     "mortalite_apres_ponte"
-    ]
-   },
-   "comportements": {
-    "documentes": [
-     "cannibalisme_juvenile"
-    ],
-    "lacunes": [
-     "dispersion",
-     "sociabilite",
-     "communication"
-    ]
-   },
-   "activite": {
-    "documentes": [],
-    "lacunes": [
-     "hivernation_estivation",
-     "activite_journaliere"
-    ]
-   },
-   "interactions": {
-    "documentes": [],
-    "lacunes": [
-     "predateurs",
-     "parasites",
-     "role_ecologique"
-    ]
-   },
-   "conservation": {
-    "documentes": [
-     "liste_rouge_nationale",
-     "tendance_nationale",
-     "liste_rouge_mondiale",
-     "listes_rouges_regionales",
-     "reglementation_du_ramassage",
-     "texte_reglementaire_applicable",
-     "convention_de_berne",
-     "directive_habitats",
-     "protection_nationale_stricte",
-     "autres_reglementations",
-     "sensibilite_de_diffusion",
-     "exploitation_et_respect_de_la_reglementation",
-     "menaces",
-     "erreurs_signalees"
-    ],
-    "lacunes": []
-   },
-   "observation_respectueuse": {
-    "documentes": [
-     "cadre_legal_de_la_manipulation"
-    ],
-    "lacunes": [
-     "indices_de_presence",
-     "conditions_de_detection",
-     "confusions"
-    ]
-   }
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "dimensions_coquille": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": {
+                "largeur": "30–50",
+                "hauteur": "30–45"
+              },
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "mm",
+              "stade_ou_saison": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Coquille adulte large de 30 à 50 mm et haute de 30 à 45 mm (complément, d'après AnimalBase 2009)"
+        },
+        "masse": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Adulte : de 25 à 45 g",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "g",
+              "stade_ou_saison": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "25 à 45 g chez l'adulte, valeur sans référence citée : incertaine"
+        },
+        "aspect_coquille": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Coquille globuleuse de teinte brune",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Teinte allant du blanc au brun clair, parfois marquée d'une bande brune peu nette ; bord de l'ouverture (péristome) blanc",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Coquille globuleuse, blanchâtre à brun clair ; descriptions divergentes et non référencées : incertain"
+        },
+        "description_originale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Diagnose latine de Linné : coquille ombiliquée, presque ovale, obtuse, sans couleur marquée ; ouverture arrondie en croissant",
+              "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
+              "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
+              "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+              "date_ou_version": "1758",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Diagnose de 1758 (coquille ombiliquée, subovale, ouverture en croissant arrondi)"
+        },
+        "taille_minimale_reglementaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le texte retient un seuil de 3 cm de diamètre de coquille pour encadrer le ramassage (voir Conservation)",
+              "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (etalab-2.0)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Seuil réglementaire de 3 cm de diamètre de coquille (ce n'est pas un critère biologique de maturité)"
+        },
+        "especes_proches_et_criteres": {
+          "etat": "non_renseigne"
+        },
+        "limites_de_determination": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Seules les dimensions (complément citant AnimalBase) et la diagnose originale sont documentées ; AnimalBase, la littérature malacologique et les clés de détermination n'étaient pas accessibles (proxy).",
+      "prochaine_piste": "AnimalBase (fiche 812) ; Welter-Schultes 2012, European non-marine molluscs ; Kerney, Cameron & Jungbluth 1983 ; Korábek et al. 2015 (distinction d'avec Helix thessalica) ; confusions avec Helix lucorum et Cornu aspersum."
+    },
+    "repartition": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "statut_en_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Présence établie en France hexagonale et Corse, d'origine cryptogène (code C) : le référentiel ne tranche pas entre indigénat et introduction",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
+              "date_ou_version": "v18 (fichiers du 09/01/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "valeur_synthese": "Établie ; origine cryptogène selon TAXREF v18"
+        },
+        "localite_type": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Linné situe l'espèce dans les bois d'Angleterre et de France (« Angliae, Galliae nemoribus »)",
+              "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
+              "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
+              "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+              "date_ou_version": "1758",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Angleterre, France"
+            }
+          ],
+          "valeur_synthese": "Bois d'Angleterre et de France (description originale, 1758)"
+        },
+        "aire_indigene": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Aire d'origine : Europe",
+              "source": "DAISIE, Inventory of alien invasive species in Europe, descripteurs diffusés par l'API GBIF",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Europe"
+            }
+          ],
+          "valeur_synthese": "Europe (DAISIE) ; limites précises non lues dans une source de référence"
+        },
+        "aire_indigene_detail": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Selon les travaux de phylogéographie, l'aire naturelle s'étendrait vers l'ouest jusqu'à l'est de la France ; elle serait bornée au nord vers le centre de l'Allemagne et le sud de la Pologne, au sud vers le Pô et l'Apennin ligure en Italie, la Croatie, la Bosnie, la Serbie centrale et le nord de la Bulgarie",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Korábek, O., Petrusek, A. & Juřičková, L. 2018. Glacial refugia and postglacial spread of an iconic large European land snail, Helix pomatia. Biological Journal of the Linnean Society 123(1) : 218-234 ; Korábek, Juřičková & Petrusek 2022, Diversity 14 : 24 — cités par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Limite occidentale de l'aire naturelle placée dans l'est de la France (complément citant Korábek et al. 2018, 2022)"
+        },
+        "introductions_hors_aire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Danemark : introduite, établie, commune (vecteur intentionnel)",
+              "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Danemark"
+            },
+            {
+              "valeur": "Lettonie : introduite, établie, commune ; première mention 1700 ; venue d'Allemagne, échappée d'élevages",
+              "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Lettonie"
+            },
+            {
+              "valeur": "Suède : introduite (statut jugé douteux), établie ; date indiquée 1600",
+              "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède"
+            },
+            {
+              "valeur": "Norvège : introduite (statut jugé douteux), établie",
+              "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Norvège"
+            },
+            {
+              "valeur": "Estonie : introduite (statut jugé douteux), état de population inconnu",
+              "source": "DAISIE, Inventory of alien invasive species in Europe (INBO, CEH), via l'API GBIF (taxon 159517075)",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/159517075/distributions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Estonie"
+            }
+          ],
+          "valeur_synthese": "Introduite et établie au Danemark et en Lettonie ; statut douteux en Suède, Norvège et Estonie (DAISIE) ; la mention nord-américaine (complément) est écartée car une référence renseigne ce champ"
+        },
+        "presence_en_corse": {
+          "etat": "non_renseigne"
+        }
+      },
+      "prochaine_piste": "Atlas des mollusques continentaux de France (INPN, hors ligne) pour la répartition départementale ; présence en Corse non documentée ; Korábek et al. 2018 à lire directement."
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "milieu_general": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce terrestre (code d'habitat 3)",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt, archive TAXREF_v18_2025.zip, SHA-256 a6963ea1…a7a7)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/64260",
+              "date_ou_version": "v18 (fichiers du 09/01/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Terrestre"
+        },
+        "milieux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": [
+                "Bois feuillus caducifoliés (EUNIS G1)",
+                "Milieux construits, industriels et autres milieux artificiels (EUNIS J)"
+              ],
+              "source": "DAISIE, Inventory of alien invasive species in Europe, descripteurs diffusés par l'API GBIF",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27"
+            },
+            {
+              "valeur": "Bois (mention de 1758)",
+              "source": "Plazi : traitement de Linnaeus 1758 (Systema Naturae, éd. 10), diffusé par l'API GBIF (taxon 164807814)",
+              "origine": "Linnaeus, C. 1758. Systema Naturae per regna tria naturae, ed. 10, tome I",
+              "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+              "date_ou_version": "1758",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Angleterre, France"
+            }
+          ],
+          "valeur_synthese": "Bois de feuillus et milieux anthropisés (DAISIE, typologie EUNIS) ; bois dans la description originale"
+        },
+        "milieux_europe_centrale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "En Europe centrale : forêts, fourrés et divers milieux liés à l'homme",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe centrale"
+            },
+            {
+              "valeur": "Dans le sud de l'Angleterre : friches herbeuses ou buissonnantes peu perturbées, rarement les jardins",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Angleterre"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Forêts, fourrés et milieux anthropisés en Europe centrale ; friches peu perturbées dans le sud de l'Angleterre (complément citant AnimalBase)"
+        },
+        "altitude": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Jusqu'à 2100 m dans les Alpes, en général sous 2000 m",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "m",
+              "territoire": "Alpes"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Jusqu'à 2100 m dans les Alpes, le plus souvent au-dessous de 2000 m (complément)"
+        },
+        "substrat": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Surtout sur sols calcaires ; ailleurs, la présence relèverait probablement d'une introduction ; un sol meuble lui est nécessaire pour s'enfouir en hiver",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Préférence pour les sols calcaires et meubles, sans référence citée : incertain"
+        },
+        "conditions_microclimatiques": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Recherche une humidité élevée et des températures modérées",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Humidité élevée, températures modérées (non référencé : incertain)"
+        }
+      },
+      "justification": "Milieux documentés par DAISIE et TAXREF ; détail (altitude, substrat, microhabitats en France) seulement par compléments ; atlas et synthèses français inaccessibles.",
+      "prochaine_piste": "Habitats en France : atlas régionaux de mollusques, listes rouges régionales (Grand Est 2023, Hauts-de-France 2024) ; habitats_note TAXREF ; Korábek et al. 2018."
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "regime": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Phytophage (groupe écofonctionnel)",
+              "source": "DAISIE, Inventory of alien invasive species in Europe, descripteurs diffusés par l'API GBIF",
+              "origine": "DAISIE – Inventory of alien invasive species in Europe (jeu 39f36f10-559b-427f-8c86-2d28afff68ca)",
+              "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50",
+              "date_ou_version": "version du 12/06/2020",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Phytophage (DAISIE)"
+        },
+        "preferences": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Chez des juvéniles étudiés en Allemagne, préférence pour l'ortie dioïque (Urtica dioica) et pour la litière végétale, plutôt qu'un régime d'herbivore généraliste",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Tluste, C. & Birkhofer, K. 2023. The Roman snail is not a generalist herbivore, but shows food preferences for Urtica dioica and plant litter. Journal of Natural History 57(13-16) : 758-770 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Allemagne",
+              "stade_ou_saison": "juvénile"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Préférence pour l'ortie et la litière chez des juvéniles en Allemagne (complément citant Tluste & Birkhofer 2023)"
+        },
+        "besoins_mineraux": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Régime de base par DAISIE ; préférences par complément ; article de Tluste & Birkhofer (abonnement) non lu directement.",
+      "prochaine_piste": "Tluste & Birkhofer 2023 (texte intégral) ; études de régime en milieu naturel en France."
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "periode_de_ponte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Ponte en juin et juillet",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Juin-juillet d'après AnimalBase (complément) ; territoire non précisé"
+        },
+        "periode_reglementaire_de_protection": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Entre le 1er avril et le 30 juin, toute collecte est interdite, même pour les coquilles atteignant 3 cm",
+              "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (etalab-2.0)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Interdiction réglementaire du 1er avril au 30 juin (période retenue par le texte ; sa justification biologique n'est pas énoncée dans l'arrêté)"
+        },
+        "taille_de_ponte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "40 à 65 œufs par ponte",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "œufs"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "40 à 65 œufs (complément citant AnimalBase)"
+        },
+        "taille_des_oeufs": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "5,5 à 6,5 mm",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "mm"
+            },
+            {
+              "valeur": "8,6 × 7,2 mm",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Heller, J. 2001. Life history strategies. In Barker, G. M. (éd.), The biology of terrestrial molluscs. CABI, p. 1-146 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "mm"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Deux valeurs référencées divergentes (5,5-6,5 mm ; 8,6 × 7,2 mm) : incertain"
+        },
+        "site_de_ponte": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Les œufs sont enfouis dans une cavité que l'animal creuse dans une terre meuble d'humidité moyenne",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Ponte enfouie dans le sol (description générale, sans localisation ; non référencée : incertain)"
+        },
+        "accouplement": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Calendrier et taille de ponte seulement par compléments ; aucune donnée française de référence lue.",
+      "prochaine_piste": "Roumyantseva & Dedkov 2006 (Ruthenica 15) ; Heller 2001 ; Cadart 1955 ; données françaises (INRAE, héliciculture) ; article des Annals of Animal Science 2021 (inaccessible)."
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "incubation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Éclosion trois à quatre semaines après la ponte",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "semaines"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "3 à 4 semaines (complément citant AnimalBase)"
+        },
+        "maturite_sexuelle": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Atteinte entre 2 et 5 ans",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "ans"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "2 à 5 ans (complément citant AnimalBase)"
+        },
+        "longevite_sauvage": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Peut vivre jusqu'à 20 ans, mais la dessiccation estivale et le gel hivernal en tuent beaucoup plus tôt ; des individus de dix ans seraient assez fréquents ; maximum connu 35 ans",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "ans",
+              "contexte": "sauvage"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Jusqu'à 20 ans (maximum 35) d'après AnimalBase (complément)"
+        },
+        "longevite_captivite": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Jusqu'à 10 ans en captivité",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "ans",
+              "contexte": "captivité"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "10 ans en captivité, sans référence : incertain (et peu cohérent avec le maximum sauvage cité par AnimalBase)"
+        },
+        "mortalite_apres_ponte": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Les adultes maigrissent nettement en pondant et près d'un tiers mourraient ensuite",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Mortalité post-ponte d'environ un tiers, non référencée : incertain"
+        }
+      },
+      "justification": "Toutes les valeurs proviennent de compléments ; AnimalBase et les études démographiques n'ont pas pu être lues.",
+      "prochaine_piste": "AnimalBase ; études de démographie et de croissance (Pologne, Tchéquie) ; distinguer données sauvages et d'élevage."
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "cannibalisme_juvenile": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Par conditions climatiques défavorables, les jeunes peuvent dévorer leurs frères et sœurs",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "juvénile"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Cannibalisme possible entre jeunes d'une même ponte par mauvaises conditions (complément)"
+        },
+        "dispersion": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Très faible capacité de dispersion, déplacements de 3,5 à 6 m",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "m"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Déplacements de quelques mètres, non référencé : incertain"
+        },
+        "sociabilite": {
+          "etat": "non_renseigne"
+        },
+        "communication": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Peu de données comportementales hors compléments.",
+      "prochaine_piste": "Études de marquage-recapture et de domaine vital ; Folia Malacologica 2016 (notes sur l'activité, inaccessible)."
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "hivernation_estivation": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Lors de l'estivation ou de l'hibernation, ferme l'ouverture de la coquille par un épiphragme calcaire, aptitude rare parmi les escargots",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Actif du printemps aux premiers froids, puis s'enfouit (jusqu'à 30 cm) et obture sa coquille pour passer l'hiver",
+              "source": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "Wikipédia en français, article « Helix pomatia » (texte source, action=raw) (aucune référence citée pour cette valeur)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "incertain",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Hibernation enfouie avec épiphragme calcaire ; valeurs non référencées : incertain"
+        },
+        "activite_journaliere": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Cycle annuel seulement par compléments non référencés.",
+      "prochaine_piste": "Folia Malacologica 2016 ; Jeppesen 1976/1977 (rythmes d'activité) ; études sur la photopériode (Reproduction, Fertility and Development 1990, inaccessible)."
+    },
+    "interactions": {
+      "recherche": "recherche_sans_resultat",
+      "champs": {
+        "predateurs": {
+          "etat": "non_renseigne"
+        },
+        "parasites": {
+          "etat": "non_renseigne"
+        },
+        "role_ecologique": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Aucune source de référence accessible ; Wikipédia (fr, en) ne documente ni prédateurs ni parasites. Article de Web Ecology 2020 sur les marques d'attaque des coquilles refusé par le proxy.",
+      "prochaine_piste": "Web Ecology 20 : 87 (2020) ; Journal of Conchology 2019 (nématodes encapsulés) ; littérature sur les prédateurs (carabes, oiseaux, mammifères)."
+    },
+    "conservation": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "liste_rouge_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "UICN France : tableaux de la Liste rouge des mollusques continentaux de France métropolitaine (PDF)",
+              "origine": "UICN Comité français, OFB & MNHN 2021. La Liste rouge des espèces menacées en France – Chapitre Mollusques continentaux de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2022/02/tableaux-liste-rouge-mollusques-continentaux-de-france-metropolitaine.pdf",
+              "date_ou_version": "juillet 2021",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Conditions de réutilisation non indiquées dans le document",
+                "contenu_repris": true,
+                "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits)"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "UICN Comité français, OFB & MNHN 2021. La Liste rouge des espèces menacées en France – Chapitre Mollusques continentaux de France métropolitaine",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "LC, préoccupation mineure (2021)"
+        },
+        "tendance_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Tendance des populations : inconnue (symbole « ? » du tableau)",
+              "source": "UICN France : tableaux de la Liste rouge des mollusques continentaux de France métropolitaine (PDF)",
+              "origine": "UICN Comité français, OFB & MNHN 2021. La Liste rouge des espèces menacées en France – Chapitre Mollusques continentaux de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2022/02/tableaux-liste-rouge-mollusques-continentaux-de-france-metropolitaine.pdf",
+              "date_ou_version": "juillet 2021",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Conditions de réutilisation non indiquées dans le document",
+                "contenu_repris": true,
+                "motif": "seuls la catégorie officielle et le code de tendance sont repris (faits)"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Inconnue (évaluation 2021)"
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "UICN, Liste rouge mondiale (évaluation non datée dans l'export BDC)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Monde"
+            }
+          ],
+          "valeur_synthese": "LC (Liste rouge mondiale, via BDC)"
+        },
+        "listes_rouges_regionales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Thomas, A. 2012. Liste rouge des mollusques de la région Centre",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Centre-Val de Loire"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Anonyme 2025. Liste rouge des mollusques terrestres et dulçaquicoles d'Occitanie. Nature Occitanie, Caracol",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Occitanie"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Cucherat, X. et al. 2024. Liste rouge des Mollusques continentaux des Hauts-de-France",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Hauts-de-France"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Bichain, J.-M. & Umbrecht, K. 2023. Liste rouge des Mollusques continentaux de la région Grand Est. ODONAT Grand Est",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Grand Est"
+            }
+          ],
+          "valeur_synthese": "LC dans les quatre régions évaluées : Centre-Val de Loire (2012), Grand Est (2023), Hauts-de-France (2024), Occitanie (2025)"
+        },
+        "reglementation_du_ramassage": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Article 1 : le préfet de chaque département peut, par arrêté permanent ou temporaire, interdire ou soumettre à autorisation le ramassage et la cession (gratuite ou payante) des animaux vivants ; quelle que soit la décision locale, ramassage et cession sont proscrits toute l'année si la coquille mesure moins de 3 cm de diamètre, et, au-delà de cette taille, entre le 1er avril et le 30 juin",
+              "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (etalab-2.0)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Arrêté du 24 avril 1979, article 1 : interdiction nationale toute l'année sous 3 cm de diamètre et du 1er avril au 30 juin au-delà ; le préfet peut aller plus loin"
+        },
+        "texte_reglementaire_applicable": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Arrêté du 24 avril 1979, article 1",
+              "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (etalab-2.0)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            },
+            {
+              "valeur": "Arrêté du 24 avril 1979, article 1",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Arrêté du 24 avril 1979, article 1 (BDC Statuts et Légifrance reprennent le même texte : une seule origine)"
+        },
+        "convention_de_berne": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Annexe III",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Convention relative à la conservation de la vie sauvage et du milieu naturel de l'Europe (Berne, 19 septembre 1979)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Annexe III (espèce protégée dont l'exploitation est réglementée)"
+        },
+        "directive_habitats": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Annexe V",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Directive 92/43/CEE du Conseil du 21 mai 1992, modifiée",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Annexe V (prélèvement dans la nature pouvant faire l'objet de mesures de gestion)"
+        },
+        "protection_nationale_stricte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Aucune inscription sur une liste de protection stricte nationale dans BDC Statuts v18 ; seule figure la réglementation du ramassage de 1979",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "BDC Statuts v18 (MNHN, PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Pas de protection stricte nationale : l'espèce relève seulement d'une réglementation du ramassage"
+        },
+        "autres_reglementations": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La Réunion : introduction interdite (arrêté du 28 juin 2021, annexe 1, formes sauvages uniquement)",
+              "source": "BDC Statuts v18, export PatriNat (BDC.zip, fichier bdc_18_01.csv, SHA-256 d6da161a…3716)",
+              "origine": "Arrêté du 28 juin 2021 relatif à la prévention de l'introduction et de la propagation des espèces animales exotiques envahissantes sur le territoire de La Réunion",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 24/07/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "seuls des faits officiels sont repris (code, intitulé court, territoire) ; aucune partie substantielle de la base"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "La Réunion (hors champ métropolitain)"
+            }
+          ],
+          "valeur_synthese": "À La Réunion, l'espèce est traitée en exotique envahissante potentielle : introduction interdite (2021)"
+        },
+        "sensibilite_de_diffusion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Absente du référentiel de sensibilité SINP v18 : aucune règle de floutage des localisations",
+              "source": "Référentiel de sensibilité SINP v18, export PatriNat (SENSIBILITE.zip, RefSensibilite_18.csv)",
+              "origine": "Référentiel de sensibilité SINP v18 (MNHN, PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip",
+              "date_ou_version": "v18 (fichier du 08/08/2025)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Non vérifiée pendant cette exécution (export PatriNat)",
+                "contenu_repris": true,
+                "motif": "constat d'absence seulement"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Pas d'espèce sensible au sens du SINP ; grain de localisation non restreint par cette règle"
+        },
+        "exploitation_et_respect_de_la_reglementation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Travail commandé et payé par le ministère chargé de l'environnement pour préparer une révision de l'arrêté ; l'espèce est privilégiée en raison des menaces qui pèsent sur elle et parce que l'héliciculture ne maîtrise pas son élevage ; les enquêtes de terrain révèlent un non-respect de la réglementation",
+              "source": "Persée : Fortier A. 1999, Économie rurale n°252 (première page seulement lisible en texte)",
+              "origine": "Fortier, A. 1999. De l'efficacité sociale d'une réglementation. Le cas du ramassage de l'Helix pomatia. Économie rurale 252 : 28-34. DOI 10.3406/ecoru.1999.5097",
+              "url": "https://www.persee.fr/doc/ecoru_0013-0559_1999_num_252_1_5097",
+              "date_ou_version": "1999",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Conditions d'utilisation Persée non vérifiées pendant cette exécution",
+                "contenu_repris": true,
+                "motif": "seuls des faits sont repris, aucun texte"
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": "Ramassage sauvage seul (élevage non maîtrisé) et règle de 1979 mal respectée selon les enquêtes de Fortier (1999)"
+        },
+        "menaces": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Destruction continue des habitats et drainage ; la collecte commerciale serait en général une menace moindre ; en Angleterre, agriculture intensive",
+              "source": "Wikipédia en anglais, article « Helix pomatia » (texte source, action=raw)",
+              "origine": "AnimalBase (Université de Göttingen), Species summary for Helix pomatia, 5 mars 2009 — cité par Wikipédia en anglais",
+              "url": "https://en.wikipedia.org/w/index.php?title=Helix_pomatia&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Destruction des habitats et drainage (complément citant AnimalBase)"
+        },
+        "erreurs_signalees": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le texte en vigueur est daté du 24 avril 1979 (et non du 24 février) et l'interdiction permanente vise les coquilles de moins de 3 cm, pas celles de plus de 3 cm",
+              "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (etalab-2.0)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Wikipédia en français donne une date erronée (24 février 1979) et inverse la règle de taille : la version de Légifrance prévaut"
+        }
+      },
+      "prochaine_piste": "Évaluation mondiale UICN (Walther 2025, iucnredlist.org refusé) ; tendance française ; arrêtés préfectoraux départementaux ; Fortier 1999 en texte intégral."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "champs": {
+        "cadre_legal_de_la_manipulation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Prélever ou céder un individu vivant est interdit toute l'année si sa coquille fait moins de 3 cm et, quelle que soit la taille, entre le 1er avril et le 30 juin ; des arrêtés préfectoraux peuvent ajouter des restrictions",
+              "source": "Légifrance : Arrêté du 24 avril 1979 fixant la liste des escargots dont le ramassage et la cession à titre gratuit ou onéreux peuvent être interdits ou autorisés (version en vigueur au 27/11/2026), lu par l'agent de lecture web",
+              "origine": "Arrêté interministériel du 24 avril 1979 (JORF), articles en vigueur depuis le 12 mai 1979",
+              "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/",
+              "date_ou_version": "version en vigueur au 27/11/2026",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (etalab-2.0)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Observer sur place sans prélever ; tout ramassage est encadré par l'arrêté de 1979 et les arrêtés préfectoraux"
+        },
+        "indices_de_presence": {
+          "etat": "non_renseigne"
+        },
+        "conditions_de_detection": {
+          "etat": "non_renseigne"
+        },
+        "confusions": {
+          "etat": "non_renseigne"
+        }
+      },
+      "justification": "Aucune source de référence accessible sur les indices, la détectabilité ou les précautions propres à l'espèce ; seul le cadre réglementaire est documenté.",
+      "prochaine_piste": "Guides de terrain (Welter-Schultes 2012) ; protocoles d'inventaire de mollusques (atlas régionaux)."
+    }
   },
-  "point_de_reprise": [
-   "AnimalBase (fiche 812) : reconnaissance, reproduction, longévité, habitats — remplacerait la plupart des compléments",
-   "Korábek et al. 2018 et 2022 : aire indigène et origine des populations françaises (statut cryptogène)",
-   "Atlas INPN / OpenObs dès leur remise en ligne : répartition départementale, présence en Corse",
-   "Évaluation UICN mondiale 2025 (Walther) : date et justification",
-   "Web Ecology 2020, Journal of Conchology 2019 : prédateurs et parasites",
-   "Fortier 1999 en texte intégral : pratiques de ramassage et menaces en France"
-  ]
- },
- "historique": [
-  {
-   "date": "2026-11-27",
-   "decision": "creer_fiche",
-   "motif": "decider.py : creer_fiche — TAXREF v18, espèce au rang ES, nom accepté, code C (Cryptogène) dans la colonne FR, admis par la table de correspondance v18 (présence établie, origine indéterminée)",
-   "sources": [
-    "TAXREF v18"
-   ]
-  }
- ],
- "execution": {
-  "date": "2026-11-27",
-  "version_skill": "cadrage v0.6",
-  "requete": "Escargot de Bourgogne",
-  "sources_consultees": [
-   {
-    "source": "TAXREF v18 (export local)",
-    "version": "18",
-    "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
-   },
-   {
-    "source": "Catalogue of Life (ChecklistBank, 3LR)",
-    "version": "2026-11-11",
-    "url": "https://api.checklistbank.org/dataset/3LR"
-   },
-   {
-    "source": "GBIF Backbone (API species/match, vernacularNames)",
-    "version": "consultée le 2026-11-27",
-    "url": "https://api.gbif.org/v1/species/2294287"
-   },
-   {
-    "source": "Plazi : traitement de Linnaeus 1758, via l'API GBIF (CC0)",
-    "version": "1758",
-    "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50"
-   },
-   {
-    "source": "DAISIE via l'API GBIF (CC BY 4.0)",
-    "version": "2020-06-12",
-    "url": "https://api.gbif.org/v1/species/159517075/distributions"
-   },
-   {
-    "source": "BDC Statuts, export PatriNat",
-    "version": "18 (24/07/2025)",
-    "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip"
-   },
-   {
-    "source": "Référentiel de sensibilité SINP, export PatriNat",
-    "version": "18",
-    "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip"
-   },
-   {
-    "source": "UICN France : Liste rouge des mollusques continentaux de métropole (rapport et tableaux PDF)",
-    "version": "2021",
-    "url": "https://uicn.fr/liste-rouge-mollusques/"
-   },
-   {
-    "source": "Légifrance : arrêté du 24 avril 1979 (lu par l'agent de lecture web)",
-    "version": "en vigueur au 27/11/2026",
-    "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/"
-   },
-   {
-    "source": "Persée : Fortier 1999, Économie rurale 252 (première page)",
-    "version": "1999",
-    "url": "https://www.persee.fr/doc/ecoru_0013-0559_1999_num_252_1_5097"
-   },
-   {
-    "source": "OpenAlex (recherche bibliographique)",
-    "version": "consultée le 2026-11-27",
-    "url": "https://api.openalex.org/"
-   },
-   {
-    "source": "Wikidata Q245314 (aucun trait renseigné)",
-    "version": "révision 2569019884",
-    "url": "https://www.wikidata.org/wiki/Q245314"
-   },
-   {
-    "source": "Wikipédia en français, « Helix pomatia » (complément)",
-    "version": "consultée le 2026-11-27",
-    "url": "https://fr.wikipedia.org/wiki/Helix_pomatia"
-   },
-   {
-    "source": "Wikipédia en anglais, « Helix pomatia » (complément)",
-    "version": "consultée le 2026-11-27",
-    "url": "https://en.wikipedia.org/wiki/Helix_pomatia"
-   }
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "dimensions_coquille",
+          "description_originale",
+          "taille_minimale_reglementaire"
+        ],
+        "lacunes": [
+          "masse",
+          "aspect_coquille",
+          "especes_proches_et_criteres",
+          "limites_de_determination"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "statut_en_metropole",
+          "localite_type",
+          "aire_indigene",
+          "aire_indigene_detail",
+          "introductions_hors_aire"
+        ],
+        "lacunes": [
+          "presence_en_corse"
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "milieu_general",
+          "milieux",
+          "milieux_europe_centrale",
+          "altitude"
+        ],
+        "lacunes": [
+          "substrat",
+          "conditions_microclimatiques"
+        ]
+      },
+      "alimentation": {
+        "documentes": [
+          "regime",
+          "preferences"
+        ],
+        "lacunes": [
+          "besoins_mineraux"
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "periode_de_ponte",
+          "periode_reglementaire_de_protection",
+          "taille_de_ponte"
+        ],
+        "lacunes": [
+          "taille_des_oeufs",
+          "site_de_ponte",
+          "accouplement"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "incubation",
+          "maturite_sexuelle",
+          "longevite_sauvage"
+        ],
+        "lacunes": [
+          "longevite_captivite",
+          "mortalite_apres_ponte"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "cannibalisme_juvenile"
+        ],
+        "lacunes": [
+          "dispersion",
+          "sociabilite",
+          "communication"
+        ]
+      },
+      "activite": {
+        "documentes": [],
+        "lacunes": [
+          "hivernation_estivation",
+          "activite_journaliere"
+        ]
+      },
+      "interactions": {
+        "documentes": [],
+        "lacunes": [
+          "predateurs",
+          "parasites",
+          "role_ecologique"
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_nationale",
+          "tendance_nationale",
+          "liste_rouge_mondiale",
+          "listes_rouges_regionales",
+          "reglementation_du_ramassage",
+          "texte_reglementaire_applicable",
+          "convention_de_berne",
+          "directive_habitats",
+          "protection_nationale_stricte",
+          "autres_reglementations",
+          "sensibilite_de_diffusion",
+          "exploitation_et_respect_de_la_reglementation",
+          "menaces",
+          "erreurs_signalees"
+        ],
+        "lacunes": []
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "cadre_legal_de_la_manipulation"
+        ],
+        "lacunes": [
+          "indices_de_presence",
+          "conditions_de_detection",
+          "confusions"
+        ]
+      }
+    },
+    "point_de_reprise": [
+      "AnimalBase (fiche 812) : reconnaissance, reproduction, longévité, habitats — remplacerait la plupart des compléments",
+      "Korábek et al. 2018 et 2022 : aire indigène et origine des populations françaises (statut cryptogène)",
+      "Atlas INPN / OpenObs dès leur remise en ligne : répartition départementale, présence en Corse",
+      "Évaluation UICN mondiale 2025 (Walther) : date et justification",
+      "Web Ecology 2020, Journal of Conchology 2019 : prédateurs et parasites",
+      "Fortier 1999 en texte intégral : pratiques de ramassage et menaces en France"
+    ]
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "decider.py : creer_fiche — TAXREF v18, espèce au rang ES, nom accepté, code C (Cryptogène) dans la colonne FR, admis par la table de correspondance v18 (présence établie, origine indéterminée)",
+      "sources": [
+        "TAXREF v18"
+      ]
+    }
   ],
-  "indisponibilites": [
-   {
-    "source": "INPN (fiche espèce, atlas, documents) et OpenObs",
-    "motif": "HTTP 403 (hors ligne / refusé) le 27/11/2026"
-   },
-   {
-    "source": "TAXREF API web",
-    "motif": "non utilisée : protection anti-robots ; export local utilisé"
-   },
-   {
-    "source": "AnimalBase (Université de Göttingen)",
-    "motif": "connexion refusée par le proxy, en direct et via l'agent de lecture web"
-   },
-   {
-    "source": "Liste rouge mondiale UICN (iucnredlist.org)",
-    "motif": "HTTP 403"
-   },
-   {
-    "source": "Biodiversity Heritage Library",
-    "motif": "HTTP 403"
-   },
-   {
-    "source": "Revues : OUP (Biol. J. Linn. Soc., J. Molluscan Stud.), MDPI (Diversity), Folia Malacologica, Copernicus (Web Ecology), Sciendo, Canadian Field-Naturalist, Malacologica Bohemoslovaca, Bioscientifica",
-    "motif": "connexions refusées par le proxy (direct et agent)"
-   },
-   {
-    "source": "HAL INRAE, AgEcon Search, API HAL, Europe PMC, Crossref, doi.org",
-    "motif": "connexions refusées par le proxy"
-   },
-   {
-    "source": "Wikipédia en allemand",
-    "motif": "connexion refusée par le proxy"
-   },
-   {
-    "source": "MolluscaBase / WoRMS, EUR-Lex",
-    "motif": "connexions refusées par le proxy"
-   }
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "cadrage v0.6",
+    "requete": "Escargot de Bourgogne",
+    "sources_consultees": [
+      {
+        "source": "TAXREF v18 (export local)",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank, 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR"
+      },
+      {
+        "source": "GBIF Backbone (API species/match, vernacularNames)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.gbif.org/v1/species/2294287"
+      },
+      {
+        "source": "Plazi : traitement de Linnaeus 1758, via l'API GBIF (CC0)",
+        "version": "1758",
+        "url": "https://api.gbif.org/v1/species/2294287/descriptions?limit=50"
+      },
+      {
+        "source": "DAISIE via l'API GBIF (CC BY 4.0)",
+        "version": "2020-06-12",
+        "url": "https://api.gbif.org/v1/species/159517075/distributions"
+      },
+      {
+        "source": "BDC Statuts, export PatriNat",
+        "version": "18 (24/07/2025)",
+        "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip"
+      },
+      {
+        "source": "Référentiel de sensibilité SINP, export PatriNat",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip"
+      },
+      {
+        "source": "UICN France : Liste rouge des mollusques continentaux de métropole (rapport et tableaux PDF)",
+        "version": "2021",
+        "url": "https://uicn.fr/liste-rouge-mollusques/"
+      },
+      {
+        "source": "Légifrance : arrêté du 24 avril 1979 (lu par l'agent de lecture web)",
+        "version": "en vigueur au 27/11/2026",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074396/"
+      },
+      {
+        "source": "Persée : Fortier 1999, Économie rurale 252 (première page)",
+        "version": "1999",
+        "url": "https://www.persee.fr/doc/ecoru_0013-0559_1999_num_252_1_5097"
+      },
+      {
+        "source": "OpenAlex (recherche bibliographique)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.openalex.org/"
+      },
+      {
+        "source": "Wikidata Q245314 (aucun trait renseigné)",
+        "version": "révision 2569019884",
+        "url": "https://www.wikidata.org/wiki/Q245314"
+      },
+      {
+        "source": "Wikipédia en français, « Helix pomatia » (complément)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://fr.wikipedia.org/wiki/Helix_pomatia"
+      },
+      {
+        "source": "Wikipédia en anglais, « Helix pomatia » (complément)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://en.wikipedia.org/wiki/Helix_pomatia"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "INPN (fiche espèce, atlas, documents) et OpenObs",
+        "motif": "HTTP 403 (hors ligne / refusé) le 27/11/2026"
+      },
+      {
+        "source": "TAXREF API web",
+        "motif": "non utilisée : protection anti-robots ; export local utilisé"
+      },
+      {
+        "source": "AnimalBase (Université de Göttingen)",
+        "motif": "connexion refusée par le proxy, en direct et via l'agent de lecture web"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "Biodiversity Heritage Library",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "Revues : OUP (Biol. J. Linn. Soc., J. Molluscan Stud.), MDPI (Diversity), Folia Malacologica, Copernicus (Web Ecology), Sciendo, Canadian Field-Naturalist, Malacologica Bohemoslovaca, Bioscientifica",
+        "motif": "connexions refusées par le proxy (direct et agent)"
+      },
+      {
+        "source": "HAL INRAE, AgEcon Search, API HAL, Europe PMC, Crossref, doi.org",
+        "motif": "connexions refusées par le proxy"
+      },
+      {
+        "source": "Wikipédia en allemand",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "MolluscaBase / WoRMS, EUR-Lex",
+        "motif": "connexions refusées par le proxy"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "role": "paysage",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AHelix_pomatia_89a.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Helix_pomatia_89a.jpg/1280px-Helix_pomatia_89a.jpg",
+      "titre": "Helix pomatia 89a.jpg",
+      "auteur": "Waugsberg",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "largeur": 3425,
+      "hauteur": 2283,
+      "orientation": "paysage",
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Waugsberg, CC BY-SA 3.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Helix pomatia », reliée à l'élément Wikidata Q245314 dont le nom scientifique (P225) est « Helix pomatia »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte en déplacement sur une tige, tentacules sortis"
+    },
+    {
+      "role": "portrait",
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/78997408",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/78997408/large.jpeg",
+      "titre": "Photo iNaturalist 78997408",
+      "auteur": "Patrick Meurin",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 1536,
+      "hauteur": 2048,
+      "orientation": "portrait",
+      "qualite": "observation iNaturalist classée par votes (1 favoris)",
+      "credit": "Photo : Patrick Meurin, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 49758933 de qualité recherche : espèce « Helix pomatia » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte grimpant sur une tige d'herbe"
+    }
   ]
- }
 }

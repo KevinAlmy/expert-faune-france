@@ -95,6 +95,10 @@ def meilleure_licence(modeles: list[str]) -> tuple[str, str]:
 def nettoyer_auteur(texte: str) -> str:
     """Retire le balisage wiki ou HTML d'un nom d'auteur."""
     t = re.sub(r"<[^>]+>", "", html.unescape(texte or ""))
+    m = re.match(r"No machine-readable author provided\.\s*(.+?)\s+assumed", t)
+    if m:  # texte automatique de Commons : l'auteur présumé est le déposant
+        t = m.group(1)
+    t = t.replace("'''", "").replace("''", "")
     t = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]+)\]\]", r"\1", t)  # [[User:X|Nom]] → Nom
     t = re.sub(r"\[https?://\S+\s+([^\]]+)\]", r"\1", t)  # [url Nom] → Nom
     t = re.sub(r"\{\{[^}]*\}\}", "", t)
@@ -276,6 +280,17 @@ def dimensions_distantes(url: str) -> dict | None:
 
 # ---------------------------------------------------------------- iNaturalist
 
+def auteur_inaturalist(photo: dict, observation: dict) -> str:
+    """Nom à créditer : celui de l'attribution, sinon celui de l'observateur
+    (une photo CC0 porte seulement « no rights reserved »)."""
+    texte = re.sub(r"^\(c\)\s*|,?\s*(some|no|all) rights reserved.*$", "", photo.get("attribution") or "", flags=re.I)
+    nom = nettoyer_auteur(photo.get("attribution_name") or texte)
+    if not nom:
+        utilisateur = observation.get("user") or {}
+        nom = utilisateur.get("name") or utilisateur.get("login") or ""
+    return nom
+
+
 def photos_inaturalist(nom: str, profil: dict | None = None) -> list[dict]:
     """Photos des observations de « qualité recherche » (espèce validée par la communauté),
     classées par nombre de favoris, sous licence réutilisable."""
@@ -308,7 +323,7 @@ def photos_inaturalist(nom: str, profil: dict | None = None) -> list[dict]:
             "url_image": (p.get("url") or "").replace("/square.", "/large."),
             "licence": code,
             "version": version or "4.0",
-            "auteur": nettoyer_auteur(re.sub(r"^\(c\)\s*|,\s*some rights reserved.*$|,\s*no rights reserved.*$", "", p.get("attribution") or "")),
+            "auteur": auteur_inaturalist(p, obs),
             "largeur": dims.get("width"),
             "hauteur": dims.get("height"),
             "lecture": "API iNaturalist",

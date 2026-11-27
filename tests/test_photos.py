@@ -56,3 +56,11 @@ def test_adresse_miniature_commons():
     url = url_miniature_commons("Common frog.jpg")
     assert url.startswith("https://upload.wikimedia.org/wikipedia/commons/thumb/")
     assert url.endswith("/1280px-Common_frog.jpg")
+
+
+def test_auteurs_nettoyes():
+    from photos import auteur_inaturalist, nettoyer_auteur
+    assert nettoyer_auteur("'''Dark'''one") == "Darkone"
+    assert nettoyer_auteur("No machine-readable author provided. Esv assumed (based on copyright claims).") == "Esv"
+    assert auteur_inaturalist({"attribution": "no rights reserved"}, {"user": {"login": "jdupont", "name": ""}}) == "jdupont"
+    assert auteur_inaturalist({"attribution": "(c) Marie Curie, some rights reserved (CC BY)"}, {}) == "Marie Curie"

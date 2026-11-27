@@ -2674,5 +2674,51 @@
         "motif": "Limite de débit (HTTP 429) ou connexion refusée ; l'élément Q6145 a été lu par Special:EntityData"
       }
     ]
-  }
+  },
+  "photos": [
+    {
+      "role": "paysage",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AWest_European_Hedgehog_%28Erinaceus_europaeus%291.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/West_European_Hedgehog_%28Erinaceus_europaeus%291.jpg/1280px-West_European_Hedgehog_%28Erinaceus_europaeus%291.jpg",
+      "titre": "West European Hedgehog (Erinaceus europaeus)1.jpg",
+      "auteur": "Hrald",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "largeur": 2500,
+      "hauteur": 1662,
+      "orientation": "paysage",
+      "qualite": "Featured picture de Commons (sélection des meilleures photos)",
+      "credit": "Photo : Hrald, CC BY-SA 3.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Erinaceus europaeus », reliée à l'élément Wikidata Q6145 dont le nom scientifique (P225) est « Erinaceus europaeus »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte de profil sur un sol forestier moussu, lumière douce"
+    },
+    {
+      "role": "portrait",
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/12522380",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/12522380/large.jpg",
+      "titre": "Photo iNaturalist 12522380",
+      "auteur": "Spontex + Scotch Brite",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 1536,
+      "hauteur": 2048,
+      "orientation": "portrait",
+      "qualite": "observation iNaturalist classée par votes (1 favoris)",
+      "credit": "Photo : Spontex + Scotch Brite, CC BY 4.0, via iNaturalist, recadrée",
+      "verification": "observation iNaturalist 9248744 de qualité recherche : espèce « Erinaceus europaeus » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte dans les feuilles mortes, de trois quarts",
+      "recadrage": {
+        "x": 0.0,
+        "y": 0.0,
+        "largeur": 0.88,
+        "hauteur": 1.0
+      }
+    }
+  ]
 }

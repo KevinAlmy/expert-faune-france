@@ -1747,5 +1747,45 @@
         "motif": "connexion refusée par la politique réseau de la session"
       }
     ]
-  }
+  },
+  "photos": [
+    {
+      "role": "paysage",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AAix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Aix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg/1280px-Aix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg",
+      "titre": "Aix-en-provence 1980 - Schwalbenschwanz (ExaI0327).jpg",
+      "auteur": "Michael Wittwer",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 1280,
+      "hauteur": 853,
+      "orientation": "paysage",
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Michael Wittwer, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Papilio machaon », reliée à l'élément Wikidata Q179530 dont le nom scientifique (P225) est « Papilio machaon »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte ailes ouvertes, motifs nets, vu de dessus"
+    },
+    {
+      "role": "portrait",
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/218515950",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/218515950/large.jpeg",
+      "titre": "Photo iNaturalist 218515950",
+      "auteur": "Fethullah ÖZTÜRK",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 691,
+      "hauteur": 885,
+      "orientation": "portrait",
+      "qualite": "observation iNaturalist classée par votes (1 favoris)",
+      "credit": "Photo : Fethullah ÖZTÜRK, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 128639016 de qualité recherche : espèce « Papilio machaon » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte en vol sur fond flou"
+    }
+  ]
 }

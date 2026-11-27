@@ -2238,5 +2238,51 @@
         "motif": "refuse les accès automatisés ; export local utilisé"
       }
     ]
-  }
+  },
+  "photos": [
+    {
+      "role": "paysage",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AEsox_Lucius.JPG",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/1280px-Esox_Lucius.JPG",
+      "titre": "Esox Lucius.JPG",
+      "auteur": "Georg Mittenecker",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 2.5",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "largeur": 2560,
+      "hauteur": 1920,
+      "orientation": "paysage",
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Georg Mittenecker, CC BY-SA 2.5, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Esox lucius », reliée à l'élément Wikidata Q165278 dont le nom scientifique (P225) est « Esox lucius »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte sous l'eau, de profil, parmi d'autres poissons"
+    },
+    {
+      "role": "portrait",
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AEsox_Lucius.JPG",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/1280px-Esox_Lucius.JPG",
+      "titre": "Esox Lucius.JPG",
+      "auteur": "Georg Mittenecker",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 2.5",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "largeur": 2560,
+      "hauteur": 1920,
+      "orientation": "paysage",
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Georg Mittenecker, CC BY-SA 2.5, via Wikimedia Commons, recadrée",
+      "verification": "fichier de la catégorie Commons « Esox lucius », reliée à l'élément Wikidata Q165278 dont le nom scientifique (P225) est « Esox lucius »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Même photo, recadrée sur la tête et l'avant du corps",
+      "recadrage": {
+        "x": 0.45,
+        "y": 0.1,
+        "largeur": 0.45,
+        "hauteur": 0.75
+      }
+    }
+  ]
 }
