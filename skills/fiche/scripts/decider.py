@@ -52,7 +52,10 @@ def _faits_presence(dossier: dict) -> tuple[str, str | None, list[dict], str]:
     if taxref:
         decision = taxref.get("decision")
         if decision == "fiche":
-            return "etablie", taxref.get("qualification"), [{"type": "taxref", **taxref}], (
+            preuve = {**taxref, "type": "taxref", "origine": f"TAXREF v{taxref.get('version')}"}
+            if "origine" in taxref:
+                preuve["origine_biogeographique"] = taxref["origine"]
+            return "etablie", taxref.get("qualification"), [preuve], (
                 f"TAXREF v{taxref.get('version')} : code {taxref.get('code')} ({taxref.get('signification')})"
             )
         if decision == "exclusion":

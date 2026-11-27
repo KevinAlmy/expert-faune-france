@@ -7,6 +7,9 @@ Première version (V1 du cadrage v0.6).
 - Skill `fiche` : création, vérification, correction et enrichissement d'une fiche, entièrement automatiques.
 - Export TAXREF v18 local : recherche par nom retenu, synonyme ou nom vernaculaire ; table officielle des codes de la colonne `FR` (France hexagonale et Corse) et décision associée.
 - Règles de décision exécutables (`scripts/decider.py`) et 21 cas de test, dont la scission avec présence établie pour un seul taxon résultant.
+- Page HTML lisible de chaque fiche ou candidature (`scripts/rendre.py`), valeurs échappées, liens limités au web.
+- Exemple réel : `docs/exemples/grenouille-rousse-EFF-000001.json`, produit par le skill de bout en bout.
+- Correction : l'origine d'une preuve TAXREF n'est plus écrasée par l'origine biogéographique (relevé par le premier essai).
 - Schémas JSON : fiche (11 familles d'enrichissement, bilan de couverture), candidature, affirmation, états, rapport d'exécution.
 - Plugin et marketplace Claude Code.
 

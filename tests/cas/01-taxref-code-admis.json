@@ -24,7 +24,12 @@
     "admission": {
       "decision": "creer_fiche",
       "voie": "taxref",
-      "qualification": "etablie"
+      "qualification": "etablie",
+      "preuves": {
+        "presence": [
+          "TAXREF v18"
+        ]
+      }
     }
   }
 }

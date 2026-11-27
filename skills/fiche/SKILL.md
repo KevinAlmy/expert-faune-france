@@ -80,11 +80,12 @@ Suis [reference/enrichissement.md](reference/enrichissement.md) : parcours **tou
 
 1. Valide : `python3 "${CLAUDE_SKILL_DIR}/scripts/valider.py" fiches/<id>.json`. Corrige jusqu'à `✔`.
 2. Mets à jour `fiches/index.json` (noms, synonymes, identifiants externes, historique).
-3. Réponds à l'utilisateur, en français :
+3. Produis la page lisible : `python3 "${CLAUDE_SKILL_DIR}/scripts/rendre.py" fiches/<id>.json` (écrit `fiches/<id>.html`, à ouvrir dans un navigateur).
+4. Réponds à l'utilisateur, en français :
    - **en tête** : sources réellement consultées (avec version) et indisponibilités ;
    - la décision et son motif ;
    - une synthèse lisible par famille : ce qui est établi, incertain, contradictoire, manquant ;
    - le bilan de couverture et les prochaines pistes ;
-   - le chemin du fichier JSON produit.
+   - les chemins du fichier JSON et de la page HTML produits.
 
 Ne déclare jamais une fiche complète : l'état `fiche_documentee` exige une passe terminée et un bilan explicite des lacunes.
