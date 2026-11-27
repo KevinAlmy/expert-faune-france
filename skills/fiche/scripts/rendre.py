@@ -16,6 +16,9 @@ import sys
 from html import escape
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from reformulation import affirmations  # noqa: E402  (même parcours que le contrôle de reformulation)
+
 FAMILLES = {
     "reconnaissance": "Reconnaissance",
     "repartition": "Présence et répartition",
@@ -121,6 +124,9 @@ h2{font-size:28px;line-height:1.1;letter-spacing:-.01em;margin:0 0 6px}
 .cols ol,.cols ul{padding-left:20px;margin:0}
 .cols li{margin-bottom:8px;overflow-wrap:anywhere}
 .sm{font-size:14px;color:var(--mute)}
+.appel{font-size:13px;font-weight:600;color:var(--doc);text-decoration:none;margin-left:2px}
+.biblio{padding-left:28px;margin:0;columns:2 22em;column-gap:40px}
+.biblio li{break-inside:avoid;margin-bottom:12px;overflow-wrap:anywhere}
 footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px}
 """
 
@@ -167,7 +173,35 @@ def affirmation(a: dict) -> str:
     )
 
 
-def champ(nom: str, c: dict) -> str:
+def references(doc: dict) -> list[dict]:
+    """Bibliographie de la fiche : une entrée par origine (ouvrage, étude ou jeu de données),
+    numérotée dans l'ordre d'apparition, avec les pages par lesquelles elle a été consultée.
+    Fonction réutilisable par une application qui affiche une section « Sources »."""
+    liste: list[dict] = []
+    index: dict[str, dict] = {}
+    for _, a in affirmations(doc):
+        cle = a.get("origine") or a.get("source")
+        if cle not in index:
+            index[cle] = {"numero": len(liste) + 1, "origine": cle, "acces": []}
+            liste.append(index[cle])
+        acces = {
+            "source": a.get("source"),
+            "url": a.get("url"),
+            "licence": a.get("reutilisation", {}).get("licence"),
+            "consulte_le": a.get("consulte_le"),
+            "niveau": a.get("niveau", "reference"),
+        }
+        if acces not in index[cle]["acces"]:
+            index[cle]["acces"].append(acces)
+    return liste
+
+
+def appels(affs: list[dict], numeros: dict[str, int]) -> str:
+    nums = sorted({numeros[a.get("origine") or a.get("source")] for a in affs if (a.get("origine") or a.get("source")) in numeros})
+    return "".join(f'<a class="appel" href="#ref-{n}">[{n}]</a>' for n in nums)
+
+
+def champ(nom: str, c: dict, numeros: dict[str, int] | None = None) -> str:
     etat = c.get("etat", "non_renseigne")
     affs = c.get("affirmations") or []
     complement = '<span class="pastille p-complement">Complément</span>' if c.get("niveau") == "complement" else ""
@@ -183,7 +217,7 @@ def champ(nom: str, c: dict) -> str:
         else ""
     )
     return (
-        f'<div class="champ"><h4>{e(libelle(nom))}<span>{complement} <span class="pastille p-{e(etat)}">{e(ETATS_CHAMP.get(etat, etat))}</span></span></h4>'
+        f'<div class="champ"><h4><span>{e(libelle(nom))} {appels(affs, numeros or {})}</span><span>{complement} <span class="pastille p-{e(etat)}">{e(ETATS_CHAMP.get(etat, etat))}</span></span></h4>'
         f"{liste_valeurs(c.get('valeur_synthese'))}{preuves}</div>"
     )
 
@@ -209,6 +243,27 @@ def pied(doc: dict) -> str:
     )
 
 
+def bibliographie(doc: dict) -> str:
+    entrees = []
+    for r in references(doc):
+        acces = "".join(
+            f"<div class=sm>via {lien(x['source'], x['url'])}"
+            f"{' (source de complément)' if x['niveau'] == 'complement' else ''}"
+            f"{', licence ' + e(x['licence']) if x['licence'] else ''}"
+            f"{', consulté le ' + e(x['consulte_le']) if x['consulte_le'] else ''}</div>"
+            for x in r["acces"]
+            if x["source"] != r["origine"] or x["url"]
+        )
+        entrees.append(f'<li id="ref-{r["numero"]}" value="{r["numero"]}"><div>{e(r["origine"])}</div>{acces}</li>')
+    if not entrees:
+        return ""
+    return (
+        '<section class="band" id="references"><div class="wrap"><h2>Sources</h2>'
+        "<p class=lead>Chaque information renvoie ici par son numéro. Les textes ont été reformulés ; seuls les faits sont repris.</p>"
+        f'<ol class="biblio">{"".join(entrees)}</ol></div></section>'
+    )
+
+
 def sources(doc: dict) -> str:
     ex = doc.get("execution", {})
     lues = "".join(
@@ -222,7 +277,7 @@ def sources(doc: dict) -> str:
     )
     return (
         '<section class="band" id="sources"><div class="wrap cols">'
-        f"<div><h2>Sources lues</h2><ol>{lues or '<li>Aucune</li>'}</ol></div>"
+        f"<div><h2>Pages et bases ouvertes</h2><ol>{lues or '<li>Aucune</li>'}</ol></div>"
         f"<div><h2>Sources non lues</h2><p class=lead>Déclarées telles quelles : rien n'y est attribué.</p><ul>{ko or '<li>Aucune</li>'}</ul></div>"
         "</div></section>"
     )
@@ -257,6 +312,7 @@ def rendre_fiche(d: dict) -> str:
             f'<span class="rech">{e(ETATS_RECHERCHE.get(fam["recherche"], fam["recherche"]))}</span></div>'
         )
 
+    numeros = {r["origine"]: r["numero"] for r in references(d)}
     familles = []
     for cle, nom in FAMILLES.items():
         fam = d["familles"].get(cle)
@@ -266,7 +322,7 @@ def rendre_fiche(d: dict) -> str:
         piste = f'<p class="piste"><b>Prochaine piste :</b> {e(fam["prochaine_piste"])}</p>' if fam.get("prochaine_piste") else ""
         familles.append(
             f'<article class="fam" id="{e(cle)}"><h3>{e(nom)}</h3>{just}'
-            + "".join(champ(n, c) for n, c in fam["champs"].items())
+            + "".join(champ(n, c, numeros) for n, c in fam["champs"].items())
             + f"{piste}</article>"
         )
 
@@ -299,6 +355,7 @@ def rendre_fiche(d: dict) -> str:
         + "</div></div></section>"
         f'<section class="band" style="padding-top:0"><div class="wrap familles">{"".join(familles)}</div></section>'
         + (f'<section class="band" style="padding-top:0"><div class="wrap"><h2>Reprise prévue</h2><ul>{reprise}</ul></div></section>' if reprise else "")
+        + bibliographie(d)
         + sources(d)
         + pied(d)
     )

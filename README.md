@@ -47,6 +47,12 @@ Le skill s'appuie sur l'**export officiel TAXREF** (MNHN, Licence Ouverte 2.0), 
 
 Les autres sources (Catalogue of Life, GBIF, littérature…) sont consultées selon l'accès réseau de votre environnement. Chaque exécution indique celles qui ont réellement été consultées.
 
+Quand les sources de référence ne suffisent pas, le skill complète les champs vides avec des **sources de complément** (Wikipédia et sites naturalistes), marquées comme telles. Les textes sont **toujours reformulés** (contrôle automatique) ; seuls les faits sont repris, avec leur source. La liste des sites et ce que chacun permet à grande échelle sont dans [`skills/fiche/reference/sources.md`](skills/fiche/reference/sources.md).
+
+## Afficher les sources dans une application
+
+Chaque information d'une fiche porte son ouvrage d'origine (`origine`), la page lue (`source`, `url`), la licence et la date. La page HTML en tire une section « Sources » numérotée ; une application peut faire de même avec la fonction `references()` de `skills/fiche/scripts/rendre.py`, ou en regroupant les affirmations par `origine`. Citer ces sources est une condition des licences ouvertes (CC BY, CC BY-SA).
+
 ## Contenu du dépôt
 
 | Chemin | Rôle |
@@ -55,7 +61,7 @@ Les autres sources (Catalogue of Life, GBIF, littérature…) sont consultées s
 | `skills/fiche/reference/` | Décisions automatiques, méthode, enrichissement, sources |
 | `skills/fiche/schemas/` | Schémas JSON : fiche, candidature, affirmation, états, rapport d'exécution |
 | `skills/fiche/config/` | Table des codes TAXREF v18, exemple de profil de projet |
-| `skills/fiche/scripts/` | Recherche TAXREF, règles de décision exécutables, validation |
+| `skills/fiche/scripts/` | Recherche TAXREF, règles de décision exécutables, validation, contrôle de reformulation, page HTML |
 | `tests/` | Cas de test avec résultat attendu |
 | `docs/` | Cadrage de la méthode |
 

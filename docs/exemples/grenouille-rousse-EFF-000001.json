@@ -228,7 +228,7 @@
           "etat": "documente",
           "affirmations": [
             {
-              "valeur": "Pattes postérieures courtes : rabattue vers l'avant, le talon dépasse rarement le bout du museau",
+              "valeur": "Membres postérieurs peu allongés : ramenée le long du corps, l'articulation tibio-tarsienne atteint en général au plus l'extrémité du museau",
               "source": "Wikipédia en français, article « Grenouille rousse »",
               "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
               "origine": "Arnold N. & Ovenden D. 2010. Le guide herpéto. Delachaux & Niestlé",
@@ -245,7 +245,7 @@
             }
           ],
           "valeur_synthese": [
-            "Pattes postérieures courtes : rabattue vers l'avant, le talon dépasse rarement le bout du museau"
+            "Membres postérieurs peu allongés : ramenée le long du corps, l'articulation tibio-tarsienne atteint en général au plus l'extrémité du museau"
           ],
           "niveau": "complement"
         },
@@ -253,7 +253,7 @@
           "etat": "incertain",
           "affirmations": [
             {
-              "valeur": "Dessus jaune-rouge à brun-noir, souvent taché de sombre ; flancs mouchetés ou marbrés ; ventre gris-blanchâtre chez le mâle, tacheté ou voilé de rouge chez la femelle",
+              "valeur": "Face dorsale allant du jaune rougeâtre au brun très sombre, ponctuée de taches foncées ; côtés tachetés ou marbrés ; face ventrale grisâtre pâle chez les mâles, parsemée de taches ou teintée de rougeâtre chez les femelles",
               "source": "Wikipédia en français, article « Grenouille rousse »",
               "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
               "origine": "Wikipédia en français, article « Grenouille rousse »",
@@ -270,7 +270,7 @@
             }
           ],
           "valeur_synthese": [
-            "Dessus jaune-rouge à brun-noir, souvent taché de sombre ; flancs mouchetés ou marbrés ; ventre gris-blanchâtre chez le mâle, tacheté ou voilé de rouge chez la femelle"
+            "Face dorsale allant du jaune rougeâtre au brun très sombre, ponctuée de taches foncées ; côtés tachetés ou marbrés ; face ventrale grisâtre pâle chez les mâles, parsemée de taches ou teintée de rougeâtre chez les femelles"
           ],
           "niveau": "complement"
         },
@@ -350,7 +350,7 @@
           "etat": "documente",
           "affirmations": [
             {
-              "valeur": "La femelle est plus grosse que le mâle",
+              "valeur": "Les femelles atteignent une taille supérieure à celle des mâles",
               "source": "Wikipédia en français, article « Grenouille rousse »",
               "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
               "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
@@ -367,7 +367,7 @@
             }
           ],
           "valeur_synthese": [
-            "La femelle est plus grosse que le mâle"
+            "Les femelles atteignent une taille supérieure à celle des mâles"
           ],
           "niveau": "complement"
         },
@@ -745,7 +745,7 @@
               "territoire": "France"
             },
             {
-              "valeur": "Début des pontes avancé de 27 jours entre 1984 et 2007 (suivi de 23 ans des sites de ponte)",
+              "valeur": "Sur 23 années de suivi de sites de ponte, la date des premières pontes a reculé de 27 jours (1984 → 2007), vers plus de précocité",
               "source": "Wikipédia en français, article « Grenouille rousse »",
               "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
               "origine": "Neveu A. 2009. Acta Oecologica 35 : 671-678",
@@ -781,7 +781,7 @@
           ],
           "valeur_synthese": [
             "France : Migration et pontes de janvier-février à avril selon l'altitude et la végétation ; beaucoup plus tard en montagne",
-            "Bretagne : Début des pontes avancé de 27 jours entre 1984 et 2007 (suivi de 23 ans des sites de ponte)",
+            "Bretagne : Sur 23 années de suivi de sites de ponte, la date des premières pontes a reculé de 27 jours (1984 → 2007), vers plus de précocité",
             "aire de répartition : Pontes entre fin février et fin juin, le plus souvent en avril sur l'essentiel de l'aire"
           ],
           "niveau": "complement"
@@ -892,7 +892,7 @@
           "etat": "incertain",
           "affirmations": [
             {
-              "valeur": "Environ deux fois plus de mâles que de femelles sur les sites de reproduction",
+              "valeur": "Sur les lieux de ponte, les mâles sont environ deux fois plus nombreux que les femelles",
               "source": "Wikipédia en français, article « Grenouille rousse »",
               "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
               "origine": "Wikipédia en français, article « Grenouille rousse »",
@@ -909,7 +909,7 @@
             }
           ],
           "valeur_synthese": [
-            "Environ deux fois plus de mâles que de femelles sur les sites de reproduction"
+            "Sur les lieux de ponte, les mâles sont environ deux fois plus nombreux que les femelles"
           ],
           "niveau": "complement"
         }
@@ -1138,7 +1138,7 @@
           "etat": "incertain",
           "affirmations": [
             {
-              "valeur": "Active de jour comme de nuit (cachée par fortes chaleurs) ; environ quatre mois d'hibernation ; au printemps site de ponte, en été site d'alimentation, puis site d'hibernation",
+              "valeur": "Activité diurne et nocturne, avec repli à l'abri lors des journées très chaudes ; hibernation d'environ quatre mois ; au fil de l'année, trois milieux successifs : point d'eau de ponte au printemps, zone d'alimentation en été, abri d'hivernage",
               "source": "Wikipédia en français, article « Grenouille rousse »",
               "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
               "origine": "Wikipédia en français, article « Grenouille rousse »",
@@ -1156,7 +1156,7 @@
             }
           ],
           "valeur_synthese": [
-            "France : Active de jour comme de nuit (cachée par fortes chaleurs) ; environ quatre mois d'hibernation ; au printemps site de ponte, en été site d'alimentation, puis site d'hibernation"
+            "France : Activité diurne et nocturne, avec repli à l'abri lors des journées très chaudes ; hibernation d'environ quatre mois ; au fil de l'année, trois milieux successifs : point d'eau de ponte au printemps, zone d'alimentation en été, abri d'hivernage"
           ],
           "niveau": "complement"
         },

@@ -15,14 +15,37 @@ Cadrage v0.6, section 8. Un skill n'a pas d'accès réseau propre : il consulte 
 
 ## Sources de complément
 
-Quand les sources de référence ne renseignent pas un champ (accès refusé, lacune), le skill consulte ensuite des sources de complément, **pour ce champ seulement** :
+Quand les sources de référence ne renseignent pas un champ (accès refusé, lacune), le skill consulte ensuite des sources de complément, **pour ce champ seulement**. Chaque affirmation porte `niveau: "complement"` et `reference_citee` (vrai si la page cite un ouvrage pour cette valeur, qui devient l'`origine`). Un complément ne remplace jamais une source de référence, ne rend jamais un champ `corrobore`, et une valeur sans ouvrage cité reste `incertain` (voir `decisions.md`).
 
-| Source | Accès | Licence | Usage |
-|---|---|---|---|
-| Wikipédia (français, puis anglais et langues de l'aire) | `https://fr.wikipedia.org/w/index.php?title=<Titre>&action=raw` (texte source avec ses références) | CC BY-SA 4.0 | Faits reformulés, jamais de texte recopié ; l'origine est l'ouvrage cité par la page, la source est la page avec sa date de consultation |
-| AmphibiaWeb, sites de sociétés savantes, fiches pédagogiques d'organismes publics | Sites des éditeurs | Selon le site | Idem ; une page protégée par une vérification anti-robots n'est pas contournée |
+### Reformulation (obligatoire)
 
-Règles : chaque affirmation porte `niveau: "complement"` et `reference_citee` (vrai si la page cite un ouvrage pour cette valeur). Un complément ne remplace jamais une source de référence, ne rend jamais un champ `corrobore`, et une valeur sans référence citée reste `incertain` (voir `decisions.md`). Les compléments sont affichés comme tels dans la fiche et la page HTML.
+Les faits ne sont pas protégés par le droit d'auteur, le texte l'est. Toute valeur est donc **réécrite intégralement** (règle 6 de `SKILL.md`) et contrôlée par `scripts/reformulation.py` : aucune suite de 6 mots identiques à la page lue n'est acceptée.
+
+### Volume : ce que chaque site permet
+
+Reformuler protège contre le droit d'auteur, **pas** contre le droit des bases de données : en Europe, extraire une partie substantielle d'une base, ou en extraire de petites parties de façon répétée et systématique, est interdit sans autorisation (Code de la propriété intellectuelle, art. L342-1 et L342-2). D'où deux politiques :
+
+- **usage systématique** : licence ouverte qui autorise la réutilisation, base comprise ; utilisable pour tout le catalogue en respectant les conditions (citation ; partage à l'identique pour CC BY-SA ; pas d'usage commercial pour NC) ;
+- **usage ponctuel** : droits réservés ou conditions inconnues ; quelques champs d'une fiche quand rien d'autre n'existe, jamais en série, jamais par robot sur l'ensemble du site ; référence et lien toujours conservés.
+
+| Source | Groupes | Langue | Licence constatée ou annoncée | Politique |
+|---|---|---|---|---|
+| Wikipédia (fr, puis en, de, es, it) : texte source `index.php?title=<Titre>&action=raw` | Tous | Multiples | CC BY-SA 4.0 | Systématique ; base dérivée en partage à l'identique si une part substantielle en vient ; requêtes lentes (limite de débit) |
+| Wikidata (masse, longévité, taille… quand renseignées) | Tous | Données | CC0 | Systématique |
+| Plazi (traitements taxonomiques) | Tous | en | CC0 | Systématique |
+| Biodiversity Heritage Library (ouvrages anciens) | Tous | Multiples | Domaine public pour l'essentiel, à vérifier par ouvrage | Systématique pour le domaine public |
+| Jeux de traits ouverts : AVONET (oiseaux), AmphiBIO (amphibiens), EltonTraits (régime, oiseaux et mammifères), PanTHERIA (mammifères) | Selon le jeu | Données | Ouvertes selon leur dépôt, à vérifier par jeu | Systématique si ouverte ; ce sont des sources de **référence** (publications scientifiques) |
+| FishBase, SeaLifeBase | Poissons, faune marine | en | CC BY-NC | Systématique seulement sans usage commercial (profil-projet) |
+| xeno-canto (sons) | Oiseaux, orthoptères, amphibiens, chauves-souris | Multiples | Licence par enregistrement (souvent CC BY-NC-SA) | Description des sons seulement ; selon la licence de chaque enregistrement |
+| AmphibiaWeb | Amphibiens | en | À vérifier | Ponctuel ; vérification anti-robots non contournée |
+| Animal Diversity Web (Université du Michigan) | Tous | en | Droits réservés | Ponctuel |
+| The Reptile Database | Reptiles | en | Droits réservés | Ponctuel |
+| Société herpétologique de France (lashf.org), SFEPM (mammifères), OPIE (insectes), LPO (oiseaux) | Selon la société | fr | Droits réservés, sauf mention contraire | Ponctuel |
+| DORIS (FFESSM, faune subaquatique) | Faune marine et d'eau douce | fr | Droits réservés | Ponctuel |
+| Oiseaux.net, Quel est cet animal ?, Lepinet, Galerie-insecte | Selon le site | fr | Droits réservés | Ponctuel |
+| Encyclopedia of Life | Tous | en | Licence par élément | Selon chaque élément |
+
+Exclus : contenus payants ou derrière un compte (Birds of the World…), réseaux sociaux, sites qui interdisent la collecte automatisée. Les licences ci-dessus sont à revérifier au premier usage de chaque site ; une licence incompatible avec le profil du projet écarte le contenu (référence conservée).
 
 ## Fiches d'accès (V1)
 

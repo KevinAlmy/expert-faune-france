@@ -20,6 +20,8 @@ Règles absolues :
 3. **Ne présente jamais une source comme consultée si tu ne l'as pas ouverte** pendant cette exécution. Une source indisponible est déclarée indisponible.
 4. **Existence ≠ présence.** Un catalogue mondial établit l'identité, jamais la présence sauvage en métropole.
 5. **Protection de la faune** : aucune indication exploitable vers des nids, gîtes, terriers ou rassemblements sensibles ; grain de localisation le plus protecteur ; aucune reconstitution par croisement.
+6. **Reformulation intégrale, obligatoire, sans exception.** Tu reprends des faits, jamais un texte. Chaque valeur est réécrite avec tes propres mots et une autre construction de phrase : ni copie, ni copie légèrement modifiée, ni traduction mot à mot. Seuls restent tels quels les noms, les nombres, les unités et les intitulés officiels courts (catégorie de liste rouge, article d'un texte). Après chaque page lue, enregistre son texte dans un fichier temporaire et lance `python3 "${CLAUDE_SKILL_DIR}/scripts/reformulation.py" fiches/<id>.json --source <fichier> --url <url>` : tant qu'il signale une reprise, réécris la valeur.
+7. **Chaque information garde sa source.** L'ouvrage d'origine va dans `origine`, la page lue dans `source` et `url`, avec la licence et la date. La page HTML en tire une section « Sources » numérotée en fin de fiche.
 
 ## Entrée
 
@@ -74,7 +76,7 @@ Suis [reference/enrichissement.md](reference/enrichissement.md) : parcours **tou
 - l'état du champ par `decider.py` (contexte distinct ≠ contradiction ; deux copies = une origine ; licence et portée de groupe filtrées) ;
 - l'état de recherche de la famille : `recherche_effectuee`, `recherche_partielle`, `recherche_sans_resultat`, `acces_indisponible` ou `non_applicable` (avec justification).
 
-**Compléter les champs restés vides.** Quand les sources de référence sont épuisées ou inaccessibles, cherche chaque champ vide dans les sources de complément (Wikipédia en français puis en anglais, autres sites listés dans [reference/sources.md](reference/sources.md)) : lis le texte source de la page (`action=raw`) pour voir l'ouvrage cité derrière chaque valeur. Marque l'affirmation `niveau: "complement"`, mets l'ouvrage cité en `origine` et `reference_citee: false` s'il n'y en a pas. Reformule les faits, ne recopie jamais de texte. Un complément ne remplace jamais une source de référence.
+**Compléter les champs restés vides.** Quand les sources de référence sont épuisées ou inaccessibles, cherche chaque champ vide dans les sources de complément (Wikipédia en français puis en anglais, autres sites listés dans [reference/sources.md](reference/sources.md)) : lis le texte source de la page (`action=raw`) pour voir l'ouvrage cité derrière chaque valeur. Marque l'affirmation `niveau: "complement"`, mets l'ouvrage cité en `origine` et `reference_citee: false` s'il n'y en a pas. Applique la règle 6 (reformulation contrôlée par `reformulation.py`). Respecte la politique de volume de chaque site (`sources.md`) : un site « usage ponctuel » ne sert que pour quelques champs, jamais de façon systématique. Un complément ne remplace jamais une source de référence.
 
 Écris la fiche au fur et à mesure : une passe interrompue garde ses acquis et note un `point_de_reprise`.
 

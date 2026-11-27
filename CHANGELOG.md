@@ -8,6 +8,8 @@ Première version (V1 du cadrage v0.6).
 - Export TAXREF v18 local : recherche par nom retenu, synonyme ou nom vernaculaire ; table officielle des codes de la colonne `FR` (France hexagonale et Corse) et décision associée.
 - Règles de décision exécutables (`scripts/decider.py`) et 21 cas de test, dont la scission avec présence établie pour un seul taxon résultant.
 - Sources de complément (Wikipédia et sites de même nature) : elles comblent seulement les champs qu'aucune source de référence ne renseigne, sont marquées comme telles, ne rendent jamais un champ « corroboré », et une valeur sans ouvrage cité reste « incertaine » (cas de test 22 à 24).
+- Reformulation intégrale obligatoire, contrôlée par `scripts/reformulation.py` (aucune suite de 6 mots identiques à la page lue) ; liste des sites de complément avec, pour chacun, la politique de volume (usage systématique ou ponctuel) au regard du droit des bases de données.
+- Section « Sources » numérotée en fin de page HTML ; appels [n] sur chaque champ ; fonction `references()` réutilisable.
 - Page HTML lisible de chaque fiche ou candidature (`scripts/rendre.py`), valeurs échappées, liens limités au web.
 - Exemples réels produits par le skill de bout en bout : fiche Grenouille rousse (`docs/exemples/grenouille-rousse-EFF-000001.json`) et candidature Grenouille des bois, absente de France (`docs/exemples/grenouille-des-bois-EFF-000002.json`), avec leurs pages HTML.
 - Correction : l'origine d'une preuve TAXREF n'est plus écrasée par l'origine biogéographique (relevé par le premier essai).
