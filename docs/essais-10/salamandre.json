@@ -1,5 +1,5 @@
 {
-  "id": "EFF-000001",
+  "id": "EFF-TAXREF-92",
   "etat": "fiche_partielle",
   "identite": {
     "nom_retenu": "Salamandra salamandra",
@@ -2133,7 +2133,6 @@
   ],
   "photos": [
     {
-      "role": "paysage",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3ATiefenst%C3%BCrmig_Feuersalamander_-20200314-RM-171544.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tiefenst%C3%BCrmig_Feuersalamander_-20200314-RM-171544.jpg/1280px-Tiefenst%C3%BCrmig_Feuersalamander_-20200314-RM-171544.jpg",
@@ -2144,15 +2143,18 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "largeur": 5182,
       "hauteur": 3886,
-      "orientation": "paysage",
       "qualite": "Featured picture de Commons (sélection des meilleures photos)",
       "credit": "Photo : Ermell, CC BY-SA 4.0, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Salamandra salamandra », reliée à l'élément Wikidata Q26395 dont le nom scientifique (P225) est « Salamandra salamandra »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte sur des feuilles humides au bord de l'eau, gros plan"
+      "controle_visuel": "Adulte sur des feuilles humides au bord de l'eau, gros plan",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "photo primée de Wikimedia Commons ; animal net, sujet principal, dans son milieu"
     },
     {
-      "role": "portrait",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3ATiefenst%C3%BCrmig_Feuersalamander_-20200314-RM-171544.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tiefenst%C3%BCrmig_Feuersalamander_-20200314-RM-171544.jpg/1280px-Tiefenst%C3%BCrmig_Feuersalamander_-20200314-RM-171544.jpg",
@@ -2163,7 +2165,6 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "largeur": 5182,
       "hauteur": 3886,
-      "orientation": "paysage",
       "qualite": "Featured picture de Commons (sélection des meilleures photos)",
       "credit": "Photo : Ermell, CC BY-SA 4.0, via Wikimedia Commons, recadrée",
       "verification": "fichier de la catégorie Commons « Salamandra salamandra », reliée à l'élément Wikidata Q26395 dont le nom scientifique (P225) est « Salamandra salamandra »",
@@ -2174,7 +2175,12 @@
         "y": 0.0,
         "largeur": 0.5,
         "hauteur": 1.0
-      }
+      },
+      "orientation_origine": "paysage",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "photo primée de Wikimedia Commons ; animal net, sujet principal, dans son milieu ; recadrage conseillé pour le format portrait"
     }
   ]
 }

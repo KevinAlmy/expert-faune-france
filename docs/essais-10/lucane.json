@@ -1,5 +1,5 @@
 {
-  "id": "EFF-000001",
+  "id": "EFF-TAXREF-10502",
   "etat": "fiche_partielle",
   "identite": {
     "nom_retenu": "Lucanus cervus",
@@ -2666,7 +2666,6 @@
   },
   "photos": [
     {
-      "role": "paysage",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3AEscanyapolls.JPG",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Escanyapolls.JPG/1280px-Escanyapolls.JPG",
@@ -2677,15 +2676,18 @@
       "licence_url": null,
       "largeur": 1600,
       "hauteur": 1200,
-      "orientation": "paysage",
       "qualite": "image principale de l'élément Wikidata",
       "credit": "Photo : Esv, Domaine public, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Lucanus cervus », reliée à l'élément Wikidata Q190491 dont le nom scientifique (P225) est « Lucanus cervus »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Mâle entier au sol parmi les cailloux, mandibules visibles"
+      "controle_visuel": "Mâle entier au sol parmi les cailloux, mandibules visibles",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
     },
     {
-      "role": "portrait",
       "source": "iNaturalist",
       "url_page": "https://www.inaturalist.org/photos/246364173",
       "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/246364173/large.jpg",
@@ -2696,12 +2698,37 @@
       "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "largeur": 1536,
       "hauteur": 2048,
-      "orientation": "portrait",
       "qualite": "observation iNaturalist classée par votes (1 favoris)",
       "credit": "Photo : empressmoth, CC0 (domaine public volontaire), via iNaturalist",
       "verification": "observation iNaturalist 143633084 de qualité recherche : espèce « Lucanus cervus » validée par la communauté",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Mâle entier sur une écorce, vu de dessus"
+      "controle_visuel": "Mâle entier sur une écorce, vu de dessus",
+      "orientation_origine": "portrait",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "orientation": "portrait",
+      "orientation_origine": "portrait",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/8811194",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/8811194/large.jpg",
+      "titre": "Photo iNaturalist 8811194",
+      "auteur": "Conrad Altmann",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 1536,
+      "hauteur": 2048,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Conrad Altmann, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 6904849 de qualité recherche : espèce « Lucanus cervus » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Mâle grimpant sur un tronc"
     }
   ]
 }

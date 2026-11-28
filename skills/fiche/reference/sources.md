@@ -1,6 +1,6 @@
 # Sources
 
-Cadrage v0.6, section 8. Un skill n'a pas d'accès réseau propre : il consulte ce que l'environnement qui l'exécute autorise. Chaque exécution déclare les sources réellement consultées et les indisponibilités.
+Cadrage v0.7, section 8. Un skill n'a pas d'accès réseau propre : il consulte ce que l'environnement qui l'exécute autorise. Chaque exécution déclare les sources réellement consultées et les indisponibilités.
 
 ## Où chercher selon la question
 

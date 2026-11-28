@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Transforme une fiche ou une candidature JSON en page HTML lisible, autonome.
 
-Usage : python3 rendre.py fiches/EFF-000001.json [-o EFF-000001.html]
+Usage : python3 rendre.py expert-faune-sortie/grenouille-rousse/fiche.json [-o fiche.html]
 Sans -o, la page est écrite à côté du JSON (même nom, extension .html).
 
 Bibliothèque standard seule. Toute valeur lue est échappée : la page n'exécute
@@ -130,6 +130,9 @@ h2{font-size:28px;line-height:1.1;letter-spacing:-.01em;margin:0 0 6px}
 .photos{display:grid;gap:16px;grid-template-columns:minmax(0,2fr) minmax(0,1fr);align-items:start}
 @media(max-width:600px){.photos{grid-template-columns:minmax(0,1fr)}}
 .photo{margin:0}
+.autres{margin-top:16px}
+.autres summary{cursor:pointer;color:var(--mute)}
+.grille{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:12px}
 .photo img,.photo .cadre{display:block;width:100%;height:auto;background-repeat:no-repeat;background-color:var(--soft)}
 .photo figcaption{font-size:13px;color:var(--mute);margin-top:6px;overflow-wrap:anywhere}
 footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px}
@@ -197,7 +200,7 @@ def figure_photo(p: dict) -> str:
     else:
         image = f'<img src="{e(url)}" alt="{e(p.get("controle_visuel") or p.get("titre"))}" loading="lazy">'
     return (
-        f'<figure class="photo {e(p.get("role"))}">{image}'
+        f'<figure class="photo {e(p.get("orientation"))}">{image}'
         f'<figcaption>{lien(p.get("credit"), p.get("url_page"))}'
         f'{(" · " + lien("licence", p["licence_url"])) if p.get("licence_url") else ""}</figcaption></figure>'
     )
@@ -360,8 +363,17 @@ def rendre_fiche(d: dict) -> str:
     reprise = "".join(f"<li>{e(p)}</li>" for p in couv.get("point_de_reprise", []))
     vern = ", ".join(ident.get("noms_vernaculaires", []))
     ordre = {"paysage": 0, "portrait": 1}
-    photos = "".join(figure_photo(p) for p in sorted(d.get("photos", []), key=lambda p: ordre.get(p.get("role"), 2)))
-    bloc_photos = f'<section class="band" style="padding-bottom:0"><div class="wrap photos">{photos}</div></section>' if photos else ""
+    toutes = sorted(d.get("photos", []), key=lambda p: ordre.get(p.get("orientation"), 2))
+    validees = [p for p in toutes if p.get("statut") == "validee"]
+    principales = validees or [p for p in toutes if p.get("recommandee")]
+    autres = [p for p in toutes if p not in principales and p.get("statut") != "refusee"]
+    etiquette = "Photos validées" if validees else "Photos recommandées, à valider"
+    photos = "".join(figure_photo(p) for p in principales)
+    bloc_photos = (
+        f'<section class="band" style="padding-bottom:0"><div class="wrap"><p class="lead">{etiquette}</p><div class="photos">{photos}</div>'
+        + (f'<details class="autres"><summary>{len(autres)} autres photos proposées</summary><div class="grille">{"".join(figure_photo(p) for p in autres)}</div></details>' if autres else "")
+        + "</div></section>"
+    ) if principales else ""
     corps = (
         '<header class="band head"><div class="wrap"><div>'
         f'<h1>{e(ident["nom_retenu"])} <span class="auteur">{e(ident.get("auteur"))}{(", " + e(ident.get("annee"))) if ident.get("annee") else ""}</span></h1>'
@@ -377,7 +389,7 @@ def rendre_fiche(d: dict) -> str:
         + '<section class="band"><div class="wrap">'
         f"<h2>{docs} champs documentés sur {total}" + (f", dont {compl} par des sources de complément" if compl else "") + "</h2>"
         f'<p class="lead">Chaque case est un champ de la fiche. Passe du {e(couv.get("date"))} '
-        f'{"terminée" if couv.get("passe_terminee") else "à reprendre : les manques sont listés plus bas et seront repris à la prochaine exécution"}.</p>'
+        f'{"terminée" if couv.get("passe_terminee") else "incomplète : les manques sont listés plus bas, comme pistes pour une prochaine extraction"}.</p>'
         f'<div class="chiffres"><div><strong>{docs}</strong><span>champs documentés</span></div>'
         f"<div><strong>{lacunes}</strong><span>champs encore vides</span></div>"
         f'<div><strong>{len(d.get("execution", {}).get("sources_consultees", []))}</strong><span>sources lues</span></div>'

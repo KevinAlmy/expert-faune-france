@@ -1,13 +1,16 @@
 # Expert faune de France
 
-Un skill Claude Code qui crée, vérifie, corrige et enrichit des **fiches sourcées sur la faune sauvage de France métropolitaine, Corse comprise** : mammifères, oiseaux, reptiles, amphibiens, poissons, espèces marines, insectes et autres invertébrés.
+Un skill Claude Code qui **extrait et vérifie le maximum d'informations sur un animal de la faune sauvage de France métropolitaine** (Corse comprise) et vous **remet une fiche complète et sourcée** : mammifères, oiseaux, reptiles, amphibiens, poissons, espèces marines, insectes et autres invertébrés.
 
-- **Identité et présence d'abord.** Une fiche naît dès que l'identité de l'espèce et sa présence à l'état sauvage sont étayées. Sinon, l'espèce reste candidate, avec le motif et la preuve manquante.
-- **Une preuve par information.** Chaque information remonte à sa source d'origine, datée, territorialisée, avec ses conditions de réutilisation.
-- **Enrichissement complet.** Reconnaissance, répartition, habitats, alimentation, reproduction, développement, comportements, activité, interactions, conservation, observation respectueuse ; les lacunes restent explicites.
-- **Entièrement automatique.** Chaque décision est expliquée ; quand les preuves manquent, le skill s'abstient et réexamine plus tard.
+Vous lui demandez un animal, avec vos critères si vous le souhaitez ; il cherche, vérifie et vous rend la fiche. **Il ne garde rien** : vous conservez vos fiches dans votre propre outil, vous choisissez les informations que vous gardez et vous validez les photos. Deux personnes qui l'utilisent obtiennent donc chacune leurs propres fiches.
 
-Méthode complète : [docs/cadrage-v0.6.md](docs/cadrage-v0.6.md).
+- **Identité et présence d'abord.** Une fiche naît dès que l'identité de l'espèce et sa présence à l'état sauvage sont étayées. Sinon, le skill rend une candidature, avec le motif et la preuve manquante.
+- **Une preuve par information.** Chaque information remonte à sa source d'origine, datée, territorialisée, avec ses conditions de réutilisation ; une section « Sources » numérotée termine chaque fiche.
+- **Le plus complet possible.** Reconnaissance, répartition, habitats, alimentation, reproduction, développement, comportements, activité, interactions, conservation, observation respectueuse. Sources de référence d'abord, puis sources de complément (Wikipédia…) pour les champs restés vides, toujours marquées comme telles ; textes toujours reformulés.
+- **Photos libres de droits proposées.** Jusqu'à trois par orientation (paysage, portrait), sous licence réutilisable, avec le crédit prêt à afficher ; une recommandée par orientation. Vous choisissez et validez.
+- **Entièrement automatique pendant l'extraction.** Chaque décision est expliquée ; quand les preuves manquent, le skill le dit et indique ce qui justifierait une nouvelle extraction.
+
+Méthode complète : [docs/cadrage-v0.7.md](docs/cadrage-v0.7.md).
 
 ## Installation
 
@@ -32,11 +35,18 @@ Vérification : `/plugin`, onglet **Installed**, affiche `expert-faune-france` a
 
 ```
 /expert-faune-france:fiche Grenouille rousse
-/expert-faune-france:fiche Rana temporaria enrichir
-/expert-faune-france:fiche Salmo trutta verifier
+/expert-faune-france:fiche Hérisson d'Europe, insiste sur l'alimentation et l'hibernation, usage commercial
+/expert-faune-france:fiche Brochet, territoire : Bretagne, 5 photos par orientation
+/expert-faune-france:fiche Rana temporaria, vérifie et enrichis ma fiche ./mes-fiches/grenouille-rousse.json
 ```
 
-Le skill rend une fiche JSON dans `./fiches/` (format : [`skills/fiche/schemas/`](skills/fiche/schemas/)) et une synthèse lisible : sources consultées, décision et motif, informations par famille, lacunes et prochaines pistes.
+Le skill écrit dans `./expert-faune-sortie/<animal>/` :
+- `fiche.json` : la fiche structurée (format : [`skills/fiche/schemas/`](skills/fiche/schemas/)), à importer dans votre outil ;
+- `fiche.html` : la même fiche, lisible dans un navigateur, avec les photos proposées et les sources.
+
+Il répond aussi par une synthèse : sources consultées, décision et motif, informations par famille, photos recommandées, lacunes et pistes pour une prochaine extraction. Il efface ensuite ses fichiers temporaires : rien d'autre n'est conservé.
+
+Exemples réels : [`docs/exemples/`](docs/exemples/) et [`docs/essais-10/`](docs/essais-10/).
 
 ## Données
 
@@ -51,6 +61,8 @@ Quand les sources de référence ne suffisent pas, le skill complète les champs
 
 ## Afficher les sources dans une application
 
+**Photos.** Chaque photo proposée porte `statut: "proposee"` ; votre outil la passe à `validee` ou `refusee` (champ `validation` : par qui, quand). N'affichez que des photos validées, avec leur `credit`.
+
 Chaque information d'une fiche porte son ouvrage d'origine (`origine`), la page lue (`source`, `url`), la licence et la date. La page HTML en tire une section « Sources » numérotée ; une application peut faire de même avec la fonction `references()` de `skills/fiche/scripts/rendre.py`, ou en regroupant les affirmations par `origine`. Citer ces sources est une condition des licences ouvertes (CC BY, CC BY-SA).
 
 ## Contenu du dépôt
@@ -61,9 +73,9 @@ Chaque information d'une fiche porte son ouvrage d'origine (`origine`), la page 
 | `skills/fiche/reference/` | Décisions automatiques, méthode, enrichissement, sources |
 | `skills/fiche/schemas/` | Schémas JSON : fiche, candidature, affirmation, états, rapport d'exécution |
 | `skills/fiche/config/` | Table des codes TAXREF v18, exemple de profil de projet |
-| `skills/fiche/scripts/` | Recherche TAXREF, règles de décision exécutables, validation, contrôle de reformulation, page HTML |
+| `skills/fiche/scripts/` | Recherche TAXREF, règles de décision exécutables, photos libres de droits, validation, contrôle de reformulation, page HTML |
 | `tests/` | Cas de test avec résultat attendu |
-| `docs/` | Cadrage de la méthode |
+| `docs/` | Cadrage de la méthode, exemples et essai sur 10 espèces |
 
 ## Contribuer
 

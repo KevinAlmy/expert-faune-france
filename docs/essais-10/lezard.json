@@ -1,5 +1,5 @@
 {
-  "id": "EFF-000001",
+  "id": "EFF-TAXREF-77756",
   "etat": "fiche_partielle",
   "identite": {
     "nom_retenu": "Podarcis muralis",
@@ -1615,7 +1615,6 @@
   },
   "photos": [
     {
-      "role": "paysage",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3AMauereidechse_IMG_1520.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mauereidechse_IMG_1520.jpg/1280px-Mauereidechse_IMG_1520.jpg",
@@ -1626,15 +1625,18 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "largeur": 4229,
       "hauteur": 3060,
-      "orientation": "paysage",
       "qualite": "Quality image de Commons (qualité technique validée)",
       "credit": "Photo : Fischer.H, CC BY-SA 4.0, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Podarcis muralis », reliée à l'élément Wikidata Q186615 dont le nom scientifique (P225) est « Podarcis muralis »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte de profil sur la mousse et les pierres, tête nette"
+      "controle_visuel": "Adulte de profil sur la mousse et les pierres, tête nette",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "photo primée de Wikimedia Commons ; animal net, sujet principal, dans son milieu"
     },
     {
-      "role": "portrait",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3AEidechse_IMG_2990.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Eidechse_IMG_2990.jpg/1280px-Eidechse_IMG_2990.jpg",
@@ -1645,12 +1647,58 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "largeur": 1461,
       "hauteur": 1640,
-      "orientation": "portrait",
       "qualite": "Quality image de Commons (qualité technique validée)",
       "credit": "Photo : Fischer.H, CC BY-SA 4.0, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Podarcis muralis », reliée à l'élément Wikidata Q186615 dont le nom scientifique (P225) est « Podarcis muralis »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte au soleil sur une roche, au bord d'une fissure"
+      "controle_visuel": "Adulte au soleil sur une roche, au bord d'une fissure",
+      "orientation_origine": "portrait",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "photo primée de Wikimedia Commons ; animal net, sujet principal, dans son milieu"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3APodarcis_muralis_near_Entella_river_006.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Podarcis_muralis_near_Entella_river_006.jpg/1280px-Podarcis_muralis_near_Entella_river_006.jpg",
+      "titre": "Podarcis muralis near Entella river 006.jpg",
+      "auteur": "Mariomassone",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 1280,
+      "hauteur": 960,
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Mariomassone, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Podarcis muralis », reliée à l'élément Wikidata Q186615 dont le nom scientifique (P225) est « Podarcis muralis »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte vert et noir sur une pierre, en plein soleil"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/520894370",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/520894370/large.jpg",
+      "titre": "Photo iNaturalist 520894370",
+      "auteur": "Hannes Dahm",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1365,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Hannes Dahm, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 289604886 de qualité recherche : espèce « Podarcis muralis » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Gros plan sur la tête d'un adulte"
     }
   ]
 }

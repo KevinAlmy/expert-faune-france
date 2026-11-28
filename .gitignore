@@ -5,3 +5,4 @@ fiches/
 __pycache__/
 .pytest_cache/
 *.pyc
+expert-faune-sortie/

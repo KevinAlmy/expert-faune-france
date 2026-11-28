@@ -1,6 +1,6 @@
 # Enrichissement complet
 
-Cadrage v0.6, sections 8.5, 9.6 et 12. Toute création de fiche déclenche une passe complète sur toutes les familles pertinentes.
+Cadrage v0.7, sections 8.5, 9.6 et 12. Toute création de fiche déclenche une passe complète sur toutes les familles pertinentes.
 
 ## Les familles à examiner
 
@@ -30,7 +30,7 @@ L'identité, la traçabilité et la couverture sont portées par `identite`, cha
 4. Une affirmation distincte par valeur : source, origine, unité, plage, contexte (territoire, période, population, stade, sauvage ou captivité). Les variations géographiques et biologiques sont conservées.
 5. État de chaque champ par `decider.py` ; restrictions de diffusion appliquées ; publication au fil de l'eau.
 6. Rendre : synthèse lisible, données structurées, références par champ, bilan de couverture ; pour chaque lacune, les recherches faites, leur résultat et la prochaine piste.
-7. Passe terminée quand chaque famille pertinente a été examinée et les pistes prioritaires accessibles traitées. Si une limite réelle (temps, accès) interrompt le travail : thèmes restants dans `couverture.point_de_reprise`, repris automatiquement à la prochaine exécution, sans doublon des acquis.
+7. Passe terminée quand chaque famille pertinente a été examinée et les pistes prioritaires accessibles traitées. Si une limite réelle (temps, accès) interrompt le travail : thèmes restants dans `couverture.point_de_reprise` : ce sont les pistes pour une prochaine extraction, que l'utilisateur lancera en fournissant sa fiche (le skill ne garde rien).
 
 ## Observations, saisonnalité et recommandations (§8.5)
 

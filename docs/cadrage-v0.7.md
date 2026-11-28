@@ -1,17 +1,29 @@
 # Expert faune de France — Note de cadrage
 
-**Version 0.6, 27 novembre 2026.** Mise à jour du cadrage v0.5. Enrichissement systématique des fiches et précision du rôle des sources.
+**Version 0.7, 28 novembre 2026.** Mise à jour du cadrage v0.6.
+
+## 0. Changements de la v0.7 (ils prévalent sur le reste de la note)
+
+1. **Le skill extrait, il ne stocke pas.** Il produit la fiche la plus complète possible et la remet à l'utilisateur. Il ne tient ni base de fiches, ni index, ni compteur, et ne relit jamais une fiche produite lors d'une exécution précédente. La conservation, le rapprochement avec les fiches déjà connues, le suivi des lacunes, le réexamen et la veille sont l'affaire de l'outil de l'utilisateur. Deux personnes qui utilisent le skill obtiennent chacune leurs propres fiches.
+2. **Critères de l'utilisateur.** La demande peut porter des critères libres (thème à approfondir, territoire, usage commercial, nombre de photos, niveau de lecture). Ils orientent la recherche et la présentation sans assouplir les règles de preuve.
+3. **Fiche fournie.** L'utilisateur peut fournir une fiche qu'il conserve, pour la faire vérifier ou enrichir ; le skill rend une nouvelle version sans rien garder.
+4. **Identifiant déduit de l'espèce**, sans compteur : `EFF-TAXREF-<CD_REF>`, sinon `EFF-COL-<identifiant Catalogue of Life>`, sinon `EFF-NOM-<nom scientifique>`. La même espèce a toujours le même identifiant.
+5. **Sources de complément.** Quand aucune source de référence ne renseigne un champ, des sources de complément (Wikipédia, sites naturalistes) peuvent le faire, marquées comme telles, jamais « corroborées », « incertaines » sans ouvrage cité, et toujours remplacées par une référence quand elle existe. Une politique de volume par site respecte le droit des bases de données.
+6. **Reformulation intégrale obligatoire**, contrôlée automatiquement : aucune suite de six mots identiques à la page lue.
+7. **Photos proposées.** Le skill propose des photos sous licence réutilisable (auteur connu, espèce vérifiée, contrôle visuel), jusqu'à trois par orientation (paysage, portrait), et en recommande une par orientation avec sa raison. Le choix et la validation des photos appartiennent à l'utilisateur ; le skill ne valide jamais une photo.
+
+Les décisions du skill restent entièrement automatiques (principe 5). La validation humaine porte seulement sur ce que l'utilisateur choisit de garder et d'afficher dans son propre outil.
 
 ## 1. Principes directeurs
 
 1. **Couverture d'abord.** Une fiche peut naître avec un nom scientifique, une identité établie et une présence sauvage étayée ; tous les autres champs s'enrichissent ensuite.
 2. **Existence et présence sont deux faits distincts.** Qu'une espèce existe ne prouve pas qu'elle vit à l'état sauvage en France métropolitaine.
-3. **Identité stable.** Chaque fiche a un identifiant interne qui ne dépend ni du nom scientifique ni d'un identifiant externe ; aucun changement de nom ne crée de doublon.
+3. **Identité stable.** Chaque fiche porte un identifiant déduit de l'espèce (section 0), avec ses synonymes et ses identifiants externes, pour que l'outil de l'utilisateur la rapproche sans doublon de ce qu'il conserve déjà.
 4. **Preuve par information.** Chaque information publiée remonte à une source d'origine datée, territorialisée et réutilisable dans les conditions de sa licence.
-5. **Autonomie complète.** Le skill décide seul, selon des règles explicites. Quand les preuves ne suffisent pas, il s'abstient, conserve les hypothèses sourcées et réexamine le cas plus tard. Chaque décision est expliquée.
+5. **Autonomie complète.** Le skill décide seul, selon des règles explicites. Quand les preuves ne suffisent pas, il s'abstient, garde les hypothèses sourcées dans la fiche et indique ce qui justifierait une nouvelle extraction. Chaque décision est expliquée.
 6. **Indépendance.** Le skill ne dépend d'aucune application, d'aucune source unique et d'aucun choix de produit.
 
-7. **Complétude progressive.** Toute demande de création d’une fiche déclenche une recherche dans toutes les familles pertinentes de la section 12.2. Chaque information disponible et suffisamment étayée est intégrée. Les lacunes restent suivies et réexaminables.
+7. **Complétude progressive.** Toute demande de création d’une fiche déclenche une recherche dans toutes les familles pertinentes de la section 12.2. Chaque information disponible et suffisamment étayée est intégrée. Les lacunes sont décrites, avec les pistes pour une prochaine extraction.
 
 ## 2. Nom, périmètre et indépendance
 
@@ -20,7 +32,7 @@
 
 **Périmètre.** Toute la faune sauvage de France métropolitaine, Corse comprise : milieux terrestres, eaux douces et milieux marins, dans le périmètre géographique documenté par le référentiel utilisé. Tous les groupes sont couverts au même titre : mammifères, oiseaux, reptiles, amphibiens, poissons, espèces sous-marines, insectes, arachnides, mollusques, crustacés et autres invertébrés, y compris les moins documentés. Une grenouille et un poisson qui partagent le même milieu ont tous deux leur place dans le catalogue.
 
-**Utilisateurs.** Toute personne qui souhaite créer, vérifier, corriger ou enrichir une fiche sur cette faune.
+**Utilisateurs.** Toute personne qui souhaite créer ses propres fiches sur cette faune, avec ses propres critères, ou faire vérifier et enrichir une fiche qu'elle conserve.
 
 **Choix propres à chaque projet.** Un projet qui utilise le skill peut choisir les groupes, les qualifications de présence et les informations qu'il exploite. Ces choix vivent dans un **profil de projet** versionné, extérieur au socle (section 15). Ils ne modifient jamais le contenu du catalogue : ils déterminent seulement ce que le projet en exploite.
 
@@ -28,7 +40,7 @@ Le socle du skill ne contient ni marque, ni interface, ni modèle économique, n
 
 ## 3. Mission
 
-Créer et maintenir la fiche la plus complète que permettent les connaissances accessibles et légalement réutilisables sur chaque animal de la faune sauvage métropolitaine. Rechercher systématiquement son identité, sa présence, sa biologie, sa reproduction, ses comportements, ses habitats, son cycle de vie, ses interactions écologiques, sa conservation et les conditions d’une observation respectueuse. Chaque information est reliée à ses preuves et à son contexte. La complétude progresse à chaque enrichissement, avec une description explicite des lacunes.
+Extraire et vérifier la fiche la plus complète que permettent les connaissances accessibles et légalement réutilisables sur chaque animal de la faune sauvage métropolitaine. Rechercher systématiquement son identité, sa présence, sa biologie, sa reproduction, ses comportements, ses habitats, son cycle de vie, ses interactions écologiques, sa conservation et les conditions d’une observation respectueuse. Chaque information est reliée à ses preuves et à son contexte. La fiche est remise à l'utilisateur avec une description explicite des lacunes ; c'est lui qui la conserve et la fait progresser.
 
 Le skill réalise une **validation documentaire argumentée** : chaque résultat indique ce qui est établi, ce qui reste incertain, ce qui est contradictoire et ce qui manque.
 
@@ -38,9 +50,10 @@ Il ne promet ni une connaissance exhaustive mémorisée, ni une connaissance ins
 
 | Composant | Responsabilité |
 |---|---|
-| Skill | Méthode de recherche, choix des sources, règles de décision et de contrôle, formats de sortie. |
-| Base documentaire | Fiches, candidatures, affirmations, références, versions, restrictions de diffusion et historique. Elle reste extérieure au paquet du skill. |
-| Traitement d'actualisation | Collecte autorisée, détection des changements, réexamen et application des décisions selon les règles de cette note. |
+| Skill | Méthode de recherche, choix des sources, règles de décision et de contrôle, formats de sortie. Ne conserve rien. |
+| Base documentaire (chez l'utilisateur) | Fiches, candidatures, affirmations, références, versions, restrictions de diffusion et historique. Jamais dans le skill. |
+| Validation éditoriale (chez l'utilisateur) | Choix des données affichées et validation des photos proposées. |
+| Actualisation (chez l'utilisateur) | Relance du skill avec la fiche conservée, détection des changements, réexamen et application des décisions selon les règles de cette note. |
 
 Le skill ne s'exécute pas seul en permanence : un agent ou un service disposant des outils nécessaires l'utilise à la demande ou depuis un traitement planifié. Chaque utilisateur branche ses propres données et outils.
 
@@ -56,7 +69,8 @@ Le skill ne s'exécute pas seul en permanence : un agent ou un service disposant
 - résoudre un nom scientifique, un nom vernaculaire ou un synonyme vers une fiche ;
 - vérifier des statuts en précisant territoire, population et date ;
 - déterminer quelles informations, notamment de localisation, peuvent être diffusées ;
-- réexaminer une fiche ou une candidature lors d'une nouvelle exécution ou de l'arrivée d'un nouvel export.
+- revérifier une fiche ou une candidature fournie par l'utilisateur, par exemple après un nouvel export ;
+- proposer des photos libres de droits, avec une recommandation par orientation.
 
 **Plus tard :** réponses naturalistes à partir des données validées, aide à préparer une observation respectueuse, aide à l'identification d'un animal.
 
@@ -66,7 +80,7 @@ L'identification taxonomique d'un nom et l'identification d'un animal sur une im
 
 ### 6.1 Ce que porte chaque fiche
 
-- un **identifiant interne stable**, attribué à la création, jamais réutilisé, indépendant du nom scientifique et des identifiants externes ;
+- un **identifiant déduit de l'espèce** (section 0), identique à chaque extraction de la même espèce ;
 - le **nom retenu**, avec auteur et année lorsqu'ils sont disponibles ;
 - les **anciens noms et synonymes**, avec auteur, année et source du rattachement ;
 - les **identifiants externes** connus (TAXREF CD_NOM et CD_REF, Catalogue of Life, GBIF, référentiel spécialisé), chacun avec sa version ;
@@ -74,7 +88,7 @@ L'identification taxonomique d'un nom et l'identification d'un animal sur une im
 
 ### 6.2 Contrôle avant toute création
 
-Avant de créer une fiche ou une candidature, le skill compare le taxon aux fiches **et** aux candidatures existantes, par le nom retenu, les synonymes, la combinaison originale, l'auteur, l'année et les identifiants externes.
+Le skill ne conserve aucune fiche : la comparaison avec les fiches **et** candidatures existantes (nom retenu, synonymes, combinaison originale, auteur, année, identifiants externes) est faite par l'outil de l'utilisateur, à partir des informations que chaque fiche porte. Quand l'utilisateur fournit une fiche existante, le skill la compare lui-même. Les décisions du tableau suivant s'appliquent dans l'outil de l'utilisateur ; le skill les signale dans la fiche qu'il rend.
 
 ### 6.3 Décisions automatiques sur les noms
 
@@ -162,9 +176,9 @@ Si ces éléments sont établis, l'occurrence étaye la présence. Sinon, l'esp�
 
 **Motif d'admission.** Toute fiche admise hors TAXREF conserve la voie d'admission et les sources. Si une version ultérieure de TAXREF intègre l'espèce, la fiche lui est rapprochée (section 6.3).
 
-### 7.6 Réexamen automatique
+### 7.6 Réexamen
 
-Les candidatures, les champs incertains et les hypothèses non rattachées sont réexaminés :
+Le skill ne garde rien : il indique dans chaque candidature et chaque fiche les événements qui justifieraient une nouvelle extraction. Les candidatures, les champs incertains et les hypothèses non rattachées sont réexaminés quand l'utilisateur relance le skill :
 
 - à chaque nouvelle exécution qui les concerne ;
 - à l'arrivée d'un nouvel export ou d'une nouvelle version de référentiel ;
@@ -278,9 +292,9 @@ Cette méthode s'inspire des principes d'évaluation critique des preuves ; elle
 4. Extraire des affirmations distinctes avec leur source, unité, plage de valeurs et contexte. Conserver les variations géographiques et biologiques. Chaque valeur propre à l’espèce doit disposer d’un support explicite.
 5. Appliquer la vérification par champ, les décisions automatiques et les restrictions de diffusion. Publier progressivement les informations établies.
 6. Produire une synthèse lisible, les données structurées, les références par champ et un bilan de couverture. Pour chaque lacune, conserver les recherches effectuées, leur résultat et la prochaine piste utile.
-7. Terminer la passe lorsque chaque famille pertinente a été examinée et que les pistes prioritaires accessibles ont été traitées. Si une limite réelle de temps, d’accès ou de ressources interrompt le travail, indiquer les thèmes restants et enregistrer un point de reprise automatique.
+7. Terminer la passe lorsque chaque famille pertinente a été examinée et que les pistes prioritaires accessibles ont été traitées. Si une limite réelle de temps, d’accès ou de ressources interrompt le travail, indiquer les thèmes restants dans la fiche, comme pistes pour une prochaine extraction.
 
-Pour un import massif, admettre les espèces au fil de l’eau et mettre leurs thèmes d’enrichissement en attente de traitement automatique. Le travail sur une espèce peu documentée laisse progresser les autres. Toute information inconnue reste explicite. Aucune complétude absolue n’est déclarée.
+Pour une création en série, l'outil de l'utilisateur lance le skill espèce par espèce et conserve les résultats. Le travail sur une espèce peu documentée laisse progresser les autres. Toute information inconnue reste explicite. Aucune complétude absolue n’est déclarée.
 
 ## 10. Décisions automatiques
 
@@ -356,7 +370,7 @@ Chaque affirmation peut comporter plusieurs valeurs contextualisées. Les plages
 
 **Par champ** : documenté par la source de référence, corroboré, incertain, contradictoire, non renseigné. Aucun pourcentage de confiance n'est affiché sans méthode de calibration.
 
-**Par entrée** : candidate, fiche minimale, fiche partielle, fiche documentée, concept historique (après scission), renvoi (après fusion). L'état d'une fiche ne masque jamais un champ contradictoire ou une restriction.
+**Par entrée** : candidate, fiche minimale, fiche partielle, fiche documentée ; dans l'outil de l'utilisateur, concept historique (après scission) et renvoi (après fusion). L'état d'une fiche ne masque jamais un champ contradictoire ou une restriction.
 
 **Par exécution** : sources effectivement consultées, version de chacune si connue, indisponibilités rencontrées.
 
@@ -412,11 +426,11 @@ Une licence choisie pour le skill ne remplace jamais les licences des données q
 
 ### 14.2 Réexamen
 
-Dès la V1, le skill réexamine une fiche, une candidature ou un champ incertain lors d'une nouvelle exécution ou de l'arrivée d'un nouvel export. Il ne réécrit pas systématiquement toutes les fiches : il cible les taxons et champs touchés par le changement.
+Dès la V1, le skill réexamine une fiche, une candidature ou un champ incertain que l'utilisateur lui fournit, par exemple après l'arrivée d'un nouvel export. Il ne réécrit pas systématiquement toutes les fiches : il cible les taxons et champs touchés par le changement.
 
 ### 14.3 Veille à terme
 
-Objectif : une veille tous les quinze jours, ajoutée après la V1.
+Objectif : une veille tous les quinze jours, ajoutée après la V1, **dans l'outil de l'utilisateur** (le skill ne s'exécute pas seul et ne garde rien).
 
 - Le service mémorise une prochaine échéance espacée de quinze jours calendaires dans un fuseau horaire explicite. Une expression cron sur les jours du mois ne représente pas toujours quinze jours réguliers ; un contrôle quotidien peut lancer les travaux arrivés à échéance.
 - Déroulement : lire versions et métadonnées des sources autorisées ; détecter les changements ; importer en zone de préparation ; identifier les taxons et champs touchés ; réexaminer en priorité les changements, les candidatures et les champs incertains ; produire les différences ; appliquer les décisions de la section 10 ; conserver versions, erreurs et résultats.
@@ -478,7 +492,7 @@ Le dépôt ne contient ni secret, ni données sous accès restreint, ni localisa
 | Pic mensuel de signalements et effort inconnu | Répartition des signalements décrite avec limites. Aucune probabilité de rencontre déduite automatiquement. |
 | Source supplémentaire après cinq références | Exploitée lorsqu’elle ajoute une information pertinente et réutilisable. |
 | Valeur captive et valeur sauvage de longévité | Contextes conservés explicitement. |
-| Reprise d’une passe interrompue | Thèmes restants repris automatiquement et acquis conservés sans doublon. |
+| Passe interrompue | Thèmes restants indiqués dans la fiche ; l'utilisateur relance le skill en fournissant sa fiche, les acquis sont conservés sans doublon. |
 | Information sur un groupe sans preuve propre à l’espèce | Contexte général identifié. Champ spécifique laissé non renseigné. |
 
 ## 17. Critères d'acceptation
@@ -501,6 +515,8 @@ Le dépôt ne contient ni secret, ni données sous accès restreint, ni localisa
 - Une source récente rétractée ou insuffisante ne remplace pas une référence établie.
 - Une licence incompatible empêche l'usage concerné.
 - Le skill et ses formats fonctionnent sans dépendre d'aucune application ni d'aucune source unique.
+- Le skill ne conserve aucune fiche ni aucun fichier temporaire après l'exécution.
+- Toute photo proposée a une licence réutilisable, un auteur crédité et un rattachement vérifié à l'espèce ; aucune n'est présentée comme validée par le skill.
 
 ## 18. Ordre de construction
 
@@ -508,10 +524,10 @@ Le dépôt ne contient ni secret, ni données sous accès restreint, ni localisa
 2. Table de correspondance des codes TAXREF pour la version utilisée.
 3. Fiches d'accès des sources de la V1.
 4. Rédaction du `SKILL.md` et des règles de décision.
-5. Cas de test de la section 16, avec une fiche enrichie de bout en bout et reprise automatique des lacunes.
+5. Cas de test de la section 16, avec une fiche enrichie de bout en bout.
 6. Publication du dépôt sous licence MIT.
 7. Pilote élargi à une trentaine de fiches, tous groupes confondus.
-8. Imports complets, puis ordonnanceur de veille.
+8. Création en série et veille, dans l'outil de chaque utilisateur.
 9. Assistant conversationnel.
 
 ## 19. Références

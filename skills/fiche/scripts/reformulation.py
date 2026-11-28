@@ -2,7 +2,7 @@
 """Contrôle de reformulation : aucune valeur de la fiche ne reprend le texte d'une source.
 
 Usage :
-  python3 reformulation.py fiches/EFF-000001.json --source page.txt --url https://fr.wikipedia.org/wiki/...
+  python3 reformulation.py expert-faune-sortie/grenouille-rousse/fiche.json --source page.txt --url https://fr.wikipedia.org/wiki/...
 
 `page.txt` est le texte de la page consultée (texte brut ou wikitexte), enregistré
 pendant l'exécution. Seules les affirmations dont l'`url` vaut `--url` sont

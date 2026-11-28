@@ -1,30 +1,30 @@
 {
- "brochet/EFF-000001.json": {
+ "brochet.json": {
   "pages": 2,
   "affirmations_controlees": 35,
   "reprises": []
  },
- "ecrevisse/EFF-000001.json": {
+ "ecrevisse.json": {
   "pages": 2,
   "affirmations_controlees": 24,
   "reprises": []
  },
- "escargot/EFF-000001.json": {
+ "escargot.json": {
   "pages": 2,
   "affirmations_controlees": 26,
   "reprises": []
  },
- "herisson/EFF-000001.json": {
+ "herisson.json": {
   "pages": 2,
   "affirmations_controlees": 20,
   "reprises": []
  },
- "lezard/EFF-000001.json": {
+ "lezard.json": {
   "pages": 2,
   "affirmations_controlees": 40,
   "reprises": []
  },
- "lucane/EFF-000001.json": {
+ "lucane.json": {
   "pages": 2,
   "affirmations_controlees": 27,
   "reprises": [
@@ -48,27 +48,27 @@
    }
   ]
  },
- "lucane/EFF-000002.json": {
+ "lucane-capra-candidature.json": {
   "pages": 0,
   "affirmations_controlees": 0,
   "reprises": []
  },
- "machaon/EFF-000001.json": {
+ "machaon.json": {
   "pages": 2,
   "affirmations_controlees": 33,
   "reprises": []
  },
- "mesange/EFF-000001.json": {
+ "mesange.json": {
   "pages": 1,
   "affirmations_controlees": 45,
   "reprises": []
  },
- "pipistrelle/EFF-000001.json": {
+ "pipistrelle.json": {
   "pages": 1,
   "affirmations_controlees": 3,
   "reprises": []
  },
- "salamandre/EFF-000001.json": {
+ "salamandre.json": {
   "pages": 2,
   "affirmations_controlees": 32,
   "reprises": []

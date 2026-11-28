@@ -1,5 +1,5 @@
 {
-  "id": "EFF-000001",
+  "id": "EFF-TAXREF-60015",
   "etat": "fiche_partielle",
   "identite": {
     "nom_retenu": "Erinaceus europaeus",
@@ -2677,7 +2677,6 @@
   },
   "photos": [
     {
-      "role": "paysage",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3AWest_European_Hedgehog_%28Erinaceus_europaeus%291.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/West_European_Hedgehog_%28Erinaceus_europaeus%291.jpg/1280px-West_European_Hedgehog_%28Erinaceus_europaeus%291.jpg",
@@ -2688,15 +2687,18 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "largeur": 2500,
       "hauteur": 1662,
-      "orientation": "paysage",
       "qualite": "Featured picture de Commons (sélection des meilleures photos)",
       "credit": "Photo : Hrald, CC BY-SA 3.0, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Erinaceus europaeus », reliée à l'élément Wikidata Q6145 dont le nom scientifique (P225) est « Erinaceus europaeus »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte de profil sur un sol forestier moussu, lumière douce"
+      "controle_visuel": "Adulte de profil sur un sol forestier moussu, lumière douce",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "photo primée de Wikimedia Commons ; animal net, sujet principal, dans son milieu"
     },
     {
-      "role": "portrait",
       "source": "iNaturalist",
       "url_page": "https://www.inaturalist.org/photos/12522380",
       "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/12522380/large.jpg",
@@ -2707,7 +2709,6 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0/",
       "largeur": 1536,
       "hauteur": 2048,
-      "orientation": "portrait",
       "qualite": "observation iNaturalist classée par votes (1 favoris)",
       "credit": "Photo : Spontex + Scotch Brite, CC BY 4.0, via iNaturalist, recadrée",
       "verification": "observation iNaturalist 9248744 de qualité recherche : espèce « Erinaceus europaeus » validée par la communauté",
@@ -2718,7 +2719,54 @@
         "y": 0.0,
         "largeur": 0.88,
         "hauteur": 1.0
-      }
+      },
+      "orientation_origine": "portrait",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu ; recadrage conseillé pour le format portrait"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AErinaceus_europaeus_%28Marek_Szczepanek%29.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Erinaceus_europaeus_%28Marek_Szczepanek%29.jpg/1280px-Erinaceus_europaeus_%28Marek_Szczepanek%29.jpg",
+      "titre": "Erinaceus europaeus (Marek Szczepanek).jpg",
+      "auteur": "This illustration was made by Marek Szczepanek. If you are interested in high resolution pictures, please contact author in order to negotiate condition of use. More pictures can be found on here and in the gallery www.naturephotos.com.pl info@naturephotos.com.pl marek458@wp.pl Jeśli jesteś zainteresowany zdjęciami w wysokiej rozdzielczości, skontaktuj się z autorem w celu negocjacji warunków używania lub zakupu. Więcej zdjęć autora dostępnych jest tutaj oraz na stronie www.naturephotos.com.pl",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "largeur": 650,
+      "hauteur": 422,
+      "qualite": "Featured picture de Commons (sélection des meilleures photos)",
+      "credit": "Photo : This illustration was made by Marek Szczepanek. If you are interested in high resolution pictures, please contact author in order to negotiate condition of use. More pictures can be found on here and in the gallery www.naturephotos.com.pl info@naturephotos.com.pl marek458@wp.pl Jeśli jesteś zainteresowany zdjęciami w wysokiej rozdzielczości, skontaktuj się z autorem w celu negocjacji warunków używania lub zakupu. Więcej zdjęć autora dostępnych jest tutaj oraz na stronie www.naturephotos.com.pl, CC BY-SA 3.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Erinaceus europaeus », reliée à l'élément Wikidata Q6145 dont le nom scientifique (P225) est « Erinaceus europaeus »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte sur la mousse, de profil, fond vert flou"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/79670738",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/79670738/large.jpeg",
+      "titre": "Photo iNaturalist 79670738",
+      "auteur": "Esteban Stefano Pavan",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Esteban Stefano Pavan, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 50172897 de qualité recherche : espèce « Erinaceus europaeus » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte dans l'herbe, de face"
     }
   ]
 }

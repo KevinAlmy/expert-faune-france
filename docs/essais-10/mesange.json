@@ -1,5 +1,5 @@
 {
-  "id": "EFF-000001",
+  "id": "EFF-TAXREF-3764",
   "etat": "fiche_partielle",
   "identite": {
     "nom_retenu": "Parus major",
@@ -1722,7 +1722,6 @@
   },
   "photos": [
     {
-      "role": "paysage",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3AGreat_Tit_%28Parus_major%29_1.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Great_Tit_%28Parus_major%29_1.jpg/1280px-Great_Tit_%28Parus_major%29_1.jpg",
@@ -1733,15 +1732,18 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/",
       "largeur": 1280,
       "hauteur": 1054,
-      "orientation": "paysage",
       "qualite": "Featured picture de Commons (sélection des meilleures photos)",
       "credit": "Photo : Darkone, CC BY-SA 2.5, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Parus major », reliée à l'élément Wikidata Q25485 dont le nom scientifique (P225) est « Parus major »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte perché, gros plan net de trois quarts, fond vert"
+      "controle_visuel": "Adulte perché, gros plan net de trois quarts, fond vert",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "photo primée de Wikimedia Commons ; animal net, sujet principal, dans son milieu"
     },
     {
-      "role": "portrait",
       "source": "iNaturalist",
       "url_page": "https://www.inaturalist.org/photos/164535539",
       "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/164535539/large.jpg",
@@ -1752,12 +1754,58 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0/",
       "largeur": 1536,
       "hauteur": 2048,
-      "orientation": "portrait",
       "qualite": "observation iNaturalist classée par votes (1 favoris)",
       "credit": "Photo : Olga Semina, CC BY 4.0, via iNaturalist",
       "verification": "observation iNaturalist 98777620 de qualité recherche : espèce « Parus major » validée par la communauté",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte perché dans un arbuste à baies rouges"
+      "controle_visuel": "Adulte perché dans un arbuste à baies rouges",
+      "orientation_origine": "portrait",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AGreat_tit_%2852300%29.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Great_tit_%2852300%29.jpg/1280px-Great_tit_%2852300%29.jpg",
+      "titre": "Great tit (52300).jpg",
+      "auteur": "Rhododendrites",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 1280,
+      "hauteur": 959,
+      "qualite": "Quality image de Commons (qualité technique validée)",
+      "credit": "Photo : Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Parus major », reliée à l'élément Wikidata Q25485 dont le nom scientifique (P225) est « Parus major »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte perché sur une branche, de profil, feuillage vert"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AGreat_tit_on_Djurgarden_%2852307%29.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Great_tit_on_Djurgarden_%2852307%29.jpg/1280px-Great_tit_on_Djurgarden_%2852307%29.jpg",
+      "titre": "Great tit on Djurgarden (52307).jpg",
+      "auteur": "Rhododendrites",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 4608,
+      "hauteur": 3456,
+      "qualite": "Quality image de Commons (qualité technique validée)",
+      "credit": "Photo : Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Parus major », reliée à l'élément Wikidata Q25485 dont le nom scientifique (P225) est « Parus major »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte perché sur une grosse branche, plan large"
     }
   ]
 }

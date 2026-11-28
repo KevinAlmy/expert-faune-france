@@ -1,6 +1,6 @@
 # Méthode de vérification
 
-Résumé opérationnel du cadrage v0.6 (sections 6 à 9, 11 et 13). En cas de doute, le cadrage complet fait foi : `docs/cadrage-v0.6.md`.
+Résumé opérationnel du cadrage v0.7 (sections 6 à 9, 11 et 13). En cas de doute, le cadrage complet fait foi : `docs/cadrage-v0.7.md`.
 
 ## Identité stable (§6)
 

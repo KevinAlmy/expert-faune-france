@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Règles de décision automatiques du skill (cadrage v0.6, sections 6, 7, 9 et 10).
+"""Règles de décision automatiques du skill (cadrage v0.7, sections 6, 7, 9 et 10).
 
 Ce module est la version exécutable de reference/decisions.md. Il ne cherche
 rien : il reçoit un « dossier de preuves » (JSON) déjà constitué et rend la
@@ -321,11 +321,12 @@ def decider_photo(photo: dict, profil: dict | None = None) -> dict:
 
 
 def decider_photos(photos: list[dict], profil: dict | None = None) -> dict:
-    """Garde l'ordre de priorité des sources ; la première photo admise est la photo principale."""
+    """Garde l'ordre de priorité des sources ; la première photo admise est proposée comme
+    recommandée. Le skill ne valide jamais une photo : la validation appartient à l'utilisateur."""
     resultats = [{**p, **decider_photo(p, profil)} for p in photos]
     admises = [r for r in resultats if r["admise"]]
     return {
-        "principale": admises[0].get("id") if admises else None,
+        "recommandee": admises[0].get("id") if admises else None,
         "admises": [r.get("id") for r in admises],
         "refusees": [{"id": r.get("id"), "motif": r["motif"]} for r in resultats if not r["admise"]],
     }

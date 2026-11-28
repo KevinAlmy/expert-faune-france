@@ -17,7 +17,7 @@
     "id": {
       "type": "string",
       "pattern": "^EFF-[0-9A-Za-z-]+$",
-      "description": "Identifiant interne stable, jamais réutilisé, indépendant des noms et des identifiants externes."
+      "description": "Identifiant déduit de l'espèce, sans compteur : EFF-TAXREF-<CD_REF>, sinon EFF-COL-<id>, sinon EFF-NOM-<nom>."
     },
     "etat": {
       "$ref": "etats.schema.json#/$defs/etat_entree"
@@ -233,7 +233,7 @@
       "$ref": "rapport-execution.schema.json"
     },
     "photos": {
-      "description": "Deux photos sous licence réutilisable : une en paysage, une en portrait (cadrage du skill, étape Photos).",
+      "description": "Photos proposées par le skill (jusqu'à 3 par orientation, une recommandée par orientation). Le choix final et la validation appartiennent à l'utilisateur.",
       "type": "array",
       "items": {
         "$ref": "#/$defs/photo"
@@ -332,7 +332,9 @@
     "photo": {
       "type": "object",
       "required": [
-        "role",
+        "orientation",
+        "statut",
+        "recommandee",
         "source",
         "url_page",
         "url_image",
@@ -343,12 +345,6 @@
         "consulte_le"
       ],
       "properties": {
-        "role": {
-          "enum": [
-            "paysage",
-            "portrait"
-          ]
-        },
         "source": {
           "type": "string"
         },
@@ -398,14 +394,6 @@
             "null"
           ]
         },
-        "orientation": {
-          "enum": [
-            "paysage",
-            "portrait",
-            "carre",
-            "inconnue"
-          ]
-        },
         "qualite": {
           "type": "string"
         },
@@ -451,6 +439,50 @@
         "consulte_le": {
           "type": "string",
           "format": "date"
+        },
+        "orientation_origine": {
+          "enum": [
+            "paysage",
+            "portrait",
+            "carre",
+            "inconnue"
+          ]
+        },
+        "statut": {
+          "enum": [
+            "proposee",
+            "validee",
+            "refusee"
+          ],
+          "description": "Le skill écrit toujours « proposee » ; l'utilisateur valide ou refuse dans son outil."
+        },
+        "recommandee": {
+          "type": "boolean",
+          "description": "Une seule photo recommandée par orientation."
+        },
+        "motif_recommandation": {
+          "type": "string"
+        },
+        "validation": {
+          "type": "object",
+          "description": "Rempli par l'utilisateur, jamais par le skill.",
+          "properties": {
+            "par": {
+              "type": "string"
+            },
+            "le": {
+              "type": "string"
+            },
+            "commentaire": {
+              "type": "string"
+            }
+          }
+        },
+        "orientation": {
+          "enum": [
+            "paysage",
+            "portrait"
+          ]
         }
       }
     }

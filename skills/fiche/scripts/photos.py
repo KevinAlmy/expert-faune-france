@@ -3,7 +3,7 @@
 
 Usage :
   python3 photos.py --nom "Rana temporaria" [--profil profil-projet.json]
-                    [--max 3] [--telecharger fiches/photos/candidates --prefixe EFF-000001]
+                    [--max 3] [--telecharger <dossier temporaire> --prefixe photo]
 
 But : deux belles photos par espèce, une en paysage et une en portrait.
 Sources, classées par qualité :
@@ -375,7 +375,8 @@ def fiche_photo(photo: dict) -> dict:
         "licence_url": url_licence,
         "largeur": photo.get("largeur") or photo.get("largeur_miniature"),
         "hauteur": photo.get("hauteur") or photo.get("hauteur_miniature"),
-        "orientation": orientation(photo),
+        "orientation_origine": orientation(photo),
+        "statut": "proposee",
         "qualite": photo.get("qualite"),
         "credit": texte,
         "verification": photo["verification"],
@@ -409,7 +410,7 @@ def chercher(nom: str, profil: dict | None = None, par_orientation: int = 3) -> 
 def telecharger(photos: list[dict], dossier: Path, prefixe: str) -> None:
     dossier.mkdir(parents=True, exist_ok=True)
     for i, photo in enumerate(photos, 1):
-        chemin = dossier / f"{prefixe}-{photo['orientation']}-{i}.jpg"
+        chemin = dossier / f"{prefixe}-{photo['orientation_origine']}-{i}.jpg"
         requete = urllib.request.Request(photo["url_image"], headers={"User-Agent": AGENT})
         for essai in range(3):
             try:

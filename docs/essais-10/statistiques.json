@@ -2,7 +2,7 @@
  "fiches": [
   {
    "cle": "herisson",
-   "fichier": "herisson/fiches/EFF-000001.json",
+   "fichier": "herisson",
    "etat": "fiche_partielle",
    "duree_min": 11,
    "nom": "Erinaceus europaeus",
@@ -31,7 +31,7 @@
   },
   {
    "cle": "pipistrelle",
-   "fichier": "pipistrelle/fiches/EFF-000001.json",
+   "fichier": "pipistrelle",
    "etat": "fiche_partielle",
    "duree_min": 5,
    "nom": "Pipistrellus pipistrellus",
@@ -60,7 +60,7 @@
   },
   {
    "cle": "mesange",
-   "fichier": "mesange/fiches/EFF-000001.json",
+   "fichier": "mesange",
    "etat": "fiche_partielle",
    "duree_min": 7,
    "nom": "Parus major",
@@ -89,7 +89,7 @@
   },
   {
    "cle": "lezard",
-   "fichier": "lezard/fiches/EFF-000001.json",
+   "fichier": "lezard",
    "etat": "fiche_partielle",
    "duree_min": 11,
    "nom": "Podarcis muralis",
@@ -118,7 +118,7 @@
   },
   {
    "cle": "salamandre",
-   "fichier": "salamandre/fiches/EFF-000001.json",
+   "fichier": "salamandre",
    "etat": "fiche_partielle",
    "duree_min": 10,
    "nom": "Salamandra salamandra",
@@ -147,7 +147,7 @@
   },
   {
    "cle": "brochet",
-   "fichier": "brochet/fiches/EFF-000001.json",
+   "fichier": "brochet",
    "etat": "fiche_partielle",
    "duree_min": 9,
    "nom": "Esox lucius",
@@ -177,7 +177,7 @@
   },
   {
    "cle": "lucane",
-   "fichier": "lucane/fiches/EFF-000001.json",
+   "fichier": "lucane",
    "etat": "fiche_partielle",
    "duree_min": 11,
    "nom": "Lucanus cervus",
@@ -205,7 +205,7 @@
   },
   {
    "cle": "machaon",
-   "fichier": "machaon/fiches/EFF-000001.json",
+   "fichier": "machaon",
    "etat": "fiche_partielle",
    "duree_min": 7,
    "nom": "Papilio machaon",
@@ -234,7 +234,7 @@
   },
   {
    "cle": "escargot",
-   "fichier": "escargot/fiches/EFF-000001.json",
+   "fichier": "escargot",
    "etat": "fiche_partielle",
    "duree_min": 9,
    "nom": "Helix pomatia",
@@ -264,7 +264,7 @@
   },
   {
    "cle": "ecrevisse",
-   "fichier": "ecrevisse/fiches/EFF-000001.json",
+   "fichier": "ecrevisse",
    "etat": "fiche_partielle",
    "duree_min": 10,
    "nom": "Austropotamobius pallipes",

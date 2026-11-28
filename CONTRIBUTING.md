@@ -13,7 +13,7 @@ Chaque pull request est relue par le mainteneur avant fusion. Les tests automati
 
 ## Règles de fond
 
-- La méthode de référence est [docs/cadrage-v0.6.md](docs/cadrage-v0.6.md). Une modification de méthode le met à jour et note la décision dans `CHANGELOG.md`.
+- La méthode de référence est [docs/cadrage-v0.7.md](docs/cadrage-v0.7.md). Une modification de méthode le met à jour et note la décision dans `CHANGELOG.md`.
 - Une règle de décision du skill n'attend jamais une validation humaine : quand les preuves manquent, elle s'abstient avec un motif.
 - Aucune valeur sans source. Aucune donnée sous accès restreint, aucune localisation sensible, aucune copie de contenu non autorisée dans le dépôt.
 - Le socle reste indépendant de toute application : les choix propres à un projet vont dans un profil de projet.

@@ -2,7 +2,10 @@
 
 ## 0.1.0 — à publier
 
-Première version (V1 du cadrage v0.6).
+Première version (V1 du cadrage v0.7).
+
+- **Le skill extrait, il ne stocke pas** : il remet la fiche (`fiche.json` et `fiche.html`) dans un dossier de sortie, sans base, index ni compteur, et efface ses fichiers temporaires. Critères libres de l'utilisateur ; fiche existante fournie pour vérification ou enrichissement ; identifiant déduit de l'espèce (`EFF-TAXREF-<CD_REF>`). Cadrage v0.7.
+- Photos proposées (jusqu'à 3 par orientation) avec une recommandation par orientation ; validation par l'utilisateur, jamais par le skill.
 
 - Skill `fiche` : création, vérification, correction et enrichissement d'une fiche, entièrement automatiques.
 - Export TAXREF v18 local : recherche par nom retenu, synonyme ou nom vernaculaire ; table officielle des codes de la colonne `FR` (France hexagonale et Corse) et décision associée.
@@ -14,7 +17,7 @@ Première version (V1 du cadrage v0.6).
 - Le contrôle de reformulation porte sur le texte complet et brut de la page, jamais sur un résumé (reprises manquées lors de l'essai).
 - Photos : deux photos par espèce (paysage et portrait) sous licence réutilisable, avec crédit prêt à afficher ; sources classées par qualité (photos primées de Wikimedia Commons, puis observations iNaturalist les plus appréciées) ; rattachement à l'espèce vérifié ; contrôle visuel obligatoire ; recadrage indiqué quand aucune photo de la bonne orientation ne convient (`scripts/photos.py`, règles et cas de test 25 à 27).
 - Page HTML lisible de chaque fiche ou candidature (`scripts/rendre.py`), valeurs échappées, liens limités au web.
-- Exemples réels produits par le skill de bout en bout : fiche Grenouille rousse (`docs/exemples/grenouille-rousse-EFF-000001.json`) et candidature Grenouille des bois, absente de France (`docs/exemples/grenouille-des-bois-EFF-000002.json`), avec leurs pages HTML.
+- Exemples réels produits par le skill de bout en bout : fiche Grenouille rousse (`docs/exemples/grenouille-rousse.json`) et candidature Grenouille des bois, absente de France (`docs/exemples/grenouille-des-bois-candidature.json`), avec leurs pages HTML.
 - Correction : l'origine d'une preuve TAXREF n'est plus écrasée par l'origine biogéographique (relevé par le premier essai).
 - Schémas JSON : fiche (11 familles d'enrichissement, bilan de couverture), candidature, affirmation, états, rapport d'exécution.
 - Plugin et marketplace Claude Code.

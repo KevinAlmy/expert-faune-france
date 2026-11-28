@@ -1,5 +1,5 @@
 {
-  "id": "EFF-000001",
+  "id": "EFF-TAXREF-54468",
   "etat": "fiche_partielle",
   "identite": {
     "nom_retenu": "Papilio machaon",
@@ -1750,7 +1750,6 @@
   },
   "photos": [
     {
-      "role": "paysage",
       "source": "Wikimedia Commons",
       "url_page": "https://commons.wikimedia.org/wiki/File%3AAix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg",
       "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Aix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg/1280px-Aix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg",
@@ -1761,15 +1760,18 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "largeur": 1280,
       "hauteur": 853,
-      "orientation": "paysage",
       "qualite": "image principale de l'élément Wikidata",
       "credit": "Photo : Michael Wittwer, CC BY-SA 4.0, via Wikimedia Commons",
       "verification": "fichier de la catégorie Commons « Papilio machaon », reliée à l'élément Wikidata Q179530 dont le nom scientifique (P225) est « Papilio machaon »",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte ailes ouvertes, motifs nets, vu de dessus"
+      "controle_visuel": "Adulte ailes ouvertes, motifs nets, vu de dessus",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
     },
     {
-      "role": "portrait",
       "source": "iNaturalist",
       "url_page": "https://www.inaturalist.org/photos/218515950",
       "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/218515950/large.jpeg",
@@ -1780,12 +1782,37 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0/",
       "largeur": 691,
       "hauteur": 885,
-      "orientation": "portrait",
       "qualite": "observation iNaturalist classée par votes (1 favoris)",
       "credit": "Photo : Fethullah ÖZTÜRK, CC BY 4.0, via iNaturalist",
       "verification": "observation iNaturalist 128639016 de qualité recherche : espèce « Papilio machaon » validée par la communauté",
       "consulte_le": "2026-11-27",
-      "controle_visuel": "Adulte en vol sur fond flou"
+      "controle_visuel": "Adulte en vol sur fond flou",
+      "orientation_origine": "portrait",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/431561428",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/431561428/large.jpg",
+      "titre": "Photo iNaturalist 431561428",
+      "auteur": "Diego González Dopico",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1365,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Diego González Dopico, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 203770159 de qualité recherche : espèce « Papilio machaon » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte butinant des fleurs roses, ailes fermées"
     }
   ]
 }

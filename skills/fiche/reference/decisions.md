@@ -1,6 +1,6 @@
 # Décisions automatiques
 
-Cadrage v0.6, sections 6.3, 7, 9.4, 10 et 13. Version exécutable : `scripts/decider.py`, testée par `tests/cas/`. Aucune décision ne requiert de validation humaine : chaque situation a une décision et un motif enregistré.
+Cadrage v0.7, sections 6.3, 7, 9.4, 10 et 13. Version exécutable : `scripts/decider.py`, testée par `tests/cas/`. Aucune décision ne requiert de validation humaine : chaque situation a une décision et un motif enregistré.
 
 ## Admission
 
@@ -82,8 +82,9 @@ Source des significations : `statuts_note.csv` et `TAXREFv18.pdf`, dans l'archiv
 | Auteur inconnu | Refusée : le crédit exigé par la licence est impossible |
 | Plus grand côté inférieur à 640 px | Refusée |
 | Rattachement à l'espèce non vérifié (nom scientifique de l'élément Wikidata ou du taxon iNaturalist différent du nom retenu) | Refusée |
-| Plusieurs photos admises | Ordre de priorité des sources ; la première est la photo principale |
-| Aucune photo admise | Pas une erreur : la fiche le dit et la recherche est reprise à la prochaine exécution |
+| Plusieurs photos admises | Jusqu'à 3 proposées par orientation après contrôle visuel, classées par qualité ; une seule recommandée par orientation, avec sa raison |
+| Validation d'une photo | Jamais par le skill : toute photo sort avec `statut: proposee` ; l'utilisateur la valide ou la refuse dans son outil |
+| Aucune photo admise | Pas une erreur : la fiche le dit, comme piste pour une prochaine extraction |
 
 ## Localisation
 
