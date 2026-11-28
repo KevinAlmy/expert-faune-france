@@ -1,0 +1,39 @@
+{
+  "description": "Licence NC : refusée si l'usage commercial est déclaré, admise sinon",
+  "dossier": {
+    "profil": {
+      "usage_commercial": true
+    },
+    "photos": [
+      {
+        "id": "nc",
+        "licence": "cc-by-nc",
+        "auteur": "A. Auteur",
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      },
+      {
+        "id": "by",
+        "licence": "cc-by",
+        "auteur": "A. Auteur",
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": true
+      }
+    ]
+  },
+  "attendu": {
+    "photos": {
+      "recommandee": "by",
+      "admises": [
+        "by"
+      ],
+      "refusees": [
+        {
+          "id": "nc"
+        }
+      ]
+    }
+  }
+}

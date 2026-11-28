@@ -1,0 +1,31 @@
+{
+  "id": "EFF-000002",
+  "etat": "candidate",
+  "taxon": {
+    "nom": "Exemplum mundi",
+    "identite": "etablie"
+  },
+  "motif": "présence sauvage en métropole non démontrée (preuves insuffisantes seules : catalogue_mondial)",
+  "preuve_manquante": "presence_sauvage_metropole",
+  "sources_consultees": [
+    "Catalogue of Life 2026-11-11"
+  ],
+  "reexamen": {
+    "declencheurs": [
+      "nouvel export TAXREF",
+      "nouvelle source de présence"
+    ]
+  },
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Grenouille rousse",
+    "sources_consultees": [
+      {
+        "source": "TAXREF",
+        "version": "18"
+      }
+    ],
+    "indisponibilites": []
+  }
+}

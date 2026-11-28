@@ -1,0 +1,214 @@
+{
+  "id": "EFF-000001",
+  "etat": "fiche_minimale",
+  "identite": {
+    "nom_retenu": "Rana temporaria",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "ES",
+    "noms_vernaculaires": [
+      "Grenouille rousse"
+    ],
+    "synonymes": [
+      {
+        "nom": "Rana rufa",
+        "auteur": "Lacepède, 1788",
+        "source": "TAXREF v18"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "351",
+        "cd_ref": "351",
+        "version": "18"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Rana temporaria Linnaeus, 1758",
+        "source": "TAXREF v18, export officiel",
+        "origine": "TAXREF v18 (MNHN)",
+        "date_ou_version": "TAXREF v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "P",
+        "source": "TAXREF v18, export officiel",
+        "origine": "TAXREF v18 (MNHN)",
+        "date_ou_version": "TAXREF v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : code P (Présent, indigène ou indéterminé)",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "repartition": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "habitats": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "alimentation": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "reproduction": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "developpement": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "comportements": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "activite": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "interactions": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "conservation": {
+      "recherche": "non_recherche",
+      "champs": {}
+    },
+    "observation_respectueuse": {
+      "recherche": "non_recherche",
+      "champs": {}
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": false,
+    "point_de_reprise": [
+      "reconnaissance",
+      "repartition",
+      "habitats",
+      "alimentation",
+      "reproduction",
+      "developpement",
+      "comportements",
+      "activite",
+      "interactions",
+      "conservation",
+      "observation_respectueuse"
+    ],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "repartition": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "habitats": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "alimentation": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "reproduction": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "developpement": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "comportements": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "activite": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "interactions": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "conservation": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [],
+        "lacunes": [
+          "non recherché"
+        ]
+      }
+    }
+  },
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Grenouille rousse",
+    "sources_consultees": [
+      {
+        "source": "TAXREF",
+        "version": "18"
+      }
+    ],
+    "indisponibilites": []
+  }
+}

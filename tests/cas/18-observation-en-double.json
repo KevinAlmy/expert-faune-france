@@ -1,0 +1,29 @@
+{
+  "description": "Même observation sur OpenObs et GBIF : comptée une seule fois",
+  "dossier": {
+    "champs": {
+      "presence_locale": {
+        "affirmations": [
+          {
+            "valeur": "présente",
+            "source": "OpenObs",
+            "origine": "producteur P, obs 42"
+          },
+          {
+            "valeur": "présente",
+            "source": "GBIF",
+            "origine": "producteur P, obs 42"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "presence_locale": {
+        "etat": "documente",
+        "origines_independantes": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Photo non rattachée de façon vérifiable à l'espèce, ou trop petite : refusée ; aucune photo admise n'est pas une erreur",
+  "dossier": {
+    "photos": [
+      {
+        "id": "douteuse",
+        "licence": "cc-by-sa",
+        "auteur": "A. Auteur",
+        "largeur": 2048,
+        "hauteur": 1536,
+        "identite_verifiee": false
+      },
+      {
+        "id": "petite",
+        "licence": "cc-by-sa",
+        "auteur": "A. Auteur",
+        "largeur": 320,
+        "hauteur": 240,
+        "identite_verifiee": true
+      }
+    ]
+  },
+  "attendu": {
+    "photos": {
+      "recommandee": null,
+      "admises": []
+    }
+  }
+}

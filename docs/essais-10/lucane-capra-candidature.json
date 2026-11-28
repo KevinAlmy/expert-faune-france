@@ -1,0 +1,83 @@
+{
+  "id": "EFF-COL-7X2L2",
+  "etat": "candidate",
+  "taxon": {
+    "nom": "Lucanus capra",
+    "auteur": "Olivier, 1789",
+    "identite": "etablie",
+    "identifiants_externes": {
+      "catalogue_of_life": {
+        "id": "7X2L2",
+        "jeu": "3LR",
+        "version": "2026-11-11"
+      }
+    }
+  },
+  "motif": "decider.py : candidature — identité établie par le Catalogue of Life 2026-11-11 (World Scarabaeidae Database), mais présence sauvage en métropole non démontrée par une source suffisante seule : la répartition « France, Espagne » vient d'un catalogue mondial, et le résumé de Kergoat et al. 2026 (sud de la France) ne permet pas de vérifier spécimens et localisations. TAXREF v18 ne distingue pas ce taxon : ses synonymes (pontbrianti, fabiani, pentaphyllus, reichei) y sont rangés sous Lucanus cervus cervus (fiche EFF-000001), dont les données ne sont pas réattribuées.",
+  "preuve_manquante": "presence_sauvage_metropole",
+  "hypotheses": [
+    {
+      "hypothese": "Espèce distincte de L. cervus, présente dans le sud de la France et le nord de l'Espagne",
+      "sources": [
+        "Catalogue of Life 2026-11-11 (taxon 7X2L2)",
+        "Kergoat et al. 2026, Revue suisse de zoologie, doi:10.35929/rsz.0169 (résumé)"
+      ]
+    },
+    {
+      "hypothese": "Simple forme ou synonyme de Lucanus cervus cervus (concept du référentiel français)",
+      "sources": [
+        "TAXREF v18 (CD_REF 200478)"
+      ]
+    }
+  ],
+  "sources_consultees": [
+    "TAXREF v18 (export local) : aucun taxon Lucanus capra Olivier",
+    "Catalogue of Life via ChecklistBank 3LR, version 2026-11-11",
+    "GBIF species/match : aucune correspondance au rang espèce",
+    "OpenAlex : résumé de Kergoat et al. 2026"
+  ],
+  "reexamen": {
+    "declencheurs": [
+      "sortie de TAXREF v19 ou ultérieure",
+      "lecture du texte intégral de Kergoat et al. 2026 (spécimens localisés en France)",
+      "publication d'un atlas ou d'une révision française des Lucanidae"
+    ]
+  },
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "cadrage v0.6",
+    "requete": "Lucane cerf-volant (taxon découvert pendant l'enrichissement)",
+    "sources_consultees": [
+      {
+        "source": "TAXREF v18 (export local)",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank, 3LR) ; secteur World Scarabaeidae Database (jeu 1027, 2026-11-03)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR/taxon/72P4Y/info"
+      },
+      {
+        "source": "GBIF : species/match, descriptions (jeux de traits, non retenus), occurrences France et Corse, jeux OPIE et rapportage DHFF",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.gbif.org/v1/"
+      },
+      {
+        "source": "OpenAlex : 72 notices « Lucanus cervus » avec résumé ; 29 résumés lus et utilisés",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.openalex.org/works?filter=title.search:Lucanus%20cervus,has_abstract:true"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "INPN, OpenObs",
+        "motif": "HTTP 403 (hors ligne, incident signalé par PatriNat)"
+      },
+      {
+        "source": "Texte intégral des articles (Wiley, Pensoft/Nature Conservation, PLOS, Frontiers, PMC, dépôt de Ljubljana), Crossref, Europe PMC, HAL (API), EUR-Lex, BHL, web.archive.org",
+        "motif": "Connexion refusée par le proxy réseau, aussi via l'outil de lecture web ; seuls les résumés (OpenAlex) ont été lus"
+      }
+    ]
+  }
+}

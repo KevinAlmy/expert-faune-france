@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KevinAlmy/expert-faune-france/schemas/etats.schema.json",
+  "title": "États possibles (cadrage §12.4)",
+  "$defs": {
+    "etat_champ": {
+      "description": "Fiabilité d'un champ.",
+      "enum": ["documente", "corrobore", "incertain", "contradictoire", "non_renseigne"]
+    },
+    "etat_recherche": {
+      "description": "État de recherche d'un thème ou d'un champ, distinct de sa fiabilité.",
+      "enum": ["non_recherche", "recherche_effectuee", "recherche_partielle", "recherche_sans_resultat", "acces_indisponible", "non_applicable"]
+    },
+    "etat_entree": {
+      "enum": ["candidate", "fiche_minimale", "fiche_partielle", "fiche_documentee", "concept_historique", "renvoi"]
+    },
+    "qualification_presence": {
+      "enum": ["etablie", "occasionnelle", "historique"]
+    },
+    "origine_presence": {
+      "enum": ["indigene", "introduite", "indeterminee"]
+    }
+  }
+}

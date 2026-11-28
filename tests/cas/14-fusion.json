@@ -1,0 +1,28 @@
+{
+  "description": "Fusion : fiche retenue conservée, autres en renvoi",
+  "dossier": {
+    "noms": {
+      "situation": "fusion",
+      "fusion": {
+        "retenue": "EFF-1",
+        "fusionnees": [
+          "EFF-2"
+        ],
+        "referentiel": "TAXREF v19"
+      }
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "fusion",
+      "fiche_conservee": "EFF-1",
+      "renvois": [
+        {
+          "fiche_id": "EFF-2",
+          "etat": "renvoi",
+          "vers": "EFF-1"
+        }
+      ]
+    }
+  }
+}

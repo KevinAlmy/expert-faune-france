@@ -1,0 +1,2294 @@
+{
+  "id": "EFF-TAXREF-67606",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Esox lucius",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "espèce",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Chordata",
+      "classe": "Actinopterygii",
+      "ordre": "Esociformes",
+      "famille": "Esocidae",
+      "genre": "Esox"
+    },
+    "noms_vernaculaires": [
+      "Brochet",
+      "Brochet commun"
+    ],
+    "synonymes": [
+      {
+        "nom": "Esox boreus",
+        "auteur": "Agassiz, 1850",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox estor",
+        "auteur": "Lesueur, 1818",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox lucioides",
+        "auteur": "Agassiz & Girard in Herbert, 1850",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox lucius bergi",
+        "auteur": "Kaganowsky, 1933",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox lucius var. atrox",
+        "auteur": "Anikin, 1902",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox lucius var. variegatus",
+        "auteur": "Fitzinger, 1832",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox lucius lucius natio wiliunensis",
+        "auteur": "Kirillov, 1962",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox lucius lucius",
+        "auteur": "Linnaeus, 1758",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Esox reichertii var. baicalensis",
+        "auteur": "Dybowski, 1874",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Luccius vorax",
+        "auteur": "Rafinesque, 1810",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Lucius lucius",
+        "auteur": "(Linnaeus, 1758)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Trematina foveolata",
+        "auteur": "Trautschold, 1884",
+        "source": "TAXREF v18"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "67606",
+        "cd_ref": "67606",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "3BHYH",
+        "version": "2026-11-11"
+      },
+      "gbif": {
+        "usageKey": 2346633,
+        "jeu": "GBIF Backbone Taxonomy"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Esox lucius Linnaeus, 1758 ; rang espèce ; nom retenu (CD_NOM = CD_REF = 67606) ; Esocidae, Esociformes, Actinopterygii.",
+        "source": "TAXREF v18, export officiel local (TAXREFv18.txt, sha256 a6963ea1…)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/67606",
+        "origine": "TAXREF v18 (MNHN-PatriNat), CD_REF 67606",
+        "date_ou_version": "TAXREF v18 (fichiers du 09/01/2025)",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27"
+      },
+      {
+        "valeur": "Esox lucius Linnaeus, 1758, statut accepté (identifiant 3BHYH).",
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Esox%20lucius",
+        "origine": "Catalogue of Life, identifiant 3BHYH",
+        "date_ou_version": "COL 2026-11-11",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27"
+      },
+      {
+        "valeur": "Esox lucius Linnaeus, 1758, statut accepté (usageKey 2346633).",
+        "source": "GBIF Backbone Taxonomy, API species/match",
+        "url": "https://api.gbif.org/v1/species/match?name=Esox%20lucius",
+        "origine": "GBIF Backbone Taxonomy, usageKey 2346633",
+        "date_ou_version": "consulté le 27/11/2026",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "Code P (Présent, indigène ou indéterminé) dans la colonne FR (France hexagonale et Corse).",
+        "source": "TAXREF v18, export officiel local (TAXREFv18.txt, sha256 a6963ea1…)",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/67606",
+        "origine": "TAXREF v18 (MNHN-PatriNat), CD_REF 67606",
+        "date_ou_version": "TAXREF v18 (fichiers du 09/01/2025)",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : espèce au nom retenu (CD_NOM = CD_REF = 67606), code P (Présent, indigène ou indéterminé) dans la colonne FR ; décision creer_fiche rendue par decider.py.",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Synthèses spécialisées (FishBase, Keith et al. 2011, fiche OFB) inaccessibles depuis l'environnement : morphologie générale et dimensions issues de compléments ; critères de distinction d'avec le Brochet aquitain issus des publications originales (résumés).",
+      "champs": {
+        "morphologie_generale": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Poisson au corps étiré en forme de fuseau ; dos et haut des flancs vert à jaunâtre, passant au blanc sur le ventre ; nageoires rouge orangé marquées de bandes foncées.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Teinte dominante vert olive, s'éclaircissant du jaune au blanc vers le ventre ; flancs ornés de courtes taches claires allongées ; partie inférieure de l'opercule sans écailles ; grands pores sensoriels sur la tête et sous la mâchoire inférieure.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (en) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Poisson au corps étiré en forme de fuseau ; dos et haut des flancs vert à jaunâtre, passant au blanc sur le ventre ; nageoires rouge orangé marquées de bandes foncées.",
+            "Teinte dominante vert olive, s'éclaircissant du jaune au blanc vers le ventre ; flancs ornés de courtes taches claires allongées ; partie inférieure de l'opercule sans écailles ; grands pores sensoriels sur la tête et sous la mâchoire inférieure."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "dimensions_masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Longueur habituelle d'environ 40 à 55 cm ; longueurs maximales signalées jusqu'à 150 cm et masse maximale de 28,4 kg.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "FishBase, fiche Esox lucius (citée par Wikipédia en anglais, consultée par elle le 02/02/2017)",
+              "reference_citee": true,
+              "unite": "cm ; kg"
+            },
+            {
+              "valeur": "Adultes de 30 à 150 cm pour 2 à 10 kg ; sujets de plus de 130 cm et 30 kg rares, surtout des femelles.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "non_renseigne",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Longueur habituelle d'environ 40 à 55 cm ; longueurs maximales signalées jusqu'à 150 cm et masse maximale de 28,4 kg.",
+          "ecartees": [
+            {
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "ecailles_ligne_laterale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Esox lucius : (115) 120 à 136 (146) écailles en ligne latérale ; hybrides avec E. aquitanicus : 114 à 119 ; E. aquitanicus : 104 à 107 dans le même échantillon.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W3112296714) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W3112296714",
+              "origine": "Jeanroy C.G. & Denys G.P.J. (2019). Morphological traits allow distinguishing their hybrids from the Northern pike, Esox lucius, and the Aquitanian pike, Esox aquitanicus. Cybium 43(3). doi:10.26028/cybium/2019-433-003",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "Accès libre (dépôt HAL ; copie Zenodo CC BY)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France (Sud-Ouest pour E. aquitanicus et les hybrides)",
+              "population": "échantillon de l'étude (taille non précisée dans le résumé)"
+            }
+          ],
+          "valeur_synthese": "Esox lucius : (115) 120 à 136 (146) écailles en ligne latérale ; hybrides avec E. aquitanicus : 114 à 119 ; E. aquitanicus : 104 à 107 dans le même échantillon."
+        },
+        "relation_longueur_masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Exposant b de la relation longueur–masse : 2,987 pour Esox lucius (2,960 pour E. aquitanicus).",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4392606406) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4392606406",
+              "origine": "Royer L.M., Teletchea F. et al. (2024). Length–weight relationships of the French pikes Esox spp. International Journal of Limnology 60. doi:10.1051/limn/2024001",
+              "date_ou_version": "2024",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "population": "9070 poissons des deux espèces mesurés et pesés lors de pêches électriques, 1981–2022",
+              "contexte": "sauvage",
+              "taille_echantillon": 9070
+            }
+          ],
+          "valeur_synthese": "Exposant b de la relation longueur–masse : 2,987 pour Esox lucius (2,960 pour E. aquitanicus)."
+        },
+        "dentition": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Gueule garnie d'environ 700 dents.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Nadaud J. (dir.) (1955). La Pêche. Larousse, Paris (cité par un site de pêcheurs, lui-même cité par Wikipédia)",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Gueule garnie d'environ 700 dents.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "livree_juveniles": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Livrée juvénile rayée de jaune sur les flancs, ces rayures se divisant plus tard en ponctuations claires.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Chez les jeunes, corps vert rayé de jaune ; les rayures se morcellent ensuite en taches pâles et la couleur de fond tourne à l'olive.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (en) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Livrée juvénile rayée de jaune sur les flancs, ces rayures se divisant plus tard en ponctuations claires.",
+            "Chez les jeunes, corps vert rayé de jaune ; les rayures se morcellent ensuite en taches pâles et la couleur de fond tourne à l'olive."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "especes_proches": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "En France, deux autres brochets sont reconnus : Esox aquitanicus (bassins de la Charente à l'Adour) et Esox cisalpinus (attesté au XIXe siècle dans le Léman, avec E. lucius, d'après des spécimens anciens).",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2004829374) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2004829374",
+              "origine": "Denys G.P.J., Dettaï A., Persat H., Hautecœur M. & Keith P. (2014). Morphological and molecular evidence of three species of pikes Esox spp. in France, including the description of a new species. Comptes Rendus Biologies 337. doi:10.1016/j.crvi.2014.07.002",
+              "date_ou_version": "2014",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": "En France, deux autres brochets sont reconnus : Esox aquitanicus (bassins de la Charente à l'Adour) et Esox cisalpinus (attesté au XIXe siècle dans le Léman, avec E. lucius, d'après des spécimens anciens)."
+        },
+        "criteres_distinctifs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "E. aquitanicus se reconnaît à une robe marbrée faite de bandes verticales obliques étroites (1 à 1,5 écaille de large), à un museau plus court (0,9 fois la longueur post-orbitaire), à une base d'anale 1,1 à 1,2 fois plus longue que le pédoncule caudal, à 101–121 écailles latérales et 53–57 vertèbres.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2004829374) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2004829374",
+              "origine": "Denys G.P.J., Dettaï A., Persat H., Hautecœur M. & Keith P. (2014). Morphological and molecular evidence of three species of pikes Esox spp. in France, including the description of a new species. Comptes Rendus Biologies 337. doi:10.1016/j.crvi.2014.07.002",
+              "date_ou_version": "2014",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": "E. aquitanicus se reconnaît à une robe marbrée faite de bandes verticales obliques étroites (1 à 1,5 écaille de large), à un museau plus court (0,9 fois la longueur post-orbitaire), à une base d'anale 1,1 à 1,2 fois plus longue que le pédoncule caudal, à 101–121 écailles latérales et 53–57 vertèbres."
+        },
+        "limites_determination": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le dessin de la robe ne permet pas de séparer les hybrides lucius × aquitanicus, qui présentent les deux types ; le nombre d'écailles de la ligne latérale, intermédiaire, est le meilleur critère morphologique, à confirmer sur un échantillon plus large ; jusque-là, l'identification des hybrides reposait sur la génétique.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W3112296714) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W3112296714",
+              "origine": "Jeanroy C.G. & Denys G.P.J. (2019). Morphological traits allow distinguishing their hybrids from the Northern pike, Esox lucius, and the Aquitanian pike, Esox aquitanicus. Cybium 43(3). doi:10.26028/cybium/2019-433-003",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "Accès libre (dépôt HAL ; copie Zenodo CC BY)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France"
+            }
+          ],
+          "valeur_synthese": "Le dessin de la robe ne permet pas de séparer les hybrides lucius × aquitanicus, qui présentent les deux types ; le nombre d'écailles de la ligne latérale, intermédiaire, est le meilleur critère morphologique, à confirmer sur un échantillon plus large ; jusque-là, l'identification des hybrides reposait sur la génétique."
+        }
+      },
+      "prochaine_piste": "Keith et al. (2011, 2020) Les poissons d'eau douce de France ; fiche OFB/ONEMA Brochet ; FishBase (bloqué par le proxy) pour les dimensions de référence et le dimorphisme sexuel."
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "justification": "INPN et OpenObs hors ligne (incident signalé fin novembre 2026) : pas de carte nationale ni d'atlas consultés ; répartition mondiale et situation dans le Sud-Ouest documentées par publications (résumés) et Liste rouge.",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Présent (indigène ou indéterminé) en France hexagonale et Corse : code P de la colonne FR.",
+              "source": "TAXREF v18, export officiel local (TAXREFv18.txt, sha256 a6963ea1…)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/67606",
+              "origine": "TAXREF v18 (MNHN-PatriNat), CD_REF 67606",
+              "date_ou_version": "TAXREF v18 (fichiers du 09/01/2025)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "valeur_synthese": "Présent (indigène ou indéterminé) en France hexagonale et Corse : code P de la colonne FR."
+        },
+        "aire_mondiale": {
+          "etat": "corrobore",
+          "affirmations": [
+            {
+              "valeur": "Répartition circumpolaire dans la région holarctique.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2122809691) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2122809691",
+              "origine": "Skog A., Vøllestad L.A., Stenseth N.C., Kasumyan A. & Jakobsen K.S. (2014). Circumpolar phylogeography of the northern pike (Esox lucius) and its relationship to the Amur pike (E. reichertii). Frontiers in Zoology 11:67. doi:10.1186/s12983-014-0067-8",
+              "date_ou_version": "2014",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "corrobore",
+              "consulte_le": "2026-11-27"
+            },
+            {
+              "valeur": "Répartition circumpolaire dans la région holarctique.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2150906669) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2150906669",
+              "origine": "Forsman A., Tibblin P., Berggren H. et al. (2015). Pike Esox lucius as an emerging model organism for studies in ecology and evolutionary biology: a review. Journal of Fish Biology 87. doi:10.1111/jfb.12712",
+              "date_ou_version": "2015",
+              "reutilisation": {
+                "licence": "CC BY-NC-ND 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "corrobore",
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Répartition circumpolaire dans la région holarctique."
+        },
+        "phylogeographie": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Trois grandes lignées mitochondriales ; l'une couvre tout l'Holarctique ; deux lignées proviendraient de refuges glaciaires européens distincts (bassin du Danube, Europe de l'Ouest), ce dernier ayant surtout alimenté la recolonisation du nord de l'Europe.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2122809691) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2122809691",
+              "origine": "Skog A., Vøllestad L.A., Stenseth N.C., Kasumyan A. & Jakobsen K.S. (2014). Circumpolar phylogeography of the northern pike (Esox lucius) and its relationship to the Amur pike (E. reichertii). Frontiers in Zoology 11:67. doi:10.1186/s12983-014-0067-8",
+              "date_ou_version": "2014",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Trois grandes lignées mitochondriales ; l'une couvre tout l'Holarctique ; deux lignées proviendraient de refuges glaciaires européens distincts (bassin du Danube, Europe de l'Ouest), ce dernier ayant surtout alimenté la recolonisation du nord de l'Europe."
+        },
+        "situation_sud_ouest": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Entre Charente et Adour, le Brochet commun, introduit massivement par alevinage, aurait pris la place du Brochet aquitain dans les grands cours d'eau ; ce dernier se maintiendrait surtout dans les petits affluents.",
+              "source": "UICN France, MNHN, SFI & AFB (2019), brochure de la Liste rouge des poissons d'eau douce de France métropolitaine (PDF)",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "UICN France, MNHN, SFI & AFB (2019). La Liste rouge des espèces menacées en France – Poissons d'eau douce de France métropolitaine",
+              "date_ou_version": "évaluation 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France (Charente à Adour)"
+            }
+          ],
+          "valeur_synthese": "Entre Charente et Adour, le Brochet commun, introduit massivement par alevinage, aurait pris la place du Brochet aquitain dans les grands cours d'eau ; ce dernier se maintiendrait surtout dans les petits affluents."
+        },
+        "structure_genetique_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les populations françaises étudiées (rivières alevinées et étangs d'élevage) forment un ensemble génétique homogène, non distinct de la plupart des souches d'Europe de l'Est introduites ; trois branches évolutives distinctes sont mises en évidence : Europe continentale, bassin du Danube, sud-ouest de la France.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W1976221858) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W1976221858",
+              "origine": "Launey S., Morin J., Minery S. & Laroche J. (2006). Microsatellite genetic variation reveals extensive introgression between wild and introduced stocks, and a new evolutionary unit in French pike Esox lucius L. Journal of Fish Biology 68. doi:10.1111/j.0022-1112.2006.001059.x",
+              "date_ou_version": "2006",
+              "reutilisation": {
+                "licence": "Résumé seul (article sous accès restreint)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "population": "11 populations françaises et 5 d'Europe de l'Est, 7 microsatellites"
+            }
+          ],
+          "valeur_synthese": "Les populations françaises étudiées (rivières alevinées et étangs d'élevage) forment un ensemble génétique homogène, non distinct de la plupart des souches d'Europe de l'Est introduites ; trois branches évolutives distinctes sont mises en évidence : Europe continentale, bassin du Danube, sud-ouest de la France."
+        }
+      },
+      "prochaine_piste": "Atlas des poissons d'eau douce (Keith et al.), données OFB (réseau de pêches électriques) et INPN dès leur remise en ligne ; vérifier le statut des populations de Corse (TAXREF ne distingue pas la Corse dans la colonne FR)."
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "justification": "Synthèse d'habitat (Casselman & Lewis 1996) connue seulement via Wikipédia ; besoins en herbiers et usage du lit majeur documentés par deux études françaises (résumés).",
+      "champs": {
+        "milieux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce d'eau douce (code habitat 2 de TAXREF).",
+              "source": "TAXREF v18, export officiel local (TAXREFv18.txt, sha256 a6963ea1…)",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/67606",
+              "origine": "TAXREF v18 (MNHN-PatriNat), CD_REF 67606",
+              "date_ou_version": "TAXREF v18 (fichiers du 09/01/2025)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27"
+            },
+            {
+              "valeur": "Adulte surtout dans les eaux lentes et bien végétalisées : cours d'eau peu courants, annexes fluviales, grands fleuves, plans d'eau ; occupe plutôt la moitié supérieure de la colonne d'eau.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "non_renseigne",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Casselman J.M. & Lewis C.A. (1996). Habitat requirements of northern pike (Esox lucius). Canadian Journal of Fisheries and Aquatic Sciences 53(S1): 161-174",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": "Espèce d'eau douce (code habitat 2 de TAXREF).",
+          "ecartees": [
+            {
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        },
+        "herbiers_frayeres_nourriceries": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce phytophile : les herbiers de bordure lui servent à la fois de frayères et de refuges-nourriceries pour les jeunes ; leur raréfaction, notamment dans les retenues à fort marnage, lui est très défavorable.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4403900679) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4403900679",
+              "origine": "Salmon Q., Westrelin S., Dublon J., Abadie E. & Baudoin J.-M. (2024). Artificial floating littoral zones: a promising nursery to support Pike (Esox lucius) in reservoirs. International Journal of Limnology. doi:10.1051/limn/2024022",
+              "date_ou_version": "2024",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France (retenues)"
+            }
+          ],
+          "valeur_synthese": "Espèce phytophile : les herbiers de bordure lui servent à la fois de frayères et de refuges-nourriceries pour les jeunes ; leur raréfaction, notamment dans les retenues à fort marnage, lui est très défavorable."
+        },
+        "lit_majeur_en_crue": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Pendant les crues hivernales, une partie des brochets suivis se déplace dans le lit majeur et y occupe des habitats variés.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4362641649) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4362641649",
+              "origine": "Chevallier E., Denys G.P.J. et al. (2023). Behaviour of two predator fishes Esox lucius and Silurus glanis during two successive floods in the French Aisne River. Cybium 47(1). doi:10.26028/cybium/2023-471-007",
+              "date_ou_version": "2023",
+              "reutilisation": {
+                "licence": "Domaine public (selon OpenAlex) / CC BY (Zenodo)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Aisne (nord de la France)",
+              "stade_ou_saison": "hiver (octobre 2020 – mai 2021)",
+              "taille_echantillon": 30
+            }
+          ],
+          "valeur_synthese": "Pendant les crues hivernales, une partie des brochets suivis se déplace dans le lit majeur et y occupe des habitats variés."
+        },
+        "eaux_saumatres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Peut vivre et frayer en lagune saumâtre à 8–10 ‰ de salinité, valeur proche de la limite supérieure connue pour le développement des œufs.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2423349757) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2423349757",
+              "origine": "Jacobsen L., Bekkevold D., Berg S. et al. (2016). Pike (Esox lucius L.) on the edge: consistent individual movement patterns in transitional waters of the western Baltic. Hydrobiologia 784. doi:10.1007/s10750-016-2863-y",
+              "date_ou_version": "2016",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "lagune de l'ouest de la mer Baltique (hors France)"
+            },
+            {
+              "valeur": "En mer Baltique coexistent un écotype qui fraie en eau saumâtre et un écotype qui remonte frayer en eau douce, génétiquement différenciés.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2969185486) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2969185486",
+              "origine": "Nordahl O., Koch-Schmidt P., Sunde J. et al. (2019). Genetic differentiation between and within ecotypes of pike (Esox lucius) in the Baltic Sea. Aquatic Conservation 29. doi:10.1002/aqc.3196",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "côte est de la Suède et Öland (hors France)"
+            }
+          ],
+          "valeur_synthese": [
+            "Peut vivre et frayer en lagune saumâtre à 8–10 ‰ de salinité, valeur proche de la limite supérieure connue pour le développement des œufs.",
+            "En mer Baltique coexistent un écotype qui fraie en eau saumâtre et un écotype qui remonte frayer en eau douce, génétiquement différenciés."
+          ]
+        },
+        "profondeur_frayeres": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Pour pondre, recherche des herbiers sous 20 à 80 cm d'eau, à condition qu'ils restent submergés tout au long du frai.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Pour pondre, recherche des herbiers sous 20 à 80 cm d'eau, à condition qu'ils restent submergés tout au long du frai.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        }
+      },
+      "prochaine_piste": "Casselman & Lewis (1996) en texte intégral ; guides OFB sur les frayères à brochet ; données de température et d'altitude limites en France."
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune étude de régime en France lue ; deux études européennes (résumés) et compléments.",
+      "champs": {
+        "regime_adulte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Brochets de 103 à 810 mm presque exclusivement piscivores ; proies dominantes : épinoche à trois épines au printemps, gobies à la fin de l'été.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2990760847) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2990760847",
+              "origine": "Jacobson P., Bergström U. & Eklöf J. (2019). Size-dependent diet composition and feeding of Eurasian perch and northern pike in the Baltic Sea. Journal of Fish Biology 94. doi:10.60910/vs0v-m1yt (archive SLU)",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "côtes de la mer Baltique (Suède)",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Brochets de 103 à 810 mm presque exclusivement piscivores ; proies dominantes : épinoche à trois épines au printemps, gobies à la fin de l'été."
+        },
+        "proies_occasionnelles": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Opportuniste : peut aussi capturer écrevisses, amphibiens, canetons ou rongeurs.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "non_renseigne",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Se nourrit aussi d'insectes, d'écrevisses et de sangsues.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Animal Diversity Web, fiche Esox lucius (Université du Michigan), citée par Wikipédia en anglais",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Se nourrit aussi d'insectes, d'écrevisses et de sangsues.",
+          "ecartees": [
+            {
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "evolution_avec_l_age": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Les alevins mangent d'abord de petits invertébrés (daphnies), puis des proies plus grosses (aselles, gammares) ; ils deviennent piscivores vers 4 à 8 cm.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (en) pour cette valeur",
+              "reference_citee": false
+            },
+            {
+              "valeur": "L'alevin d'environ 30 mm consomme zooplancton et insectes ; la taille des proies augmente ensuite avec la croissance.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Les alevins mangent d'abord de petits invertébrés (daphnies), puis des proies plus grosses (aselles, gammares) ; ils deviennent piscivores vers 4 à 8 cm.",
+            "L'alevin d'environ 30 mm consomme zooplancton et insectes ; la taille des proies augmente ensuite avec la croissance."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "cannibalisme": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Chez les alevins privés de nourriture suffisante, le cannibalisme peut apparaître vers cinq semaines dans une petite partie des groupes.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Giles N., Wright R.M. & Nord M.E. (1986). Cannibalism in pike fry, Esox lucius L.: some experiments with fry densities. Journal of Fish Biology 29: 107-113",
+              "reference_citee": true,
+              "contexte": "expérimental"
+            },
+            {
+              "valeur": "Plus fréquent lors des étés frais, quand la croissance des jeunes est lente.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Mann R.H.K. (1982). The annual food consumption and prey preferences of pike (Esox lucius) in the River Frome, Dorset. Journal of Animal Ecology 51: 81-95",
+              "reference_citee": true,
+              "territoire": "rivière Frome (Angleterre)",
+              "contexte": "sauvage"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Chez les alevins privés de nourriture suffisante, le cannibalisme peut apparaître vers cinq semaines dans une petite partie des groupes.",
+            "Plus fréquent lors des étés frais, quand la croissance des jeunes est lente."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "mode_de_chasse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Chasse à l'affût : longues périodes d'immobilité puis brusques accélérations, sans poursuite prolongée.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Eklöv P. (1992). Group foraging versus solitary foraging efficiency in piscivorous predators: the perch and pike. Animal Behaviour 44: 313-326",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Chasse à l'affût : longues périodes d'immobilité puis brusques accélérations, sans poursuite prolongée.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "recouvrement_trophique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Recouvrement alimentaire élevé avec l'Achigan à grande bouche introduit (indice de Schoener 0,79 sur l'ensemble ; 0,62 à 0,93 selon les classes de taille) : une compétition pour la nourriture n'est pas exclue.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2125131488) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2125131488",
+              "origine": "Lorenzoni M., Corboli M., Dörr A.J.M. et al. (2002). Diets of Micropterus salmoides and Esox lucius in Lake Trasimeno (Umbria, Italy) and their diet overlap. Bulletin Français de la Pêche et de la Pisciculture 365-366. doi:10.1051/kmae:2002050",
+              "date_ou_version": "2002",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "lac Trasimène (Italie)",
+              "taille_echantillon": 125
+            }
+          ],
+          "valeur_synthese": "Recouvrement alimentaire élevé avec l'Achigan à grande bouche introduit (indice de Schoener 0,79 sur l'ensemble ; 0,62 à 0,93 selon les classes de taille) : une compétition pour la nourriture n'est pas exclue."
+        }
+      },
+      "prochaine_piste": "Études de régime en France (Filleul & Le Louarn 1998, Annales de Limnologie) ; synthèse Craig (2008) Hydrobiologia 601."
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "Calendrier et température de frai en France non trouvés dans une source de référence accessible ; données de Windermere (via Wikipédia) et du Danube (résumé). Sites de frai décrits sans aucune localisation.",
+      "champs": {
+        "calendrier_temperature_frai": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Ponte au printemps, quand l'eau atteint pour la première fois environ 9 °C.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Frost W.E. & Kipling C. (1967). A study of reproduction, early life, weight-length relationship and growth of pike, Esox lucius L., in Windermere. Journal of Animal Ecology 36: 651-693",
+              "reference_citee": true,
+              "territoire": "lac Windermere (Angleterre)",
+              "unite": "°C"
+            },
+            {
+              "valeur": "Ponte entre février et avril, pour une température de l'eau de 5 à 12 °C.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false,
+              "unite": "°C"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Ponte au printemps, quand l'eau atteint pour la première fois environ 9 °C.",
+            "Ponte entre février et avril, pour une température de l'eau de 5 à 12 °C."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "migration_vers_frayeres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Effectue des migrations latérales vers les zones inondées pour se reproduire et dépend donc des crues d'hiver.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4362641649) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4362641649",
+              "origine": "Chevallier E., Denys G.P.J. et al. (2023). Behaviour of two predator fishes Esox lucius and Silurus glanis during two successive floods in the French Aisne River. Cybium 47(1). doi:10.26028/cybium/2023-471-007",
+              "date_ou_version": "2023",
+              "reutilisation": {
+                "licence": "Domaine public (selon OpenAlex) / CC BY (Zenodo)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "rivières françaises (étude sur l'Aisne)"
+            }
+          ],
+          "valeur_synthese": "Effectue des migrations latérales vers les zones inondées pour se reproduire et dépend donc des crues d'hiver."
+        },
+        "maturite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Capable de se reproduire vers l'âge de deux ans.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Frost W.E. & Kipling C. (1967). A study of reproduction, early life, weight-length relationship and growth of pike, Esox lucius L., in Windermere. Journal of Animal Ecology 36: 651-693",
+              "reference_citee": true,
+              "territoire": "lac Windermere (Angleterre)"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Capable de se reproduire vers l'âge de deux ans.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "fecondite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Fécondité absolue de 524 à 123 896 œufs ; fécondité relative moyenne de 40,4 ± 12,5 (unité non précisée dans le résumé).",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2064753043) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2064753043",
+              "origine": "Lenhardt M. & Cakić P. (2002). Seasonal reproductive cycle of pike, Esox lucius L., from the River Danube. Journal of Applied Ichthyology 18. doi:10.1046/j.1439-0426.2002.00285.x",
+              "date_ou_version": "2002",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Danube (Serbie)",
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": "Fécondité absolue de 524 à 123 896 œufs ; fécondité relative moyenne de 40,4 ± 12,5 (unité non précisée dans le résumé)."
+        },
+        "cycle_gonadique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La vitellogenèse active démarre en septembre ; la spermatogenèse débute aussi en septembre, dure environ deux mois, et les spermatozoïdes dominent dès novembre ; dès août, l'histologie des ovaires indique quelles femelles fraieront au printemps suivant.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2064753043) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2064753043",
+              "origine": "Lenhardt M. & Cakić P. (2002). Seasonal reproductive cycle of pike, Esox lucius L., from the River Danube. Journal of Applied Ichthyology 18. doi:10.1046/j.1439-0426.2002.00285.x",
+              "date_ou_version": "2002",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Danube (Serbie)"
+            }
+          ],
+          "valeur_synthese": "La vitellogenèse active démarre en septembre ; la spermatogenèse débute aussi en septembre, dure environ deux mois, et les spermatozoïdes dominent dès novembre ; dès août, l'histologie des ovaires indique quelles femelles fraieront au printemps suivant."
+        },
+        "arrivee_sur_frayeres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les mâles gagnent les lieux de ponte quelques semaines avant les femelles et y restent après la fin du frai.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Frost W.E. & Kipling C. (1967). A study of reproduction, early life, weight-length relationship and growth of pike, Esox lucius L., in Windermere. Journal of Animal Ecology 36: 651-693",
+              "reference_citee": true,
+              "territoire": "lac Windermere (Angleterre)"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Les mâles gagnent les lieux de ponte quelques semaines avant les femelles et y restent après la fin du frai.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "oeufs": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Œufs adhésifs de 2,5 à 3 mm, qui se collent à la végétation.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false,
+              "unite": "mm"
+            },
+            {
+              "valeur": "Œufs adhésifs de 2,5 à 3 mm, qui se collent à la végétation.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (en) pour cette valeur",
+              "reference_citee": false,
+              "unite": "mm"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Œufs adhésifs de 2,5 à 3 mm, qui se collent à la végétation.",
+            "Œufs adhésifs de 2,5 à 3 mm, qui se collent à la végétation."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "soins_parentaux": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Pas de nid : les œufs sont dispersés dans les herbiers proches des rives et ne sont pas gardés ; chaque grosse femelle est suivie par un à deux mâles de moindre taille.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Pas de nid : les œufs sont dispersés dans les herbiers proches des rives et ne sont pas gardés ; chaque grosse femelle est suivie par un à deux mâles de moindre taille.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "determination_du_sexe": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Déterminisme génétique XY : le gène maître du sexe est une copie de l'hormone anti-müllérienne (amh) propre aux mâles, portée par le groupe de liaison 24, dont les chromosomes X et Y sont peu différenciés.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2969540879) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2969540879",
+              "origine": "Pan Q., Feron R., Yano A., Guyomard R., Jouanno E., Vigouroux E. et al. (2019). Identification of the master sex determining gene in Northern pike (Esox lucius) reveals restricted sex chromosome differentiation. PLoS Genetics 15. doi:10.1371/journal.pgen.1008013",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Déterminisme génétique XY : le gène maître du sexe est une copie de l'hormone anti-müllérienne (amh) propre aux mâles, portée par le groupe de liaison 24, dont les chromosomes X et Y sont peu différenciés."
+        }
+      },
+      "prochaine_piste": "Calendrier de frai documenté en France (fédérations de pêche, OFB) ; Frost & Kipling (1967) en texte intégral ; fécondité relative par kg en France."
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Développement embryonnaire documenté par une étude expérimentale française (résumé) ; croissance et longévité en milieu naturel uniquement via compléments.",
+      "champs": {
+        "developpement_embryo_larvaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "De la ponte à la première prise alimentaire, le développement dure trois fois plus longtemps à 8 °C qu'à 16 °C ; survie des larves bien formées de 70 % (8 °C) à 72–76 % (10–16 °C) ; à 16 °C, larves plus grandes et plus riches en énergie au début de l'alimentation.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4221064785) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4221064785",
+              "origine": "Réalis-Doyelle E., Pasquet A., Fontaine P. & Teletchea F. (2022). Effects of temperature on the survival and development of the early life stages of northern pike (Esox lucius). Knowledge and Management of Aquatic Ecosystems 423:8. doi:10.1051/kmae/2022007",
+              "date_ou_version": "2022",
+              "reutilisation": {
+                "licence": "CC BY-ND 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "contexte": "expérimental (élevage, températures constantes 8 à 16 °C)",
+              "taille_echantillon": 80000,
+              "unite": "°C ; %"
+            }
+          ],
+          "valeur_synthese": "De la ponte à la première prise alimentaire, le développement dure trois fois plus longtemps à 8 °C qu'à 16 °C ; survie des larves bien formées de 70 % (8 °C) à 72–76 % (10–16 °C) ; à 16 °C, larves plus grandes et plus riches en énergie au début de l'alimentation."
+        },
+        "seuil_thermique_eclosion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les œufs n'éclosent pas en dessous d'environ 6 °C.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Frost W.E. & Kipling C. (1967). A study of reproduction, early life, weight-length relationship and growth of pike, Esox lucius L., in Windermere. Journal of Animal Ecology 36: 651-693",
+              "reference_citee": true,
+              "territoire": "lac Windermere (Angleterre)",
+              "unite": "°C"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Les œufs n'éclosent pas en dessous d'environ 6 °C.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "croissance": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Environ 30 cm à un an et 50 cm à deux ans, puis à peu près 10 cm de plus par an jusqu'à 1 m lorsque la croissance est normale.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false,
+              "unite": "cm"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Environ 30 cm à un an et 50 cm à deux ans, puis à peu près 10 cm de plus par an jusqu'à 1 m lorsque la croissance est normale.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "longevite": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Vit en général 10 à 15 ans, parfois jusqu'à 25 ans.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Canal & River Trust (Royaume-Uni), page « Pike » citée par Wikipédia en anglais",
+              "reference_citee": true,
+              "unite": "ans",
+              "contexte": "sauvage"
+            },
+            {
+              "valeur": "Peut dépasser 20 ans.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false,
+              "unite": "ans"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Vit en général 10 à 15 ans, parfois jusqu'à 25 ans.",
+            "Peut dépasser 20 ans."
+          ],
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        }
+      },
+      "prochaine_piste": "Croissance et âge maximal mesurés en France (scalimétrie) ; Rypel (2012) méta-analyse des croissances."
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "justification": "Déplacements documentés par deux études de télémétrie (résumés), dont une en France ; sociabilité seulement via compléments sans référence.",
+      "champs": {
+        "deplacements_individuels": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Trois réponses aux crues parmi les brochets suivis : sédentaires (restés dans leur zone habituelle), revenus après la décrue, ou partis sans retour ; les partis étaient plus grands, les sédentaires plus petits, ce qui suggère une exploration accrue chez les plus gros.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4362641649) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4362641649",
+              "origine": "Chevallier E., Denys G.P.J. et al. (2023). Behaviour of two predator fishes Esox lucius and Silurus glanis during two successive floods in the French Aisne River. Cybium 47(1). doi:10.26028/cybium/2023-471-007",
+              "date_ou_version": "2023",
+              "reutilisation": {
+                "licence": "Domaine public (selon OpenAlex) / CC BY (Zenodo)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Aisne (nord de la France)",
+              "stade_ou_saison": "crues de l'hiver 2020-2021",
+              "taille_echantillon": 30
+            },
+            {
+              "valeur": "Deux schémas de déplacement stables d'une année à l'autre pour un même individu : certains restent toute l'année dans la lagune, la plupart la quittent après le frai et reviennent avant la saison de reproduction suivante.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2423349757) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2423349757",
+              "origine": "Jacobsen L., Bekkevold D., Berg S. et al. (2016). Pike (Esox lucius L.) on the edge: consistent individual movement patterns in transitional waters of the western Baltic. Hydrobiologia 784. doi:10.1007/s10750-016-2863-y",
+              "date_ou_version": "2016",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "lagune de l'ouest de la mer Baltique (hors France)",
+              "taille_echantillon": 22
+            }
+          ],
+          "valeur_synthese": [
+            "Trois réponses aux crues parmi les brochets suivis : sédentaires (restés dans leur zone habituelle), revenus après la décrue, ou partis sans retour ; les partis étaient plus grands, les sédentaires plus petits, ce qui suggère une exploration accrue chez les plus gros.",
+            "Deux schémas de déplacement stables d'une année à l'autre pour un même individu : certains restent toute l'année dans la lagune, la plupart la quittent après le frai et reviennent avant la saison de reproduction suivante."
+          ]
+        },
+        "sociabilite": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Chasseur le plus souvent solitaire et sédentaire, parfois en petits groupes de deux ou trois ; les jeunes peuvent former des bancs dans les grands lacs.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "aucune référence citée par Wikipédia (fr) pour cette valeur",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Chasseur le plus souvent solitaire et sédentaire, parfois en petits groupes de deux ou trois ; les jeunes peuvent former des bancs dans les grands lacs.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "territorialite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Devient agressif lorsqu'il manque d'espace ; plus il est grand, plus la zone qu'il contrôle est étendue.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Eklöv P. (1992). Group foraging versus solitary foraging efficiency in piscivorous predators: the perch and pike. Animal Behaviour 44: 313-326",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Devient agressif lorsqu'il manque d'espace ; plus il est grand, plus la zone qu'il contrôle est étendue.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "differenciation_locale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Malgré de fortes capacités de dispersion, des sites de frai distants d'à peine 5 km peuvent abriter des populations génétiquement distinctes.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2969185486) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2969185486",
+              "origine": "Nordahl O., Koch-Schmidt P., Sunde J. et al. (2019). Genetic differentiation between and within ecotypes of pike (Esox lucius) in the Baltic Sea. Aquatic Conservation 29. doi:10.1002/aqc.3196",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "côte est de la Suède (hors France)",
+              "taille_echantillon": 487
+            }
+          ],
+          "valeur_synthese": "Malgré de fortes capacités de dispersion, des sites de frai distants d'à peine 5 km peuvent abriter des populations génétiquement distinctes."
+        }
+      },
+      "prochaine_piste": "Études de domaine vital en France (Ovidio & Philippart 2002, bassin de la Meuse) ; Kober et al. (2008)."
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Rythmes journalier et saisonnier seulement via compléments citant des études hors de France.",
+      "champs": {
+        "activite_journaliere": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Activité minimale la nuit.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Eklöv P. (1992). Group foraging versus solitary foraging efficiency in piscivorous predators: the perch and pike. Animal Behaviour 44: 313-326",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Activité minimale la nuit.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "variations_saisonnieres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Se tient plus près de la végétation en été qu'en hiver ; son rythme journalier change nettement au fil de l'année.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Jepsen N., Beck S., Skov C. & Koed A. (2001). Behavior of pike (Esox lucius L.) > 50 cm in a turbid reservoir and in a clearwater lake. Ecology of Freshwater Fish 10: 26-34",
+              "reference_citee": true,
+              "territoire": "Danemark"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Se tient plus près de la végétation en été qu'en hiver ; son rythme journalier change nettement au fil de l'année.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "activite_hivernale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Reste actif en hiver : des individus suivis ont exploité le lit majeur lors des crues d'hiver.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4362641649) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4362641649",
+              "origine": "Chevallier E., Denys G.P.J. et al. (2023). Behaviour of two predator fishes Esox lucius and Silurus glanis during two successive floods in the French Aisne River. Cybium 47(1). doi:10.26028/cybium/2023-471-007",
+              "date_ou_version": "2023",
+              "reutilisation": {
+                "licence": "Domaine public (selon OpenAlex) / CC BY (Zenodo)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Aisne (nord de la France)",
+              "stade_ou_saison": "hiver 2020-2021"
+            }
+          ],
+          "valeur_synthese": "Reste actif en hiver : des individus suivis ont exploité le lit majeur lors des crues d'hiver."
+        }
+      },
+      "prochaine_piste": "Kober et al. (2008) Hydrobiologia 601 (été/hiver) ; études françaises de télémétrie."
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "justification": "Hybridation avec le Brochet aquitain documentée par trois sources ; parasites et prédateurs peu documentés dans les sources accessibles.",
+      "champs": {
+        "position_trophique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Grand poisson longévif, superprédateur des milieux aquatiques, se reproduisant plusieurs fois au cours de sa vie.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2150906669) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2150906669",
+              "origine": "Forsman A., Tibblin P., Berggren H. et al. (2015). Pike Esox lucius as an emerging model organism for studies in ecology and evolutionary biology: a review. Journal of Fish Biology 87. doi:10.1111/jfb.12712",
+              "date_ou_version": "2015",
+              "reutilisation": {
+                "licence": "CC BY-NC-ND 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27"
+            }
+          ],
+          "valeur_synthese": "Grand poisson longévif, superprédateur des milieux aquatiques, se reproduisant plusieurs fois au cours de sa vie."
+        },
+        "hybridation_brochet_aquitain": {
+          "etat": "corrobore",
+          "affirmations": [
+            {
+              "valeur": "S'hybride avec le Brochet aquitain (Esox aquitanicus), ce qui menace ce dernier.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2004829374) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2004829374",
+              "origine": "Denys G.P.J., Dettaï A., Persat H., Hautecœur M. & Keith P. (2014). Morphological and molecular evidence of three species of pikes Esox spp. in France, including the description of a new species. Comptes Rendus Biologies 337. doi:10.1016/j.crvi.2014.07.002",
+              "date_ou_version": "2014",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "corrobore",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France"
+            },
+            {
+              "valeur": "S'hybride avec le Brochet aquitain (Esox aquitanicus), ce qui menace ce dernier.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W3112296714) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W3112296714",
+              "origine": "Jeanroy C.G. & Denys G.P.J. (2019). Morphological traits allow distinguishing their hybrids from the Northern pike, Esox lucius, and the Aquitanian pike, Esox aquitanicus. Cybium 43(3). doi:10.26028/cybium/2019-433-003",
+              "date_ou_version": "2019",
+              "reutilisation": {
+                "licence": "Accès libre (dépôt HAL ; copie Zenodo CC BY)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "corrobore",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France"
+            },
+            {
+              "valeur": "S'hybride avec le Brochet aquitain (Esox aquitanicus), ce qui menace ce dernier.",
+              "source": "UICN France, MNHN, SFI & AFB (2019), brochure de la Liste rouge des poissons d'eau douce de France métropolitaine (PDF)",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "UICN France, MNHN, SFI & AFB (2019). La Liste rouge des espèces menacées en France – Poissons d'eau douce de France métropolitaine",
+              "date_ou_version": "évaluation 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "corrobore",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France"
+            }
+          ],
+          "valeur_synthese": "S'hybride avec le Brochet aquitain (Esox aquitanicus), ce qui menace ce dernier."
+        },
+        "part_populations_aquitaines_hybridees": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Environ deux tiers des populations connues de Brochet aquitain sont touchées par l'hybridation liée aux lâchers de Brochet commun pratiqués depuis les années 1950.",
+              "source": "UICN France, MNHN, SFI & AFB (2019), brochure de la Liste rouge des poissons d'eau douce de France métropolitaine (PDF)",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "UICN France, MNHN, SFI & AFB (2019). La Liste rouge des espèces menacées en France – Poissons d'eau douce de France métropolitaine",
+              "date_ou_version": "évaluation 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France"
+            }
+          ],
+          "valeur_synthese": "Environ deux tiers des populations connues de Brochet aquitain sont touchées par l'hybridation liée aux lâchers de Brochet commun pratiqués depuis les années 1950."
+        },
+        "parasites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Hôte du cestode Triaenophorus nodulosus, parasite obligatoire de son intestin.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2621364120) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2621364120",
+              "origine": "Kochneva A.A., Borvinskaya E.V. et al. (2016). Enzymatic activity of glutathione S-transferase and the level of reduced glutathione in pike Esox lucius and its obligate parasite cestode Triaenophorus nodulosus. Proceedings of the Karelian Research Centre RAS. doi:10.17076/eb429",
+              "date_ou_version": "2016",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Carélie du Nord (Russie)"
+            }
+          ],
+          "valeur_synthese": "Hôte du cestode Triaenophorus nodulosus, parasite obligatoire de son intestin."
+        },
+        "predateurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Peut occasionnellement être capturé par la loutre.",
+              "source": "Wikipédia en anglais, article « Northern pike » (texte source)",
+              "url": "https://en.wikipedia.org/w/index.php?title=Northern_pike&action=raw",
+              "date_ou_version": "version consultée le 27/11/2026",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Cocker M. (2013). « The pike was huge, but not huge enough to fight off an otter ». The Guardian, 12 mai 2013",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Peut occasionnellement être capturé par la loutre.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "role_regulateur": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Considéré comme un régulateur efficace des populations de petits poissons proies.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Craig J.F. (2008). A short review of pike ecology. Hydrobiologia 601: 5-16",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Considéré comme un régulateur efficace des populations de petits poissons proies.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        }
+      },
+      "prochaine_piste": "Inventaires parasitologiques en France ; prédation sur les jeunes brochets (oiseaux piscivores, autres poissons) ; interactions avec le Silure (Chevallier et al. 2023, texte intégral)."
+    },
+    "conservation": {
+      "recherche": "recherche_effectuee",
+      "justification": "Liste rouge nationale (2019) et protection nationale (arrêté de 1988) lues ; listes rouges régionales, BDC Statuts et réglementation de la pêche (taille, périodes) non consultés (INPN hors ligne, Légifrance code de l'environnement non lu).",
+      "champs": {
+        "liste_rouge_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "VU (Vulnérable), critère A4c ; tendance des populations en baisse.",
+              "source": "UICN France, MNHN, SFI & AFB (2019), tableau de la Liste rouge des poissons d'eau douce de France métropolitaine (PDF)",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/tableau-liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "UICN France, MNHN, SFI & AFB (2019). La Liste rouge des espèces menacées en France – Poissons d'eau douce de France métropolitaine",
+              "date_ou_version": "évaluation 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "catégories officielles et faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "VU (Vulnérable), critère A4c ; tendance des populations en baisse."
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (Préoccupation mineure).",
+              "source": "UICN France et al. (2019), tableau de la Liste rouge des poissons d'eau douce de France métropolitaine, colonne « Catégorie Liste rouge mondiale »",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/tableau-liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "Liste rouge mondiale de l'UICN, catégorie reportée par le tableau France 2019 (évaluation mondiale non consultée directement)",
+              "date_ou_version": "catégorie en vigueur en 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "catégorie officielle seule"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Monde"
+            }
+          ],
+          "valeur_synthese": "LC (Préoccupation mineure)."
+        },
+        "protection_juridique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce inscrite à l'article 1 : il est interdit en permanence, partout en France, de détruire ou d'enlever ses œufs, et de détruire, altérer ou dégrader les milieux qui lui sont propres, en particulier ses lieux de reproduction, lorsqu'ils sont désignés par arrêté préfectoral.",
+              "source": "Légifrance, version en vigueur au 27/11/2026 (lue par l'outil de lecture web de la session : extraits seulement)",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000327373",
+              "origine": "Arrêté du 8 décembre 1988 fixant la liste des espèces de poissons protégées sur l'ensemble du territoire national (NOR PRME8861195A)",
+              "date_ou_version": "en vigueur depuis le 22/12/1988 ; version consolidée au 27/11/2026",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "territoire national"
+            }
+          ],
+          "valeur_synthese": "Espèce inscrite à l'article 1 : il est interdit en permanence, partout en France, de détruire ou d'enlever ses œufs, et de détruire, altérer ou dégrader les milieux qui lui sont propres, en particulier ses lieux de reproduction, lorsqu'ils sont désignés par arrêté préfectoral."
+        },
+        "menaces_habitat": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La disparition des zones humides par assèchement, l'endiguement des rivières et le drainage agricole des prairies humides réduisent l'étendue et la durée des inondations nécessaires à sa reproduction.",
+              "source": "UICN France, MNHN, SFI & AFB (2019), brochure de la Liste rouge des poissons d'eau douce de France métropolitaine (PDF)",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "UICN France, MNHN, SFI & AFB (2019). La Liste rouge des espèces menacées en France – Poissons d'eau douce de France métropolitaine",
+              "date_ou_version": "évaluation 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "contexte": "cours d'eau et zones humides"
+            },
+            {
+              "valeur": "Les variations artificielles du niveau d'eau des retenues font disparaître les herbiers et raréfient les frayères et nourriceries ; les populations y déclinent.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4403900679) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4403900679",
+              "origine": "Salmon Q., Westrelin S., Dublon J., Abadie E. & Baudoin J.-M. (2024). Artificial floating littoral zones: a promising nursery to support Pike (Esox lucius) in reservoirs. International Journal of Limnology. doi:10.1051/limn/2024022",
+              "date_ou_version": "2024",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "contexte": "retenues à marnage"
+            }
+          ],
+          "valeur_synthese": [
+            "La disparition des zones humides par assèchement, l'endiguement des rivières et le drainage agricole des prairies humides réduisent l'étendue et la durée des inondations nécessaires à sa reproduction.",
+            "Les variations artificielles du niveau d'eau des retenues font disparaître les herbiers et raréfient les frayères et nourriceries ; les populations y déclinent."
+          ]
+        },
+        "repeuplements_et_genetique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les lâchers augmentent la fréquence de présence de l'espèce mais pas son abondance, même si relâcher des sujets plus grands améliore le résultat ; ils produisent beaucoup d'hybrides chez les juvéniles et un taux plus modéré chez les adultes, ce qui présente des risques pour la conservation.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W7148797005) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W7148797005",
+              "origine": "Guillerault N. (2017). Effets des mesures de gestion halieutique sur la conservation d'une espèce vulnérable : le brochet (Esox lucius). Thèse de doctorat (theses.fr)",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Résumé de thèse (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "contexte": "gestion halieutique"
+            }
+          ],
+          "valeur_synthese": "Les lâchers augmentent la fréquence de présence de l'espèce mais pas son abondance, même si relâcher des sujets plus grands améliore le résultat ; ils produisent beaucoup d'hybrides chez les juvéniles et un taux plus modéré chez les adultes, ce qui présente des risques pour la conservation."
+        },
+        "mesures_de_gestion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mesures appliquées au Brochet commun : suivi des frayères, taille minimale de capture et quotas de pêche.",
+              "source": "UICN France, MNHN, SFI & AFB (2019), brochure de la Liste rouge des poissons d'eau douce de France métropolitaine (PDF)",
+              "url": "https://uicn.fr/wp-content/uploads/2019/08/liste-rouge-poissons-d-eau-douce-de-france-metropolitaine.pdf",
+              "origine": "UICN France, MNHN, SFI & AFB (2019). La Liste rouge des espèces menacées en France – Poissons d'eau douce de France métropolitaine",
+              "date_ou_version": "évaluation 2019",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Mesures appliquées au Brochet commun : suivi des frayères, taille minimale de capture et quotas de pêche."
+        },
+        "programmes_experimentaux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Trois zones littorales flottantes artificielles de 70 m², installées en 2018 dans une retenue française, ont accueilli chaque année de 2019 à 2023 des brochets juvéniles, plus nombreux qu'aux stations témoins (jusqu'à 14 individus ensemble) ; le frai sur ces structures n'est pas démontré.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4403900679) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4403900679",
+              "origine": "Salmon Q., Westrelin S., Dublon J., Abadie E. & Baudoin J.-M. (2024). Artificial floating littoral zones: a promising nursery to support Pike (Esox lucius) in reservoirs. International Journal of Limnology. doi:10.1051/limn/2024022",
+              "date_ou_version": "2024",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France (une retenue à fort marnage)"
+            }
+          ],
+          "valeur_synthese": "Trois zones littorales flottantes artificielles de 70 m², installées en 2018 dans une retenue française, ont accueilli chaque année de 2019 à 2023 des brochets juvéniles, plus nombreux qu'aux stations témoins (jusqu'à 14 individus ensemble) ; le frai sur ces structures n'est pas démontré."
+        },
+        "bioaccumulation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Superprédateur longévif qui concentre les polluants persistants, dont le mercure et le méthylmercure ; utilisé dès les années 1960 en Suède comme indicateur de contamination mercurielle.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Johnels A.G., Westermark T., Berg W. et al. (1967). Pike (Esox lucius L.) and some other aquatic organisms in Sweden as indicators of mercury contamination in the environment. Oikos 18: 323-333",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Superprédateur longévif qui concentre les polluants persistants, dont le mercure et le méthylmercure ; utilisé dès les années 1960 en Suède comme indicateur de contamination mercurielle.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "sensibilite_diffusion": {
+          "etat": "non_renseigne",
+          "valeur_synthese": "Aucune règle de diffusion du producteur n'a pu être consultée (INPN/SINP hors ligne). Décision automatique : grain le plus protecteur ; aucune localisation de frayère n'est donnée dans cette fiche."
+        }
+      },
+      "prochaine_piste": "Listes rouges régionales ; BDC Statuts (export PatriNat) ; Code de l'environnement (taille minimale de capture, périodes de fermeture) sur Légifrance ; plans de gestion piscicole départementaux (PDPG)."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Méthodes de détection documentées par des études ; aucun guide d'observation respectueuse propre à l'espèce trouvé dans les sources accessibles.",
+      "champs": {
+        "detection_visuelle": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les jeunes brochets ont pu être recensés par observation en apnée au printemps et en été.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W4403900679) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W4403900679",
+              "origine": "Salmon Q., Westrelin S., Dublon J., Abadie E. & Baudoin J.-M. (2024). Artificial floating littoral zones: a promising nursery to support Pike (Esox lucius) in reservoirs. International Journal of Limnology. doi:10.1051/limn/2024022",
+              "date_ou_version": "2024",
+              "reutilisation": {
+                "licence": "CC BY 4.0",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France (retenue)",
+              "stade_ou_saison": "juvéniles, printemps-été"
+            }
+          ],
+          "valeur_synthese": "Les jeunes brochets ont pu être recensés par observation en apnée au printemps et en été."
+        },
+        "adn_environnemental": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "L'ADN environnemental détecte l'espèce, y compris à faible densité ; l'ADN de cadavres reste détectable au moins 35 jours mais plus à 70 jours, ce qui impose de différer l'échantillonnage après une mortalité.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2520390137) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2520390137",
+              "origine": "Dunker K.J., Sepulveda A.J., Massengill R.L. et al. (2016). Potential of Environmental DNA to Evaluate Northern Pike (Esox lucius) Eradication Efforts. PLoS ONE 11. doi:10.1371/journal.pone.0162277",
+              "date_ou_version": "2016",
+              "reutilisation": {
+                "licence": "Domaine public",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Alaska (hors aire d'origine)",
+              "contexte": "expérimental et terrain"
+            }
+          ],
+          "valeur_synthese": "L'ADN environnemental détecte l'espèce, y compris à faible densité ; l'ADN de cadavres reste détectable au moins 35 jours mais plus à 70 jours, ce qui impose de différer l'échantillonnage après une mortalité."
+        },
+        "methodes_inventaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "En eau trouble, l'estimation des effectifs passe par la pêche électrique ou la capture-marquage-recapture ; en eau très claire, des observateurs entraînés peuvent faire des comptages visuels fiables.",
+              "source": "Wikipédia en français, article « Esox lucius » (texte source, révision 240412578 du 15/10/2026)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Esox_lucius&action=raw",
+              "date_ou_version": "révision 240412578 (15/10/2026)",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés ; attribution et partage à l'identique"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "origine": "Étude de comptage sur un lac d'Alberta (Canada), référence « Comptages1985 » de Wikipédia (non détaillée dans l'extrait lu)",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "En eau trouble, l'estimation des effectifs passe par la pêche électrique ou la capture-marquage-recapture ; en eau très claire, des observateurs entraînés peuvent faire des comptages visuels fiables.",
+          "motif": "aucune source de référence ; valeur issue d'une source de complément, à remplacer dès qu'une référence la renseigne"
+        },
+        "confusions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Du bassin de la Charente à celui de l'Adour, confusion possible avec le Brochet aquitain et les hybrides des deux espèces.",
+              "source": "Résumé de l'article, lu via l'API OpenAlex (works/W2004829374) ; texte intégral non accessible",
+              "url": "https://api.openalex.org/works/W2004829374",
+              "origine": "Denys G.P.J., Dettaï A., Persat H., Hautecœur M. & Keith P. (2014). Morphological and molecular evidence of three species of pikes Esox spp. in France, including the description of a new species. Comptes Rendus Biologies 337. doi:10.1016/j.crvi.2014.07.002",
+              "date_ou_version": "2014",
+              "reutilisation": {
+                "licence": "Accès libre (licence non précisée)",
+                "contenu_repris": true,
+                "motif": "faits seuls, reformulés"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Sud-Ouest de la France"
+            }
+          ],
+          "valeur_synthese": "Du bassin de la Charente à celui de l'Adour, confusion possible avec le Brochet aquitain et les hybrides des deux espèces."
+        },
+        "precautions_reproduction": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Ses œufs sont protégés en tout temps, de même que ses frayères lorsqu'un arrêté préfectoral les désigne.",
+              "source": "Légifrance, version en vigueur au 27/11/2026 (lue par l'outil de lecture web de la session : extraits seulement)",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000327373",
+              "origine": "Arrêté du 8 décembre 1988 fixant la liste des espèces de poissons protégées sur l'ensemble du territoire national (NOR PRME8861195A)",
+              "date_ou_version": "en vigueur depuis le 22/12/1988 ; version consolidée au 27/11/2026",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "territoire national"
+            }
+          ],
+          "valeur_synthese": "Ses œufs sont protégés en tout temps, de même que ses frayères lorsqu'un arrêté préfectoral les désigne."
+        }
+      },
+      "prochaine_piste": "Recommandations OFB et fédérations de pêche sur la quiétude des frayères ; périodes de fermeture de la pêche du brochet."
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "dimensions_masse (documente, complément)",
+          "ecailles_ligne_laterale (documente)",
+          "relation_longueur_masse (documente)",
+          "dentition (documente, complément)",
+          "especes_proches (documente)",
+          "criteres_distinctifs (documente)",
+          "limites_determination (documente)"
+        ],
+        "lacunes": [
+          "morphologie_generale (incertain, complément)",
+          "livree_juveniles (incertain, complément)"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole (documente)",
+          "aire_mondiale (corrobore)",
+          "phylogeographie (documente)",
+          "situation_sud_ouest (documente)",
+          "structure_genetique_france (documente)"
+        ],
+        "lacunes": []
+      },
+      "habitats": {
+        "documentes": [
+          "milieux (documente)",
+          "herbiers_frayeres_nourriceries (documente)",
+          "lit_majeur_en_crue (documente)",
+          "eaux_saumatres (documente)"
+        ],
+        "lacunes": [
+          "profondeur_frayeres (incertain, complément)"
+        ]
+      },
+      "alimentation": {
+        "documentes": [
+          "regime_adulte (documente)",
+          "proies_occasionnelles (documente, complément)",
+          "cannibalisme (documente, complément)",
+          "mode_de_chasse (documente, complément)",
+          "recouvrement_trophique (documente)"
+        ],
+        "lacunes": [
+          "evolution_avec_l_age (incertain, complément)"
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "migration_vers_frayeres (documente)",
+          "maturite (documente, complément)",
+          "fecondite (documente)",
+          "cycle_gonadique (documente)",
+          "arrivee_sur_frayeres (documente, complément)",
+          "determination_du_sexe (documente)"
+        ],
+        "lacunes": [
+          "calendrier_temperature_frai (incertain, complément)",
+          "oeufs (incertain, complément)",
+          "soins_parentaux (incertain, complément)"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "developpement_embryo_larvaire (documente)",
+          "seuil_thermique_eclosion (documente, complément)"
+        ],
+        "lacunes": [
+          "croissance (incertain, complément)",
+          "longevite (incertain, complément)"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "deplacements_individuels (documente)",
+          "territorialite (documente, complément)",
+          "differenciation_locale (documente)"
+        ],
+        "lacunes": [
+          "sociabilite (incertain, complément)"
+        ]
+      },
+      "activite": {
+        "documentes": [
+          "activite_journaliere (documente, complément)",
+          "variations_saisonnieres (documente, complément)",
+          "activite_hivernale (documente)"
+        ],
+        "lacunes": []
+      },
+      "interactions": {
+        "documentes": [
+          "position_trophique (documente)",
+          "hybridation_brochet_aquitain (corrobore)",
+          "part_populations_aquitaines_hybridees (documente)",
+          "parasites (documente)",
+          "predateurs (documente, complément)",
+          "role_regulateur (documente, complément)"
+        ],
+        "lacunes": []
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_france (documente)",
+          "liste_rouge_mondiale (documente)",
+          "protection_juridique (documente)",
+          "menaces_habitat (documente)",
+          "repeuplements_et_genetique (documente)",
+          "mesures_de_gestion (documente)",
+          "programmes_experimentaux (documente)",
+          "bioaccumulation (documente, complément)"
+        ],
+        "lacunes": [
+          "sensibilite_diffusion (non_renseigne)"
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "detection_visuelle (documente)",
+          "adn_environnemental (documente)",
+          "methodes_inventaire (documente, complément)",
+          "confusions (documente)",
+          "precautions_reproduction (documente)"
+        ],
+        "lacunes": []
+      }
+    },
+    "point_de_reprise": [
+      "Synthèses de référence inaccessibles à reprendre en priorité : FishBase, Keith et al. (2011/2020), fiche OFB Brochet, HAL (textes intégraux de Denys et al. 2014, Chevallier et al. 2023).",
+      "INPN, OpenObs et BDC Statuts dès leur remise en ligne : listes rouges régionales, statuts réglementaires, répartition nationale.",
+      "Réglementation de la pêche (Code de l'environnement : taille minimale, fermeture) sur Légifrance.",
+      "Remplacer les valeurs de complément (dimensions, longévité, calendrier de frai, croissance) par des sources de référence."
+    ]
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "Admission par TAXREF v18 (code P) ; identité confirmée par le Catalogue of Life (2026-11-11) et le GBIF.",
+      "sources": [
+        "TAXREF v18",
+        "Catalogue of Life 2026-11-11",
+        "GBIF Backbone Taxonomy"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "expert-faune-france:fiche (cadrage v0.6)",
+    "requete": "Brochet",
+    "sources_consultees": [
+      {
+        "source": "TAXREF v18, export local",
+        "version": "v18 (fichiers du 09/01/2025, sha256 vérifié)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank, jeu 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR"
+      },
+      {
+        "source": "GBIF Backbone Taxonomy (API species/match)",
+        "version": "consulté le 27/11/2026",
+        "url": "https://api.gbif.org/v1/species/match?name=Esox%20lucius"
+      },
+      {
+        "source": "UICN France et al. – Liste rouge des poissons d'eau douce de France métropolitaine (brochure et tableau PDF)",
+        "version": "2019",
+        "url": "https://uicn.fr/liste-rouge-poissons-d-eau-douce/"
+      },
+      {
+        "source": "Légifrance – Arrêté du 8 décembre 1988 (via l'outil de lecture web, extraits)",
+        "version": "en vigueur au 27/11/2026",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000327373"
+      },
+      {
+        "source": "OpenAlex – résumés de 18 articles (seuls les résumés ont été lus)",
+        "version": "API consultée le 27/11/2026",
+        "url": "https://api.openalex.org/"
+      },
+      {
+        "source": "Wikipédia en français – « Esox lucius » (complément)",
+        "version": "révision 240412578 du 15/10/2026",
+        "url": "https://fr.wikipedia.org/wiki/Esox_lucius"
+      },
+      {
+        "source": "Wikipédia en anglais – « Northern pike » (complément)",
+        "version": "consultée le 27/11/2026",
+        "url": "https://en.wikipedia.org/wiki/Northern_pike"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "FishBase (fishbase.se/.de/.org)",
+        "motif": "connexion refusée par le proxy de l'environnement (403)"
+      },
+      {
+        "source": "HAL (api.archives-ouvertes.fr, hal.science, sde.hal.science)",
+        "motif": "connexion refusée par le proxy ; page anti-robots via l'outil de lecture web (non contournée)"
+      },
+      {
+        "source": "PubMed Central / Europe PMC",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Comptes Rendus Biologies, Zenodo, International Journal of Limnology (textes intégraux)",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "DORIS (FFESSM), EUR-Lex, OFB",
+        "motif": "connexion refusée par le proxy"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "HTTP 403 (protection anti-robots, non contournée)"
+      },
+      {
+        "source": "Biodiversity Heritage Library",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "INPN, OpenObs, BDC Statuts",
+        "motif": "hors ligne fin novembre 2026 (incident signalé par le mainteneur, sources.md)"
+      },
+      {
+        "source": "Wikidata",
+        "motif": "limite de débit atteinte (HTTP 429)"
+      },
+      {
+        "source": "TAXREF service web (taxref.mnhn.fr/api)",
+        "motif": "refuse les accès automatisés ; export local utilisé"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AEsox_Lucius.JPG",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/1280px-Esox_Lucius.JPG",
+      "titre": "Esox Lucius.JPG",
+      "auteur": "Georg Mittenecker",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 2.5",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "largeur": 2560,
+      "hauteur": 1920,
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Georg Mittenecker, CC BY-SA 2.5, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Esox lucius », reliée à l'élément Wikidata Q165278 dont le nom scientifique (P225) est « Esox lucius »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte sous l'eau, de profil, parmi d'autres poissons",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AEsox_Lucius.JPG",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/1280px-Esox_Lucius.JPG",
+      "titre": "Esox Lucius.JPG",
+      "auteur": "Georg Mittenecker",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 2.5",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "largeur": 2560,
+      "hauteur": 1920,
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Georg Mittenecker, CC BY-SA 2.5, via Wikimedia Commons, recadrée",
+      "verification": "fichier de la catégorie Commons « Esox lucius », reliée à l'élément Wikidata Q165278 dont le nom scientifique (P225) est « Esox lucius »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Même photo, recadrée sur la tête et l'avant du corps",
+      "recadrage": {
+        "x": 0.45,
+        "y": 0.1,
+        "largeur": 0.45,
+        "hauteur": 0.75
+      },
+      "orientation_origine": "paysage",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu ; recadrage conseillé pour le format portrait"
+    }
+  ]
+}

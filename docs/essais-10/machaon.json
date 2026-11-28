@@ -1,0 +1,1818 @@
+{
+  "id": "EFF-TAXREF-54468",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Papilio machaon",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "ES",
+    "classification": {
+      "phylum": "Arthropoda",
+      "classe": "Insecta",
+      "ordre": "Lepidoptera",
+      "famille": "Papilionidae",
+      "sous_famille": "Papilioninae",
+      "genre": "Papilio"
+    },
+    "noms_vernaculaires": [
+      "Machaon",
+      "Grand Porte-Queue"
+    ],
+    "synonymes": [
+      {
+        "nom": "Equites machaon",
+        "auteur": "(Linnaeus, 1758)",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Papilio machaon bigeneratus",
+        "auteur": "Verity, 1919",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Papilio machaon italicus",
+        "auteur": "Rocci, 1928",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Papilio machaon machaon",
+        "auteur": "Linnaeus, 1758",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Papilio machaon sphyrus",
+        "auteur": "auct. non Hübner, 1823",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Papilis machaon",
+        "auteur": "(Linnaeus, 1758)",
+        "source": "TAXREF v18"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "54468",
+        "cd_ref": "54468",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "4CKH8",
+        "jeu": "3LR",
+        "version": "2026-11-11",
+        "statut": "accepted"
+      },
+      "gbif": {
+        "usageKey": 8225376,
+        "statut": "ACCEPTED"
+      },
+      "wikidata": "Q179530"
+    },
+    "preuves": [
+      {
+        "valeur": "Papilio machaon Linnaeus, 1758 ; rang ES ; CD_NOM = CD_REF = 54468",
+        "source": "TAXREF v18, export officiel local (TAXREFv18.txt, empreinte vérifiée)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "date_ou_version": "TAXREF v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/54468"
+      },
+      {
+        "valeur": "Papilio machaon Linnaeus, 1758, nom accepté (identifiant 4CKH8)",
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR",
+        "origine": "Catalogue of Life",
+        "date_ou_version": "2026-11-11",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Papilio%20machaon"
+      },
+      {
+        "valeur": "Description originale : Papilio machaon, Systema Naturae éd. 10 (1758), p. 462.",
+        "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi de la description originale)",
+        "origine": "Linnaeus C. (1758). Systema Naturae, éd. 10, vol. 1, p. 462 (description originale). Traitement Plazi, doi:10.5962/bhl.title.542",
+        "date_ou_version": "1758",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC0 1.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://api.gbif.org/v1/species/8225376/descriptions"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "P",
+        "source": "TAXREF v18, export officiel local (TAXREFv18.txt, empreinte vérifiée)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "date_ou_version": "TAXREF v18",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "url": "https://taxref.mnhn.fr/taxref-web/taxa/54468",
+        "territoire": "France métropolitaine, Corse comprise"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : code P (Présent, indigène ou indéterminé) dans la colonne FR ; décision creer_fiche par decider.py",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Guides de terrain de référence (Tolman & Lewington 2014, Lafranchis 2000 et 2007) non accessibles en ligne ; Lépi'Net, Lepiforum et UK Butterflies bloqués par la politique réseau de la session. Champs complétés par des compléments.",
+      "champs": {
+        "aspect_imago_description_originale": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Ailes postérieures prolongées d'une queue ; fond jaune uniforme sur les deux faces, traversé de bandes brun sombre ; angle anal teinté de fauve (diagnose latine de Linné)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Ailes postérieures prolongées d'une queue ; fond jaune uniforme sur les deux faces, traversé de bandes brun sombre ; angle anal teinté de fauve (diagnose latine de Linné).",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi de la description originale)",
+              "origine": "Linnaeus C. (1758). Systema Naturae, éd. 10, vol. 1, p. 462 (description originale). Traitement Plazi, doi:10.5962/bhl.title.542",
+              "date_ou_version": "1758",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "stade_ou_saison": "imago"
+            }
+          ]
+        },
+        "coloration_imago": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Sous chaque queue de l'aile postérieure : une ocelle rouge accompagnée de six ocelles bleues ; nervures soulignées de noir sur fond jaune."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Sous chaque queue de l'aile postérieure : une ocelle rouge accompagnée de six ocelles bleues ; nervures soulignées de noir sur fond jaune.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "World Association of Zoos and Aquariums (WAZA), fiche « Old World Swallowtail » (archive 2016)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "imago"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "envergure": {
+          "etat": "incertain",
+          "valeur_synthese": [
+            "55 à 90",
+            "65 à 86",
+            "73 à 95"
+          ],
+          "affirmations": [
+            {
+              "valeur": "55 à 90",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "mm",
+              "stade_ou_saison": "imago"
+            },
+            {
+              "valeur": "65 à 86",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Opler P. A. & Tilden J. W. (1999). A Field Guide to Western Butterflies, 2e éd., p. 132-133",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "mm",
+              "stade_ou_saison": "imago",
+              "territoire": "Ouest de l'Amérique du Nord"
+            },
+            {
+              "valeur": "73 à 95",
+              "source": "Wikidata, élément Q179530, propriété P2050 (envergure)",
+              "origine": "Layberry R. A., Hall P. W. & Lafontaine J. D. (1998). The Butterflies of Canada",
+              "date_ou_version": "1998",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://www.wikidata.org/wiki/Q179530",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "mm",
+              "stade_ou_saison": "imago",
+              "territoire": "Canada"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "chenille": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Longueur atteignant environ 45 mm au dernier stade ; jeune, elle imite une fiente d'oiseau ; plus âgée, elle devient verte, annelée de noir et ponctuée d'orange, et peut dresser derrière la tête une fourche orange (osmeterium)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Longueur atteignant environ 45 mm au dernier stade ; jeune, elle imite une fiente d'oiseau ; plus âgée, elle devient verte, annelée de noir et ponctuée d'orange, et peut dresser derrière la tête une fourche orange (osmeterium).",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "WAZA, fiche « Old World Swallowtail » ; Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "mm",
+              "stade_ou_saison": "chenille"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "oeuf_et_chrysalide": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Œuf jaune qui brunit puis noircit avant l'éclosion ; chrysalide maintenue par une ceinture de soie et accrochée par le crémaster."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Œuf jaune qui brunit puis noircit avant l'éclosion ; chrysalide maintenue par une ceinture de soie et accrochée par le crémaster.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Lequet A., Les Pages entomologiques (insectes-net.fr), pages Machaon",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "œuf, chrysalide"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "especes_proches_et_criteres": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "En Corse et en Sardaigne, où il cohabite avec Papilio hospiton, le Machaon se reconnaît à ses queues plus longues ; face à Papilio saharae (Afrique du Nord), seul le décompte des articles antennaires permet de trancher.",
+            "Le Flambé (Iphiclides podalirius), autre porte-queue, est parfois pris pour un Machaon par les observateurs débutants."
+          ],
+          "affirmations": [
+            {
+              "valeur": "En Corse et en Sardaigne, où il cohabite avec Papilio hospiton, le Machaon se reconnaît à ses queues plus longues ; face à Papilio saharae (Afrique du Nord), seul le décompte des articles antennaires permet de trancher.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., « Swallowtail, Papilio machaon », Butterflies of Europe (learnaboutbutterflies.com, archive 2008)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true
+            },
+            {
+              "valeur": "Le Flambé (Iphiclides podalirius), autre porte-queue, est parfois pris pour un Machaon par les observateurs débutants.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "fontainebleau-blog.com, « Comment différencier les deux papillons porte-queues de la forêt de Fontainebleau ? », 24 mai 2014",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "France (forêt de Fontainebleau)"
+            }
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Tolman & Lewington (2014) et Lafranchis (2000, 2007) pour les dimensions européennes, le dimorphisme et les formes saisonnières ; critères Machaon / Porte-queue de Corse dans la littérature corse."
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "justification": "INPN/OpenObs hors ligne ; Lépi'Net bloqué. Présence métropolitaine établie par TAXREF ; répartition fine non documentée par une source de référence lue.",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Code P (présent, indigène ou indéterminé) dans la colonne FR (France hexagonale et Corse)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Code P (présent, indigène ou indéterminé) dans la colonne FR (France hexagonale et Corse).",
+              "source": "TAXREF v18, export officiel local",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "date_ou_version": "TAXREF v18",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://taxref.mnhn.fr/taxref-web/taxa/54468",
+              "territoire": "France métropolitaine, Corse comprise"
+            }
+          ]
+        },
+        "chorotype": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Holarctique."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Holarctique.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Bonelli et al. 2015)",
+              "origine": "Bonelli S. et al. (2015). The butterfly fauna of the Italian Maritime Alps: results of the EDIT project. Zoosystema. doi:10.15468/mj7u7s",
+              "date_ou_version": "2015",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Alpes maritimes italiennes"
+            }
+          ]
+        },
+        "aire_mondiale": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Ensemble du Paléarctique (de l'Europe à la Chine et au Japon, Himalaya et Taïwan inclus), jusqu'en Arabie et au nord de l'Inde vers le sud, et Amérique du Nord (Alaska, Canada, États-Unis)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Ensemble du Paléarctique (de l'Europe à la Chine et au Japon, Himalaya et Taïwan inclus), jusqu'en Arabie et au nord de l'Inde vers le sud, et Amérique du Nord (Alaska, Canada, États-Unis).",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Collins N. M. & Morris M. G. (1985). Threatened Swallowtail Butterflies of the World: The IUCN Red Data Book, p. 93-94",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement"
+        },
+        "repartition_departementale": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Signalé dans l'ensemble des départements métropolitains, Corse incluse."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Signalé dans l'ensemble des départements métropolitains, Corse incluse.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Lépi'Net (lepinet.fr), fiche Papilio machaon",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "donnees_occurrence_gbif": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "125 058 signalements bruts pour la France entre 2000 et 2026 dans GBIF (statut « présent »), non dédupliqués ni contrôlés : ils décrivent le volume de données collectées, pas l'abondance ni une tendance."
+          ],
+          "affirmations": [
+            {
+              "valeur": "125 058 signalements bruts pour la France entre 2000 et 2026 dans GBIF (statut « présent »), non dédupliqués ni contrôlés : ils décrivent le volume de données collectées, pas l'abondance ni une tendance.",
+              "source": "API GBIF, recherche d'occurrences (taxonKey 8225376, country=FR, year=2000,2026)",
+              "origine": "GBIF.org, jeux multiples (licences par enregistrement)",
+              "date_ou_version": "requête du 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licences par enregistrement (CC0, CC BY, CC BY-NC)",
+                "contenu_repris": true,
+                "motif": "seul un dénombrement agrégé est repris"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=8225376&country=FR&year=2000,2026",
+              "territoire": "France"
+            }
+          ]
+        },
+        "sous_especes": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Les noms infraspécifiques Papilio machaon machaon, P. m. bigeneratus, P. m. italicus et P. m. sphyrus auct. sont rattachés dans TAXREF v18 au CD_REF de l'espèce (aucune sous-espèce retenue séparément)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Les noms infraspécifiques Papilio machaon machaon, P. m. bigeneratus, P. m. italicus et P. m. sphyrus auct. sont rattachés dans TAXREF v18 au CD_REF de l'espèce (aucune sous-espèce retenue séparément).",
+              "source": "TAXREF v18, export officiel local",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "date_ou_version": "TAXREF v18",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ]
+        }
+      },
+      "prochaine_piste": "Atlas régionaux et national (OpenObs/INPN dès leur remise en ligne), Lépi'Net ; contrôle et dédoublonnage des occurrences GBIF par producteur avant toute synthèse."
+    },
+    "habitats": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "milieux": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Classé dans le jeu de traits comme espèce des prairies et des marais d'eau douce ; non associé aux cultures, dunes, forêts, landes, prés salés ni milieux urbains.",
+            "Espèce des lisières et milieux semi-ouverts (subnémorale), thermophile et xérophile ; relevée en clairière de hêtraie et en lande à genévrier mêlée de prairie."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Classé dans le jeu de traits comme espèce des prairies et des marais d'eau douce ; non associé aux cultures, dunes, forêts, landes, prés salés ni milieux urbains.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest"
+            },
+            {
+              "valeur": "Espèce des lisières et milieux semi-ouverts (subnémorale), thermophile et xérophile ; relevée en clairière de hêtraie et en lande à genévrier mêlée de prairie.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Bonelli et al. 2015)",
+              "origine": "Bonelli S. et al. (2015). The butterfly fauna of the Italian Maritime Alps: results of the EDIT project. Zoosystema. doi:10.15468/mj7u7s",
+              "date_ou_version": "2015",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Alpes maritimes italiennes"
+            }
+          ]
+        },
+        "etagement": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "De la plaine à l'étage subalpin ; relevés à 1300 m et 1790 m en juillet 2009."
+          ],
+          "affirmations": [
+            {
+              "valeur": "De la plaine à l'étage subalpin ; relevés à 1300 m et 1790 m en juillet 2009.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Bonelli et al. 2015)",
+              "origine": "Bonelli S. et al. (2015). The butterfly fauna of the Italian Maritime Alps: results of the EDIT project. Zoosystema. doi:10.15468/mj7u7s",
+              "date_ou_version": "2015",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Alpes maritimes italiennes",
+              "unite": "m"
+            }
+          ]
+        },
+        "altitude_maximale_observee": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "2788 m : plus haute observation du comportement de « hill-topping » dans la zone étudiée (29 juillet 2009)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "2788 m : plus haute observation du comportement de « hill-topping » dans la zone étudiée (29 juillet 2009).",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Aistleitner 2014)",
+              "origine": "Aistleitner E. (2014). Zur Schmetterlingsfauna des Verwalls, 1. Teil (Biodiversitätsforschung in Vorarlberg). Traitement Plazi, doi:10.5281/zenodo.4526236",
+              "date_ou_version": "2014",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Vorarlberg (Autriche)",
+              "unite": "m",
+              "stade_ou_saison": "imago mâle"
+            }
+          ]
+        },
+        "habitats_selon_regions": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Milieux ouverts de nature variée, occupés à faible densité : surtout des zones humides dans le nord de l'Europe, des herbages secs ou frais en Europe moyenne, et en région méditerranéenne tout lieu où croissent les plantes nourricières ; ses sites de reproduction de plaine sont les terrains en friche, les prés riches en fleurs et les marges des champs ; souvent vu entre 1000 et 2000 m, exceptionnellement jusqu'à 3000 m.",
+            "En Europe centrale, colonise volontiers les paysages cultivés et les jardins pourvus de plantes nourricières."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Milieux ouverts de nature variée, occupés à faible densité : surtout des zones humides dans le nord de l'Europe, des herbages secs ou frais en Europe moyenne, et en région méditerranéenne tout lieu où croissent les plantes nourricières ; ses sites de reproduction de plaine sont les terrains en friche, les prés riches en fleurs et les marges des champs ; souvent vu entre 1000 et 2000 m, exceptionnellement jusqu'à 3000 m.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Tolman T. & Lewington R. (2014). Papillons d'Europe et d'Afrique du Nord, Delachaux et Niestlé ; Horáčková J. (1988). Animaux de tous les pays, Gründ",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe"
+            },
+            {
+              "valeur": "En Europe centrale, colonise volontiers les paysages cultivés et les jardins pourvus de plantes nourricières.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "UTirana Biodiversity, « Old World swallowtail – Papilio machaon » (consulté par Wikipédia en 2024)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe centrale"
+            }
+          ],
+          "niveau": "complement"
+        }
+      }
+    },
+    "alimentation": {
+      "recherche": "recherche_effectuee",
+      "champs": {
+        "familles_plantes_hotes": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Ombellifères (Apiacées) et rue (Ruta), d'après l'indication d'habitat de la description originale.",
+            "Chenille phytophage et polyphage."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Ombellifères (Apiacées) et rue (Ruta), d'après l'indication d'habitat de la description originale.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi de la description originale)",
+              "origine": "Linnaeus C. (1758). Systema Naturae, éd. 10, vol. 1, p. 462 (description originale). Traitement Plazi, doi:10.5962/bhl.title.542",
+              "date_ou_version": "1758",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe",
+              "stade_ou_saison": "chenille"
+            },
+            {
+              "valeur": "Chenille phytophage et polyphage.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest",
+              "stade_ou_saison": "chenille"
+            }
+          ]
+        },
+        "especes_plantes_hotes": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Plusieurs dizaines de plantes connues ; en Europe surtout des Apiacées (fenouil commun, carotte, aneth, persil, peucédans, lasers, angéliques, sésélis) et localement des Rutacées (rue fétide, fraxinelle).",
+            "Au Royaume-Uni, la sous-espèce britannicus dépend presque uniquement du Peucedanum palustre.",
+            "En Amérique du Nord, surtout des armoises, dont l'estragon."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Plusieurs dizaines de plantes connues ; en Europe surtout des Apiacées (fenouil commun, carotte, aneth, persil, peucédans, lasers, angéliques, sésélis) et localement des Rutacées (rue fétide, fraxinelle).",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Tolman T. & Lewington R. (2014) ; Lafranchis T. (2007). Papillons d'Europe, Diatheo",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe",
+              "stade_ou_saison": "chenille"
+            },
+            {
+              "valeur": "Au Royaume-Uni, la sous-espèce britannicus dépend presque uniquement du Peucedanum palustre.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Royaume-Uni",
+              "stade_ou_saison": "chenille"
+            },
+            {
+              "valeur": "En Amérique du Nord, surtout des armoises, dont l'estragon.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Brock J. P. & Kaufman K. (2006). Kaufman Field Guide to Butterflies of North America",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Amérique du Nord",
+              "stade_ou_saison": "chenille"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "alimentation_adulte": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Adulte rangé dans la guilde des pollinisateurs (floricole)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Adulte rangé dans la guilde des pollinisateurs (floricole).",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest",
+              "stade_ou_saison": "imago"
+            }
+          ]
+        },
+        "comportement_alimentaire_adulte": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Interrompt souvent son vol pour se maintenir au-dessus des plantes en fleurs et y prélever du nectar."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Interrompt souvent son vol pour se maintenir au-dessus des plantes en fleurs et y prélever du nectar.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "imago"
+            }
+          ],
+          "niveau": "complement"
+        }
+      }
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "Calendrier de ponte territorialisé et fécondité non trouvés dans une source de référence accessible.",
+      "champs": {
+        "ponte": {
+          "etat": "incertain",
+          "valeur_synthese": [
+            "Œufs déposés un à un sur le feuillage d'une ombellifère nourricière.",
+            "Les femelles pondent leurs œufs séparément."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Œufs déposés un à un sur le feuillage d'une ombellifère nourricière.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Les femelles pondent leurs œufs séparément.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Wikipédia (en), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement"
+        },
+        "ponte_precoce_jardins": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "En Europe centrale, des pontes sont observées dès avril sur les jeunes pousses d'aneth ou de persil cultivés, qui nourrissent la première génération."
+          ],
+          "affirmations": [
+            {
+              "valeur": "En Europe centrale, des pontes sont observées dès avril sur les jeunes pousses d'aneth ou de persil cultivés, qui nourrissent la première génération.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "UTirana Biodiversity, « Old World swallowtail – Papilio machaon »",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe centrale",
+              "stade_ou_saison": "printemps"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "rencontre_des_sexes": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Les mâles pratiquent le « hill-topping » : ils se tiennent sur les sommets, loin des sites de développement larvaire."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Les mâles pratiquent le « hill-topping » : ils se tiennent sur les sommets, loin des sites de développement larvaire.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Aistleitner 2014)",
+              "origine": "Aistleitner E. (2014). Zur Schmetterlingsfauna des Verwalls, 1. Teil (Biodiversitätsforschung in Vorarlberg). Traitement Plazi, doi:10.5281/zenodo.4526236",
+              "date_ou_version": "2014",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Vorarlberg (Autriche)",
+              "stade_ou_saison": "imago mâle"
+            }
+          ]
+        }
+      },
+      "prochaine_piste": "Littérature de biologie de la reproduction (fécondité, durée de ponte) ; atlas régionaux pour les calendriers de ponte en France."
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Durées des stades et longévité imaginale : aucune source de référence lue ; seulement des compléments sans référence.",
+      "champs": {
+        "stade_hivernant": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Hiverne à l'état de chrysalide (ni œuf, ni chenille, ni adulte hivernants dans le jeu de traits)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Hiverne à l'état de chrysalide (ni œuf, ni chenille, ni adulte hivernants dans le jeu de traits).",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest"
+            }
+          ]
+        },
+        "durees_des_stades": {
+          "etat": "incertain",
+          "valeur_synthese": [
+            "L'œuf éclot au bout de sept jours environ ; la croissance de la chenille prend à peu près quatre semaines ; la chrysalide dure trois semaines en été, ou passe toute la mauvaise saison."
+          ],
+          "affirmations": [
+            {
+              "valeur": "L'œuf éclot au bout de sept jours environ ; la croissance de la chenille prend à peu près quatre semaines ; la chrysalide dure trois semaines en été, ou passe toute la mauvaise saison.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement"
+        },
+        "mues_larvaires": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Plusieurs mues jalonnent la croissance larvaire, nourrie de la plante hôte ; la jeune chenille dévore la coque de son œuf au moment d'en sortir."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Plusieurs mues jalonnent la croissance larvaire, nourrie de la plante hôte ; la jeune chenille dévore la coque de son œuf au moment d'en sortir.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Lequet A., Les Pages entomologiques (insectes-net.fr), pages Machaon",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "chenille"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "longevite": {
+          "etat": "non_renseigne"
+        }
+      },
+      "prochaine_piste": "Études de phénologie ou d'élevage publiées (durées à température connue), données de capture-marquage pour la longévité imaginale."
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "justification": "Comportements documentés surtout par des compléments ; une seule source de référence (Aistleitner 2014).",
+      "champs": {
+        "hill_topping": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Comportement de « hill-topping » des mâles, bien connu, observé loin des habitats larvaires."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Comportement de « hill-topping » des mâles, bien connu, observé loin des habitats larvaires.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Aistleitner 2014)",
+              "origine": "Aistleitner E. (2014). Zur Schmetterlingsfauna des Verwalls, 1. Teil (Biodiversitätsforschung in Vorarlberg). Traitement Plazi, doi:10.5281/zenodo.4526236",
+              "date_ou_version": "2014",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Vorarlberg (Autriche)",
+              "stade_ou_saison": "imago mâle"
+            }
+          ]
+        },
+        "vol": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Vol puissant et rapide."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Vol puissant et rapide.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "imago"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "deplacements": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Tendance à la dispersion, proche d'un comportement migrateur.",
+            "La sous-espèce britannicus, peu mobile, reste dans ses marais ou à proximité."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Tendance à la dispersion, proche d'un comportement migrateur.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Tolman T. & Lewington R. (2014)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe"
+            },
+            {
+              "valeur": "La sous-espèce britannicus, peu mobile, reste dans ses marais ou à proximité.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Royaume-Uni"
+            }
+          ],
+          "niveau": "complement"
+        }
+      }
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Période de vol en France non documentée par une source de référence lue ; seules des valeurs de complément.",
+      "champs": {
+        "activite_journaliere": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Diurne."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Diurne.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest",
+              "stade_ou_saison": "imago"
+            }
+          ]
+        },
+        "voltinisme": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Plurivoltin (plusieurs générations par an au maximum)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Plurivoltin (plusieurs générations par an au maximum).",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest"
+            }
+          ]
+        },
+        "nombre_generations_detail": {
+          "etat": "incertain",
+          "valeur_synthese": [
+            "Deux ou trois générations se suivent entre la fin mars et septembre ; en altitude et aux latitudes septentrionales de l'aire, il n'y en a qu'une.",
+            "Souvent deux ou trois couvées, une seule dans le nord ; au Royaume-Uni, une partie des chrysalides éclôt la même année et l'autre passe l'hiver."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Deux ou trois générations se suivent entre la fin mars et septembre ; en altitude et aux latitudes septentrionales de l'aire, il n'y en a qu'une.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Souvent deux ou trois couvées, une seule dans le nord ; au Royaume-Uni, une partie des chrysalides éclôt la même année et l'autre passe l'hiver.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Wikipédia (en), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement"
+        },
+        "periode_de_vol": {
+          "etat": "incertain",
+          "valeur_synthese": [
+            "Adultes visibles de mars à septembre.",
+            "De mars à septembre à basse altitude ; saison écourtée en altitude."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Adultes visibles de mars à septembre.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "imago"
+            },
+            {
+              "valeur": "De mars à septembre à basse altitude ; saison écourtée en altitude.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Wikipédia (en), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "imago"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "periode_chenilles": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Chenille à activité diurne, observable en deux périodes : mai-juillet, puis août-octobre."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Chenille à activité diurne, observable en deux périodes : mai-juillet, puis août-octobre.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Poitou-Charentes Nature, site « Papillons du Poitou-Charentes », fiche Papilio machaon",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Poitou-Charentes",
+              "stade_ou_saison": "chenille"
+            }
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Atlas des papillons de jour régionaux (phénologie par génération), STERF (suivi temporel des rhopalocères de France)."
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "justification": "Prédateurs et parasitoïdes spécifiques non trouvés dans les sources accessibles.",
+      "champs": {
+        "defenses_chenille": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Jeune, la chenille ressemble à une fiente d'oiseau ; dérangée, elle déploie un osmeterium malodorant qui rebute les insectes mais pas les oiseaux."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Jeune, la chenille ressemble à une fiente d'oiseau ; dérangée, elle déploie un osmeterium malodorant qui rebute les insectes mais pas les oiseaux.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "chenille"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "role_ecologique": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Adulte pollinisateur ; chenille consommatrice de végétaux."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Adulte pollinisateur ; chenille consommatrice de végétaux.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest"
+            }
+          ]
+        },
+        "hybridation": {
+          "etat": "incertain",
+          "valeur_synthese": [
+            "S'hybride à l'occasion avec Papilio hospiton en Corse."
+          ],
+          "affirmations": [
+            {
+              "valeur": "S'hybride à l'occasion avec Papilio hospiton en Corse.",
+              "source": "Wikipédia (fr), « Machaon (papillon) », texte source",
+              "origine": "Wikipédia (fr), sans référence citée pour cette valeur",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Corse"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "predateurs_parasitoides": {
+          "etat": "non_renseigne"
+        }
+      },
+      "prochaine_piste": "Littérature sur les parasitoïdes des Papilionidae (Ichneumonidae, Trichogramma) en Europe ; travaux sur l'hybridation P. machaon × P. hospiton."
+    },
+    "conservation": {
+      "recherche": "recherche_partielle",
+      "justification": "Légifrance, EUR-Lex et BDC Statuts inaccessibles : protection juridique en France non vérifiée (jamais déduite de la catégorie Liste rouge). Évaluation mondiale UICN non lue (site UICN refusé).",
+      "champs": {
+        "liste_rouge_france": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "LC"
+          ],
+          "affirmations": [
+            {
+              "valeur": "LC",
+              "source": "UICN France, tableau de la Liste rouge des papillons de jour de métropole (PDF)",
+              "origine": "UICN France, MNHN, OPIE & SEF. La Liste rouge des espèces menacées en France – Chapitre Papillons de jour de France métropolitaine (évaluation publiée en 2012 ; citation du document : 2014)",
+              "date_ou_version": "évaluation 2012",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France) ; citation demandée par le document",
+                "contenu_repris": true,
+                "motif": "seule la catégorie officielle (code court) est reprise, avec la citation prescrite"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://uicn.fr/wp-content/uploads/2012/03/Tableau_Liste_rouge_Papillons_de_jour_de_metropole.pdf",
+              "territoire": "France métropolitaine"
+            }
+          ]
+        },
+        "liste_rouge_europe": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "LC"
+          ],
+          "affirmations": [
+            {
+              "valeur": "LC",
+              "source": "UICN France, tableau de la Liste rouge des papillons de jour de métropole, colonne « Catégorie Liste rouge Europe » (PDF)",
+              "origine": "Liste rouge européenne des papillons de jour, catégorie reportée par UICN France (2012) ; évaluation européenne elle-même non lue",
+              "date_ou_version": "rapportée en 2012",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France) ; citation demandée par le document",
+                "contenu_repris": true,
+                "motif": "seule la catégorie officielle (code court) est reprise, avec la citation prescrite"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://uicn.fr/wp-content/uploads/2012/03/Tableau_Liste_rouge_Papillons_de_jour_de_metropole.pdf",
+              "territoire": "Europe"
+            }
+          ]
+        },
+        "statut_mondial": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "G5 (NatureServe)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "G5 (NatureServe).",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "NatureServe Explorer, Papilio machaon, id 2.107982 (consulté par Wikipédia le 31/01/2026)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Monde"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "protection_juridique_france": {
+          "etat": "non_renseigne"
+        },
+        "protection_hors_france": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Protégé par la loi dans six Länder autrichiens, en Tchéquie, Slovaquie, Hongrie, Roumanie et Moldavie, ainsi qu'au Royaume-Uni ; la sous-espèce verityi l'est en Inde ; mentionné comme vulnérable dans les livres rouges sud-coréen, autrichien et de l'ex-URSS (situation de 1985)."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Protégé par la loi dans six Länder autrichiens, en Tchéquie, Slovaquie, Hongrie, Roumanie et Moldavie, ainsi qu'au Royaume-Uni ; la sous-espèce verityi l'est en Inde ; mentionné comme vulnérable dans les livres rouges sud-coréen, autrichien et de l'ex-URSS (situation de 1985).",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Collins N. M. & Morris M. G. (1985). Threatened Swallowtail Butterflies of the World: The IUCN Red Data Book",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Hors France"
+            }
+          ],
+          "niveau": "complement"
+        },
+        "tendance_france": {
+          "etat": "non_renseigne"
+        },
+        "sensibilite_diffusion": {
+          "etat": "non_renseigne"
+        }
+      },
+      "prochaine_piste": "Arrêté du 23 avril 2007 (insectes protégés) et annexes de la directive Habitats via Légifrance et EUR-Lex ; BDC Statuts (export PatriNat) ; listes rouges régionales ; indicateurs STERF pour la tendance ; évaluation mondiale UICN."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune précaution propre à l'espèce trouvée dans une source compétente ; seuls des éléments de détection tirés des autres familles sont réunis.",
+      "champs": {
+        "indices_et_detection": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Adulte actif de jour.",
+            "Les mâles se postent sur les sommets, parfois loin des sites larvaires."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Adulte actif de jour.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (jeu Logghe et al. 2025)",
+              "origine": "Logghe G. et al. (2025). Northwestern European arthropod life histories and ecological traits, v1.1. Ghent University. doi:10.15468/75g5z9",
+              "date_ou_version": "version 1.1 (2025-01-14)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-NC 4.0",
+                "contenu_repris": true,
+                "motif": "aucun usage commercial déclaré (pas de profil-projet) ; à exclure d'un usage commercial"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Europe du Nord-Ouest",
+              "stade_ou_saison": "imago"
+            },
+            {
+              "valeur": "Les mâles se postent sur les sommets, parfois loin des sites larvaires.",
+              "source": "GBIF, descriptions de l'espèce 8225376 (traitement Plazi, Aistleitner 2014)",
+              "origine": "Aistleitner E. (2014). Zur Schmetterlingsfauna des Verwalls, 1. Teil (Biodiversitätsforschung in Vorarlberg). Traitement Plazi, doi:10.5281/zenodo.4526236",
+              "date_ou_version": "2014",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://api.gbif.org/v1/species/8225376/descriptions",
+              "territoire": "Vorarlberg (Autriche)",
+              "stade_ou_saison": "imago mâle"
+            }
+          ]
+        },
+        "confusions": {
+          "etat": "documente",
+          "valeur_synthese": [
+            "Risque de confusion avec Papilio hospiton en Corse (queues plus courtes chez ce dernier) et, en Afrique du Nord, avec Papilio saharae."
+          ],
+          "affirmations": [
+            {
+              "valeur": "Risque de confusion avec Papilio hospiton en Corse (queues plus courtes chez ce dernier) et, en Afrique du Nord, avec Papilio saharae.",
+              "source": "Wikipédia (en), « Papilio machaon », texte source",
+              "origine": "Hoskins A., Butterflies of Europe (learnaboutbutterflies.com)",
+              "date_ou_version": "révision consultée le 2026-11-27",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true,
+                "motif": "faits reformulés, attribution Wikipédia"
+              },
+              "consulte_le": "2026-11-27",
+              "url": "https://en.wikipedia.org/wiki/Papilio_machaon",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement"
+        },
+        "precautions": {
+          "etat": "non_renseigne"
+        }
+      },
+      "prochaine_piste": "Recommandations de suivi des rhopalocères (protocole STERF, guides OPIE) ; précautions propres aux secteurs où vole Papilio hospiton en Corse."
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "point_de_reprise": [],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "aspect_imago_description_originale",
+          "coloration_imago",
+          "chenille",
+          "oeuf_et_chrysalide",
+          "especes_proches_et_criteres"
+        ],
+        "lacunes": [
+          "envergure (incertain)"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole",
+          "chorotype",
+          "aire_mondiale",
+          "repartition_departementale",
+          "donnees_occurrence_gbif",
+          "sous_especes"
+        ],
+        "lacunes": []
+      },
+      "habitats": {
+        "documentes": [
+          "milieux",
+          "etagement",
+          "altitude_maximale_observee",
+          "habitats_selon_regions"
+        ],
+        "lacunes": []
+      },
+      "alimentation": {
+        "documentes": [
+          "familles_plantes_hotes",
+          "especes_plantes_hotes",
+          "alimentation_adulte",
+          "comportement_alimentaire_adulte"
+        ],
+        "lacunes": []
+      },
+      "reproduction": {
+        "documentes": [
+          "ponte_precoce_jardins",
+          "rencontre_des_sexes"
+        ],
+        "lacunes": [
+          "ponte (incertain)"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "stade_hivernant",
+          "mues_larvaires"
+        ],
+        "lacunes": [
+          "durees_des_stades (incertain)",
+          "longevite (non_renseigne)"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "hill_topping",
+          "vol",
+          "deplacements"
+        ],
+        "lacunes": []
+      },
+      "activite": {
+        "documentes": [
+          "activite_journaliere",
+          "voltinisme",
+          "periode_chenilles"
+        ],
+        "lacunes": [
+          "nombre_generations_detail (incertain)",
+          "periode_de_vol (incertain)"
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "defenses_chenille",
+          "role_ecologique"
+        ],
+        "lacunes": [
+          "hybridation (incertain)",
+          "predateurs_parasitoides (non_renseigne)"
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_france",
+          "liste_rouge_europe",
+          "statut_mondial",
+          "protection_hors_france"
+        ],
+        "lacunes": [
+          "protection_juridique_france (non_renseigne)",
+          "tendance_france (non_renseigne)",
+          "sensibilite_diffusion (non_renseigne)"
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "indices_et_detection",
+          "confusions"
+        ],
+        "lacunes": [
+          "precautions (non_renseigne)"
+        ]
+      }
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "Identité unique dans TAXREF v18 (recherche par le nom vernaculaire « Machaon ») ; code FR = P",
+      "sources": [
+        "TAXREF v18"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "decision": "enrichissement",
+      "motif": "Passe complète sur les 11 familles ; sources de référence accessibles épuisées, compléments Wikipédia fr/en et Wikidata pour les champs vides",
+      "sources": [
+        "TAXREF v18",
+        "Catalogue of Life 2026-11-11",
+        "GBIF",
+        "UICN France",
+        "Wikipédia",
+        "Wikidata"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Machaon",
+    "sources_consultees": [
+      {
+        "source": "TAXREF, export officiel local",
+        "version": "18"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank, jeu 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR"
+      },
+      {
+        "source": "GBIF : correspondance de nom, descriptions d'espèce (Logghe et al. 2025 ; traitements Plazi Linnaeus 1758, Bonelli et al. 2015, Aistleitner 2014), dénombrement d'occurrences France",
+        "version": "API v1, 2026-11-27",
+        "url": "https://api.gbif.org/v1/species/8225376/descriptions"
+      },
+      {
+        "source": "UICN France, Liste rouge des papillons de jour de France métropolitaine (tableau et document)",
+        "version": "2012",
+        "url": "https://uicn.fr/wp-content/uploads/2012/03/Tableau_Liste_rouge_Papillons_de_jour_de_metropole.pdf"
+      },
+      {
+        "source": "Wikipédia (fr), Machaon (papillon), texte source",
+        "version": "2026-11-27",
+        "url": "https://fr.wikipedia.org/wiki/Machaon_(papillon)"
+      },
+      {
+        "source": "Wikipédia (en), Papilio machaon, texte source",
+        "version": "2026-11-27",
+        "url": "https://en.wikipedia.org/wiki/Papilio_machaon"
+      },
+      {
+        "source": "Wikidata, Q179530 et Q76889888",
+        "version": "2026-11-27",
+        "url": "https://www.wikidata.org/wiki/Q179530"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "INPN, OpenObs, BDC Statuts (sites)",
+        "motif": "inpn.mnhn.fr répond 403 ; hors ligne fin novembre 2026 selon la fiche d'accès"
+      },
+      {
+        "source": "TAXREF API (taxref.mnhn.fr/api)",
+        "motif": "non sollicitée : refuse les accès automatisés ; export local utilisé"
+      },
+      {
+        "source": "Légifrance",
+        "motif": "HTTP 403 : protection juridique en France non vérifiée"
+      },
+      {
+        "source": "EUR-Lex (directive Habitats)",
+        "motif": "connexion refusée par la politique réseau de la session"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "HAL (API)",
+        "motif": "connexion refusée par la politique réseau de la session"
+      },
+      {
+        "source": "Biodiversity Heritage Library",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "Zenodo, Figshare (jeux de traits européens)",
+        "motif": "connexion refusée par la politique réseau de la session"
+      },
+      {
+        "source": "Lépi'Net, Papillons du Poitou-Charentes, insectes-net.fr, UK Butterflies, Butterfly Conservation, eurobutterflies, funet",
+        "motif": "connexion refusée par la politique réseau de la session : seules les références citées par Wikipédia sont conservées, non lues"
+      },
+      {
+        "source": "Wikipédia (de)",
+        "motif": "connexion refusée par la politique réseau de la session"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AAix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Aix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg/1280px-Aix-en-provence_1980_-_Schwalbenschwanz_%28ExaI0327%29.jpg",
+      "titre": "Aix-en-provence 1980 - Schwalbenschwanz (ExaI0327).jpg",
+      "auteur": "Michael Wittwer",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 1280,
+      "hauteur": 853,
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : Michael Wittwer, CC BY-SA 4.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Papilio machaon », reliée à l'élément Wikidata Q179530 dont le nom scientifique (P225) est « Papilio machaon »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte ailes ouvertes, motifs nets, vu de dessus",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/218515950",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/218515950/large.jpeg",
+      "titre": "Photo iNaturalist 218515950",
+      "auteur": "Fethullah ÖZTÜRK",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 691,
+      "hauteur": 885,
+      "qualite": "observation iNaturalist classée par votes (1 favoris)",
+      "credit": "Photo : Fethullah ÖZTÜRK, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 128639016 de qualité recherche : espèce « Papilio machaon » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte en vol sur fond flou",
+      "orientation_origine": "portrait",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/431561428",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/431561428/large.jpg",
+      "titre": "Photo iNaturalist 431561428",
+      "auteur": "Diego González Dopico",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1365,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Diego González Dopico, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 203770159 de qualité recherche : espèce « Papilio machaon » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte butinant des fleurs roses, ailes fermées"
+    }
+  ]
+}

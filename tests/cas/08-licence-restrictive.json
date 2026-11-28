@@ -1,0 +1,28 @@
+{
+  "description": "Licence non commerciale dans un projet commercial",
+  "dossier": {
+    "profil": {
+      "usage_commercial": true
+    },
+    "champs": {
+      "description": {
+        "affirmations": [
+          {
+            "valeur": "texte",
+            "source": "site",
+            "origine": "site",
+            "licence": "CC BY-NC 4.0"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "description": {
+        "etat": "non_renseigne",
+        "valeur": null
+      }
+    }
+  }
+}

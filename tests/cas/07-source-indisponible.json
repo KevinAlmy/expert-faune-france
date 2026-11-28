@@ -1,0 +1,23 @@
+{
+  "description": "Source indisponible : dernière version connue conservée",
+  "dossier": {
+    "champs": {
+      "statut_liste_rouge": {
+        "source_indisponible": true,
+        "valeur_precedente": {
+          "etat": "documente",
+          "valeur": "LC (France, 2015)"
+        }
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "statut_liste_rouge": {
+        "etat": "documente",
+        "valeur": "LC (France, 2015)",
+        "recherche": "acces_indisponible"
+      }
+    }
+  }
+}

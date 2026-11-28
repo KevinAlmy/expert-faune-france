@@ -1,0 +1,22 @@
+{
+  "description": "Homonymie non résolue : abstention, hypothèses conservées",
+  "dossier": {
+    "noms": {
+      "situation": "homonymie_non_resolue",
+      "hypotheses": [
+        {
+          "nom": "X y Auteur1, 1850"
+        },
+        {
+          "nom": "X y Auteur2, 1901"
+        }
+      ]
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "abstention",
+      "reexamen": true
+    }
+  }
+}

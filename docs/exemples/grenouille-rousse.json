@@ -1,0 +1,2325 @@
+{
+  "id": "EFF-TAXREF-351",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Rana temporaria",
+    "auteur": "Linnaeus",
+    "annee": 1758,
+    "rang": "espèce (ES)",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Chordata",
+      "classe": "Amphibia",
+      "ordre": "Anura",
+      "famille": "Ranidae",
+      "source": "TAXREF v18"
+    },
+    "noms_vernaculaires": [
+      "Grenouille rousse"
+    ],
+    "synonymes": [
+      {
+        "nom": "Rana alpina",
+        "auteur": "Risso, 1827",
+        "source": "TAXREF v18, CD_NOM 324"
+      },
+      {
+        "nom": "Rana rufa",
+        "auteur": "Lacepède, 1788",
+        "source": "TAXREF v18, CD_NOM 353"
+      },
+      {
+        "nom": "Rana temporaria gracilis",
+        "auteur": "Koch, 1872",
+        "source": "TAXREF v18, CD_NOM 315"
+      },
+      {
+        "nom": "Rana alpina",
+        "auteur": "Laurenti, 1768",
+        "source": "Catalogue of Life 2026-11-11 (ITIS) — homonyme distinct du Rana alpina Risso, 1827 de TAXREF"
+      },
+      {
+        "nom": "Rana muta",
+        "auteur": "Laurenti, 1768",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      },
+      {
+        "nom": "Rana fusca honnorati",
+        "auteur": "Héron-Royer, 1881",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      },
+      {
+        "nom": "Rana temporaria honnorati",
+        "auteur": "Héron-Royer, 1881",
+        "source": "TAXREF v18 (synonyme de la sous-espèce Rana temporaria temporaria, CD_NOM 354) ; COL 2026-11-11 (synonyme de l'espèce)"
+      },
+      {
+        "nom": "Rana temporaria canigonensis",
+        "auteur": "Boubée, 1833",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      },
+      {
+        "nom": "Rana glacialis",
+        "auteur": "Boubée, 1833",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      },
+      {
+        "nom": "Rana temporaria aragonensis",
+        "auteur": "Palanca-Soler, Vieites & Martínez-Suárez, 1995",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      },
+      {
+        "nom": "Rana scotica",
+        "auteur": "Bell, 1839",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "351",
+        "cd_ref": "351",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "6WR99",
+        "jeu": "3LR",
+        "version": "2026-11-11",
+        "source_primaire": "ITIS TSN 173444"
+      },
+      "gbif": {
+        "usageKey": 2426805,
+        "jeu": "GBIF Backbone Taxonomy",
+        "consulte_le": "2026-11-27"
+      },
+      "taxons_infraspecifiques_relies": [
+        {
+          "nom": "Rana temporaria temporaria Linnaeus, 1758",
+          "cd_ref": "357",
+          "rang": "SSES",
+          "code_FR": "P",
+          "source": "TAXREF v18",
+          "fiche": "aucune fiche séparée à ce jour (conservé séparément, relié à l'espèce)"
+        }
+      ],
+      "codes_autres": {
+        "DHFF_code_espece": "1213",
+        "source": "Rapportage DHFF 2019-2024"
+      }
+    },
+    "preuves": [
+      {
+        "valeur": "Rana temporaria Linnaeus, 1758 : nom retenu (CD_NOM = CD_REF = 351), rang ES, Ranidae",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+        "origine": "TAXREF v18 (MNHN-PatriNat)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+        "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "référentiel national"
+      },
+      {
+        "valeur": "Rana temporaria Linnaeus, 1758 : nom accepté (accepted)",
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR, taxon 6WR99",
+        "origine": "ITIS, TSN 173444 (secteur COL 1506)",
+        "url": "https://api.checklistbank.org/dataset/3LR/taxon/6WR99/info",
+        "date_ou_version": "COL 2026-11-11",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "référentiel mondial"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "envahissant": false,
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "colonne FR (France hexagonale et Corse) = P : Présent (indigène ou indéterminé)",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+        "origine": "TAXREF v18 (MNHN-PatriNat)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+        "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : code P (Présent (indigène ou indéterminé)), colonne FR — décision creer_fiche par decider.py",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Lors de la première passe, aucune source morphologique n'était accessible (INPN hors ligne, autres sites refusés par le réseau). Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "confusions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La Grenouille des champs (Rana arvalis) pourrait être sous-détectée, notamment à cause d'une confusion possible avec la Grenouille rousse.",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale",
+              "contexte": "évaluation 2026, compte rendu de Rana arvalis"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale — évaluation 2026, compte rendu de Rana arvalis : La Grenouille des champs (Rana arvalis) pourrait être sous-détectée, notamment à cause d'une confusion possible avec la Grenouille rousse."
+          ]
+        },
+        "aspect_general": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Tache sombre en chevron sur la nuque, tache sombre derrière l'œil ; pas de bande dorsale claire en général (ou très faible)",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Kuzmin S. L. 1999. Rana temporaria. AmphibiaWeb",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Tache sombre en chevron sur la nuque, tache sombre derrière l'œil ; pas de bande dorsale claire en général (ou très faible)"
+          ],
+          "niveau": "complement"
+        },
+        "pattes_posterieures": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Membres postérieurs peu allongés : ramenée le long du corps, l'articulation tibio-tarsienne atteint en général au plus l'extrémité du museau",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Arnold N. & Ovenden D. 2010. Le guide herpéto. Delachaux & Niestlé",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Membres postérieurs peu allongés : ramenée le long du corps, l'articulation tibio-tarsienne atteint en général au plus l'extrémité du museau"
+          ],
+          "niveau": "complement"
+        },
+        "coloration": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Face dorsale allant du jaune rougeâtre au brun très sombre, ponctuée de taches foncées ; côtés tachetés ou marbrés ; face ventrale grisâtre pâle chez les mâles, parsemée de taches ou teintée de rougeâtre chez les femelles",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "valeur_synthese": [
+            "Face dorsale allant du jaune rougeâtre au brun très sombre, ponctuée de taches foncées ; côtés tachetés ou marbrés ; face ventrale grisâtre pâle chez les mâles, parsemée de taches ou teintée de rougeâtre chez les femelles"
+          ],
+          "niveau": "complement"
+        },
+        "dimensions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "50 à 65 mm",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "plaine",
+              "contexte": "adultes"
+            },
+            {
+              "valeur": "mâle 70 à 80 mm, femelle 75 à 85 mm ; 100 mm au maximum",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "haute altitude",
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "plaine : 50 à 65 mm",
+            "haute altitude : mâle 70 à 80 mm, femelle 75 à 85 mm ; 100 mm au maximum"
+          ],
+          "niveau": "complement"
+        },
+        "masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "22,7 g en moyenne",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "BBC Nature Wildfacts, fiche « Common frog, grass frog » (archive 2002)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "adultes : 22,7 g en moyenne"
+          ],
+          "niveau": "complement"
+        },
+        "dimorphisme_taille": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Les femelles atteignent une taille supérieure à celle des mâles",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Duguet R. & Melki F. (dir.) 2003. Les Amphibiens de France, Belgique et Luxembourg. Biotope (ACEMAV)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Les femelles atteignent une taille supérieure à celle des mâles"
+          ],
+          "niveau": "complement"
+        },
+        "callosites_nuptiales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Le mâle porte des callosités nuptiales sur le premier doigt de la patte avant, qui lui servent à saisir la femelle",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Sterry P. 1997. Complete British Wildlife Photoguide. HarperCollins",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Le mâle porte des callosités nuptiales sur le premier doigt de la patte avant, qui lui servent à saisir la femelle"
+          ],
+          "niveau": "complement"
+        },
+        "coloration_nuptiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "En période de reproduction : gorge du mâle souvent blanche, teinte générale gris clair ; femelle plus brune, voire rouge",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Kuzmin S. L. 1999. Rana temporaria. AmphibiaWeb",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "stade_ou_saison": "période de reproduction"
+            }
+          ],
+          "valeur_synthese": [
+            "période de reproduction : En période de reproduction : gorge du mâle souvent blanche, teinte générale gris clair ; femelle plus brune, voire rouge"
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Grosselet & Guyétant 2012 (Atlas des Amphibiens et Reptiles de France, p. 140-141) ; compte AmphibiaWeb ; guides de détermination SHF ; critères vs Rana dalmatina, R. arvalis, R. pyrenaica."
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "justification": "Présence et grandes zones documentées ; la répartition fine (atlas, OpenObs, INPN) est inaccessible (403 / proxy). Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Présent (indigène ou indéterminé), code P",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+              "origine": "TAXREF v18 (MNHN-PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale et Corse : Présent (indigène ou indéterminé), code P"
+          ]
+        },
+        "regions_biogeographiques": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "présence régulière (PRE) dans les régions atlantique, continentale, alpine et méditerranéenne",
+              "source": "PatriNat (2025). Résultats synthétiques de l'état de conservation des habitats et des espèces, période 2019-2024, rapportage art. 17 DHFF (xlsx, onglet « Espèces (données) »)",
+              "origine": "Rapportage article 17 DHFF France 2019-2024 (PatriNat)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rendues à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine (régions biogéographiques DHFF)",
+              "contexte": "rapportage 2019-2024"
+            }
+          ],
+          "valeur_synthese": [
+            "France métropolitaine (régions biogéographiques DHFF) — rapportage 2019-2024 : présence régulière (PRE) dans les régions atlantique, continentale, alpine et méditerranéenne"
+          ]
+        },
+        "etagement_altitudinal": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "de la plaine jusqu'aux étages subalpin et alpin en montagne",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale : de la plaine jusqu'aux étages subalpin et alpin en montagne"
+          ]
+        },
+        "corse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Aucune occurrence en Corse dans le GBIF (0 dans l'emprise de l'île, pour 108 486 occurrences en France) : absence de signalement, ce n'est pas une preuve d'absence",
+              "source": "GBIF, API occurrence/search (taxon 2426805, emprise 8,5-9,65° E / 41,3-43,05° N)",
+              "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2426805&country=FR",
+              "origine": "GBIF (agrégation des jeux publiés)",
+              "date_ou_version": "consulté le 2026-11-27",
+              "reutilisation": {
+                "licence": "par enregistrement (CC0, CC BY, CC BY-NC)",
+                "contenu_repris": false,
+                "motif": "seul un comptage est rapporté"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Corse"
+            }
+          ],
+          "valeur_synthese": [
+            "Corse : Aucune occurrence en Corse dans le GBIF (0 dans l'emprise de l'île, pour 108 486 occurrences en France) : absence de signalement, ce n'est pas une preuve d'absence"
+          ],
+          "ecartes": [
+            {
+              "valeur": "Espèce absente de Corse (lacune de répartition)",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément non utilisé : une source de référence renseigne ce champ"
+            }
+          ]
+        }
+      },
+      "prochaine_piste": "Présence en Corse : la colonne FR de TAXREF regroupe hexagone et Corse, et ne permet pas de conclure ; vérifier la colonne de présence corse de TAXREF (statuts_note / TAXREFv18.pdf) et l'atlas national. Cartes à la maille 10 km de l'INPN dès que l'accès sera rétabli."
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "justification": "Habitats de reproduction documentés pour la France ; microhabitats terrestres et hivernage en France non trouvés dans les sources accessibles.",
+      "champs": {
+        "milieu_general": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Continental (terrestre et eau douce), code habitat 8",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+              "origine": "TAXREF v18 (MNHN-PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "référentiel national"
+            }
+          ],
+          "valeur_synthese": [
+            "référentiel national : Continental (terrestre et eau douce), code habitat 8"
+          ]
+        },
+        "habitats_reproduction": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "selon les régions : plutôt des mares et des étangs, ou bien des flaques, fossés ou ornières temporairement en eau",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale"
+            },
+            {
+              "valeur": "les prairies permanentes constituent l'essentiel des sites de reproduction",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale — « Grand Ouest »"
+            },
+            {
+              "valeur": "des mares et tourbières au-dessus de la limite des arbres jusqu'à tout type de zone humide et de lac, y compris des baies saumâtres abritées de la Baltique et des milieux artificiels ; de l'oligotrophe à l'eutrophe",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale : selon les régions : plutôt des mares et des étangs, ou bien des flaques, fossés ou ornières temporairement en eau",
+            "France hexagonale — « Grand Ouest » : les prairies permanentes constituent l'essentiel des sites de reproduction",
+            "Suède septentrionale (hors territoire, contexte de comparaison) : des mares et tourbières au-dessus de la limite des arbres jusqu'à tout type de zone humide et de lac, y compris des baies saumâtres abritées de la Baltique et des milieux artificiels ; de l'oligotrophe à l'eutrophe"
+          ]
+        },
+        "habitats_estivaux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "très variés : landes alpines, forêts de conifères ouvertes, bois de fond de vallée ; densités maximales dans les friches et prairies herbeuses au bord des lacs, des rivières et du littoral, et dans les forêts de feuillus à sous-bois développé",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède septentrionale (hors territoire, contexte de comparaison) : très variés : landes alpines, forêts de conifères ouvertes, bois de fond de vallée ; densités maximales dans les friches et prairies herbeuses au bord des lacs, des rivières et du littoral, et dans les forêts de feuillus à sous-bois développé"
+          ]
+        }
+      },
+      "prochaine_piste": "Atlas national et atlas régionaux (Aquitaine, Normandie) pour les habitats terrestres et l'hivernage en France."
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune source accessible ne traite le régime alimentaire (AmphibiaWeb et bases bibliographiques refusés par le proxy). Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "regime_adulte": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Arthropodes (petits insectes, crustacés, arachnides), mollusques (limaces), vers de terre, larves d'amphibiens",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "contexte": "adultes"
+            },
+            {
+              "valeur": "Régime plus varié que celui du Lézard vivipare dans deux populations où les deux espèces cohabitent",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Pilorge T. 1982. Amphibia-Reptilia 3(1) : 27-31",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Puy-de-Dôme",
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "adultes : Arthropodes (petits insectes, crustacés, arachnides), mollusques (limaces), vers de terre, larves d'amphibiens",
+            "Puy-de-Dôme : Régime plus varié que celui du Lézard vivipare dans deux populations où les deux espèces cohabitent"
+          ],
+          "niveau": "complement"
+        },
+        "regime_larvaire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Algues et plantes plus grandes, broutées par des têtards regroupés en bancs",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Terhivuo J. 1988. Annales Zoologici Fennici 25(2) : 165-175",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "têtards"
+            }
+          ],
+          "valeur_synthese": [
+            "têtards : Algues et plantes plus grandes, broutées par des têtards regroupés en bancs"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "Algues, détritus, protozoaires, pollen",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
+        }
+      },
+      "prochaine_piste": "Atlas national ; littérature (HAL, Europe PMC) sur le régime des adultes et des têtards."
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "Sites de reproduction documentés (voir habitats) ; calendrier, taille de ponte et comportement en France non trouvés dans les sources accessibles. Les comportements reproducteurs suédois sont rapportés comme contexte. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "calendrier_reproduction": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Migration et pontes de janvier-février à avril selon l'altitude et la végétation ; beaucoup plus tard en montagne",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "France"
+            },
+            {
+              "valeur": "Sur 23 années de suivi de sites de ponte, la date des premières pontes a reculé de 27 jours (1984 → 2007), vers plus de précocité",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Neveu A. 2009. Acta Oecologica 35 : 671-678",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Bretagne"
+            },
+            {
+              "valeur": "Pontes entre fin février et fin juin, le plus souvent en avril sur l'essentiel de l'aire",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Kuzmin S. L. 1999. Rana temporaria. AmphibiaWeb",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "aire de répartition"
+            }
+          ],
+          "valeur_synthese": [
+            "France : Migration et pontes de janvier-février à avril selon l'altitude et la végétation ; beaucoup plus tard en montagne",
+            "Bretagne : Sur 23 années de suivi de sites de ponte, la date des premières pontes a reculé de 27 jours (1984 → 2007), vers plus de précocité",
+            "aire de répartition : Pontes entre fin février et fin juin, le plus souvent en avril sur l'essentiel de l'aire"
+          ],
+          "niveau": "complement"
+        },
+        "taille_ponte": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "700 à 4 500 œufs par femelle, en amas gélatineux",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Arnold N. & Ovenden D. 2010. Le guide herpéto. Delachaux & Niestlé",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "700 à 4 500 œufs par femelle, en amas gélatineux"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "De quelques centaines à 5 000 œufs",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
+        },
+        "migration_prenuptiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "migration des mâles adultes vers les sites de ponte surtout nocturne et souvent très synchronisée (jusqu'à 50 % des arrivées en quelques jours) ; arrivée plus étalée des femelles (Elmberg 1990)",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)",
+              "stade_ou_saison": "printemps, adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède septentrionale (hors territoire, contexte de comparaison) : migration des mâles adultes vers les sites de ponte surtout nocturne et souvent très synchronisée (jusqu'à 50 % des arrivées en quelques jours) ; arrivée plus étalée des femelles (Elmberg 1990)"
+          ]
+        },
+        "sejour_sur_site": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "les femelles quittent le site après la ponte ; les mâles restent tant que des femelles réceptives sont présentes, ou plus longtemps (Elmberg 1990)",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède septentrionale (hors territoire, contexte de comparaison) : les femelles quittent le site après la ponte ; les mâles restent tant que des femelles réceptives sont présentes, ou plus longtemps (Elmberg 1990)"
+          ]
+        },
+        "duree_amplexus": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Moins de 24 heures",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Savage R. M. 1934. Proceedings of the Zoological Society of London 104(1)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Moins de 24 heures"
+          ],
+          "niveau": "complement"
+        },
+        "sex_ratio_sites": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Sur les lieux de ponte, les mâles sont environ deux fois plus nombreux que les femelles",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "valeur_synthese": [
+            "Sur les lieux de ponte, les mâles sont environ deux fois plus nombreux que les femelles"
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Calendriers de ponte par région et par altitude (atlas régionaux, suivis POPAmphibien) ; nombre d'œufs par ponte."
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Seule la durée de trois générations utilisée par l'évaluation Liste rouge est documentée ; développement larvaire, maturité et longévité non trouvés dans les sources accessibles. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "duree_trois_generations": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "15 à 20 ans",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "unite": "années",
+              "territoire": "France hexagonale",
+              "contexte": "valeur retenue pour l'application du critère A de la Liste rouge"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale — valeur retenue pour l'application du critère A de la Liste rouge : 15 à 20 ans"
+          ]
+        },
+        "duree_developpement_larvaire": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Éclosion en 2 à 3 semaines ; la plupart des têtards sont métamorphosés en juin-juillet",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Terhivuo J. 1988. Annales Zoologici Fennici 25(2) : 165-175",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Finlande"
+            },
+            {
+              "valeur": "Éclosion en 1 à 3 semaines selon la température ; 2 à 3 mois de vie larvaire jusqu'à la métamorphose",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "non précisé"
+            }
+          ],
+          "valeur_synthese": [
+            "Finlande : Éclosion en 2 à 3 semaines ; la plupart des têtards sont métamorphosés en juin-juillet",
+            "non précisé : Éclosion en 1 à 3 semaines selon la température ; 2 à 3 mois de vie larvaire jusqu'à la métamorphose"
+          ],
+          "niveau": "complement"
+        },
+        "maturite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Maturité sexuelle après trois ans",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Laugen A. T. et al. 2003. Journal of Evolutionary Biology 16(5) : 996-1005",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "valeur_synthese": [
+            "Maturité sexuelle après trois ans"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "Vers 2-3 ans, plus tard en montagne",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
+        },
+        "longevite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "6 à 8 ans",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Laugen A. T. et al. 2003. Journal of Evolutionary Biology 16(5) : 996-1005",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "sauvage"
+            }
+          ],
+          "valeur_synthese": [
+            "sauvage : 6 à 8 ans"
+          ],
+          "niveau": "complement",
+          "ecartes": [
+            {
+              "valeur": "6 à 10 ans",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "motif": "complément sans référence, écarté au profit d'un complément référencé"
+            }
+          ]
+        }
+      },
+      "prochaine_piste": "Études de squelettochronologie (Alpes, Pyrénées) ; distinguer données sauvages et captives."
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "justification": "Seuls des comportements observés en Suède (traitement Plazi CC0) sont accessibles ; aucune source française sur les vocalisations ou la sociabilité.",
+      "champs": {
+        "chant": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "mâles chanteurs et amas de pontes généralement en eau peu profonde et bien végétalisée",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède septentrionale (hors territoire, contexte de comparaison) : mâles chanteurs et amas de pontes généralement en eau peu profonde et bien végétalisée"
+          ]
+        },
+        "deplacements": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "dispersion progressive et peu visible vers les habitats estivaux ; migration d'automne vers les sites d'hivernage généralement visible et synchronisée, déclenchée par la pluie ou un temps doux et couvert",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède septentrionale (hors territoire, contexte de comparaison) : dispersion progressive et peu visible vers les habitats estivaux ; migration d'automne vers les sites d'hivernage généralement visible et synchronisée, déclenchée par la pluie ou un temps doux et couvert"
+          ]
+        }
+      },
+      "prochaine_piste": "Description du chant et comportements en France (atlas, SHF)."
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Hivernage documenté uniquement en Suède ; cycle annuel en France non trouvé dans les sources accessibles. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "hivernage": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "hivernage aquatique : dans les sites de ponte s'ils ne deviennent pas anoxiques, plus souvent dans des cours d'eau proches bien oxygénés ; l'espèce ne survit au plus que quelques jours au gel (Pasanen & Karhapää 1997, Finlande)",
+              "source": "Elmberg J., Plazi (2023). Amphibians and reptiles in North Sweden: distribution, habitat affinities, and abundance — traitement de Rana temporaria (via GBIF, descriptions du taxon 209690036)",
+              "origine": "Elmberg J., Amphibians and reptiles in North Sweden (traitement Plazi 03BE87CBFF864A6EB8887B74410BF838)",
+              "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838",
+              "date_ou_version": "jeu Plazi publié 2023-06-12 (doi:10.15468/jt6rde)",
+              "reutilisation": {
+                "licence": "CC0 1.0",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Suède septentrionale (hors territoire, contexte de comparaison)"
+            }
+          ],
+          "valeur_synthese": [
+            "Suède septentrionale (hors territoire, contexte de comparaison) : hivernage aquatique : dans les sites de ponte s'ils ne deviennent pas anoxiques, plus souvent dans des cours d'eau proches bien oxygénés ; l'espèce ne survit au plus que quelques jours au gel (Pasanen & Karhapää 1997, Finlande)"
+          ]
+        },
+        "cycle_annuel_france": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Activité diurne et nocturne, avec repli à l'abri lors des journées très chaudes ; hibernation d'environ quatre mois ; au fil de l'année, trois milieux successifs : point d'eau de ponte au printemps, zone d'alimentation en été, abri d'hivernage",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": [
+            "France : Activité diurne et nocturne, avec repli à l'abri lors des journées très chaudes ; hibernation d'environ quatre mois ; au fil de l'année, trois milieux successifs : point d'eau de ponte au printemps, zone d'alimentation en été, abri d'hivernage"
+          ],
+          "niveau": "complement"
+        },
+        "sortie_hibernation_alpes": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Sortie d'hibernation jusqu'au début de juin dans les Alpes",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Wikipédia en anglais, article « Common frog »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Alpes"
+            }
+          ],
+          "valeur_synthese": [
+            "Alpes : Sortie d'hibernation jusqu'au début de juin dans les Alpes"
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Phénologie selon l'altitude en France (atlas, suivis)."
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "justification": "Seules les interactions citées comme menaces par la Liste rouge 2026 sont documentées ; prédateurs, parasites et rôle écologique non trouvés dans les sources accessibles. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "especes_introduites_defavorables": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "les écrevisses introduites aggravent la situation dans les marais et les fonds de vallée",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale : les écrevisses introduites aggravent la situation dans les marais et les fonds de vallée"
+          ]
+        },
+        "pathogenes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "risque épidémiologique lié aux Ranavirus",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale : risque épidémiologique lié aux Ranavirus"
+          ]
+        },
+        "predateurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Têtards : poissons, dytiques, larves de libellules, oiseaux",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Scottish Natural Heritage, fiche « Common frog » (archive 2010)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "têtards"
+            },
+            {
+              "valeur": "Adultes : cigognes, rapaces, corvidés, goélands, canards, sternes, hérons, martre, hermine, belette, putois, blaireau, loutre, serpents",
+              "source": "Wikipédia en anglais, article « Common frog »",
+              "url": "https://en.wikipedia.org/wiki/Common_frog",
+              "origine": "Scottish Natural Heritage, fiche « Common frog » (archive 2010)",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "contexte": "adultes"
+            }
+          ],
+          "valeur_synthese": [
+            "têtards : Têtards : poissons, dytiques, larves de libellules, oiseaux",
+            "adultes : Adultes : cigognes, rapaces, corvidés, goélands, canards, sternes, hérons, martre, hermine, belette, putois, blaireau, loutre, serpents"
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Littérature sur les Ranavirus et la chytridiomycose en France ; prédateurs des pontes et des têtards."
+    },
+    "conservation": {
+      "recherche": "recherche_effectuee",
+      "justification": "Liste rouge nationale 2026, BDC Statuts v18, rapportage DHFF 2025 et référentiel de sensibilité lus. Texte de l'arrêté (Légifrance) non lu : seul le rattachement à l'article 4 est connu.",
+      "champs": {
+        "liste_rouge_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "NT (quasi menacée), critères pr. A2abc+4abc ; tendance : diminution ; changement de catégorie Vd (détérioration véritable depuis 2015)",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale",
+              "contexte": "évaluation 2026"
+            },
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "UICN Comité français, MNHN & SHF (2015). La Liste rouge des espèces menacées en France - Chapitre Reptiles et amphibiens de France métropolitaine",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "contexte": "évaluation 2015"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale — évaluation 2026 : NT (quasi menacée), critères pr. A2abc+4abc ; tendance : diminution ; changement de catégorie Vd (détérioration véritable depuis 2015)",
+            "France métropolitaine — évaluation 2015 : LC (préoccupation mineure)"
+          ]
+        },
+        "liste_rouge_europe": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Liste rouge européenne (évaluateur non cité dans la BDC v18)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Europe",
+              "contexte": "date de l'évaluation non indiquée dans la BDC"
+            }
+          ],
+          "valeur_synthese": [
+            "Europe — date de l'évaluation non indiquée dans la BDC : LC (préoccupation mineure)"
+          ]
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC (préoccupation mineure)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Liste rouge mondiale de l'UICN (via BDC v18)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Monde",
+              "contexte": "date de l'évaluation non indiquée dans la BDC ; site de l'UICN refusé (403)"
+            }
+          ],
+          "valeur_synthese": [
+            "Monde — date de l'évaluation non indiquée dans la BDC ; site de l'UICN refusé (403) : LC (préoccupation mineure)"
+          ]
+        },
+        "listes_rouges_regionales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "LC — Préoccupation mineure",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Le Moigne, C. & Jailloux, A., 2013. Liste rouge régionale des amphibiens et reptiles d'Aquitaine. Observatoire Aquitain de la Faune Sauvage, Talence, 48 pp.",
+              "url": "https://inpn.mnhn.fr/docs-web/docs/download/161710",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Aquitaine (Ancienne région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. A4c)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Degramont, N., Merlanchon, B. & Girard-Claudon, J. 2024. Liste rouge des vertébrés terrestres d'Auvergne-Rhône-Alpes (Chauves-souris, Reptiles et Amphibiens). LPO Auvergne-Rhône-Alpes. 23 pp.",
+              "url": "https://www.biodiversite-auvergne-rhone-alpes.fr/liste-rouge-des-vertebres-terrestres-dauvergne-rhone-alpes-amphibiens-reptiles-et-chauves-souris/",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Auvergne-Rhône-Alpes (Région)"
+            },
+            {
+              "valeur": "LC — Préoccupation mineure",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Varanguin, N. 2014. Elaboration d'une liste rouge des Amphibiens de Bourgogne. Société d'Histoire naturelle d'Autun. 21 pp.",
+              "url": "http://www.bourgogne-nature.fr/moxieFiles/liste_rouge/amphibiens/lr_amphibiens_synthese.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Bourgogne (Ancienne région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. A2c)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Anonyme. 2015. Liste rouge régionale & Responsabilité biologique régionale Reptiles & Batraciens de Bretagne. Bretagne Environnement, Bretagne Vivante. 1 pp.",
+              "url": "http://www.observatoire-biodiversite-bretagne.fr/content/download/25195/493175/version/2/file/reptiles_batraciens_LRR_RBR_11_juin_2015.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Bretagne (Région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. B2ab(iii))",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Anonyme. 2012. Liste rouge des amphibiens de la région Centre. Indre Nature. 1 pp.",
+              "url": "http://www.centre.developpement-durable.gouv.fr/IMG/pdf/amphibiens_2012.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Centre (Région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. A2c)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Bideau, A., Michon, A., Vaniscotte, A., Pinston, H., Cottet, M., Giroud, I., Bannwarth, C., Paul, J.-P. & Mora, F. 2020. Listes rouges des Amphibiens et des Reptiles de Franche-Comté. LPO Franche-Comté, DREAL Bourgogne-Franche-Comté, Consei",
+              "url": "http://www.bourgogne-franche-comte.developpement-durable.gouv.fr/IMG/pdf/lrr_fc_2020_amphibiens_reptiles_cle6526d7.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Franche-Comté (Ancienne région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. A2b)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Aubry, M., Aumaitre, M., Bellenoue, S., Clément, V., Fizesan, A., Moratin, R. & Vacher, J.-P. 2023. Liste rouge des Amphibiens du Grand Est. Collection «Les Listes rouges des espèces menacées du Grand Est - Volet faune ». ODONAT Grand Est, ",
+              "url": "http://www.bufo-alsace.org/wp-content/uploads/2023/09/Liste_rouge_Grand_Est_AMPHIBIENS_livret.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Grand Est (Région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. B2b(iii))",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Johan, H., Arnaboldi, F., Bak, A., Bettencourt-Amarante, S., Chevreau, D., Flandin, J., Loïs, G., Patek, G., Rivallin, P., Serre-Collet, F., Taqarort, M. & Dewulf, L. 2023. Liste rouge régionale des amphibiens et des reptiles d’Île-de-Franc",
+              "url": "https://www.arb-idf.fr/fileadmin/DataStorageKit/ARB/Publications/Liste_rouge_amphibiens-2023/ARB-IdF_-_LR_amphibiens_et_reptiles_WEB.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Ile-de-France (Région)"
+            },
+            {
+              "valeur": "LC — Préoccupation mineure",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Barthe, L. 2014. Liste rouge des amphibiens et des reptiles de Midi-Pyrénées. Nature Midi-Pyrénées. 12 pp.",
+              "url": "http://www.naturemp.org/IMG/pdf/-25.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Midi-Pyrénées (Ancienne région)"
+            },
+            {
+              "valeur": "LC — Préoccupation mineure",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Anonyme. 2015. Liste rouge régionale des Amphibiens et Reptiles du Nord-Pas-de-Calais. Groupe ornithologique et naturaliste du Nord Pas de Calais, Conservatoire Faunistique Régional. 1 pp.<br /><br /> ",
+              "url": "http://www.hauts-de-france.developpement-durable.gouv.fr/IMG/pdf/listerougeregionale-herpetofaune.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Nord-Pas-de-Calais (Ancienne région)"
+            },
+            {
+              "valeur": "VU — Vulnérable (EN (A2b+4c) (-1))",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Barrioz, M. & Lerest, M. 2022. Liste rouge des amphibiens de Normandie. Évaluation des menaces selon la méthodologie de l'UICN. OBHeN/ URCPIE de Normandie. 12 pp.",
+              "url": "https://www.anbdd.fr/wp-content/uploads/2022/08/LRR-Amphibiens.pdf",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Normandie (Région)"
+            },
+            {
+              "valeur": "VU — Vulnérable (A2abc)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Marchadour, B., Angot, D., Batard, R., Beslot, E., Bonhomme, M., Evrard, P., Guiller, G., Lécureur, F., Martin, C., Montfort, D., Perrin, M., Ricordel, M., Sineau, M., Texier, A. & Varenne, F., 2021. Liste rouge des amphibiens et reptiles c",
+              "url": "https://inpn.mnhn.fr/docs-web/docs/download/393328",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Pays-de-la-Loire (Région)"
+            },
+            {
+              "valeur": "NT — Quasi menacée (pr. B2b(iii))",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Poitou-Charentes Nature. 2016. Liste rouge des Amphibiens et Reptiles du Poitou-Charentes. Poitou-Charentes Nature, Deux-Sèvres Nature Environnement, Nature Environnement 17, LPO. 13 pp.",
+              "url": "https://inpn.mnhn.fr/docs-web/docs/download/201988",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Poitou-Charentes (Ancienne région)"
+            },
+            {
+              "valeur": "LC — Préoccupation mineure",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Anonyme. 2016. La Liste Rouge des Amphibiens et Reptiles de Provence-Alpes-Côte d'Azur. Fichier excel.",
+              "url": "http://www.paca.developpement-durable.gouv.fr/IMG/xlsx/lrr_paca_reptiles_amphibiens_2016.xlsx",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Provence-Alpes-Côte-d'Azur (Région)"
+            }
+          ],
+          "valeur_synthese": [
+            "Aquitaine (Ancienne région) : LC — Préoccupation mineure",
+            "Auvergne-Rhône-Alpes (Région) : NT — Quasi menacée (pr. A4c)",
+            "Bourgogne (Ancienne région) : LC — Préoccupation mineure",
+            "Bretagne (Région) : NT — Quasi menacée (pr. A2c)",
+            "Centre (Région) : NT — Quasi menacée (pr. B2ab(iii))",
+            "Franche-Comté (Ancienne région) : NT — Quasi menacée (pr. A2c)",
+            "Grand Est (Région) : NT — Quasi menacée (pr. A2b)",
+            "Ile-de-France (Région) : NT — Quasi menacée (pr. B2b(iii))",
+            "Midi-Pyrénées (Ancienne région) : LC — Préoccupation mineure",
+            "Nord-Pas-de-Calais (Ancienne région) : LC — Préoccupation mineure",
+            "Normandie (Région) : VU — Vulnérable (EN (A2b+4c) (-1))",
+            "Pays-de-la-Loire (Région) : VU — Vulnérable (A2abc)",
+            "Poitou-Charentes (Ancienne région) : NT — Quasi menacée (pr. B2b(iii))",
+            "Provence-Alpes-Côte-d'Azur (Région) : LC — Préoccupation mineure"
+          ]
+        },
+        "declins_documentes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "baisse de 37 % des taux d'observation sur trois générations, soit une réduction des effectifs estimée entre 20 et 30 %",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale — Grand Est"
+            },
+            {
+              "valeur": "baisse de 68 % de la tendance des occurrences en Normandie entre 2008 et 2024 ; baisse similaire de 2003 à 2023 sur 30 sites (Poitou-Charentes, Pays de la Loire, Haute-Normandie)",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale — « Grand Ouest »"
+            },
+            {
+              "valeur": "baisse significative de la probabilité de détection entre 2008-2009 et 2024-2025 ; stabilité en montagne",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale"
+            },
+            {
+              "valeur": "réduction des effectifs estimée et prévue pouvant vraisemblablement dépasser 20 % sur trois générations (15-20 ans), passé et passé-futur",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale",
+              "contexte": "évaluation 2026"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale — Grand Est : baisse de 37 % des taux d'observation sur trois générations, soit une réduction des effectifs estimée entre 20 et 30 %",
+            "France hexagonale — « Grand Ouest » : baisse de 68 % de la tendance des occurrences en Normandie entre 2008 et 2024 ; baisse similaire de 2003 à 2023 sur 30 sites (Poitou-Charentes, Pays de la Loire, Haute-Normandie)",
+            "France hexagonale : baisse significative de la probabilité de détection entre 2008-2009 et 2024-2025 ; stabilité en montagne",
+            "France hexagonale — évaluation 2026 : réduction des effectifs estimée et prévue pouvant vraisemblablement dépasser 20 % sur trois générations (15-20 ans), passé et passé-futur"
+          ]
+        },
+        "menaces": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "assèchement des milieux humides (prairies, lisières forestières) ; réchauffement climatique (années chaudes depuis 2003, recrutement réduit) ; dégradation du bocage et raréfaction des prairies permanentes ; pesticides et fauches précoces ; collisions routières ; écrevisses introduites ; Ranavirus ; prélèvements à des fins culinaires",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale : assèchement des milieux humides (prairies, lisières forestières) ; réchauffement climatique (années chaudes depuis 2003, recrutement réduit) ; dégradation du bocage et raréfaction des prairies permanentes ; pesticides et fauches précoces ; collisions routières ; écrevisses introduites ; Ranavirus ; prélèvements à des fins culinaires"
+          ]
+        },
+        "prelevements": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "près de 1,8 million de grenouilles rousses sauvages autorisées à être tuées et consommées chaque année",
+              "source": "Véron S. et al. (2026). La Liste rouge des espèces menacées en France – Chapitre reptiles et amphibiens de France hexagonale – Rapport d'évaluation. UICN Comité français, PatriNat (OFB, MNHN) & SHF, 72 p. (p. 12, 21, 45-46) ; tableau synthétique xlsx",
+              "origine": "Liste rouge nationale 2026, reptiles et amphibiens de France hexagonale (UICN CF, PatriNat, SHF)",
+              "url": "https://uicn.fr/rapport-evaluation-liste-rouge-reptiles-amphibiens-france-hexagonale/",
+              "date_ou_version": "publication septembre 2026 (évaluation 2025-2026)",
+              "reutilisation": {
+                "licence": "non précisée (site uicn.fr : « tous droits réservés »)",
+                "contenu_repris": false,
+                "motif": "texte non reproduit ; seuls les faits (catégorie, critères, tendance, menaces citées) sont rapportés, reformulés, avec la référence"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale — Bourgogne-Franche-Comté"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale — Bourgogne-Franche-Comté : près de 1,8 million de grenouilles rousses sauvages autorisées à être tuées et consommées chaque année"
+          ]
+        },
+        "etat_conservation_dhff": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "état de conservation global U2 (défavorable-mauvais), en détérioration (2019 : U2, en détérioration)",
+              "source": "PatriNat (2025). Résultats synthétiques de l'état de conservation des habitats et des espèces, période 2019-2024, rapportage art. 17 DHFF (xlsx, onglet « Espèces (données) »)",
+              "origine": "Rapportage article 17 DHFF France 2019-2024 (PatriNat)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rendues à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France, région biogéographique atlantique",
+              "contexte": "rapportage 2019-2024"
+            },
+            {
+              "valeur": "état de conservation global U2 (défavorable-mauvais), en détérioration (2019 : U1, tendance inconnue)",
+              "source": "PatriNat (2025). Résultats synthétiques de l'état de conservation des habitats et des espèces, période 2019-2024, rapportage art. 17 DHFF (xlsx, onglet « Espèces (données) »)",
+              "origine": "Rapportage article 17 DHFF France 2019-2024 (PatriNat)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rendues à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France, région biogéographique continentale",
+              "contexte": "rapportage 2019-2024"
+            },
+            {
+              "valeur": "état de conservation global U1 (défavorable-inadéquat), en détérioration (2019 : XX (inconnu), stable)",
+              "source": "PatriNat (2025). Résultats synthétiques de l'état de conservation des habitats et des espèces, période 2019-2024, rapportage art. 17 DHFF (xlsx, onglet « Espèces (données) »)",
+              "origine": "Rapportage article 17 DHFF France 2019-2024 (PatriNat)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rendues à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France, région biogéographique alpine",
+              "contexte": "rapportage 2019-2024"
+            },
+            {
+              "valeur": "état de conservation global U2 (défavorable-mauvais), tendance inconnue (2019 : FV (favorable), stable)",
+              "source": "PatriNat (2025). Résultats synthétiques de l'état de conservation des habitats et des espèces, période 2019-2024, rapportage art. 17 DHFF (xlsx, onglet « Espèces (données) »)",
+              "origine": "Rapportage article 17 DHFF France 2019-2024 (PatriNat)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rendues à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France, région biogéographique méditerranéenne",
+              "contexte": "rapportage 2019-2024"
+            }
+          ],
+          "valeur_synthese": [
+            "France, région biogéographique atlantique — rapportage 2019-2024 : état de conservation global U2 (défavorable-mauvais), en détérioration (2019 : U2, en détérioration)",
+            "France, région biogéographique continentale — rapportage 2019-2024 : état de conservation global U2 (défavorable-mauvais), en détérioration (2019 : U1, tendance inconnue)",
+            "France, région biogéographique alpine — rapportage 2019-2024 : état de conservation global U1 (défavorable-inadéquat), en détérioration (2019 : XX (inconnu), stable)",
+            "France, région biogéographique méditerranéenne — rapportage 2019-2024 : état de conservation global U2 (défavorable-mauvais), tendance inconnue (2019 : FV (favorable), stable)"
+          ]
+        },
+        "protection_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "inscrite à l'article 4 de l'arrêté du 8 janvier 2021 (contenu de l'article non lu : Légifrance inaccessible)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Arrêté du 8 janvier 2021 fixant la liste des amphibiens et des reptiles représentés sur le territoire métropolitain protégés sur l'ensemble du territoire national et les modalités de leur protection (JORF n°0036 du 11 février 2021, texte n° 3)",
+              "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043113964",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": [
+            "France métropolitaine : inscrite à l'article 4 de l'arrêté du 8 janvier 2021 (contenu de l'article non lu : Légifrance inaccessible)"
+          ]
+        },
+        "directive_habitats": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Annexe V",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Directive 92/43/CEE du Conseil du 21 mai 1992 (modifiée)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Union européenne (France métropolitaine)"
+            }
+          ],
+          "valeur_synthese": [
+            "Union européenne (France métropolitaine) : Annexe V"
+          ]
+        },
+        "convention_berne": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Annexe III",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "Convention de Berne (19 septembre 1979)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": [
+            "France métropolitaine : Annexe III"
+          ]
+        },
+        "znieff_determinante": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "espèce déterminante ZNIEFF dans plusieurs régions ou départements (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Centre-Val de Loire, Occitanie, Pays de la Loire, Nouvelle-Aquitaine, Lorraine), avec des conditions propres à chaque liste",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "BDC Statuts v18 (PatriNat), compilation des textes et listes d'origine",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale (listes régionales)"
+            }
+          ],
+          "valeur_synthese": [
+            "France hexagonale (listes régionales) : espèce déterminante ZNIEFF dans plusieurs régions ou départements (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Centre-Val de Loire, Occitanie, Pays de la Loire, Nouvelle-Aquitaine, Lorraine), avec des conditions propres à chaque liste"
+          ]
+        },
+        "sensibilite_diffusion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "sensibilité de niveau 1 (« Département, maille 10 x 10 km, espace, commune, ZNIEFF » selon la BDC) dans l'Allier, le Cantal, la Haute-Loire et le Puy-de-Dôme ; durée permanente",
+              "source": "Référentiel de sensibilité du SINP v18 (RefSensibilite_18.csv), PatriNat",
+              "origine": "Happe D. (2015). Liste régionale des espèces potentiellement sensibles pour la diffusion des données. Auvergne.",
+              "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip",
+              "date_ou_version": "référentiel v18 (2025-08) ; liste d'origine 2015",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "règle de diffusion appliquée, aucune donnée de localisation reprise"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "ancienne région Auvergne (départements 03, 15, 43, 63)",
+              "restriction_diffusion": "dans ces départements : diffusion publique au grain le plus protecteur autorisé (département) ; aucune localisation dans cette fiche"
+            }
+          ],
+          "valeur_synthese": [
+            "ancienne région Auvergne (départements 03, 15, 43, 63) : sensibilité de niveau 1 (« Département, maille 10 x 10 km, espace, commune, ZNIEFF » selon la BDC) dans l'Allier, le Cantal, la Haute-Loire et le Puy-de-Dôme ; durée permanente"
+          ]
+        },
+        "exotique_envahissant": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "figure sur l'arrêté du 28 juin 2021 relatif à la prévention de l'introduction d'espèces animales exotiques (interdiction d'introduction)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv), PatriNat",
+              "origine": "BDC Statuts v18 (PatriNat), compilation des textes et listes d'origine",
+              "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043868035",
+              "date_ou_version": "BDC v18 (fichier du 2025-07-24)",
+              "reutilisation": {
+                "licence": "non précisée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des faits réglementaires et des catégories officielles sont repris, avec le texte d'origine cité"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "La Réunion (hors champ métropolitain, mentionné pour complétude)"
+            }
+          ],
+          "valeur_synthese": [
+            "La Réunion (hors champ métropolitain, mentionné pour complétude) : figure sur l'arrêté du 28 juin 2021 relatif à la prévention de l'introduction d'espèces animales exotiques (interdiction d'introduction)"
+          ]
+        }
+      },
+      "prochaine_piste": "Lire l'article 4 de l'arrêté du 8 janvier 2021 et les arrêtés de prélèvement de Bourgogne-Franche-Comté ; retrouver la date et l'évaluateur des listes rouges européenne et mondiale ; noter que la Directive Habitats nomme « Rana temporaria » une entité qui, dans le rapportage français, couvre aussi Rana pyrenaica."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune source accessible ne donne de conseils d'observation propres à l'espèce. Les collisions routières et les prélèvements sont des menaces documentées (voir conservation) ; aucune recommandation n'est déduite. Règle appliquée : aucune localité, aucun site de ponte ni d'hivernage n'est mentionné. Complété le 27/11/2026 par des sources de complément (Wikipédia FR et EN, références citées par ces pages), marquées comme telles.",
+      "champs": {
+        "precautions": {
+          "etat": "non_renseigne"
+        },
+        "indices_presence": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Pontes en amas qui flottent en surface (celles des grenouilles agiles, des grenouilles vertes et des rainettes sont immergées)",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "période de ponte"
+            },
+            {
+              "valeur": "Chant : ronronnement sourd émis en chœur par les mâles, surtout la nuit, peu audible de loin",
+              "source": "Wikipédia en français, article « Grenouille rousse »",
+              "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse",
+              "origine": "Wikipédia en français, article « Grenouille rousse »",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "période de reproduction"
+            }
+          ],
+          "valeur_synthese": [
+            "période de ponte : Pontes en amas qui flottent en surface (celles des grenouilles agiles, des grenouilles vertes et des rainettes sont immergées)",
+            "période de reproduction : Chant : ronronnement sourd émis en chœur par les mâles, surtout la nuit, peu audible de loin"
+          ],
+          "niveau": "complement"
+        }
+      },
+      "prochaine_piste": "Protocoles nationaux (POPAmphibien, SHF) : conditions de détection et précautions, notamment contre la dispersion des pathogènes."
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": false,
+    "point_de_reprise": [
+      "reproduction : calendrier par région et altitude en France à étayer par un atlas régional ou une publication (seule la Bretagne est référencée)",
+      "developpement : durée larvaire en France (les valeurs référencées viennent de Finlande)",
+      "alimentation : régime détaillé de l'adulte à rattacher à une étude (Pilorge 1982 à lire)",
+      "conservation : texte de l'article 4 de l'arrêté de 2021 (Légifrance)",
+      "observation_respectueuse : précautions et protocoles nationaux",
+      "remplacer chaque complément par une source de référence dès que l'INPN et les atlas sont de nouveau accessibles"
+    ],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "confusions",
+          "aspect_general",
+          "pattes_posterieures",
+          "dimensions",
+          "masse",
+          "dimorphisme_taille",
+          "callosites_nuptiales",
+          "coloration_nuptiale"
+        ],
+        "lacunes": [
+          "coloration"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole",
+          "regions_biogeographiques",
+          "etagement_altitudinal",
+          "corse"
+        ],
+        "lacunes": []
+      },
+      "habitats": {
+        "documentes": [
+          "milieu_general",
+          "habitats_reproduction",
+          "habitats_estivaux"
+        ],
+        "lacunes": []
+      },
+      "alimentation": {
+        "documentes": [
+          "regime_larvaire"
+        ],
+        "lacunes": [
+          "regime_adulte"
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "taille_ponte",
+          "migration_prenuptiale",
+          "sejour_sur_site",
+          "duree_amplexus"
+        ],
+        "lacunes": [
+          "calendrier_reproduction",
+          "sex_ratio_sites"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "duree_trois_generations",
+          "maturite",
+          "longevite"
+        ],
+        "lacunes": [
+          "duree_developpement_larvaire"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "chant",
+          "deplacements"
+        ],
+        "lacunes": []
+      },
+      "activite": {
+        "documentes": [
+          "hivernage"
+        ],
+        "lacunes": [
+          "cycle_annuel_france",
+          "sortie_hibernation_alpes"
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "especes_introduites_defavorables",
+          "pathogenes",
+          "predateurs"
+        ],
+        "lacunes": []
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_nationale",
+          "liste_rouge_europe",
+          "liste_rouge_mondiale",
+          "listes_rouges_regionales",
+          "declins_documentes",
+          "menaces",
+          "prelevements",
+          "etat_conservation_dhff",
+          "protection_nationale",
+          "directive_habitats",
+          "convention_berne",
+          "znieff_determinante",
+          "sensibilite_diffusion",
+          "exotique_envahissant"
+        ],
+        "lacunes": []
+      },
+      "observation_respectueuse": {
+        "documentes": [],
+        "lacunes": [
+          "precautions",
+          "indices_presence"
+        ]
+      }
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "TAXREF v18 CD_REF 351, code FR = P ; requête « Grenouille rousse » sans ambiguïté au rang espèce",
+      "sources": [
+        "TAXREF v18"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "expert-faune-france:fiche (cadrage v0.6)",
+    "requete": "Grenouille rousse",
+    "sources_consultees": [
+      {
+        "source": "TAXREF v18, export local (TAXREFv18.txt, empreinte SHA-256 vérifiée)",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life (ChecklistBank, jeu 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR/taxon/6WR99/info"
+      },
+      {
+        "source": "GBIF : Backbone (correspondance de nom) et descriptions du taxon 2426805",
+        "version": "consulté le 2026-11-27",
+        "url": "https://api.gbif.org/v1/species/2426805"
+      },
+      {
+        "source": "Traitement Plazi d'Elmberg (Suède septentrionale), via GBIF",
+        "version": "2023",
+        "url": "https://treatment.plazi.org/id/03BE87CBFF864A6EB8887B74410BF838"
+      },
+      {
+        "source": "Liste rouge France 2026, reptiles et amphibiens de France hexagonale : rapport d'évaluation (PDF, 73 p.) et tableau xlsx",
+        "version": "septembre 2026",
+        "url": "https://uicn.fr/liste-rouge-reptiles-amphibiens-2026/"
+      },
+      {
+        "source": "BDC Statuts v18 (PatriNat)",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip"
+      },
+      {
+        "source": "Référentiel de sensibilité SINP v18 (PatriNat)",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip"
+      },
+      {
+        "source": "Rapportage DHFF art. 17, 2019-2024 (PatriNat)",
+        "version": "données du 10/02/2026",
+        "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip"
+      },
+      {
+        "source": "Wikipédia en français, « Grenouille rousse » (source de complément)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://fr.wikipedia.org/wiki/Grenouille_rousse"
+      },
+      {
+        "source": "Wikipédia en anglais, « Common frog » (source de complément)",
+        "version": "consultée le 2026-11-27",
+        "url": "https://en.wikipedia.org/wiki/Common_frog"
+      },
+      {
+        "source": "GBIF, occurrences dans l'emprise de la Corse",
+        "version": "consultée le 2026-11-27",
+        "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2426805"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "INPN (inpn.mnhn.fr)",
+        "motif": "hors ligne (incident de sécurité signalé par le mainteneur), HTTP 403"
+      },
+      {
+        "source": "OpenObs",
+        "motif": "hors ligne (incident de sécurité signalé par le mainteneur), HTTP 403"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "Légifrance, EUR-Lex",
+        "motif": "hôtes refusés par le proxy réseau"
+      },
+      {
+        "source": "HAL, Crossref, OpenAlex, Europe PMC, PubMed, Semantic Scholar, BHL, Zenodo",
+        "motif": "hôtes refusés par le proxy réseau"
+      },
+      {
+        "source": "iNaturalist, Wikipédia, Wikidata, data.gouv.fr",
+        "motif": "hôtes refusés par le proxy réseau"
+      },
+      {
+        "source": "Atlas des Amphibiens et Reptiles de France (Lescure & Massary 2012)",
+        "motif": "ouvrage imprimé, non disponible en ligne ; cité par la Liste rouge 2026 mais non lu"
+      },
+      {
+        "source": "AmphibiaWeb",
+        "motif": "page protégée par une vérification anti-robots ; non contournée"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/390828145",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/390828145/large.jpg",
+      "titre": "Photo iNaturalist 390828145",
+      "auteur": "Gergely Nigg",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1364,
+      "qualite": "observation iNaturalist classée par votes (4 favoris)",
+      "credit": "Photo : Gergely Nigg, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 220733617 de qualité recherche : espèce « Rana temporaria » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte assis sur la neige, de face, net, fond clair",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/690166208",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/690166208/large.jpg",
+      "titre": "Photo iNaturalist 690166208",
+      "auteur": "Sara Scorey",
+      "licence": "cc0",
+      "licence_libelle": "CC0 (domaine public volontaire)",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "largeur": 1375,
+      "hauteur": 1375,
+      "qualite": "observation iNaturalist classée par votes (1 favoris)",
+      "credit": "Photo : Sara Scorey, CC0 (domaine public volontaire), via iNaturalist, recadrée",
+      "verification": "observation iNaturalist 377413290 de qualité recherche : espèce « Rana temporaria » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte parmi les lentilles d'eau et les tiges, vu de dessus",
+      "recadrage": {
+        "x": 0.2,
+        "y": 0.0,
+        "largeur": 0.6,
+        "hauteur": 0.8
+      },
+      "orientation_origine": "carre",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu ; recadrage conseillé pour le format portrait"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/153662599",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/153662599/large.jpg",
+      "titre": "Photo iNaturalist 153662599",
+      "auteur": "Lera Miles",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Lera Miles, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 92773375 de qualité recherche : espèce « Rana temporaria » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte posé sur des galets, gros plan de trois quarts"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/705912761",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/705912761/large.jpg",
+      "titre": "Photo iNaturalist 705912761",
+      "auteur": "Lennart Hudel",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (2 favoris)",
+      "credit": "Photo : Lennart Hudel, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 385584899 de qualité recherche : espèce « Rana temporaria » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte sombre dans l'herbe, de profil"
+    }
+  ]
+}

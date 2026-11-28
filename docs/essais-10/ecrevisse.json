@@ -1,0 +1,1776 @@
+{
+  "id": "EFF-TAXREF-18437",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Austropotamobius pallipes",
+    "auteur": "(Lereboullet, 1858)",
+    "annee": 1858,
+    "rang": "espèce (ES)",
+    "classification": {
+      "regne": "Animalia",
+      "phylum": "Arthropoda",
+      "classe": "Malacostraca",
+      "ordre": "Decapoda",
+      "famille": "Astacidae",
+      "source": "TAXREF v18"
+    },
+    "noms_vernaculaires": [
+      "Écrevisse à pattes blanches",
+      "Écrevisse à pieds blancs",
+      "Écrevisse pallipède"
+    ],
+    "synonymes": [
+      {
+        "nom": "Astacus pallipes",
+        "auteur": "Lereboullet, 1858",
+        "source": "TAXREF v18, CD_NOM 18438 (combinaison originale) ; COL 2026-11-11"
+      },
+      {
+        "nom": "Potamobius pallipes",
+        "auteur": "(Lereboullet, 1858)",
+        "source": "TAXREF v18, CD_NOM 1056113"
+      },
+      {
+        "nom": "Astacus fontinalis",
+        "auteur": "Carbonnier, 1869",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      },
+      {
+        "nom": "Astacus pallipes flavus",
+        "auteur": "Lereboullet, 1858",
+        "source": "Catalogue of Life 2026-11-11 (ITIS)"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "18437",
+        "cd_ref": "18437",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "7RCB7",
+        "jeu": "3LR",
+        "version": "2026-11-11",
+        "source_primaire": "ITIS TSN 1133567"
+      },
+      "gbif": {
+        "usageKey": 4312658,
+        "jeu": "GBIF Backbone Taxonomy (correspondance exacte, confiance 99)",
+        "consulte_le": "2026-11-27"
+      },
+      "codes_autres": {
+        "DHFF_code_espece": "1092",
+        "source": "Rapportage DHFF 2025 (PatriNat)"
+      }
+    },
+    "hypotheses_taxonomiques": [
+      {
+        "hypothese": "A. pallipes forme avec A. fulcisianus (anciennement nommée A. italicus) un complexe d'espèces ; des formes autrefois rangées comme sous-espèces de pallipes (italicus, lusitanicus) relèveraient d'A. fulcisianus.",
+        "statut": "hypothèse documentée, non intégrée à TAXREF v18 (qui ne liste ni A. fulcisianus ni A. italicus) ; le Catalogue of Life 2026-11-11 accepte A. fulcisianus comme espèce distincte (taxon 7RCB4) sans en faire un synonyme de pallipes",
+        "consequence": "aucune population française n'est rattachée ici à A. fulcisianus : aucune source consultée ne le documente pour la métropole ; nom du référentiel français conservé",
+        "sources": [
+          "Catalogue of Life 2026-11-11, taxons 7RCB7 et 7RCB4 (ITIS)",
+          "Wikipédia EN « Austropotamobius pallipes », section Classification, citant Grandjean et al. 1998, 2000, 2002 et Manganelli et al. 2006 (complément)"
+        ],
+        "reexamen": "à chaque nouvelle version de TAXREF et à chaque lecture d'une publication sur la phylogéographie du genre en France"
+      }
+    ],
+    "preuves": [
+      {
+        "valeur": "Austropotamobius pallipes (Lereboullet, 1858) : nom retenu (CD_NOM = CD_REF = 18437), rang ES, famille Astacidae",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+        "origine": "TAXREF v18 (MNHN-PatriNat)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+        "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "référentiel national"
+      },
+      {
+        "valeur": "Austropotamobius pallipes (Lereboullet, 1858) : nom accepté (accepted)",
+        "source": "Catalogue of Life via ChecklistBank, jeu 3LR, taxon 7RCB7",
+        "origine": "ITIS, TSN 1133567 (examen du 2020-09-25), d'après Crandall & De Grave 2017",
+        "url": "https://api.checklistbank.org/dataset/3LR/taxon/7RCB7/info",
+        "date_ou_version": "COL 2026-11-11",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "référentiel mondial"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "envahissant": false,
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "valeur": "colonne FR (France hexagonale et Corse) = P : Présent (indigène ou indéterminé)",
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+        "origine": "TAXREF v18 (MNHN-PatriNat)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+        "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "etat": "documente",
+        "consulte_le": "2026-11-27",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : code P (Présent (indigène ou indéterminé)), colonne FR — décision creer_fiche par decider.py",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune clé de détermination de référence n'a pu être lue (fiches OFB et DORIS, IUCN et revue KMAE refusées par le proxy ; texte intégral des articles Persée protégé contre les robots). Les valeurs viennent seulement de compléments, en partie sans ouvrage cité.",
+      "champs": {
+        "dimensions": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Adultes de 9 à 12 cm au maximum, pour une masse de 30 à 90 g",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "cm ; g",
+              "stade_ou_saison": "adulte, taille maximale"
+            },
+            {
+              "valeur": "Longueur jusqu'à 12 cm environ ; les adultes de moins de 10 cm sont les plus fréquents",
+              "source": "Wikipédia en anglais, article « Austropotamobius pallipes » (texte source)",
+              "origine": "Wikipédia en anglais, article « Austropotamobius pallipes »",
+              "url": "https://en.wikipedia.org/w/index.php?title=Austropotamobius_pallipes&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "cm",
+              "stade_ou_saison": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Adultes de 9 à 12 cm au maximum, pour une masse de 30 à 90 g",
+            "Longueur jusqu'à 12 cm environ ; les adultes de moins de 10 cm sont les plus fréquents"
+          ]
+        },
+        "coloration": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Teinte d'ensemble verdâtre, du bronze au gris olive ; une forme rouge vermillon, sans pigment bleu, existe",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            },
+            {
+              "valeur": "Brun olive, le dessous des pinces étant clair, d'où l'épithète pallipes (« pieds pâles »)",
+              "source": "Wikipédia en anglais, article « Austropotamobius pallipes » (texte source)",
+              "origine": "Wikipédia en anglais, article « Austropotamobius pallipes »",
+              "url": "https://en.wikipedia.org/w/index.php?title=Austropotamobius_pallipes&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Teinte d'ensemble verdâtre, du bronze au gris olive ; une forme rouge vermillon, sans pigment bleu, existe",
+            "Brun olive, le dessous des pinces étant clair, d'où l'épithète pallipes (« pieds pâles »)"
+          ]
+        },
+        "critere_rostre": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Le rostre porterait en principe deux paires d'épines latérales, l'une des quatre manquant souvent d'un côté ou de l'autre",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Le rostre porterait en principe deux paires d'épines latérales, l'une des quatre manquant souvent d'un côté ou de l'autre"
+        }
+      },
+      "prochaine_piste": "Clé de détermination des écrevisses de France (OFB) et Atlas of Crayfish in Europe (Souty-Grosset et al. 2006) ; critères de distinction d'avec Pacifastacus leniusculus, Faxonius limosus, Procambarus clarkii et Astacus astacus."
+    },
+    "repartition": {
+      "recherche": "recherche_effectuee",
+      "justification": "Présence et statut établis par TAXREF et le rapportage DHFF ; tendance par la Liste rouge nationale. Aucune carte ni localité n'est donnée (sensibilité de diffusion, voir conservation).",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Présente, indigène (code P de la colonne FR)",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+              "origine": "TAXREF v18 (MNHN-PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France hexagonale et Corse"
+            }
+          ],
+          "valeur_synthese": "Présente, indigène (code P de la colonne FR)"
+        },
+        "regions_biogeographiques": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Régulièrement présente (PRE) dans les quatre régions biogéographiques terrestres évaluées : alpine, atlantique, continentale et méditerranéenne",
+              "source": "Résultats synthétiques du rapportage DHFF 2025 (Resultats_synthetiques_Rapportage_2025_DHFF_final.xlsx), PatriNat",
+              "origine": "PatriNat 2025, rapportage article 17 de la directive Habitats, période 2019-2024 (corrections de février 2026)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rapport remis à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "contexte": "période 2019-2024"
+            }
+          ],
+          "valeur_synthese": "Régulièrement présente (PRE) dans les quatre régions biogéographiques terrestres évaluées : alpine, atlantique, continentale et méditerranéenne"
+        },
+        "tendance_repartition": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Jadis abondante, encore signalée dans beaucoup de départements, mais éteinte dans de nombreux cours d'eau et désormais repliée vers les têtes de bassin",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Jadis abondante, encore signalée dans beaucoup de départements, mais éteinte dans de nombreux cours d'eau et désormais repliée vers les têtes de bassin"
+        },
+        "statut_corse": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Présence en Corse due à une introduction",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Corse"
+            },
+            {
+              "valeur": "Introduite en Corse",
+              "source": "Wikipédia en anglais, article « Austropotamobius pallipes » (texte source)",
+              "origine": "Wikipédia en anglais, article « Austropotamobius pallipes »",
+              "url": "https://en.wikipedia.org/w/index.php?title=Austropotamobius_pallipes&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Corse"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": [
+            "Présence en Corse due à une introduction",
+            "Introduite en Corse"
+          ]
+        },
+        "aire_mondiale": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Des Balkans orientaux à l'Espagne, avec la Grande-Bretagne pour limite nord ; présence en Irlande considérée comme issue d'une introduction",
+              "source": "Wikipédia en anglais, article « Austropotamobius pallipes » (texte source)",
+              "origine": "Wikipédia en anglais, article « Austropotamobius pallipes »",
+              "url": "https://en.wikipedia.org/w/index.php?title=Austropotamobius_pallipes&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Europe"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Des Balkans orientaux à l'Espagne, avec la Grande-Bretagne pour limite nord ; présence en Irlande considérée comme issue d'une introduction"
+        }
+      },
+      "prochaine_piste": "Atlas of Crayfish in Europe (Souty-Grosset et al. 2006) et Kouba et al. 2014 (KMAE 413:05) pour l'aire ; origine des populations corses à étayer par une publication."
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "justification": "Milieu général établi par la Liste rouge nationale et TAXREF ; microhabitat, température et chimie de l'eau seulement par compléments qui citent leurs sources (thèse Trouilhé 2006, fiche OFB, atlas européen), non lues directement (accès refusé).",
+      "champs": {
+        "milieu_general": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Cours d'eau à courant vif et à eau de bonne qualité",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Cours d'eau à courant vif et à eau de bonne qualité"
+        },
+        "type_habitat_taxref": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Eau douce (code habitat 2)",
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt), MNHN-PatriNat",
+              "origine": "TAXREF v18 (MNHN-PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "v18 (fichiers du 2025-01-09 ; archive SHA-256 a6963ea1…97a7 vérifiée)",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "référentiel national"
+            }
+          ],
+          "valeur_synthese": "Eau douce (code habitat 2)"
+        },
+        "microhabitat": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Fonds de cailloux et de graviers avec blocs, sous-berges garnies de racines, herbiers aquatiques et bois immergés",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Trouilhé M.-C. 2006. Étude biotique et abiotique de l'habitat préférentiel de l'écrevisse à pattes blanches dans l'ouest de la France. Thèse, Université de Poitiers (synthèse d'Arrignon & Roche 1983, Grandjean et al. 1996-2001, Smith et al. 1996, Neveu 2000, Füreder et al. 2006)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "ouest de la France"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Fonds de cailloux et de graviers avec blocs, sous-berges garnies de racines, herbiers aquatiques et bois immergés"
+        },
+        "abris": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Dans un ruisseau des Pays de la Loire, seule la disponibilité en abris expliquait la présence des écrevisses le long du cours ; la population y était fragmentée",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Broquet T., Thibault M. & Neveu A. 2002. Bull. Fr. Pêche Piscic. 367 : 717-728",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Pays de la Loire"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Dans un ruisseau des Pays de la Loire, seule la disponibilité en abris expliquait la présence des écrevisses le long du cours ; la population y était fragmentée"
+        },
+        "temperature_eau": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Mues observées au-delà de 10 °C ; mortalité possible si l'eau passe 22 °C ; croissance optimale des jeunes entre 15 et 18 °C",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "OFB, fiche espèce « Écrevisse à pattes blanches » (citée par la page)",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "°C"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Mues observées au-delà de 10 °C ; mortalité possible si l'eau passe 22 °C ; croissance optimale des jeunes entre 15 et 18 °C"
+        },
+        "acidite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Absente des eaux les plus acides",
+              "source": "Wikipédia en anglais, article « Austropotamobius pallipes » (texte source)",
+              "origine": "Souty-Grosset C., Holdich D.M., Noël P.Y., Reynolds J.D. & Haffner P. 2006. Atlas of Crayfish in Europe. MNHN, Paris",
+              "url": "https://en.wikipedia.org/w/index.php?title=Austropotamobius_pallipes&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Europe"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Absente des eaux les plus acides"
+        }
+      },
+      "prochaine_piste": "Lire la thèse Trouilhé 2006 (theses.hal.science, refusée par le proxy) et la fiche OFB pour les seuils physico-chimiques."
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "justification": "Aucune étude de régime n'a pu être lue. Seul un complément sans référence renseigne le champ : valeurs incertaines, à remplacer en priorité (l'affirmation sur une phase larvaire planctonique, notamment, n'est étayée par aucune source consultée).",
+      "champs": {
+        "regime": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Larves sur plancton et périphyton, juvéniles sur petits invertébrés, adultes sur végétaux aquatiques ou terrestres ; les adultes mangent parfois des jeunes",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "tous stades"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Larves sur plancton et périphyton, juvéniles sur petits invertébrés, adultes sur végétaux aquatiques ou terrestres ; les adultes mangent parfois des jeunes"
+        }
+      },
+      "prochaine_piste": "Études de régime (contenus stomacaux, isotopes) sur des populations françaises ; synthèse Holdich 2002 (Biology of Freshwater Crayfish)."
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "L'étude du cycle biologique de Fenouil & Chaix 1985 (Ecologia Mediterranea, Persée) n'a pu être lue que par son résumé : le texte intégral est protégé contre les robots, protection non contournée. Les valeurs proviennent de compléments.",
+      "champs": {
+        "frequence": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Un cycle reproducteur annuel unique, avec des femelles peu fécondes, quand certaines espèces introduites enchaînent plusieurs pontes chaque année",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Trouilhé M.-C. 2006. Étude biotique et abiotique de l'habitat préférentiel de l'écrevisse à pattes blanches dans l'ouest de la France. Thèse, Université de Poitiers",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Un cycle reproducteur annuel unique, avec des femelles peu fécondes, quand certaines espèces introduites enchaînent plusieurs pontes chaque année"
+        },
+        "nombre_oeufs": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Entre 40 et 150 œufs",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "œufs par femelle"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Entre 40 et 150 œufs"
+        },
+        "duree_incubation": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Six à neuf mois",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "mois"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Six à neuf mois"
+        },
+        "conditions_reproduction": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Une eau sous 12 °C en octobre serait nécessaire à la reproduction",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "°C",
+              "stade_ou_saison": "octobre"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Une eau sous 12 °C en octobre serait nécessaire à la reproduction"
+        }
+      },
+      "prochaine_piste": "Fenouil & Chaix 1985 (doi:10.3406/ecmed.1985.1096) et Grandjean et al. 1997 (Crustaceana 70:31-44) pour le calendrier et la fécondité en France."
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Maturité et longévité relative documentées par un complément citant la thèse Trouilhé 2006 ; autres valeurs sans référence.",
+      "champs": {
+        "age_maturite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Maturité sexuelle vers 3 à 4 ans, contre 1 à 2 ans chez les autres espèces d'écrevisses",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Trouilhé M.-C. 2006. Étude biotique et abiotique de l'habitat préférentiel de l'écrevisse à pattes blanches dans l'ouest de la France. Thèse, Université de Poitiers",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "unite": "ans"
+            },
+            {
+              "valeur": "Maturité atteinte à 2 ou 3 ans",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "ans"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Maturité sexuelle vers 3 à 4 ans, contre 1 à 2 ans chez les autres espèces d'écrevisses"
+        },
+        "taille_maturite": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Environ 5 cm de longueur à la maturité",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "cm"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Environ 5 cm de longueur à la maturité"
+        },
+        "croissance_longevite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Croissance plus lente mais longévité supérieure à celle des espèces d'écrevisses introduites",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Trouilhé M.-C. 2006. Étude biotique et abiotique de l'habitat préférentiel de l'écrevisse à pattes blanches dans l'ouest de la France. Thèse, Université de Poitiers",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Croissance plus lente mais longévité supérieure à celle des espèces d'écrevisses introduites"
+        },
+        "age_taille_maximale": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Taille et masse maximales atteintes vers 12 ans environ",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "unite": "ans"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Taille et masse maximales atteintes vers 12 ans environ"
+        }
+      },
+      "prochaine_piste": "Brown & Bowler 1978 et Pratten 1980 (croissance), Grandjean et al. 1997 (taille à maturité, Deux-Sèvres)."
+    },
+    "comportements": {
+      "recherche": "recherche_sans_resultat",
+      "justification": "Aucune source lue ne décrit la sociabilité, la territorialité ou les déplacements propres à l'espèce ; l'étude Fenouil & Chaix 1985 (comportement) n'a pu être lue au-delà du résumé.",
+      "champs": {},
+      "prochaine_piste": "Fenouil & Chaix 1985 ; travaux sur l'agonisme entre A. pallipes et espèces introduites (KMAE, inaccessible ici)."
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Seul un complément sans référence renseigne la saisonnalité.",
+      "champs": {
+        "saisonnalite": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Adultes observables de juin à septembre ; activité ralentie en hiver",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "stade_ou_saison": "adulte"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Adultes observables de juin à septembre ; activité ralentie en hiver"
+        }
+      },
+      "prochaine_piste": "Rythme d'activité journalier et saisonnier dans une étude de terrain française."
+    },
+    "interactions": {
+      "recherche": "recherche_effectuee",
+      "justification": "Peste et compétition établies par la Liste rouge nationale ; le complément Wikipédia, qui dit la même chose, est écarté au profit de la référence.",
+      "champs": {
+        "pathogenes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La peste des écrevisses, apparue au XIXe siècle, a contribué à l'effondrement des effectifs ; l'écrevisse signal en est porteuse sans symptômes",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "La peste des écrevisses, apparue au XIXe siècle, a contribué à l'effondrement des effectifs ; l'écrevisse signal en est porteuse sans symptômes"
+        },
+        "competiteurs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Concurrence d'une espèce américaine plus agressive en rapide expansion, Pacifastacus leniusculus (écrevisse signal)",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Concurrence d'une espèce américaine plus agressive en rapide expansion, Pacifastacus leniusculus (écrevisse signal)"
+        },
+        "coexistence_astacus": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "valeur": "Quand elle partage une rivière avec Astacus astacus (écrevisse à pieds rouges), chacune occupe des tronçons différents",
+              "source": "Wikipédia en français, article « Écrevisse à pattes blanches » (texte source)",
+              "origine": "Wikipédia en français, article « Écrevisse à pattes blanches »",
+              "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "incertain",
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "Allemagne, Autriche, Suisse, ex-Yougoslavie"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Quand elle partage une rivière avec Astacus astacus (écrevisse à pieds rouges), chacune occupe des tronçons différents"
+        }
+      },
+      "prochaine_piste": "Prédateurs (poissons, oiseaux, mammifères) et autres pathogènes (microsporidies) dans une synthèse spécialisée."
+    },
+    "conservation": {
+      "recherche": "recherche_effectuee",
+      "justification": "Statuts tirés de la BDC Statuts v18, de la Liste rouge nationale (PDF lu), des textes de Légifrance et du rapportage DHFF 2025. L'évaluation mondiale n'a pu être lue sur le site de l'UICN (refus 403) : seule la BDC la renseigne. Statuts conservés séparément ; la protection n'est pas déduite de la menace.",
+      "champs": {
+        "liste_rouge_nationale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "VU (Vulnérable), critères B2ab(ii,iii,iv)",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            },
+            {
+              "valeur": "VU (Vulnérable), critères B2ab(ii,iii,iv)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "VU (Vulnérable), critères B2ab(ii,iii,iv)"
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "EN (En danger), critères A2ce",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Liste rouge mondiale de l'UICN (date de l'évaluation non fournie par la BDC)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Monde"
+            }
+          ],
+          "valeur_synthese": "EN (En danger), critères A2ce"
+        },
+        "listes_rouges_regionales": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "CR B2ab(ii,iii,iv)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "ONEMA et al. 2014, Liste rouge des écrevisses menacées en Alsace",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Alsace"
+            },
+            {
+              "valeur": "CR A4ac B2ab(ii) C1",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Liste rouge des écrevisses de la région Centre-Val de Loire, 2013",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Centre-Val de Loire"
+            },
+            {
+              "valeur": "CR",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Gérard & Mouren 2013, Liste rouge des poissons et macro-crustacés d'eau douce des Pays de la Loire",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Pays de la Loire"
+            },
+            {
+              "valeur": "EN B1ab(i,ii,iii,iv,v)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Lerat 2015, Liste rouge des écrevisses de Bourgogne",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Bourgogne"
+            },
+            {
+              "valeur": "EN C2a(i)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Liste rouge régionale des crustacés décapodes d'eau douce de Bretagne, 2015",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Bretagne"
+            }
+          ],
+          "valeur_synthese": [
+            "CR B2ab(ii,iii,iv)",
+            "CR A4ac B2ab(ii) C1",
+            "CR",
+            "EN B1ab(i,ii,iii,iv,v)",
+            "EN C2a(i)"
+          ]
+        },
+        "protection_nationale_habitat": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Altérer ou dégrader sciemment les milieux propres à l'espèce est interdit (article 1)",
+              "source": "Légifrance, arrêté du 21 juillet 1983 relatif à la protection des écrevisses autochtones (lu via l'outil de lecture web)",
+              "origine": "Arrêté interministériel du 21 juillet 1983 modifié (version en vigueur au 27/11/2026)",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000471000/",
+              "date_ou_version": "article 1 en vigueur depuis le 28/01/2000",
+              "reutilisation": {
+                "licence": "texte officiel (Légifrance, Licence Ouverte 2.0)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            },
+            {
+              "valeur": "Altérer ou dégrader sciemment les milieux propres à l'espèce est interdit (article 1)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Arrêté interministériel du 21 juillet 1983 modifié (version en vigueur au 27/11/2026)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Altérer ou dégrader sciemment les milieux propres à l'espèce est interdit (article 1)"
+        },
+        "frayeres": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Figure, à l'article 3, parmi les crustacés dont les frayères sont protégées au titre de l'article R432-1 (code de l'environnement)",
+              "source": "Légifrance, arrêté du 23 avril 2008 (frayères, art. R432-1 du code de l'environnement) (lu via l'outil de lecture web)",
+              "origine": "Arrêté du 23 avril 2008, NOR DEVO0809347A, article 3",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018771291",
+              "date_ou_version": "article 3 en vigueur depuis le 09/05/2008",
+              "reutilisation": {
+                "licence": "texte officiel (Légifrance, Licence Ouverte 2.0)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France"
+            },
+            {
+              "valeur": "Figure, à l'article 3, parmi les crustacés dont les frayères sont protégées au titre de l'article R432-1 (code de l'environnement)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Arrêté du 23 avril 2008, NOR DEVO0809347A, article 3",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": "Figure, à l'article 3, parmi les crustacés dont les frayères sont protégées au titre de l'article R432-1 (code de l'environnement)"
+        },
+        "directive_habitats": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Directive 92/43/CEE, annexes II et V",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Directive 92/43/CEE du Conseil du 21 mai 1992",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Directive 92/43/CEE, annexes II et V"
+        },
+        "convention_berne": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Convention de Berne, annexe III",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Convention de Berne du 19 septembre 1979",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Convention de Berne, annexe III"
+        },
+        "derogation_cnpn": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Annexe 1 de l'arrêté du 6 janvier 2020 (dérogations après avis du CNPN), classée par la BDC dans le type « Réglementation sans objet »",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Arrêté du 6 janvier 2020, annexe 1",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France"
+            }
+          ],
+          "valeur_synthese": "Annexe 1 de l'arrêté du 6 janvier 2020 (dérogations après avis du CNPN), classée par la BDC dans le type « Réglementation sans objet »"
+        },
+        "peche": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Pêche permise durant dix jours consécutifs à partir du quatrième samedi de juillet (article R436-10)",
+              "source": "Légifrance, code de l'environnement, article R436-10 (lu via l'outil de lecture web)",
+              "origine": "Code de l'environnement, art. R436-10",
+              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006838560",
+              "date_ou_version": "en vigueur depuis le 05/08/2005",
+              "reutilisation": {
+                "licence": "texte officiel (Légifrance, Licence Ouverte 2.0)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France",
+              "contexte": "règle nationale"
+            },
+            {
+              "valeur": "Plus de 60 départements en proscrivent la pêche",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine, départements",
+              "contexte": "arrêtés départementaux, situation en 2014"
+            }
+          ],
+          "valeur_synthese": [
+            "Pêche permise durant dix jours consécutifs à partir du quatrième samedi de juillet (article R436-10)",
+            "Plus de 60 départements en proscrivent la pêche"
+          ]
+        },
+        "etat_conservation_dhff": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Défavorable mauvais (U2) avec tendance à la dégradation dans chacune des régions alpine, atlantique, continentale et méditerranéenne ; déjà U2 en déclin en 2019",
+              "source": "Résultats synthétiques du rapportage DHFF 2025 (Resultats_synthetiques_Rapportage_2025_DHFF_final.xlsx), PatriNat",
+              "origine": "PatriNat 2025, rapportage article 17 de la directive Habitats, période 2019-2024 (corrections de février 2026)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rapport remis à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "contexte": "période 2019-2024"
+            }
+          ],
+          "valeur_synthese": "Défavorable mauvais (U2) avec tendance à la dégradation dans chacune des régions alpine, atlantique, continentale et méditerranéenne ; déjà U2 en déclin en 2019"
+        },
+        "parametres_dhff_continental": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Région continentale : aire favorable (FV), population U2, habitat U1, perspectives U2",
+              "source": "Résultats synthétiques du rapportage DHFF 2025 (Resultats_synthetiques_Rapportage_2025_DHFF_final.xlsx), PatriNat",
+              "origine": "PatriNat 2025, rapportage article 17 de la directive Habitats, période 2019-2024 (corrections de février 2026)",
+              "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip",
+              "date_ou_version": "données du 10/02/2026 (rapport remis à la Commission le 31/07/2025)",
+              "reutilisation": {
+                "licence": "données publiques sur l'état de l'environnement (mention du fichier)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "région continentale",
+              "contexte": "période 2019-2024"
+            }
+          ],
+          "valeur_synthese": "Région continentale : aire favorable (FV), population U2, habitat U1, perspectives U2"
+        },
+        "menaces": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Artificialisation des rivières et des bassins versants, pollution et baisse de la qualité de l'eau, peste des écrevisses, concurrence de l'écrevisse signal",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Artificialisation des rivières et des bassins versants, pollution et baisse de la qualité de l'eau, peste des écrevisses, concurrence de l'écrevisse signal"
+        },
+        "znieff": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Espèce déterminante de ZNIEFF dans de nombreuses régions et départements (plus de quarante listes dans la BDC v18)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Listes régionales d'espèces déterminantes ZNIEFF (2003-2022), compilées par la BDC",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Espèce déterminante de ZNIEFF dans de nombreuses régions et départements (plus de quarante listes dans la BDC v18)"
+        },
+        "sensibilite_diffusion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Niveau 2 : diffusion au département et à la maille de 10 km",
+              "source": "Référentiel de sensibilité du SINP v18 (RefSensibilite_18.csv, archive SENSIBILITE.zip), MNHN-PatriNat",
+              "origine": "Touroult J. 2016, liste nationale des taxons sensibles du SINP (v2), et listes régionales",
+              "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip",
+              "date_ou_version": "v18 (archive SHA-256 3978c60a…b856, fichiers d'août 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des niveaux de sensibilité (codes) sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            },
+            {
+              "valeur": "Niveau 3 en Pays de la Loire : diffusion au département seulement",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Le Nevé et al. 2019, données sensibles des Pays de la Loire",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "Pays de la Loire"
+            }
+          ],
+          "valeur_synthese": [
+            "Niveau 2 : diffusion au département et à la maille de 10 km",
+            "Niveau 3 en Pays de la Loire : diffusion au département seulement"
+          ]
+        },
+        "autres_territoires": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "À La Réunion, où elle n'est pas indigène, son introduction est interdite (arrêté du 28 juin 2021, annexe 1)",
+              "source": "BDC Statuts v18 (bdc_18_01.csv, archive BDC.zip), MNHN-PatriNat",
+              "origine": "Arrêté du 28 juin 2021 (EEE, La Réunion)",
+              "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip",
+              "date_ou_version": "BDC v18 (archive SHA-256 d6da161a…3716, fichiers de septembre 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat (référentiel public de l'INPN)",
+                "contenu_repris": true,
+                "motif": "seuls des codes de statut et des intitulés officiels courts sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "La Réunion"
+            }
+          ],
+          "valeur_synthese": "À La Réunion, où elle n'est pas indigène, son introduction est interdite (arrêté du 28 juin 2021, annexe 1)"
+        }
+      },
+      "prochaine_piste": "Lire l'évaluation mondiale (Füreder et al. 2010, doi:10.2305/IUCN.UK.2010-3.RLTS.T2430A9438817.en) ; arrêtés préfectoraux de pêche et plans d'action régionaux."
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Précautions tirées des statuts (protection des milieux, sensibilité) et des actions citées par la Liste rouge nationale ; aucun protocole d'observation de référence n'a pu être lu.",
+      "champs": {
+        "precautions_reglementaires": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Dégrader ou modifier volontairement les milieux de l'espèce est prohibé par la réglementation nationale, quelle que soit l'activité",
+              "source": "Légifrance, arrêté du 21 juillet 1983 relatif à la protection des écrevisses autochtones (lu via l'outil de lecture web)",
+              "origine": "Arrêté interministériel du 21 juillet 1983 modifié (version en vigueur au 27/11/2026)",
+              "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000471000/",
+              "date_ou_version": "article 1 en vigueur depuis le 28/01/2000",
+              "reutilisation": {
+                "licence": "texte officiel (Légifrance, Licence Ouverte 2.0)",
+                "contenu_repris": true
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Dégrader ou modifier volontairement les milieux de l'espèce est prohibé par la réglementation nationale, quelle que soit l'activité"
+        },
+        "biosecurite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "La sensibilisation porte sur le risque lié à l'élevage, au transport et à l'introduction d'écrevisses exotiques",
+              "source": "UICN France & MNHN, Liste rouge des espèces menacées en France, chapitre Crustacés d'eau douce de France métropolitaine (PDF)",
+              "origine": "UICN Comité français & MNHN 2014, Liste rouge nationale des crustacés d'eau douce de métropole",
+              "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf",
+              "date_ou_version": "2014 (PDF du 30/04/2014)",
+              "reutilisation": {
+                "licence": "droits réservés (UICN France, MNHN)",
+                "contenu_repris": false,
+                "motif": "faits reformulés, texte non recopié"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "La sensibilisation porte sur le risque lié à l'élevage, au transport et à l'introduction d'écrevisses exotiques"
+        },
+        "grain_diffusion": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "valeur": "Aucune localité publiée : grain le plus protecteur retenu, le département",
+              "source": "Référentiel de sensibilité du SINP v18 (RefSensibilite_18.csv, archive SENSIBILITE.zip), MNHN-PatriNat",
+              "origine": "Touroult J. 2016, liste nationale des taxons sensibles du SINP (v2), et listes régionales (dont Pays de la Loire, niveau 3)",
+              "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip",
+              "date_ou_version": "v18 (archive SHA-256 3978c60a…b856, fichiers d'août 2025)",
+              "reutilisation": {
+                "licence": "non indiquée sur la page de téléchargement PatriNat",
+                "contenu_repris": true,
+                "motif": "seuls des niveaux de sensibilité (codes) sont repris"
+              },
+              "etat": "documente",
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine"
+            }
+          ],
+          "valeur_synthese": "Aucune localité publiée : grain le plus protecteur retenu, le département"
+        }
+      },
+      "prochaine_piste": "Protocoles de prospection et de désinfection du matériel (OFB) ; indices de présence (mues, restes)."
+    }
+  },
+  "localisation": {
+    "grain": "departement",
+    "motif": "restriction de référentiel de sensibilité SINP v18 et règle Pays de la Loire (niveau 3)",
+    "croisement_interdit": true
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": false,
+    "point_de_reprise": [
+      "reconnaissance : critères et confusions à étayer par une clé de référence (OFB, Atlas of Crayfish in Europe 2006)",
+      "reproduction et comportements : lire Fenouil & Chaix 1985 (Persée, protégé contre les robots : lecture humaine ou autre voie autorisée)",
+      "alimentation : remplacer le complément sans référence par une étude de régime",
+      "habitats : lire la thèse Trouilhé 2006 (theses.hal.science, refusée par le proxy) et la fiche OFB",
+      "conservation : lire l'évaluation mondiale UICN (Füreder et al. 2010)",
+      "identité : suivre l'intégration éventuelle d'A. fulcisianus dans TAXREF et sa présence possible en métropole",
+      "remplacer chaque complément par une source de référence dès que l'OFB, l'INPN, la revue KMAE et theses.hal.science sont accessibles"
+    ],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [],
+        "lacunes": [
+          "dimensions",
+          "coloration",
+          "critere_rostre",
+          "confusions",
+          "criteres_distinctifs_de_reference"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole",
+          "regions_biogeographiques",
+          "tendance_repartition"
+        ],
+        "lacunes": [
+          "statut_corse",
+          "aire_mondiale"
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "milieu_general",
+          "type_habitat_taxref",
+          "microhabitat",
+          "abris",
+          "temperature_eau",
+          "acidite"
+        ],
+        "lacunes": []
+      },
+      "alimentation": {
+        "documentes": [],
+        "lacunes": [
+          "regime",
+          "regime_de_reference"
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "frequence"
+        ],
+        "lacunes": [
+          "nombre_oeufs",
+          "duree_incubation",
+          "conditions_reproduction",
+          "calendrier_accouplement_ponte_eclosion"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "age_maturite",
+          "croissance_longevite"
+        ],
+        "lacunes": [
+          "taille_maturite",
+          "age_taille_maximale"
+        ]
+      },
+      "comportements": {
+        "documentes": [],
+        "lacunes": [
+          "sociabilite",
+          "territorialite",
+          "deplacements"
+        ]
+      },
+      "activite": {
+        "documentes": [],
+        "lacunes": [
+          "saisonnalite",
+          "rythme_journalier"
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "pathogenes",
+          "competiteurs"
+        ],
+        "lacunes": [
+          "coexistence_astacus",
+          "predateurs"
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_nationale",
+          "liste_rouge_mondiale",
+          "listes_rouges_regionales",
+          "protection_nationale_habitat",
+          "frayeres",
+          "directive_habitats",
+          "convention_berne",
+          "derogation_cnpn",
+          "peche",
+          "etat_conservation_dhff",
+          "parametres_dhff_continental",
+          "menaces",
+          "znieff",
+          "sensibilite_diffusion",
+          "autres_territoires"
+        ],
+        "lacunes": []
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "precautions_reglementaires",
+          "biosecurite",
+          "grain_diffusion"
+        ],
+        "lacunes": [
+          "indices_de_presence",
+          "protocoles"
+        ]
+      }
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "TAXREF v18, colonne FR = P ; identité unique par nom vernaculaire (CD_REF 18437)",
+      "sources": [
+        "TAXREF v18"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "decision": "enrichir",
+      "motif": "première passe d'enrichissement, interrompue par des accès refusés (voir point de reprise)",
+      "sources": [
+        "BDC Statuts v18",
+        "Référentiel de sensibilité v18",
+        "Rapportage DHFF 2025",
+        "Liste rouge nationale 2014",
+        "Légifrance",
+        "Catalogue of Life 2026-11-11",
+        "Wikipédia FR et EN"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Écrevisse à pattes blanches",
+    "sources_consultees": [
+      {
+        "source": "TAXREF, export officiel local",
+        "version": "v18 (SHA-256 vérifiée)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life via ChecklistBank (jeu 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR/taxon/7RCB7/info"
+      },
+      {
+        "source": "GBIF, correspondance de nom",
+        "version": "Backbone, consulté le 2026-11-27",
+        "url": "https://api.gbif.org/v1/species/match?name=Austropotamobius%20pallipes"
+      },
+      {
+        "source": "BDC Statuts (export PatriNat)",
+        "version": "v18",
+        "url": "https://assets.patrinat.fr/files/referentiel/BDC.zip"
+      },
+      {
+        "source": "Référentiel de sensibilité SINP (export PatriNat)",
+        "version": "v18",
+        "url": "https://assets.patrinat.fr/files/referentiel/SENSIBILITE.zip"
+      },
+      {
+        "source": "Rapportage DHFF, résultats synthétiques (PatriNat)",
+        "version": "2025 (données du 10/02/2026)",
+        "url": "https://assets.patrinat.fr/files/donnees/dhff/RS_Rapportage_2025_DHFF.zip"
+      },
+      {
+        "source": "UICN France & MNHN, Liste rouge des crustacés d'eau douce de métropole (PDF et tableau)",
+        "version": "2014",
+        "url": "https://uicn.fr/wp-content/uploads/2012/06/Liste_rouge_France_Crustaces_d_eau_douce_de_metropole.pdf"
+      },
+      {
+        "source": "Légifrance : arrêté du 21/07/1983, art. R436-10 du code de l'environnement, arrêté du 23/04/2008",
+        "version": "versions en vigueur au 27/11/2026",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000471000/"
+      },
+      {
+        "source": "Persée : notices de Fenouil & Chaix 1985 et Laurent 1985 (résumé et première page seulement)",
+        "version": "consulté le 2026-11-27",
+        "url": "https://www.persee.fr/doc/ecmed_0153-8756_1985_num_11_2_1096"
+      },
+      {
+        "source": "Wikipédia en français (texte source)",
+        "version": "consulté le 2026-11-27",
+        "url": "https://fr.wikipedia.org/w/index.php?title=%C3%89crevisse_%C3%A0_pattes_blanches&action=raw"
+      },
+      {
+        "source": "Wikipédia en anglais (texte source)",
+        "version": "consulté le 2026-11-27",
+        "url": "https://en.wikipedia.org/w/index.php?title=Austropotamobius_pallipes&action=raw"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "INPN (inpn.mnhn.fr)",
+        "motif": "réponse 403 aux accès automatisés ; exports PatriNat utilisés à la place"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "réponse 403 ; statut mondial pris dans la BDC Statuts"
+      },
+      {
+        "source": "OFB (professionnels.ofb.fr, ofb.gouv.fr)",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "DORIS (doris.ffessm.fr)",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "Revue KMAE (kmae-journal.org, doi.org)",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "theses.hal.science (thèse Trouilhé 2006)",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "Persée, texte intégral (PDF)",
+        "motif": "protection anti-robots (altcha), non contournée"
+      },
+      {
+        "source": "Biodiversity Heritage Library (description originale de Lereboullet 1858)",
+        "motif": "réponse 403"
+      },
+      {
+        "source": "EUR-Lex, Wikidata, HAL API",
+        "motif": "connexion refusée par le proxy ou limite de débit (Wikidata 429)"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/332357242",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/332357242/large.jpeg",
+      "titre": "Photo iNaturalist 332357242",
+      "auteur": "Sylvain Montagner",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (0 favoris)",
+      "credit": "Photo : Sylvain Montagner, CC BY 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 189685724 de qualité recherche : espèce « Austropotamobius pallipes » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte sur un fond de graviers, pinces et antennes visibles",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/332357242",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/332357242/large.jpeg",
+      "titre": "Photo iNaturalist 332357242",
+      "auteur": "Sylvain Montagner",
+      "licence": "cc-by",
+      "licence_libelle": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (0 favoris)",
+      "credit": "Photo : Sylvain Montagner, CC BY 4.0, via iNaturalist, recadrée",
+      "verification": "observation iNaturalist 189685724 de qualité recherche : espèce « Austropotamobius pallipes » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Même photo, recadrée sur la tête et les pinces",
+      "recadrage": {
+        "x": 0.05,
+        "y": 0.0,
+        "largeur": 0.55,
+        "hauteur": 1.0
+      },
+      "orientation_origine": "paysage",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu ; recadrage conseillé pour le format portrait"
+    },
+    {
+      "orientation": "paysage",
+      "orientation_origine": "paysage",
+      "statut": "proposee",
+      "recommandee": false,
+      "source": "Wikimedia Commons",
+      "url_page": "https://commons.wikimedia.org/wiki/File%3AAustropotamobius_pallipes.jpg",
+      "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Austropotamobius_pallipes.jpg/1280px-Austropotamobius_pallipes.jpg",
+      "titre": "Austropotamobius pallipes.jpg",
+      "auteur": "David Gerke",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "largeur": 1280,
+      "hauteur": 853,
+      "qualite": "image principale de l'élément Wikidata",
+      "credit": "Photo : David Gerke, CC BY-SA 3.0, via Wikimedia Commons",
+      "verification": "fichier de la catégorie Commons « Austropotamobius pallipes », reliée à l'élément Wikidata Q966376 dont le nom scientifique (P225) est « Austropotamobius pallipes »",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte sur une roche, de profil, pinces visibles"
+    }
+  ]
+}

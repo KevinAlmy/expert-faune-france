@@ -1,0 +1,36 @@
+{
+  "description": "Une source de référence renseigne le champ : le complément divergent est écarté, pas de contradiction",
+  "dossier": {
+    "champs": {
+      "longevite": {
+        "affirmations": [
+          {
+            "valeur": "jusqu'à 12 ans",
+            "territoire": "sauvage",
+            "origine": "Étude de terrain A"
+          },
+          {
+            "valeur": "6 à 10 ans",
+            "territoire": "sauvage",
+            "niveau": "complement",
+            "source": "Wikipédia FR",
+            "origine": "Wikipédia FR",
+            "reference_citee": false
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "longevite": {
+        "etat": "documente",
+        "valeurs": [
+          {
+            "valeur": "jusqu'à 12 ans"
+          }
+        ]
+      }
+    }
+  }
+}

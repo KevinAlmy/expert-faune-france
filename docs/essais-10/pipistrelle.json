@@ -1,0 +1,1538 @@
+{
+  "id": "EFF-TAXREF-60479",
+  "etat": "fiche_partielle",
+  "identite": {
+    "nom_retenu": "Pipistrellus pipistrellus",
+    "auteur": "(Schreber, 1774)",
+    "annee": 1774,
+    "rang": "ES",
+    "classification": {
+      "phylum": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Chiroptera",
+      "famille": "Vespertilionidae"
+    },
+    "noms_vernaculaires": [
+      "Pipistrelle commune"
+    ],
+    "synonymes": [
+      {
+        "nom": "Pipistrellus brachyotos",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Pipistrellus flavescens",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Pipistrellus genei",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Pipistrellus limbatus",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Pipistrellus melanopterus",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Pipistrellus murinus",
+        "auteur": "Gray",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Pipistrellus nigricans",
+        "auteur": "Bonaparte",
+        "source": "TAXREF v18"
+      },
+      {
+        "nom": "Vespertilio pipistrellus",
+        "auteur": "Schreber, 1774",
+        "source": "Wikipédia (fr et en), combinaison originale ; citée d'après le MDD et Schreber 1775 (complément, non confirmé par une source de référence ouverte)"
+      }
+    ],
+    "identifiants_externes": {
+      "taxref": {
+        "cd_nom": "60479",
+        "cd_ref": "60479",
+        "version": "18"
+      },
+      "catalogue_of_life": {
+        "id": "6VKNS",
+        "jeu": "3LR",
+        "version": "2026-11-11"
+      },
+      "gbif": {
+        "usageKey": 5218465,
+        "statut": "ACCEPTED"
+      }
+    },
+    "preuves": [
+      {
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+        "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "valeur": "Pipistrellus pipistrellus (Schreber, 1774), rang espèce, nom retenu (CD_NOM = CD_REF = 60479) ; sous-espèce nominale P. p. pipistrellus (CD_NOM 60481) rattachée"
+      },
+      {
+        "source": "Catalogue of Life via ChecklistBank (jeu 3LR)",
+        "origine": "Catalogue of Life",
+        "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Pipistrellus%20pipistrellus",
+        "date_ou_version": "2026-11-11",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "CC BY 4.0",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "valeur": "Pipistrellus pipistrellus (Schreber, 1774), nom accepté, identifiant 6VKNS"
+      }
+    ]
+  },
+  "presence": {
+    "territoire": "France métropolitaine, Corse comprise",
+    "qualification": "etablie",
+    "origine": "indigene",
+    "code_source": {
+      "referentiel": "TAXREF v18",
+      "colonne": "FR",
+      "code": "P",
+      "signification": "Présent (indigène ou indéterminé)"
+    },
+    "preuves": [
+      {
+        "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+        "origine": "TAXREF v18 (MNHN, PatriNat)",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+        "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+        "etat": "documente",
+        "reutilisation": {
+          "licence": "Licence Ouverte 2.0 (Etalab)",
+          "contenu_repris": true
+        },
+        "consulte_le": "2026-11-27",
+        "valeur": "Colonne FR (France hexagonale et Corse) : code P, présent (indigène ou indéterminé)",
+        "territoire": "France hexagonale et Corse"
+      }
+    ]
+  },
+  "admission": {
+    "voie": "taxref",
+    "motif": "TAXREF v18 : espèce au nom retenu, colonne FR code P (Présent, indigène ou indéterminé), code admis par la table de correspondance v18",
+    "date": "2026-11-27"
+  },
+  "familles": {
+    "reconnaissance": {
+      "recherche": "recherche_partielle",
+      "justification": "Synthèse HMW 2019 lue ; ouvrages de détermination européens (Dietz et al.) et clés françaises non accessibles pendant cette exécution.",
+      "champs": {
+        "dimensions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "unite": "mm",
+              "valeur": "Tête et corps 35 à 52 mm ; queue 23 à 36 mm ; oreille 8 à 13 mm ; pied 6 à 7 mm ; avant-bras 27 à 34,5 mm ; envergure 180 à 250 mm",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Tête et corps 35 à 52 mm ; queue 23 à 36 mm ; oreille 8 à 13 mm ; pied 6 à 7 mm ; avant-bras 27 à 34,5 mm ; envergure 180 à 250 mm"
+        },
+        "masse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "unite": "g",
+              "valeur": "3 à 8,5 g",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "3 à 8,5 g"
+        },
+        "pelage_et_peau": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Dos brun pâle à brun grisâtre, parfois jaunâtre ou presque noir ; ventre en général plus clair. Peau et membranes alaires sombres (noires ou brun foncé), plus foncées que chez la Pipistrelle pygmée ; museau court, ailes étroites ; uropatagium velu seulement contre le corps.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Dos brun pâle à brun grisâtre, parfois jaunâtre ou presque noir ; ventre en général plus clair. Peau et membranes alaires sombres (noires ou brun foncé), plus foncées que chez la Pipistrelle pygmée ; museau court, ailes étroites ; uropatagium velu seulement contre le corps."
+        },
+        "criteres_distinctifs": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Oreilles courtes au tragus arrondi et assez long ; un liseré blanchâtre peut border l'aile, comme chez la Pipistrelle de Kuhl (absent chez la Pipistrelle de Nathusius). Pénis gris, baculum long d'environ 1,8 mm, mince, fourchu aux deux extrémités. Crâne un peu plus grand que celui de P. pygmaeus, longueur condylobasale 11 à 12 mm ; I2 à deux pointes, I3 presque aussi haute ; petite prémolaire supérieure visible au-dessus de la gencive.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Oreilles courtes au tragus arrondi et assez long ; un liseré blanchâtre peut border l'aile, comme chez la Pipistrelle de Kuhl (absent chez la Pipistrelle de Nathusius). Pénis gris, baculum long d'environ 1,8 mm, mince, fourchu aux deux extrémités. Crâne un peu plus grand que celui de P. pygmaeus, longueur condylobasale 11 à 12 mm ; I2 à deux pointes, I3 presque aussi haute ; petite prémolaire supérieure visible au-dessus de la gencive."
+        },
+        "formule_dentaire": {
+          "etat": "non_renseigne",
+          "affirmations": [],
+          "valeur_synthese": null,
+          "niveau": "reference"
+        },
+        "caryotype": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "2n = 42 à 44 ; FNa = 48 à 50 ; FN = 52 à 54",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "2n = 42 à 44 ; FNa = 48 à 50 ; FN = 52 à 54"
+        },
+        "especes_proches_et_limites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Espèce jumelle de la Pipistrelle pygmée (P. pygmaeus), séparée dans les années 1980-1990 grâce à deux bandes de fréquence d'écholocation distinctes ; la morphologie est très proche, d'où des répartitions et statuts anciens à interpréter avec prudence. Confusion possible aussi avec P. kuhlii et P. nathusii.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Espèce jumelle de la Pipistrelle pygmée (P. pygmaeus), séparée dans les années 1980-1990 grâce à deux bandes de fréquence d'écholocation distinctes ; la morphologie est très proche, d'où des répartitions et statuts anciens à interpréter avec prudence. Confusion possible aussi avec P. kuhlii et P. nathusii."
+        }
+      },
+      "prochaine_piste": "critères de terrain des ouvrages européens (Dietz et al.); variations selon l'âge"
+    },
+    "repartition": {
+      "recherche": "recherche_partielle",
+      "justification": "Aire mondiale et présence métropolitaine documentées ; atlas national et régionaux des chiroptères (SFEPM, INPN) inaccessibles.",
+      "champs": {
+        "presence_metropole": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "TAXREF v18, export officiel (TAXREFv18.txt)",
+              "origine": "TAXREF v18 (MNHN, PatriNat)",
+              "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip",
+              "date_ou_version": "TAXREF v18 (fichiers du 2025-01-09)",
+              "etat": "documente",
+              "reutilisation": {
+                "licence": "Licence Ouverte 2.0 (Etalab)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "territoire": "France hexagonale et Corse",
+              "valeur": "Présente et indigène (ou d'origine indéterminée) en France hexagonale et en Corse : code P de la colonne FR"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Présente et indigène (ou d'origine indéterminée) en France hexagonale et en Corse : code P de la colonne FR"
+        },
+        "aire_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Sous-espèce nominale P. p. pipistrellus : majeure partie de l'Europe, de l'Irlande et de la péninsule Ibérique jusqu'à la Russie, Turquie, Levant, Caucase et montagnes d'Afrique du Nord (Maroc, Algérie, Tunisie, Libye). Sous-espèce P. p. aladdin : Asie du Sud-Ouest et de l'Est, de l'Iran au Kazakhstan, à l'Afghanistan, à l'Inde, au Myanmar, à la Chine et à Taïwan.",
+              "etat": "documente"
+            },
+            {
+              "source": "Plazi, traitements « Order Chiroptera » (Mammal Species of the World), lus via l'API GBIF",
+              "origine": "Simmons N.B. 2005. Order Chiroptera. In Wilson & Reeder (dir.), Mammal Species of the World, 3e éd.",
+              "url": "https://api.gbif.org/v1/species/5218465/descriptions",
+              "date_ou_version": "2005 (MSW3)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "territoire": "aire mondiale (MSW3)",
+              "valeur": "Îles Britanniques, sud de la Scandinavie, Europe de l'Ouest jusqu'à la Volga et au Caucase, Maroc, Asie Mineure et Israël jusqu'au Cachemire, au Kazakhstan et au Xinjiang (synthèse antérieure à la séparation de P. pygmaeus)",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": [
+            "Sous-espèce nominale P. p. pipistrellus : majeure partie de l'Europe, de l'Irlande et de la péninsule Ibérique jusqu'à la Russie, Turquie, Levant, Caucase et montagnes d'Afrique du Nord (Maroc, Algérie, Tunisie, Libye). Sous-espèce P. p. aladdin : Asie du Sud-Ouest et de l'Est, de l'Iran au Kazakhstan, à l'Afghanistan, à l'Inde, au Myanmar, à la Chine et à Taïwan.",
+            "Îles Britanniques, sud de la Scandinavie, Europe de l'Ouest jusqu'à la Volga et au Caucase, Maroc, Asie Mineure et Israël jusqu'au Cachemire, au Kazakhstan et au Xinjiang (synthèse antérieure à la séparation de P. pygmaeus)"
+          ]
+        },
+        "localite_type": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitements « Order Chiroptera » (Mammal Species of the World), lus via l'API GBIF",
+              "origine": "Simmons N.B. 2005. Order Chiroptera. In Wilson & Reeder (dir.), Mammal Species of the World, 3e éd.",
+              "url": "https://api.gbif.org/v1/species/5218465/descriptions",
+              "date_ou_version": "2005 (MSW3)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "reference",
+              "territoire": "localité type",
+              "valeur": "France",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "France"
+        },
+        "lignees_genetiques": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Trois grandes lignées génétiques, qui pourraient correspondre à deux ou trois espèces : une eurasiatique, une nord-africaine, et une propre à la Corse et à la Sicile, apparentée à la lignée nord-africaine. Hypothèse non intégrée au référentiel (TAXREF v18 ne distingue pas la population corse).",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Trois grandes lignées génétiques, qui pourraient correspondre à deux ou trois espèces : une eurasiatique, une nord-africaine, et une propre à la Corse et à la Sicile, apparentée à la lignée nord-africaine. Hypothèse non intégrée au référentiel (TAXREF v18 ne distingue pas la population corse)."
+        },
+        "abondance_france": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia (fr), article Pipistrellus pipistrellus (wikitexte)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette phrase",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Pipistrellus_pipistrellus&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "territoire": "France",
+              "valeur": "Espèce fréquente dans toute la France, Corse incluse, y compris en altitude",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Espèce fréquente dans toute la France, Corse incluse, y compris en altitude"
+        }
+      },
+      "prochaine_piste": "atlas national et régionaux; répartition fine en Corse"
+    },
+    "habitats": {
+      "recherche": "recherche_partielle",
+      "justification": "Synthèse mondiale lue ; études françaises d'habitat non consultées (HAL et revues inaccessibles).",
+      "champs": {
+        "milieux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Très large éventail de milieux : boisements et lisières, zones urbaines et rurales, fourrés, zones semi-arides, terres agricoles et pâturages ; semble plus fréquente que P. pygmaeus en forêt caducifoliée.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Très large éventail de milieux : boisements et lisières, zones urbaines et rurales, fourrés, zones semi-arides, terres agricoles et pâturages ; semble plus fréquente que P. pygmaeus en forêt caducifoliée."
+        },
+        "altitude": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "unite": "m",
+              "valeur": "Du niveau de la mer à environ 2000 m",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Du niveau de la mer à environ 2000 m"
+        },
+        "types_de_gites": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Gîtes très variés, naturels ou artificiels : fissures rocheuses, cavités de bâtiments, arbres creux, dessous d'écorce. Maternités signalées dans des bâtiments, des arbres, des ponts et des fentes de murs ; hibernation dans des falaises, bâtiments anciens, églises à murs épais, grottes, mines, caves, tunnels et peut-être arbres creux. (Types génériques uniquement, aucune localisation.)",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Gîtes très variés, naturels ou artificiels : fissures rocheuses, cavités de bâtiments, arbres creux, dessous d'écorce. Maternités signalées dans des bâtiments, des arbres, des ponts et des fentes de murs ; hibernation dans des falaises, bâtiments anciens, églises à murs épais, grottes, mines, caves, tunnels et peut-être arbres creux. (Types génériques uniquement, aucune localisation.)"
+        },
+        "milieux_de_chasse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Chasse le long des alignements d'arbres et des structures qui abritent du vent, autour des éclairages publics en ville ou au village, et au-dessus des cours d'eau calmes bordés d'arbres ; aussi au-dessus d'étangs, de zones humides et de cultures.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Chasse le long des alignements d'arbres et des structures qui abritent du vent, autour des éclairages publics en ville ou au village, et au-dessus des cours d'eau calmes bordés d'arbres ; aussi au-dessus d'étangs, de zones humides et de cultures."
+        }
+      },
+      "prochaine_piste": "études d'habitat en France; usage saisonnier détaillé"
+    },
+    "alimentation": {
+      "recherche": "recherche_partielle",
+      "justification": "Régime documenté par la synthèse HMW ; études françaises de régime (analyse de guano, métabarcodage) non consultées.",
+      "champs": {
+        "regime": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Insectivore : surtout de petits diptères (Nematocera, Muscidae), parfois des papillons ; mentions aussi de trichoptères, éphémères, hyménoptères, névroptères et coléoptères.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Insectivore : surtout de petits diptères (Nematocera, Muscidae), parfois des papillons ; mentions aussi de trichoptères, éphémères, hyménoptères, névroptères et coléoptères."
+        },
+        "methode_de_chasse": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Capture en vol (chasse aérienne) ; jusqu'à une dizaine de séquences de capture par minute.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Capture en vol (chasse aérienne) ; jusqu'à une dizaine de séquences de capture par minute."
+        }
+      },
+      "prochaine_piste": "régime en France (guano, métabarcodage); variations saisonnières"
+    },
+    "reproduction": {
+      "recherche": "recherche_partielle",
+      "justification": "Calendrier général issu de HMW ; calendrier territorialisé pour la France non trouvé dans les sources accessibles ; publication de Sachteleben & von Helversen (PDF) refusée par le proxy.",
+      "champs": {
+        "maturite_sexuelle": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Femelles actives vers 1 an ; mâles vers 2 ans",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Femelles actives vers 1 an ; mâles vers 2 ans"
+        },
+        "accouplement": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "stade_ou_saison": "automne",
+              "valeur": "Accouplements d'août à octobre ; les mâles défendent alors un territoire, effectuent des vols de parade et émettent des odeurs particulières.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Accouplements d'août à octobre ; les mâles défendent alors un territoire, effectuent des vols de parade et émettent des odeurs particulières."
+        },
+        "territoire_de_parade": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Wikipédia (fr), article Pipistrellus pipistrellus (wikitexte)",
+              "origine": "Sachteleben J. & von Helversen O. 2006. Songflight behaviour and mating system of the pipistrelle bat (Pipistrellus pipistrellus) in an urban habitat. Acta Chiropterologica 8(2) : 391-401",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Pipistrellus_pipistrellus&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": true,
+              "territoire": "Bayreuth (Allemagne), milieu urbain",
+              "stade_ou_saison": "mi-juillet à fin octobre",
+              "valeur": "Territoires de parade d'environ 200 m de diamètre, tenus de mi-juillet à fin octobre, rapprochés en centre-ville sans se chevaucher",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Territoires de parade d'environ 200 m de diamètre, tenus de mi-juillet à fin octobre, rapprochés en centre-ville sans se chevaucher"
+        },
+        "colonies_de_mise_bas": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Colonies de maternité formées en général en mai ; le plus souvent 25 à 50 individus, parfois plusieurs centaines",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Colonies de maternité formées en général en mai ; le plus souvent 25 à 50 individus, parfois plusieurs centaines"
+        },
+        "portee_et_mise_bas": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "1 ou 2 petits, nés entre la mi-juin et juillet",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "1 ou 2 petits, nés entre la mi-juin et juillet"
+        },
+        "hybridation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Europe centrale",
+              "niveau": "reference",
+              "valeur": "Hybridation occasionnelle avec la Pipistrelle pygmée signalée en Europe centrale",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Hybridation occasionnelle avec la Pipistrelle pygmée signalée en Europe centrale"
+        }
+      },
+      "prochaine_piste": "calendrier territorialisé en France; gestation, stockage du sperme (source spécifique)"
+    },
+    "developpement": {
+      "recherche": "recherche_partielle",
+      "justification": "Données générales HMW ; pas de données de baguage françaises consultées.",
+      "champs": {
+        "envol_des_jeunes": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Les jeunes volent seuls vers l'âge d'un mois",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Les jeunes volent seuls vers l'âge d'un mois"
+        },
+        "longevite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "contexte": "sauvage (non précisé par la source)",
+              "unite": "ans",
+              "valeur": "Durée de vie moyenne indiquée : 9 ans ; record de longévité : 16 ans",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Durée de vie moyenne indiquée : 9 ans ; record de longévité : 16 ans"
+        }
+      },
+      "prochaine_piste": "croissance; données de baguage françaises; distinction sauvage/captivité de la longévité"
+    },
+    "comportements": {
+      "recherche": "recherche_partielle",
+      "justification": "Synthèse HMW lue ; publications originales sur la parade et le swarming inaccessibles.",
+      "champs": {
+        "domaine_vital_et_deplacements": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "unite": "km",
+              "valeur": "Revient chaque nuit sur les mêmes zones de chasse, situées jusqu'à 25 km du gîte ; ces distances diminuent pendant l'allaitement. Espèce non migratrice, mais des déplacements de plus de 400 km ont été rapportés ; les gîtes d'hiver se trouvent en général à moins de 50 km des maternités.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Revient chaque nuit sur les mêmes zones de chasse, situées jusqu'à 25 km du gîte ; ces distances diminuent pendant l'allaitement. Espèce non migratrice, mais des déplacements de plus de 400 km ont été rapportés ; les gîtes d'hiver se trouvent en général à moins de 50 km des maternités."
+        },
+        "sociabilite": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Colonies estivales assez grandes ; en hiver, individus isolés ou petits groupes, sauf en Roumanie et en Slovaquie où des rassemblements d'environ 100 000 individus ont été signalés. Essaimage (swarming) pendant plusieurs mois après les mises bas ; partage possible de gîtes avec la Pipistrelle de Kuhl.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Colonies estivales assez grandes ; en hiver, individus isolés ou petits groupes, sauf en Roumanie et en Slovaquie où des rassemblements d'environ 100 000 individus ont été signalés. Essaimage (swarming) pendant plusieurs mois après les mises bas ; partage possible de gîtes avec la Pipistrelle de Kuhl."
+        },
+        "vol": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Vol lent, irrégulier et peu prévisible, souvent le long d'éléments linéaires, avec des piqués rapides et fréquents.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Vol lent, irrégulier et peu prévisible, souvent le long d'éléments linéaires, avec des piqués rapides et fréquents."
+        },
+        "ecolocation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "unite": "kHz",
+              "valeur": "Signaux plutôt en fréquence modulée en milieu encombré, passant à une fréquence quasi constante en milieu ouvert (impulsions jusqu'à 10 ms) ; fréquence d'énergie maximale 42 à 51 kHz ; forte variation selon l'encombrement.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Signaux plutôt en fréquence modulée en milieu encombré, passant à une fréquence quasi constante en milieu ouvert (impulsions jusqu'à 10 ms) ; fréquence d'énergie maximale 42 à 51 kHz ; forte variation selon l'encombrement."
+        },
+        "cris_sociaux": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Cris sociaux composés en général de 4 à 5 trilles, plus graves que les signaux de recherche.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Cris sociaux composés en général de 4 à 5 trilles, plus graves que les signaux de recherche."
+        }
+      },
+      "prochaine_piste": "territorialité mesurée en France"
+    },
+    "activite": {
+      "recherche": "recherche_partielle",
+      "justification": "Rythme journalier et saisons documentés par HMW ; dates d'hibernation en France seulement par un complément.",
+      "champs": {
+        "activite_journaliere": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Sortie environ 20 minutes après le coucher du soleil, plus tôt les nuits très chaudes. En mai-juin, un seul pic d'activité (sortie au crépuscule, retour entre minuit et l'aube) ; à partir de fin juin, deux pics, au crépuscule et avant l'aube.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Sortie environ 20 minutes après le coucher du soleil, plus tôt les nuits très chaudes. En mai-juin, un seul pic d'activité (sortie au crépuscule, retour entre minuit et l'aube) ; à partir de fin juin, deux pics, au crépuscule et avant l'aube."
+        },
+        "hibernation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "stade_ou_saison": "hiver",
+              "valeur": "Hiberne en général de la fin de l'automne au début du printemps",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Hiberne en général de la fin de l'automne au début du printemps"
+        },
+        "statut_migratoire": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Considérée comme non migratrice (déplacements saisonniers entre gîtes possibles)",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Considérée comme non migratrice (déplacements saisonniers entre gîtes possibles)"
+        }
+      },
+      "prochaine_piste": "dates d'hibernation en France; influence de la température"
+    },
+    "interactions": {
+      "recherche": "recherche_partielle",
+      "justification": "Prédateurs et parasites non documentés par les sources de référence accessibles.",
+      "champs": {
+        "competition": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "Serbie, Russie (villes)",
+              "niveau": "reference",
+              "valeur": "Dans certaines villes de Serbie et de Russie, elle semble supplantée par la Pipistrelle de Kuhl",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Dans certaines villes de Serbie et de Russie, elle semble supplantée par la Pipistrelle de Kuhl"
+        },
+        "predateurs": {
+          "etat": "incertain",
+          "affirmations": [
+            {
+              "source": "Wikipédia (fr), article Pipistrellus pipistrellus (wikitexte)",
+              "origine": "Wikipédia (fr), sans référence citée pour cette phrase",
+              "url": "https://fr.wikipedia.org/w/index.php?title=Pipistrellus_pipistrellus&action=raw",
+              "date_ou_version": "version consultée le 2026-11-27",
+              "reutilisation": {
+                "licence": "CC BY-SA 4.0",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "niveau": "complement",
+              "reference_citee": false,
+              "valeur": "Le chat et la Fouine sont cités comme prédateurs susceptibles d'atteindre les gîtes",
+              "etat": "incertain"
+            }
+          ],
+          "niveau": "complement",
+          "valeur_synthese": "Le chat et la Fouine sont cités comme prédateurs susceptibles d'atteindre les gîtes"
+        }
+      },
+      "prochaine_piste": "prédateurs (source de référence); parasites; rôle écologique"
+    },
+    "conservation": {
+      "recherche": "recherche_partielle",
+      "justification": "Liste rouge France 2017 lue. Textes de protection (Légifrance, EUR-Lex) et Liste rouge mondiale (iucnredlist.org) inaccessibles : protection juridique non renseignée, jamais déduite de la menace. Listes rouges régionales non consultées.",
+      "champs": {
+        "liste_rouge_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN France, MNHN, SFEPM & ONCFS (2017). La Liste rouge des espèces menacées en France – Mammifères de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, SFEPM & ONCFS 2017, Liste rouge des mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France) ; seuls catégorie, tendance et faits sont repris",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "niveau": "reference",
+              "population": "population métropolitaine",
+              "valeur": "NT (Quasi menacée)",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "NT (Quasi menacée)"
+        },
+        "tendance_france": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN France, MNHN, SFEPM & ONCFS (2017). La Liste rouge des espèces menacées en France – Mammifères de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, SFEPM & ONCFS 2017, Liste rouge des mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France) ; seuls catégorie, tendance et faits sont repris",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "niveau": "reference",
+              "valeur": "En diminution (symbole de tendance du tableau de la Liste rouge)",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "En diminution (symbole de tendance du tableau de la Liste rouge)"
+        },
+        "liste_rouge_mondiale": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN France, MNHN, SFEPM & ONCFS (2017). La Liste rouge des espèces menacées en France – Mammifères de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, SFEPM & ONCFS 2017, Liste rouge des mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France) ; seuls catégorie, tendance et faits sont repris",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "monde",
+              "niveau": "reference",
+              "valeur": "LC (Préoccupation mineure), telle que reportée dans le tableau de la Liste rouge France 2017",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "LC (Préoccupation mineure), telle que reportée dans le tableau de la Liste rouge France 2017"
+        },
+        "menaces": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "UICN France, MNHN, SFEPM & ONCFS (2017). La Liste rouge des espèces menacées en France – Mammifères de France métropolitaine (PDF)",
+              "origine": "UICN France, MNHN, SFEPM & ONCFS 2017, Liste rouge des mammifères de France métropolitaine",
+              "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf",
+              "date_ou_version": "2017",
+              "reutilisation": {
+                "licence": "Droits réservés (UICN France) ; seuls catégorie, tendance et faits sont repris",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "France métropolitaine",
+              "niveau": "reference",
+              "valeur": "L'usage important de pesticides réduit les insectes dont elle se nourrit ; l'espèce est citée parmi les mammifères encore répandus mais en net déclin.",
+              "etat": "documente"
+            },
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Persécution directe et dérangement des colonies, en raison de gîtes proches de l'homme ; prédation par les animaux domestiques en ville.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": [
+            "L'usage important de pesticides réduit les insectes dont elle se nourrit ; l'espèce est citée parmi les mammifères encore répandus mais en net déclin.",
+            "Persécution directe et dérangement des colonies, en raison de gîtes proches de l'homme ; prédation par les animaux domestiques en ville."
+          ]
+        },
+        "actions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Actions surtout menées en ville : gîtes artificiels et prise en compte lors des rénovations de bâtiments.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Actions surtout menées en ville : gîtes artificiels et prise en compte lors des rénovations de bâtiments."
+        },
+        "protection_juridique": {
+          "etat": "non_renseigne",
+          "affirmations": [],
+          "valeur_synthese": null,
+          "niveau": "reference"
+        },
+        "sensibilite_diffusion": {
+          "etat": "non_renseigne",
+          "affirmations": [],
+          "valeur_synthese": "Règle du producteur non consultée : grain le plus protecteur appliqué (aucune localisation de gîte, de maternité ou de site d'hibernation).",
+          "niveau": "reference"
+        }
+      },
+      "prochaine_piste": "protection juridique (arrêté du 23 avril 2007, Directive Habitats annexe IV, Convention de Berne) — textes inaccessibles; évaluation mondiale UICN la plus récente; listes rouges régionales; tendances Vigie-Chiro"
+    },
+    "observation_respectueuse": {
+      "recherche": "recherche_partielle",
+      "justification": "Critères de détection acoustique et risques de dérangement documentés ; aucune recommandation d'observation propre à l'espèce trouvée : aucune n'est formulée.",
+      "champs": {
+        "detection_acoustique": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "unite": "kHz",
+              "valeur": "Détection au détecteur d'ultrasons : énergie maximale entre 42 et 51 kHz, signaux variables selon l'encombrement du milieu ; jusqu'à une dizaine de séquences de capture par minute en chasse.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Détection au détecteur d'ultrasons : énergie maximale entre 42 et 51 kHz, signaux variables selon l'encombrement du milieu ; jusqu'à une dizaine de séquences de capture par minute en chasse."
+        },
+        "confusions": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Confusion acoustique et morphologique avec la Pipistrelle pygmée (bande de fréquence plus élevée) ; liseré alaire comparable à celui de la Pipistrelle de Kuhl.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Confusion acoustique et morphologique avec la Pipistrelle pygmée (bande de fréquence plus élevée) ; liseré alaire comparable à celui de la Pipistrelle de Kuhl."
+        },
+        "periode_d_observation": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Activité de chasse dès le crépuscule, environ 20 minutes après le coucher du soleil, le long des lisières et autour des éclairages.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Activité de chasse dès le crépuscule, environ 20 minutes après le coucher du soleil, le long des lisières et autour des éclairages."
+        },
+        "risques_de_derangement": {
+          "etat": "documente",
+          "affirmations": [
+            {
+              "source": "Plazi, traitement taxonomique de Pipistrellus pipistrellus, lu via l'API GBIF (species/5218465/descriptions, jeu 45351c32-25dd-422c-bdb2-00e73deb4943)",
+              "origine": "Wilson D.E. & Mittermeier R.A. (dir.) 2019. Vespertilionidae. Handbook of the Mammals of the World, vol. 9 Bats. Lynx Edicions : 716-981",
+              "url": "https://treatment.plazi.org/id/4C3D87E8FFF66A49FF7D97901916B32F",
+              "date_ou_version": "2019 (traitement Plazi)",
+              "reutilisation": {
+                "licence": "CC0 1.0 (Plazi)",
+                "contenu_repris": true
+              },
+              "consulte_le": "2026-11-27",
+              "territoire": "aire mondiale de l'espèce",
+              "niveau": "reference",
+              "valeur": "Les colonies, souvent proches des habitations, souffrent de dérangements et de persécutions : aucune intervention sur un gîte occupé, en particulier en période de mise bas et d'hibernation.",
+              "etat": "documente"
+            }
+          ],
+          "niveau": "reference",
+          "valeur_synthese": "Les colonies, souvent proches des habitations, souffrent de dérangements et de persécutions : aucune intervention sur un gîte occupé, en particulier en période de mise bas et d'hibernation."
+        }
+      },
+      "prochaine_piste": "précautions documentées par les associations (SFEPM, plan national d'actions)"
+    }
+  },
+  "couverture": {
+    "date": "2026-11-27",
+    "passe_terminee": true,
+    "point_de_reprise": [],
+    "familles": {
+      "reconnaissance": {
+        "documentes": [
+          "dimensions",
+          "masse",
+          "pelage_et_peau",
+          "criteres_distinctifs",
+          "caryotype",
+          "especes_proches_et_limites"
+        ],
+        "lacunes": [
+          "critères de terrain des ouvrages européens (Dietz et al.)",
+          "variations selon l'âge"
+        ]
+      },
+      "repartition": {
+        "documentes": [
+          "presence_metropole",
+          "aire_mondiale",
+          "localite_type",
+          "lignees_genetiques",
+          "abondance_france"
+        ],
+        "lacunes": [
+          "atlas national et régionaux",
+          "répartition fine en Corse"
+        ]
+      },
+      "habitats": {
+        "documentes": [
+          "milieux",
+          "altitude",
+          "types_de_gites",
+          "milieux_de_chasse"
+        ],
+        "lacunes": [
+          "études d'habitat en France",
+          "usage saisonnier détaillé"
+        ]
+      },
+      "alimentation": {
+        "documentes": [
+          "regime",
+          "methode_de_chasse"
+        ],
+        "lacunes": [
+          "régime en France (guano, métabarcodage)",
+          "variations saisonnières"
+        ]
+      },
+      "reproduction": {
+        "documentes": [
+          "maturite_sexuelle",
+          "accouplement",
+          "territoire_de_parade",
+          "colonies_de_mise_bas",
+          "portee_et_mise_bas",
+          "hybridation"
+        ],
+        "lacunes": [
+          "calendrier territorialisé en France",
+          "gestation, stockage du sperme (source spécifique)"
+        ]
+      },
+      "developpement": {
+        "documentes": [
+          "envol_des_jeunes",
+          "longevite"
+        ],
+        "lacunes": [
+          "croissance",
+          "données de baguage françaises",
+          "distinction sauvage/captivité de la longévité"
+        ]
+      },
+      "comportements": {
+        "documentes": [
+          "domaine_vital_et_deplacements",
+          "sociabilite",
+          "vol",
+          "ecolocation",
+          "cris_sociaux"
+        ],
+        "lacunes": [
+          "territorialité mesurée en France"
+        ]
+      },
+      "activite": {
+        "documentes": [
+          "activite_journaliere",
+          "hibernation",
+          "statut_migratoire"
+        ],
+        "lacunes": [
+          "dates d'hibernation en France",
+          "influence de la température"
+        ]
+      },
+      "interactions": {
+        "documentes": [
+          "competition",
+          "predateurs"
+        ],
+        "lacunes": [
+          "prédateurs (source de référence)",
+          "parasites",
+          "rôle écologique"
+        ]
+      },
+      "conservation": {
+        "documentes": [
+          "liste_rouge_france",
+          "tendance_france",
+          "liste_rouge_mondiale",
+          "menaces",
+          "actions"
+        ],
+        "lacunes": [
+          "protection juridique (arrêté du 23 avril 2007, Directive Habitats annexe IV, Convention de Berne) — textes inaccessibles",
+          "évaluation mondiale UICN la plus récente",
+          "listes rouges régionales",
+          "tendances Vigie-Chiro"
+        ]
+      },
+      "observation_respectueuse": {
+        "documentes": [
+          "detection_acoustique",
+          "confusions",
+          "periode_d_observation",
+          "risques_de_derangement"
+        ],
+        "lacunes": [
+          "précautions documentées par les associations (SFEPM, plan national d'actions)"
+        ]
+      }
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-11-27",
+      "decision": "creer_fiche",
+      "motif": "Admission voie TAXREF (code FR = P) ; nom fourni « Pipistrelle commune » = nom vernaculaire TAXREF unique",
+      "sources": [
+        "TAXREF v18"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "decision": "enrichir",
+      "motif": "Passe d'enrichissement complète sur les 11 familles ; lacunes listées",
+      "sources": [
+        "Liste rouge France 2017",
+        "HMW vol. 9 (Plazi)",
+        "MSW3 (Plazi)",
+        "Wikipédia fr/en (complément)"
+      ]
+    }
+  ],
+  "execution": {
+    "date": "2026-11-27",
+    "version_skill": "0.1.0",
+    "requete": "Pipistrelle commune",
+    "sources_consultees": [
+      {
+        "source": "TAXREF, export officiel local",
+        "version": "18",
+        "url": "https://assets.patrinat.fr/files/referentiel/TAXREF_v18_2025.zip"
+      },
+      {
+        "source": "Catalogue of Life via ChecklistBank (jeu 3LR)",
+        "version": "2026-11-11",
+        "url": "https://api.checklistbank.org/dataset/3LR"
+      },
+      {
+        "source": "GBIF, backbone (species/match)",
+        "version": "consulté le 2026-11-27",
+        "url": "https://api.gbif.org/v1/species/match?name=Pipistrellus%20pipistrellus"
+      },
+      {
+        "source": "Plazi : HMW vol. 9 (2019) et MSW3 (2005), traitements lus via l'API GBIF",
+        "version": "2019 / 2005",
+        "url": "https://api.gbif.org/v1/species/5218465/descriptions"
+      },
+      {
+        "source": "UICN France et al., Liste rouge des mammifères de France métropolitaine",
+        "version": "2017",
+        "url": "https://uicn.fr/wp-content/uploads/2017/11/liste-rouge-mammiferes-de-france-metropolitaine.pdf"
+      },
+      {
+        "source": "Wikipédia (fr) Pipistrellus pipistrellus, wikitexte (complément)",
+        "version": "2026-11-27",
+        "url": "https://fr.wikipedia.org/w/index.php?title=Pipistrellus_pipistrellus&action=raw"
+      },
+      {
+        "source": "Wikipédia (en) Common pipistrelle, wikitexte (complément)",
+        "version": "2026-11-27",
+        "url": "https://en.wikipedia.org/w/index.php?title=Common_pipistrelle&action=raw"
+      },
+      {
+        "source": "Wikidata Q176901 (identifiants)",
+        "version": "2026-11-27",
+        "url": "https://www.wikidata.org/wiki/Q176901"
+      }
+    ],
+    "indisponibilites": [
+      {
+        "source": "Légifrance (arrêté du 23 avril 2007)",
+        "motif": "HTTP 403 (protection anti-robots), non contournée"
+      },
+      {
+        "source": "EUR-Lex (Directive 92/43/CEE)",
+        "motif": "connexion refusée par le proxy de l'environnement"
+      },
+      {
+        "source": "Liste rouge mondiale UICN (iucnredlist.org)",
+        "motif": "HTTP 403"
+      },
+      {
+        "source": "INPN, OpenObs, BDC Statuts, API TAXREF",
+        "motif": "hors ligne ou anti-robots (voir sources.md)"
+      },
+      {
+        "source": "HAL, SFEPM, plan national d'actions chiroptères, Vigie-Nature, EUROBATS, Conseil de l'Europe, EEA/EUNIS, Europe PMC",
+        "motif": "connexions refusées par le proxy de l'environnement (HTTP 403)"
+      },
+      {
+        "source": "Sachteleben & von Helversen 2006 (PDF pan-gmbh.com), clé Jussieu (abiris)",
+        "motif": "connexions refusées par le proxy"
+      },
+      {
+        "source": "EltonTraits (figshare), PanTHERIA (esapubs), Biodiversity Heritage Library, Plazi (site)",
+        "motif": "connexions refusées par le proxy"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/54139849",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/54139849/large.jpg",
+      "titre": "Photo iNaturalist 54139849",
+      "auteur": "Анатолий Озерной /Anatoly Ozernoy",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (4 favoris)",
+      "credit": "Photo : Анатолий Озерной /Anatoly Ozernoy, CC BY-SA 4.0, via iNaturalist",
+      "verification": "observation iNaturalist 34402140 de qualité recherche : espèce « Pipistrellus pipistrellus » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Adulte posé sur un rebord, de face, oreilles et museau nets",
+      "orientation_origine": "paysage",
+      "orientation": "paysage",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu"
+    },
+    {
+      "source": "iNaturalist",
+      "url_page": "https://www.inaturalist.org/photos/54139849",
+      "url_image": "https://inaturalist-open-data.s3.amazonaws.com/photos/54139849/large.jpg",
+      "titre": "Photo iNaturalist 54139849",
+      "auteur": "Анатолий Озерной /Anatoly Ozernoy",
+      "licence": "cc-by-sa",
+      "licence_libelle": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "largeur": 2048,
+      "hauteur": 1536,
+      "qualite": "observation iNaturalist classée par votes (4 favoris)",
+      "credit": "Photo : Анатолий Озерной /Anatoly Ozernoy, CC BY-SA 4.0, via iNaturalist, recadrée",
+      "verification": "observation iNaturalist 34402140 de qualité recherche : espèce « Pipistrellus pipistrellus » validée par la communauté",
+      "consulte_le": "2026-11-27",
+      "controle_visuel": "Même photo, recadrée sur l'animal",
+      "recadrage": {
+        "x": 0.22,
+        "y": 0.0,
+        "largeur": 0.56,
+        "hauteur": 1.0
+      },
+      "orientation_origine": "paysage",
+      "orientation": "portrait",
+      "statut": "proposee",
+      "recommandee": true,
+      "motif_recommandation": "animal net, sujet principal, dans son milieu ; recadrage conseillé pour le format portrait"
+    }
+  ]
+}

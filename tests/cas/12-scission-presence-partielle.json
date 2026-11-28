@@ -1,0 +1,98 @@
+{
+  "description": "Scission : présence établie pour un seul taxon résultant ; observations ambiguës conservées",
+  "dossier": {
+    "noms": {
+      "situation": "scission",
+      "scission": {
+        "concept_historique": "EFF-A",
+        "referentiel": "TAXREF v19",
+        "resultants": [
+          {
+            "taxon": "A1",
+            "identite": {
+              "preuves": [
+                {
+                  "type": "taxref",
+                  "origine": "T19-A1"
+                }
+              ]
+            },
+            "presence": {
+              "preuves": [
+                {
+                  "type": "atlas",
+                  "origine": "Atlas national 2020"
+                }
+              ],
+              "qualification": "etablie"
+            }
+          },
+          {
+            "taxon": "A2",
+            "identite": {
+              "preuves": [
+                {
+                  "type": "catalogue_of_life",
+                  "origine": "COL"
+                }
+              ]
+            },
+            "presence": {
+              "preuves": [
+                {
+                  "type": "catalogue_mondial",
+                  "origine": "COL"
+                }
+              ]
+            }
+          }
+        ],
+        "donnees_historiques": [
+          {
+            "id": "OBS-1950-01",
+            "departageable": false
+          },
+          {
+            "id": "OBS-1960-02",
+            "departageable": false
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "scission",
+      "concept_historique": {
+        "fiche_id": "EFF-A",
+        "etat": "concept_historique",
+        "relie_a": [
+          "A1",
+          "A2"
+        ]
+      },
+      "resultants": [
+        {
+          "taxon": "A1",
+          "decision": "creer_fiche"
+        },
+        {
+          "taxon": "A2",
+          "decision": "candidature",
+          "preuve_manquante": "presence_sauvage_metropole",
+          "reexamen": true
+        }
+      ],
+      "donnees_historiques": [
+        {
+          "id": "OBS-1950-01",
+          "attribution": "EFF-A"
+        },
+        {
+          "id": "OBS-1960-02",
+          "attribution": "EFF-A"
+        }
+      ]
+    }
+  }
+}

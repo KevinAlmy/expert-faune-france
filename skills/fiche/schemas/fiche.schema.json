@@ -1,0 +1,490 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KevinAlmy/expert-faune-france/schemas/fiche.schema.json",
+  "title": "Fiche espèce (cadrage §6, §7, §12)",
+  "type": "object",
+  "required": [
+    "id",
+    "etat",
+    "identite",
+    "presence",
+    "admission",
+    "familles",
+    "couverture",
+    "execution"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EFF-[0-9A-Za-z-]+$",
+      "description": "Identifiant déduit de l'espèce, sans compteur : EFF-TAXREF-<CD_REF>, sinon EFF-COL-<id>, sinon EFF-NOM-<nom>."
+    },
+    "etat": {
+      "$ref": "etats.schema.json#/$defs/etat_entree"
+    },
+    "identite": {
+      "type": "object",
+      "required": [
+        "nom_retenu",
+        "preuves"
+      ],
+      "properties": {
+        "nom_retenu": {
+          "type": "string"
+        },
+        "auteur": {
+          "type": "string"
+        },
+        "annee": {
+          "type": "integer"
+        },
+        "rang": {
+          "type": "string"
+        },
+        "classification": {
+          "type": "object"
+        },
+        "noms_vernaculaires": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "synonymes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "nom",
+              "source"
+            ],
+            "properties": {
+              "nom": {
+                "type": "string"
+              },
+              "auteur": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "identifiants_externes": {
+          "type": "object",
+          "properties": {
+            "taxref": {
+              "type": "object",
+              "required": [
+                "cd_ref",
+                "version"
+              ],
+              "properties": {
+                "cd_nom": {
+                  "type": "string"
+                },
+                "cd_ref": {
+                  "type": "string"
+                },
+                "version": {
+                  "type": "string"
+                }
+              }
+            },
+            "catalogue_of_life": {
+              "type": "object"
+            },
+            "gbif": {
+              "type": "object"
+            }
+          }
+        },
+        "preuves": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "affirmation.schema.json"
+          }
+        }
+      }
+    },
+    "presence": {
+      "type": "object",
+      "required": [
+        "qualification",
+        "preuves"
+      ],
+      "properties": {
+        "territoire": {
+          "const": "France métropolitaine, Corse comprise"
+        },
+        "qualification": {
+          "$ref": "etats.schema.json#/$defs/qualification_presence"
+        },
+        "origine": {
+          "$ref": "etats.schema.json#/$defs/origine_presence"
+        },
+        "envahissant": {
+          "type": "boolean"
+        },
+        "code_source": {
+          "type": "object",
+          "properties": {
+            "referentiel": {
+              "type": "string"
+            },
+            "colonne": {
+              "type": "string"
+            },
+            "code": {
+              "type": "string"
+            },
+            "signification": {
+              "type": "string"
+            }
+          }
+        },
+        "preuves": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "affirmation.schema.json"
+          }
+        }
+      }
+    },
+    "admission": {
+      "type": "object",
+      "required": [
+        "voie",
+        "motif",
+        "date"
+      ],
+      "properties": {
+        "voie": {
+          "enum": [
+            "taxref",
+            "hors_taxref",
+            "scission"
+          ]
+        },
+        "motif": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "rapprochement_taxref_prevu": {
+          "type": "boolean"
+        }
+      }
+    },
+    "familles": {
+      "description": "Les 13 familles du §12.2. Chaque famille porte son état de recherche et ses champs.",
+      "type": "object",
+      "required": [
+        "reconnaissance",
+        "repartition",
+        "habitats",
+        "alimentation",
+        "reproduction",
+        "developpement",
+        "comportements",
+        "activite",
+        "interactions",
+        "conservation",
+        "observation_respectueuse"
+      ],
+      "additionalProperties": {
+        "$ref": "#/$defs/famille"
+      }
+    },
+    "couverture": {
+      "$ref": "#/$defs/couverture"
+    },
+    "historique": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "decision",
+          "motif"
+        ],
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string"
+          },
+          "motif": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "execution": {
+      "$ref": "rapport-execution.schema.json"
+    },
+    "photos": {
+      "description": "Photos proposées par le skill (jusqu'à 3 par orientation, une recommandée par orientation). Le choix final et la validation appartiennent à l'utilisateur.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/photo"
+      }
+    }
+  },
+  "$defs": {
+    "famille": {
+      "type": "object",
+      "required": [
+        "recherche",
+        "champs"
+      ],
+      "properties": {
+        "recherche": {
+          "$ref": "etats.schema.json#/$defs/etat_recherche"
+        },
+        "justification": {
+          "type": "string",
+          "description": "Obligatoire si non applicable, partielle ou sans résultat."
+        },
+        "champs": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "etat"
+            ],
+            "properties": {
+              "etat": {
+                "$ref": "etats.schema.json#/$defs/etat_champ"
+              },
+              "valeur_synthese": {},
+              "affirmations": {
+                "type": "array",
+                "items": {
+                  "$ref": "affirmation.schema.json"
+                }
+              },
+              "niveau": {
+                "enum": [
+                  "reference",
+                  "complement"
+                ]
+              }
+            }
+          }
+        },
+        "prochaine_piste": {
+          "type": "string"
+        }
+      }
+    },
+    "couverture": {
+      "type": "object",
+      "required": [
+        "date",
+        "familles"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "passe_terminee": {
+          "type": "boolean"
+        },
+        "point_de_reprise": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "familles": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "documentes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "lacunes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "photo": {
+      "type": "object",
+      "required": [
+        "orientation",
+        "statut",
+        "recommandee",
+        "source",
+        "url_page",
+        "url_image",
+        "licence",
+        "licence_libelle",
+        "credit",
+        "verification",
+        "consulte_le"
+      ],
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "url_page": {
+          "type": "string"
+        },
+        "url_image": {
+          "type": "string"
+        },
+        "titre": {
+          "type": "string"
+        },
+        "auteur": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "licence": {
+          "enum": [
+            "cc0",
+            "pd",
+            "cc-by",
+            "cc-by-sa",
+            "cc-by-nc",
+            "cc-by-nc-sa"
+          ]
+        },
+        "licence_libelle": {
+          "type": "string"
+        },
+        "licence_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "largeur": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "hauteur": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "qualite": {
+          "type": "string"
+        },
+        "credit": {
+          "type": "string",
+          "description": "Texte de crédit à afficher avec la photo (exigé par la licence)."
+        },
+        "verification": {
+          "type": "string",
+          "description": "Comment le rattachement à l'espèce est garanti."
+        },
+        "controle_visuel": {
+          "type": "string",
+          "description": "Ce que montre la photo, vérifié en la regardant."
+        },
+        "recadrage": {
+          "type": "object",
+          "description": "Zone à découper (fractions 0-1 de la largeur et de la hauteur) quand le rôle n'est pas l'orientation d'origine.",
+          "required": [
+            "x",
+            "y",
+            "largeur",
+            "hauteur"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "largeur": {
+              "type": "number"
+            },
+            "hauteur": {
+              "type": "number"
+            }
+          }
+        },
+        "restriction": {
+          "type": "string"
+        },
+        "consulte_le": {
+          "type": "string",
+          "format": "date"
+        },
+        "orientation_origine": {
+          "enum": [
+            "paysage",
+            "portrait",
+            "carre",
+            "inconnue"
+          ]
+        },
+        "statut": {
+          "enum": [
+            "proposee",
+            "validee",
+            "refusee"
+          ],
+          "description": "Le skill écrit toujours « proposee » ; l'utilisateur valide ou refuse dans son outil."
+        },
+        "recommandee": {
+          "type": "boolean",
+          "description": "Une seule photo recommandée par orientation."
+        },
+        "motif_recommandation": {
+          "type": "string"
+        },
+        "validation": {
+          "type": "object",
+          "description": "Rempli par l'utilisateur, jamais par le skill.",
+          "properties": {
+            "par": {
+              "type": "string"
+            },
+            "le": {
+              "type": "string"
+            },
+            "commentaire": {
+              "type": "string"
+            }
+          }
+        },
+        "orientation": {
+          "enum": [
+            "paysage",
+            "portrait"
+          ]
+        }
+      }
+    }
+  }
+}

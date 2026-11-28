@@ -1,0 +1,18 @@
+{
+  "description": "Correction demandée sous un ancien nom rattaché sans ambiguïté",
+  "dossier": {
+    "noms": {
+      "situation": "synonyme_sans_ambiguite",
+      "fiche_existante": "EFF-000351",
+      "nom_fourni": "Rana rufa",
+      "source": "TAXREF v18"
+    }
+  },
+  "attendu": {
+    "admission": {
+      "decision": "enrichir",
+      "fiche_id": "EFF-000351",
+      "ajout_synonyme": "Rana rufa"
+    }
+  }
+}

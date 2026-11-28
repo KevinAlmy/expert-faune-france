@@ -1,0 +1,28 @@
+{
+  "description": "Longévité captive et sauvage : contextes distincts conservés",
+  "dossier": {
+    "champs": {
+      "longevite": {
+        "affirmations": [
+          {
+            "valeur": "8 ans",
+            "contexte": "sauvage",
+            "origine": "Étude C"
+          },
+          {
+            "valeur": "15 ans",
+            "contexte": "captivite",
+            "origine": "Étude D"
+          }
+        ]
+      }
+    }
+  },
+  "attendu": {
+    "champs": {
+      "longevite": {
+        "etat": "documente"
+      }
+    }
+  }
+}

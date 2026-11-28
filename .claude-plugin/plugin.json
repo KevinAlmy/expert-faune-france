@@ -1,0 +1,13 @@
+{
+  "name": "expert-faune-france",
+  "description": "Fiches sourcées sur la faune sauvage de France métropolitaine, Corse comprise : identité, présence, enrichissement et traçabilité de chaque information.",
+  "version": "0.1.0",
+  "author": {
+    "name": "KevinAlmy",
+    "url": "https://github.com/KevinAlmy"
+  },
+  "homepage": "https://github.com/KevinAlmy/expert-faune-france",
+  "repository": "https://github.com/KevinAlmy/expert-faune-france",
+  "license": "MIT",
+  "keywords": ["faune", "biodiversité", "taxref", "naturaliste", "france"]
+}
